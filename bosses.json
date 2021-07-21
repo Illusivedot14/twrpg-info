@@ -712,7 +712,7 @@
 		"type": "boss",
 		"limit": "5",
 		"respawn": "4",
-		"summon": "Top right area of Seaside",
+		"location": "Top right area of Seaside",
 		"conditions": "Recommended Level 50 and Blue Magic Stone x4",
 		"drops": [
 			"Sword of Poison",
@@ -796,7 +796,7 @@
 		"type": "boss",
 		"limit": "3",
 		"respawn": "5",
-		"summon": "Middle of Capital Prius, near the fountain",
+		"location": "Middle of Capital Prius, near the fountain",
 		"conditions": "Recommended Level 60 and White Magic Stone x4",
 		"drops": [
 			"Jack Pumpkin Helm",
@@ -829,7 +829,7 @@
 		"type": "boss",
 		"limit": "4",
 		"respawn": "5",
-		"summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
+		"location": "South area of Frosty Snowfield between two snowmen near Yetis'",
 		"conditions": "Recommended Level 70 and Red Magic Stone x4",
 		"drops": [
 			"Sealed Weapon",
@@ -865,7 +865,7 @@
 		"type": "boss",
 		"limit": "5",
 		"respawn": "5",
-		"summon": "In Volcanic Lands at the entrance to the Dragon Lair",
+		"location": "In Volcanic Lands at the entrance to the Dragon Lair",
 		"conditions": "Recommended Level 70 and Red Magic Stone x4 above ancient elemental",
 		"drops": [
 			"Dragonsword Lainhart",
@@ -945,7 +945,7 @@
 		"type": "boss",
 		"limit": "4",
 		"respawn": "5",
-		"summon": "In the inner-most sanctum of Avalon, next to East Prius Gate",
+		"location": "In the inner-most sanctum of Avalon, next to East Prius Gate",
 		"conditions": "Level 80 and White Magic Stone x6 in the far top right of the Cave",
 		"drops": [
 			"Karonphniamm, the Holy Sword",
