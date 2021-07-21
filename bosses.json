@@ -753,7 +753,7 @@
 		"type": "boss",
 		"limit": "5",
 		"respawn": "5",
-		"summon": "East area of Duchy of Wallachia at wrecked church near Death Knight",
+		"location": "East area of Duchy of Wallachia at wrecked church near Death Knight",
 		"conditions": "Level 60 and White Magic Stone x4",
 		"drops": [
 			"Sanguiel, the Bloodspear",
@@ -1402,7 +1402,7 @@
 		"type": "boss",
 		"limit": "4",
 		"respawn": "4",
-		"summon": "In Volcanic Lands",
+		"location": "In Volcanic Lands",
 		"conditions": "Recommened Level 100 and Nightmare Rod with Red Magic Stone x8",
 		"drops": [
 			"Hatred",
@@ -1473,7 +1473,7 @@
 		"category": "Mid",
 		"type": "boss",
 		"limit": "4",
-		"summon": "In Deep Sea in the far East where light shines from above",
+		"location": "In Deep Sea in the far East where light shines from above",
 		"conditions": "Level 100 and Orb of the Deep Sea with Green Magic Stone x4, Blue Magic Stone x4",
 		"drops": [
 			"Water Cannon",
@@ -1806,7 +1806,7 @@
 		"type": "boss",
 		"limit": "None",
 		"respawn": "3",
-		"summon": "In Castle Avalon, fighting area of Guardian Angels",
+		"location": "In Castle Avalon, fighting area of Guardian Angels",
 		"conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
 		"notes": [
 			"1 sealed material also drops whenever a full material has been dropped"
@@ -1899,7 +1899,7 @@
 		"type": "boss",
 		"limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
 		"respawn": "3",
-		"summon": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
 		"conditions": "Level 100 and Red Magic Stone x12",
 		"drops": [
 			"The Ender",
@@ -1996,7 +1996,7 @@
 		"type": "boss",
 		"limit": "None",
 		"respawn": "3",
-		"summon": "The Left-most portal in the tower located east of the Secluded Forest",
+		"location": "The Left-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Storm crafted",
 		"drops": [
 			"Shackles of Heaven",
@@ -2039,7 +2039,7 @@
 		"type": "boss",
 		"limit": "None",
 		"respawn": "3",
-		"summon": "The Right-most portal in the tower located east of the Secluded Forest",
+		"location": "The Right-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Flame crafted",
 		"drops": [
 			"Heart of Volcano",
