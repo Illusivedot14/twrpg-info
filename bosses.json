@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"id": "n00A",
 		"name": "Silverback Wolf",
 		"limit": "1",
@@ -445,6 +446,7 @@
 			"Bow of Flame",
 			"Rifle of Flame"
 		]
+
 	},
 	{
 		"id": "n01H",
@@ -459,6 +461,7 @@
 			"Bow of Flame",
 			"Rifle of Flame"
 		]
+
 	},
 	{
 		"id": "n01I",
@@ -634,6 +637,7 @@
 			"Armor of Corruption",
 			"Robe of Corruption"
 		]
+
 	},
 	{
 		"id": "h01M",
@@ -646,6 +650,7 @@
 		"drops": [
 			"Helm of Corruption"
 		]
+
 	},
 	{
 		"id": "n036",
@@ -658,6 +663,7 @@
 		"drops": [
 			"Scarab Bone"
 		]
+
 	},
 	{
 		"id": "n037",
@@ -671,29 +677,15 @@
 			"Ghostly Thread",
 			"Corrupt Creations"
 		]
+
 	},
 	{
-		"id": "n038",
-		"name": "Wallachia Mad Clown",
-		"limit": "2",
-		"category": "Minor",
-		"location": "In the Wallachia Graveyard",
-		"conditions": "Level 80",
-		"drops": [
-			"Scarab Bone",
-			"Ghostly Thread",
-			"Soul Stone",
-			"Mad Symbol",
-			"Mad Clown Icon",
-			"Clown Token"
-		],
-		"spells": [
-			"Instincts",
-			"Darkness Wave",
-			"Mirror Image",
-			"Mad Howl",
-			"Wheel of Fate"
-		]
+		"id": "h062",
+		"name": "Ent"
+	},
+	{
+		"id": "h062",
+		"name": "Fairy"
 	},
 	{
 		"id": "h010",
@@ -716,9 +708,10 @@
 	{
 		"id": "n022",
 		"name": "Ruler of the Lav Sea Hydra",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "5",
 		"respawn": "4",
-		"category": "Minor",
 		"summon": "Top right area of Seaside",
 		"conditions": "Recommended Level 50 and Blue Magic Stone x4",
 		"drops": [
@@ -734,6 +727,19 @@
 			"Hydra Scale",
 			"Hydra Token"
 		],
+		"droprates": [
+			"12.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"20",
+			"20",
+			"0.01"
+		],
 		"spells": [
 			"Lethal Poison",
 			"Stomp",
@@ -743,9 +749,10 @@
 	{
 		"id": "H00F",
 		"name": "Duchy of Wallachia Count",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "5",
 		"respawn": "5",
-		"category": "Minor",
 		"summon": "East area of Duchy of Wallachia at wrecked church near Death Knight",
 		"conditions": "Level 60 and White Magic Stone x4",
 		"drops": [
@@ -761,6 +768,19 @@
 			"Count's Memento",
 			"Count Token"
 		],
+		"droprates": [
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"0.01"
+		],
 		"spells": [
 			"Immortal Body",
 			"Death Bind",
@@ -772,9 +792,10 @@
 	{
 		"id": "n01W",
 		"name": "Jack o Lantern",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "3",
 		"respawn": "5",
-		"category": "Minor",
 		"summon": "Middle of Capital Prius, near the fountain",
 		"conditions": "Recommended Level 60 and White Magic Stone x4",
 		"drops": [
@@ -786,6 +807,15 @@
 			"Yellow Crystal Golem Token",
 			"Jack Pumpkin Token"
 		],
+		"droprates": [
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"15",
+			"0.25",
+			"0.01"
+		],
 		"spells": [
 			"Jack Impact",
 			"Jack Wave",
@@ -795,9 +825,10 @@
 	{
 		"id": "h01B",
 		"name": "Mage Lord",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "5",
-		"category": "Minor",
 		"summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
 		"conditions": "Recommended Level 70 and Red Magic Stone x4",
 		"drops": [
@@ -810,6 +841,16 @@
 			"Blue Crystal Golem Token",
 			"Magical Token"
 		],
+		"droprates": [
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"12.5",
+			"12.5",
+			"0.25",
+			"0.01"
+		],
 		"spells": [
 			"Blizzard",
 			"Chain Lightning",
@@ -820,11 +861,12 @@
 	{
 		"id": "n01K",
 		"name": "Wings of Death",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "5",
 		"respawn": "5",
-		"category": "Minor",
-		"summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
-		"conditions": "Recommended Level 70 and Red Magic Stone x4",
+		"summon": "In Volcanic Lands at the entrance to the Dragon Lair",
+		"conditions": "Recommended Level 70 and Red Magic Stone x4 above ancient elemental",
 		"drops": [
 			"Dragonsword Lainhart",
 			"Dragonbow Aience",
@@ -837,6 +879,18 @@
 			"Dragon Heart",
 			"Wings of Death Token"
 		],
+		"droprates": [
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"0.01"
+		],
 		"spells": [
 			"Dragon Breath",
 			"Dragon Fear",
@@ -845,17 +899,39 @@
 		]
 	},
 	{
+		"id": "h062",
+		"name": "Guardian 1",
+		"category": "Minor",
+		"type": "minion",
+		"location": "Before the entrance of Guardian Angels",
+		"conditions": "Level 80 and Avalon summoned"
+	},
+	{
+		"id": "h062",
+		"name": "Guardian 2",
+		"category": "Minor",
+		"type": "minion",
+		"location": "Before the entrance of Guardian Angels",
+		"conditions": "Level 80 and Avalon summoned"
+	},
+	{
 		"id": "H00V",
 		"name": "Castle Avalon Gatekeeper",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "None",
 		"respawn": "5",
-		"category": "Minor",
 		"location": "Before the entrance of Guardian Angels",
 		"conditions": "Level 80 and Avalon summoned",
 		"drops": [
 			"Guardian Ring",
 			"Gatekeeper Icon",
 			"Guardian Token"
+		],
+		"droprates": [
+			"10",
+			"0.15",
+			"0.01"
 		],
 		"spells": [
 			"Genocide Sword",
@@ -865,11 +941,12 @@
 	{
 		"id": "n01N",
 		"name": "The 3rd Army's Guardian Angel",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "5",
-		"category": "Minor",
-		"summon": "In the far top right of the Cave",
-		"conditions": "Level 80 and White Magic Stone x6",
+		"summon": "In the inner-most sanctum of Avalon, next to East Prius Gate",
+		"conditions": "Level 80 and White Magic Stone x6 in the far top right of the Cave",
 		"drops": [
 			"Karonphniamm, the Holy Sword",
 			"Klenetia, the Holy Staff",
@@ -879,6 +956,16 @@
 			"Fragment of Angel's Feather",
 			"A Page of the Bible",
 			"Guardian Angel Token"
+		],
+		"droprates": [
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"12.5",
+			"12.5",
+			"0.01"
 		],
 		"spells": [
 			"Blessed Wings",
@@ -890,9 +977,10 @@
 	{
 		"id": "n01O",
 		"name": "The Devil's Right Arm Corrupt Angel",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "5",
-		"category": "Minor",
 		"location": "In Frosty Snowfield summoned after 2 minute of summoning Avalon",
 		"conditions": "Level 80 and Avalon summoned",
 		"drops": [
@@ -905,6 +993,16 @@
 			"Corrupt Creations",
 			"Corrupt Angel Token"
 		],
+		"droprates": [
+			"7.5",
+			"7.5",
+			"7.5",
+			"7.5",
+			"12.5",
+			"12.5",
+			"12.5",
+			"0.01"
+		],
 		"spells": [
 			"Hell Finger",
 			"Craze",
@@ -914,12 +1012,29 @@
 		]
 	},
 	{
+		"id": "xxxx",
+		"name": "Spider",
+		"category": "Minor",
+		"type": "minion",
+		"location": "At the expedition in area 6",
+		"conditions": "Summoned during waves of Frostspider Lord"
+	},
+	{
+		"id": "xxxx",
+		"name": "Unstable Spider",
+		"category": "Minor",
+		"type": "minion",
+		"location": "At the expedition in area 6",
+		"conditions": "Summoned during waves of Frostspider Lord"
+	},
+	{
 		"id": "n023",
 		"name": "Soul of Everfrost",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "4",
-		"category": "Minor",
-		"location": "Summoned during waves of Frostspider Lord",
+		"location": "Summoned during waves of Frostspider Lord at the expedition in area 6",
 		"conditions": "Level 90 and Frostspider Lord summoned",
 		"drops": [
 			"Robe of Everfrost",
@@ -928,6 +1043,14 @@
 			"Winter Rose",
 			"Frorist",
 			"Everfrost Token"
+		],
+		"droprates": [
+			"6",
+			"6",
+			"6",
+			"6",
+			"8",
+			"0.01"
 		],
 		"spells": [
 			"Hellfrost Nova",
@@ -938,20 +1061,20 @@
 	{
 		"id": "n025",
 		"name": "Frozen Soul",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Soul of Everfrost",
-		"location": "Fight with Soul of Everfrost",
+		"category": "Minor",
+		"type": "minion",
+		"location": "At the expedition in area 6",
 		"conditions": "Summoned during fight with Soul of Everfrost",
 		"duration": "90"
 	},
 	{
 		"id": "H01F",
 		"name": "Frostspider Queen",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "4",
-		"category": "Minor",
-		"location": "Summoned during waves of Frostspider Lord",
+		"location": "Summoned during waves of Frostspider Lord at the expedition in area 6",
 		"conditions": "Level 90 and Frostspider Lord summoned",
 		"drops": [
 			"Okelanq, the Spear of Frost",
@@ -961,6 +1084,14 @@
 			"Frozen Cobweb",
 			"Spider Token"
 		],
+		"droprates": [
+			"6",
+			"6",
+			"6",
+			"6",
+			"8",
+			"0.01"
+		],
 		"spells": [
 			"Frost Aura",
 			"Frost Spike"
@@ -969,11 +1100,12 @@
 	{
 		"id": "h034",
 		"name": "Frostspider Lord",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "4",
-		"category": "Minor",
-		"summon": "In Spider Cave where 3 Pruis Magicians are gathered",
-		"conditions": "Level 90 and Blue Magic Stone x6",
+		"location": "In Spider Cave at the expedition at area 6",
+		"conditions": "Level 90 and Blue Magic Stone x6 where 3 Pruis Magicians are gathered",
 		"drops": [
 			"Winter's Tear",
 			"Frostbane",
@@ -984,6 +1116,17 @@
 			"Adamantium",
 			"White Crystal Golem Token",
 			"Frostspider Lord Token"
+		],
+		"droprates": [
+			"4",
+			"4",
+			"6",
+			"6",
+			"8",
+			"8",
+			"8",
+			"0.25",
+			"0.01"
 		],
 		"spells": [
 			"Frozen Barrier",
@@ -996,11 +1139,12 @@
 	{
 		"id": "n01Y",
 		"name": "Demon Lord Beriel",
+		"category": "Minor",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "4",
-		"category": "Minor",
-		"summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
-		"conditions": "Level 90, Red Magic Stone x6, and Waves defeated without killing the gate or letting the monsters kill the King in Capital Prius",
+		"location": "East Prius Gate.",
+		"conditions": "Level 90, Red Magic Stone x6 in Duchy of Wallachia in a pile of skulls South of where Death Knight spawns, and Waves defeated without killing the gate or letting the monsters kill the King in Capital Prius",
 		"drops": [
 			"Claws of Destruction",
 			"Bullet of Destruction",
@@ -1012,6 +1156,17 @@
 			"Red Crystal Golem Token",
 			"Demon Lord Token"
 		],
+		"droprates": [
+			"4",
+			"4",
+			"6",
+			"6",
+			"6",
+			"8",
+			"8",
+			"0.1",
+			"0.01"
+		],
 		"spells": [
 			"Rage",
 			"The Demon Lord's Power",
@@ -1020,24 +1175,118 @@
 			"Destruction",
 			"Catacylsm"
 		],
-		"summons": "Hell Golem"
+		"minions": [
+			"Hell Golem", "Demon", "Demon", "Demon", "Demonic Portal"
+		]
 	},
 	{
-		"id": "n026",
+		"id": "xxxx",
+		"name": "Demonic Portal",
+		"category": "Minor",
+		"type": "mechanic",
+		"location": "East Prius Gate",
+		"conditions": "Summoned with Demon Lord Beriel",
+		"notes": [
+			"On death, leads to Underlord Agareth"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Demon",
+		"category": "Minor",
+		"type": "minion",
+		"location": "East Prius Gate",
+		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
+	},
+	{
+		"id": "xxxx",
+		"name": "Demon",
+		"category": "Minor",
+		"type": "minion",
+		"location": "East Prius Gate",
+		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
+	},
+	{
+		"id": "xxxx",
+		"name": "Demon",
+		"category": "Minor",
+		"type": "minion",
+		"location": "East Prius Gate",
+		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
+	},
+	{
+		"id": "xxxx",
+		"name": "Demon",
+		"category": "Minor",
+		"type": "minion",
+		"location": "East Prius Gate",
+		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
+	},
+	{
+		"id": "xxxx",
 		"name": "Hell Golem",
-		"limit": "0",
-		"category": "Mob",
-		"parent_boss": "Demon Lord Beriel",
-		"location": "Fight with Demon Lord Beriel",
+		"category": "Minor",
+		"type": "minion",
+		"location": "East Prius Gate",
 		"conditions": "Summoned during fight with Demon Lord Beriel",
 		"duration": "90"
 	},
 	{
+		"id": "n038",
+		"name": "Wallachia Mad Clown",
+		"category": "Minor",
+		"type": "boss",
+		"limit": "2",
+		"respawn": "4",
+		"location": "In the Wallachia Graveyard",
+		"conditions": "Level 80",
+		"drops": [
+			"Scarab Bone",
+			"Ghostly Thread",
+			"Soul Stone",
+			"Mad Symbol",
+			"Mad Clown Icon",
+			"Clown Token"
+		],
+		"droprates": [
+			"4",
+			"4",
+			"4",
+			"4",
+			"0.15",
+			"0.01"
+		],
+		"spells": [
+			"Instincts",
+			"Darkness Wave",
+			"Mirror Image",
+			"Mad Howl",
+			"Wheel of Fate"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Fairy",
+		"category": "Mid",
+		"type": "mob",
+		"location": "In Fairy Forest - Deep Forest",
+		"conditions": "Level 100"
+	},
+	{
+		"id": "xxxx",
+		"name": "Ent",
+		"category": "Mid",
+		"type": "mob",
+		"location": "In Fairy Forest - Deep Forest",
+		"conditions": "Level 100"
+	},
+	{
 		"id": "n02M",
 		"name": "Spirit Beast",
+		"category": "Mid",
+		"type": "boss",
 		"limit": "3",
 		"respawn": "4",
-		"category": "Mid",
 		"location": "In Fairy Forest - Deep Forest",
 		"conditions": "Level 100",
 		"drops": [
@@ -1049,6 +1298,15 @@
 			"Spirit Beast Icon",
 			"Beast Token"
 		],
+		"droprates": [
+			"4",
+			"4",
+			"4",
+			"4",
+			"4",
+			"0.15",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1059,9 +1317,10 @@
 	{
 		"id": "hmpr",
 		"name": "Corruptor Rectus",
+		"category": "Mid",
+		"type": "boss",
 		"limit": "5",
 		"respawn": "4",
-		"category": "Mid",
 		"location": "In Fairy Forest - Plagued Tower",
 		"conditions": "Level 100",
 		"drops": [
@@ -1076,6 +1335,18 @@
 			"Ancient Fragment of Ruins",
 			"Corrupt Token"
 		],
+		"droprates": [
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"2",
+			"4",
+			"4",
+			"0.01"
+		],
 		"spells": [
 			"Corrupt Power",
 			"Corruption",
@@ -1084,16 +1355,20 @@
 			"Corruption Overload",
 			"Corruption Aura",
 			"Corrupted Summoning"
+		],
+		"minions": [
+			"Stalker",
+			"Avenger",
+			"Life Orb"
 		]
 	},
 	{
 		"id": "ohun",
 		"name": "Avenger",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Corruptor Rectus",
-		"location": "Fight with Corruptor Rectus",
-		"conditions": "Summoned during fight with Corruptor Rectus",
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Fairy Forest - Plagued Tower",
+		"conditions": "Summoned by Corruptor Rectus",
 		"spells": [
 			"Corruption Wave"
 		]
@@ -1101,11 +1376,10 @@
 	{
 		"id": "odoc",
 		"name": "Stalker",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Corruptor Rectus",
-		"location": "Fight with Corruptor Rectus",
-		"conditions": "Summoned during fight with Corruptor Rectus",
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Fairy Forest - Plagued Tower",
+		"conditions": "Summoned by Corruptor Rectus",
 		"spells": [
 			"Corrupt Explosion"
 		]
@@ -1113,10 +1387,10 @@
 	{
 		"id": "hsor",
 		"name": "Life Orb",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Corruptor Rectus",
-		"location": "Fight with Corruptor Rectus",
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Fairy Forest - Plagued Tower",
+		"conditions": "Summoned by Corruptor Rectus",
 		"spells": [
 			"Purification"
 		]
@@ -1124,9 +1398,10 @@
 	{
 		"id": "n02N",
 		"name": "Flame Nightmare",
+		"category": "Mid",
+		"type": "boss",
 		"limit": "4",
 		"respawn": "4",
-		"category": "Mid",
 		"summon": "In Volcanic Lands",
 		"conditions": "Recommened Level 100 and Nightmare Rod with Red Magic Stone x8",
 		"drops": [
@@ -1139,22 +1414,34 @@
 			"Essence of Anger",
 			"Nightmare Token"
 		],
+		"droprates": [
+			"4",
+			"4",
+			"4",
+			"4",
+			"2",
+			"4",
+			"4",
+			"0.01"
+		],
 		"spells": [
 			"Nightmare Body",
 			"Overload",
 			"Flame Barrage",
 			"On Your Knees!",
 			"Total Annihilation"
+		],
+		"minions": [
+			"Flame Spawn", "Anger", "Hatred"
 		]
 	},
 	{
 		"id": "n02O",
 		"name": "Hatred",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Corruptor Rectus",
-		"location": "Fight with Corruptor Rectus",
-		"conditions": "Summoned during fight with Corruptor Rectus",
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Volcanic Lands",
+		"conditions": "Summoned by Flame Nightmare",
 		"spells": [
 			"Mark of Hatred",
 			"Intense Hatred"
@@ -1163,11 +1450,10 @@
 	{
 		"id": "n02P",
 		"name": "Anger",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Flame Nightmare",
-		"location": "Fight with Flame Nightmare",
-		"conditions": "Summoned during fight with Flame Nightmare",
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Volcanic Lands",
+		"conditions": "Summoned by Flame Nightmare",
 		"spells": [
 			"Berserk",
 			"Furious Attacks"
@@ -1176,17 +1462,17 @@
 	{
 		"id": "n02Q",
 		"name": "Flame Spawn",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Flame Nightmare",
-		"location": "Fight with Flame Nightmare",
-		"conditions": "Summoned during fight with Flame Nightmare"
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Volcanic Lands",
+		"conditions": "Summoned by Flame Nightmare"
 	},
 	{
 		"id": "h018",
 		"name": "Turtle Lord",
-		"limit": "4",
 		"category": "Mid",
+		"type": "boss",
+		"limit": "4",
 		"summon": "In Deep Sea in the far East where light shines from above",
 		"conditions": "Level 100 and Orb of the Deep Sea with Green Magic Stone x4, Blue Magic Stone x4",
 		"drops": [
@@ -1200,6 +1486,17 @@
 			"Mana Orb",
 			"Turtle Token"
 		],
+		"droprates": [
+			"4",
+			"4",
+			"4",
+			"4",
+			"2",
+			"4",
+			"4",
+			"4",
+			"0.01"
+		],
 		"spells": [
 			"Hard Shell",
 			"Turtle Ambush",
@@ -1207,31 +1504,34 @@
 			"Mystic Shell",
 			"Chomp Armor",
 			"Mana Bombardment"
+		],
+		"minions": [
+			"Turtle",
+			"Healing Turtle"
 		]
 	},
 	{
 		"id": "hxpe",
 		"name": "Healing Turtle",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Turtle Lord",
-		"location": "Fight with Turtle Lord",
-		"conditions": "Summoned during fight with Turtle Lord"
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Deep Sea",
+		"conditions": "Summoned by Turtle Lord"
 	},
 	{
 		"id": "n02R",
 		"name": "Turtle",
-		"limit": "0",
-		"category": "Summon",
-		"parent_boss": "Turtle Lord",
-		"location": "Fight with Turtle Lord",
-		"conditions": "Summoned during fight with Turtle Lord"
+		"category": "Mid",
+		"type": "minion",
+		"location": "In Deep Sea",
+		"conditions": "Summoned by Turtle Lord"
 	},
 	{
 		"id": "n03S",
 		"name": "Bone Dragon",
-		"limit": "None",
 		"category": "High",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
 		"conditions": "Level 100",
@@ -1244,18 +1544,47 @@
 			"Bone Dragon Icon",
 			"Bone Dragon Token"
 		],
+		"droprates": [
+			"1",
+			"1",
+			"1.25",
+			"1.25",
+			"0.05",
+			"0.15",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
+		],
+		"minions": [
+			"Phoenix", "Tentacle"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Phoenix",
+		"category": "High",
+		"type": "minion",
+		"location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
+		"conditions": "Summoned by Bone Dragon"
+	},
+	{
+		"id": "xxxx",
+		"name": "Tentacle",
+		"category": "High",
+		"type": "mechanic",
+		"location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
+		"conditions": "Summoned by Bone Dragon during Red Phase"
 	},
 	{
 		"id": "n02V",
 		"name": "Skeleton King Desperia",
-		"limit": "None",
 		"category": "High",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"location": "In Prius Forward camp, the Sealed Land to the North",
 		"conditions": "Level 100",
@@ -1275,6 +1604,18 @@
 			"Coin of Effort",
 			"Skeleton Token"
 		],
+		"droprates": [
+			"0.75",
+			"0.75",
+			"1",
+			"1",
+			"1",
+			"1.5",
+			"1.5",
+			"1.5",
+			"0.05",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1283,10 +1624,30 @@
 		]
 	},
 	{
+		"id": "xxxx",
+		"name": "Skeleton Minion",
+		"category": "High",
+		"type": "minion",
+		"location": "In Prius Forward camp, the Sealed Land to the North",
+		"conditions": "Summoned by Underlord Agareth",
+		"spells": [
+			"Pull"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Obilisk",
+		"category": "High",
+		"type": "mechanic",
+		"location": "In Prius Forward camp, the Sealed Land to the North",
+		"conditions": "Level 100. Starts the fight."
+	},
+	{
 		"id": "n033",
 		"name": "Zombie Lord",
-		"limit": "None",
 		"category": "High",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
 		"conditions": "Level 100",
@@ -1303,27 +1664,53 @@
 			"Coin of Effort",
 			"Zombie Token"
 		],
+		"droprates": [
+			"1.25",
+			"1.25",
+			"0.75",
+			"1.5",
+			"1.5",
+			"1.5",
+			"0.05",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
+		],
+		"minions": [
+			"Small Zombie", "Acolyte"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Acolyte",
+		"category": "High",
+		"type": "mechanic",
+		"location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
+		"conditions": "Summoned by Underlord Agareth"
+	},
+	{
+		"id": "xxxx",
+		"name": "Small Zombie",
+		"category": "High",
+		"type": "minion",
+		"location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
+		"conditions": "Summoned by Zombie Lord"
 	},
 	{
 		"id": "n030",
 		"name": "Ancient Ent",
-		"limit": "None",
 		"category": "High",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"location": "In Fairy Forest where a statue resides",
 		"conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
 		"notes": [
 			"1 sealed material also drops whenever a full material has been dropped"
-		],
-		"sub-bosses": [
-			"Elder Ent",
-			"Giant Ent"
 		],
 		"drops": [
 			"Embrace of Nature",
@@ -1332,20 +1719,31 @@
 			"Coin of Effort",
 			"Ent Token"
 		],
+		"droprates": [
+			"0.75",
+			"0.5",
+			"0.05",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
+		],
+		"minions": [
+			"Elder Ent",
+			"Giant Ent"
 		]
 	},
 	{
 		"id": "n03W",
 		"name": "Elder Ent",
-		"limit": "None",
 		"category": "High",
-		"location": "Spawned by Ancient Ent",
-		"conditions": "Level 100",
+		"type": "minion",
+		"limit": "None",
+		"location": "Within Ancient Ent's domain, north of Fairy Forest",
+		"conditions": "Spawned by Ancient Ent",
 		"notes": [
 			"Elder Ent: Upon failure, droprate is reduced by 80%",
 			"1 sealed material also drops whenever a full material has been dropped"
@@ -1355,6 +1753,12 @@
 			"Ring of the Storm",
 			"Purified Water of Nature",
 			"Fragment of the Wind"
+		],
+		"droprates": [
+			"0.75",
+			"0.75",
+			"0.5",
+			"0.5"
 		],
 		"spells": [
 			"Ethreal Strike",
@@ -1366,10 +1770,11 @@
 	{
 		"id": "n03X",
 		"name": "Giant Ent",
-		"limit": "None",
 		"category": "High",
-		"location": "Spawned by Ancient Ent",
-		"conditions": "Level 100",
+		"type": "minion",
+		"limit": "None",
+		"location": "Within Ancient Ent's domain, north of Fairy Forest",
+		"conditions": "Spawned by Ancient Ent",
 		"notes": [
 			"Giant Ent: Upon failure, droprate is reduced by 80%",
 			"1 sealed material also drops whenever a full material has been dropped"
@@ -1378,6 +1783,11 @@
 			"Purified Water of Nature",
 			"Fragment of the Wind",
 			"Spirit Orb"
+		],
+		"droprates": [
+			"0.05",
+			"0.05",
+			"0.25"
 		],
 		"stats": [
 			"HP: 34,690"
@@ -1392,8 +1802,9 @@
 	{
 		"id": "o000",
 		"name": "Archangel Samael",
-		"limit": "None",
 		"category": "High",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"summon": "In Castle Avalon, fighting area of Guardian Angels",
 		"conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
@@ -1408,6 +1819,14 @@
 			"Coin of Effort",
 			"Archangel Token"
 		],
+		"droprates": [
+			"0.75",
+			"1.5",
+			"1.5",
+			"1.5",
+			"0.05",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1418,8 +1837,9 @@
 	{
 		"id": "n02Y",
 		"name": "Shadow Dragon Irbert",
-		"limit": "None",
 		"category": "High",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"location": "South of Frosty Snowfield, in Deep Snowfield",
 		"conditions": "Level 100 and Blue Magic Stone x12",
@@ -1436,18 +1856,48 @@
 			"Coin of Effort",
 			"Token of Darkness"
 		],
+		"droprates": [
+			"0.75",
+			"1.5",
+			"1.5",
+			"1.5",
+			"1.5",
+			"1",
+			"0.05",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
+		],
+		"minions": [
+			"Small Shadow", "Large Shadow"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Small Shadow",
+		"category": "High",
+		"type": "minion",
+		"location": "South of Frosty Snowfield, in Deep Snowfield",
+		"conditions": "Summoned by Shadow Dragon Irbert"
+	},
+	{
+		"id": "xxxx",
+		"name": "Large Shadow",
+		"category": "High",
+		"type": "minion",
+		"location": "South of Frosty Snowfield, in Deep Snowfield",
+		"conditions": "Summoned by Shadow Dragon Irbert"
 	},
 	{
 		"id": "h01K",
 		"name": "Death Fiend",
-		"limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
 		"category": "Endgame",
+		"type": "boss",
+		"limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
 		"respawn": "3",
 		"summon": "In Abandoned Graveyard, at spawn of Mad Clown",
 		"conditions": "Level 100 and Red Magic Stone x12",
@@ -1462,29 +1912,89 @@
 			"Coin of Effort",
 			"Fiend Token"
 		],
+		"droprates": [
+			"0.25",
+			"0.75",
+			"1",
+			"1",
+			"1.25",
+			"0.75",
+			"0.75",
+			"0.07",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
+		],
+		"minions": [
+			"Succubus", "Hellhound", "Sylvanas", "Treasures of Death"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Succubus",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"conditions": "Summoned by Death Fiend"
+	},
+	{
+		"id": "xxxx",
+		"name": "Hellhound",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"conditions": "Summoned by Death Fiend"
+	},
+	{
+		"id": "xxxx",
+		"name": "Sylvanas",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"conditions": "Summoned by Death Fiend",
+		"minions": ["Dark Archer"]
+	},
+	{
+		"id": "xxxx",
+		"name": "Dark Archer",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"conditions": "Summoned by Sylvanas"
+	},
+	{
+		"id": "xxxx",
+		"name": "Treasures of Death",
+		"category": "Endgame",
+		"type": "mechanic",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"conditions": "Dropped by Death Fiend on death"
 	},
 	{
 		"id": "n043",
 		"name": "Elemental of Chaos",
-		"limit": "1",
 		"category": "Endgame",
+		"type": "mob",
+		"limit": "1",
 		"location": "Spawns near the exit of the Secluded Forest",
 		"conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
 		"drops": [
 			"Chaos Magic Stone"
+		],
+		"droprates": [
+			"10"
 		]
 	},
 	{
 		"id": "h04O",
 		"name": "Valtora",
-		"limit": "None",
 		"category": "Endgame",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"summon": "The Left-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Storm crafted",
@@ -1496,18 +2006,38 @@
 			"Coin of Effort",
 			"Token of Thunder Lord"
 		],
+		"droprates": [
+			"0.5",
+			"0.75",
+			"0.75",
+			"0.5",
+			"0.06",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
+		],
+		"minions": [
+			"Servant of Lightning God"
 		]
+	},
+	{
+		"id": "h04P",
+		"name": "Servant of Lightning God",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "The Left-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Valtora"
 	},
 	{
 		"id": "h060",
 		"name": "Ifrit",
-		"limit": "None",
 		"category": "Endgame",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
 		"summon": "The Right-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Flame crafted",
@@ -1519,20 +2049,48 @@
 			"Coin of Effort",
 			"Token of Avatar"
 		],
+		"droprates": [
+			"0.5",
+			"0.75",
+			"0.75",
+			"0.5",
+			"0.08",
+			"0.01"
+		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
+		],
+		"minions": [
+			"Obsidian Golem", "Flame Spirit"
 		]
+	},
+	{
+		"id": "h063",
+		"name": "Obsidian Golem",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "The Right-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Ifrit"
+	},
+	{
+		"id": "h062",
+		"name": "Flame Spirit",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "The Right-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Ifrit"
 	},
 	{
 		"id": "h06T",
 		"name": "Nereid",
-		"limit": "None",
 		"category": "Endgame",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
-		"summon": "The Top-most portal in the tower located east of the Secluded Forest",
+		"location": "The Top-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Sea crafted",
 		"drops": [
 			"Grail of Eternity",
@@ -1542,20 +2100,45 @@
 			"Coin of Effort",
 			"Token of Sea God"
 		],
+		"droprates": [
+			"0.5",
+			"0.75",
+			"0.75",
+			"1",
+			"0.09",
+			"0.01"
+		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Ethreal Strike"
+		],
+		"minions": [
+			"Wavecaller", "Large Wavecaller"
 		]
+	},
+	{
+		"id": "h06V",
+		"name": "Large Wavecaller",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "The Top-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Nereid"
+	},
+	{
+		"id": "h06U",
+		"name": "Wavecaller",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "The Top-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Nereid"
 	},
 	{
 		"id": "h077",
 		"name": "Underlord Agareth",
-		"limit": "None",
 		"category": "Endgame",
+		"type": "boss",
+		"limit": "None",
 		"respawn": "3",
-		"summon": "Destroy the demonic portal during the Hell Invasion",
+		"location": "Through the destroyed demonic portal during the Hell Invasion",
 		"conditions": "Level 100, Demon Lord summoned, and Demonic portal destroyed",
 		"drops": [
 			"Curse of Greed",
@@ -1565,11 +2148,66 @@
 			"Coin of Effort",
 			"Token of Underlord"
 		],
+		"droprates": [
+			"0.5",
+			"0.75",
+			"0.75",
+			"0.75",
+			"0.1",
+			"0.01"
+		],
+		"spells": [
+			"Ethreal Strike"
+		],
+		"minions": [
+			"Soul Crystal",
+			"Cursed Spirit",
+			"Gatekeeper of Hell",
+			"Hellspawn"
+		]
+	},
+	{
+		"id": "h07B",
+		"name": "Soul Crystal",
+		"category": "Endgame",
+		"type": "mechanic",
+		"location": "Through the destroyed demonic portal during the Hell Invasion",
+		"conditions": "Summoned by Underlord Agareth",
+		"spells": [
+			"Ethreal Strike"
+		]
+	},
+	{
+		"id": "h07D",
+		"name": "Cursed Spirit",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "In the mini-game during the fight with Underlord Agareth",
+		"conditions": "Summoned by Underlord Agareth",
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
 			"Drain",
 			"Heaven's Wrath"
 		]
+	},
+	{
+		"id": "h07A",
+		"name": "Gatekeeper of Hell",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "In the mini-game during the fight with Underlord Agareth",
+		"conditions": "Summoned by Underlord Agareth",
+		"spells": [
+			"Ethreal Strike"
+		]
+	},
+	{
+		"id": "h079",
+		"name": "Hellspawn",
+		"category": "Endgame",
+		"type": "minion",
+		"location": "Through the destroyed demonic portal during the Hell Invasion",
+		"conditions": "Summoned by Underlord Agareth"
 	}
 ]
