@@ -8,8 +8,8 @@
         "location": "Bottom left of the Kalidi Forest",
         "conditions": "Recommended Level 1 ~ 10",
         "drops": [
-            "I009",
-            "I00P"
+            "Silver Fang",
+            "Silverfang Vest"
         ]
     },
     {
@@ -21,7 +21,7 @@
         "location": "Bottom part of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I00D"
+            "Troll Axe"
         ]
     },
     {
@@ -33,7 +33,7 @@
         "location": "Bottom part of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I00S"
+            "Troll Battlewear"
         ]
     },
     {
@@ -45,7 +45,7 @@
         "location": "Bottom part of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I01B"
+            "Berserker Mask"
         ]
     },
     {
@@ -57,8 +57,8 @@
         "location": "Bottom part of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I01G",
-            "I013"
+            "Fang Necklace",
+            "Troll Blood"
         ]
     },
     {
@@ -70,8 +70,8 @@
         "location": "Top side of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I00T",
-            "I0PY"
+            "Forest Armor",
+            "Ancient Branch"
         ]
     },
     {
@@ -83,8 +83,8 @@
         "location": "Top side of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I01C",
-            "I0PY"
+            "Forest Helm",
+            "Ancient Branch"
         ]
     },
     {
@@ -96,8 +96,8 @@
         "location": "Top side of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I01F",
-            "I0PY"
+            "Forest Robe",
+            "Ancient Branch"
         ]
     },
     {
@@ -109,7 +109,7 @@
         "location": "Top side of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I0PY"
+            "Ancient Branch"
         ]
     },
     {
@@ -120,13 +120,13 @@
         "summon": "Top side of the Wild Life Habitat",
         "conditions": "Recommended Level 25 and Ancient Branch x3",
         "drops": [
-            "I0DW",
-            "I016",
-            "I00B",
-            "I00E",
-            "I0AJ",
-            "I00I",
-            "pclr"
+            "Wings of Nature",
+            "Ancient Leaf",
+            "Ancient Tree Sword",
+            "Ancient Tree Staff",
+            "Ancient Tree Bow",
+            "Ancient Tree Rifle",
+            "Green Crystal Golem Token"
         ]
     },
     {
@@ -138,8 +138,8 @@
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I02M",
-            "I038"
+            "Deep Sword",
+            "Deep Staff"
         ]
     },
     {
@@ -151,9 +151,9 @@
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I02M",
-            "I09B",
-            "I0EU"
+            "Deep Sword",
+            "Deep Bow",
+            "Deep Rifle"
         ]
     },
     {
@@ -165,9 +165,9 @@
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I038",
-            "I09B",
-            "I0EU"
+            "Deep Staff",
+            "Deep Bow",
+            "Deep Rifle"
         ]
     },
     {
@@ -179,9 +179,9 @@
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I03B",
-            "I039",
-            "I03C"
+            "Deep Armor",
+            "Deep Robe",
+            "Deep Helm"
         ]
     },
     {
@@ -193,9 +193,9 @@
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "I03B",
-            "I039",
-            "I03C"
+            "Deep Armor",
+            "Deep Robe",
+            "Deep Helm"
         ]
     },
     {
@@ -207,8 +207,8 @@
         "location": "Right side of Wild Life Habitat, far south of Seaside",
         "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "vddl",
-            "I0Q3"
+            "Hard Turtle Shell",
+            "Black Pearl"
         ]
     },
     {
@@ -219,9 +219,9 @@
         "summon": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20 and Magical Horn",
         "drops": [
-            "pmna",
-            "spsh",
-            "ciri"
+            "Shell Sword",
+            "Crab Armor",
+            "Sea Jewel"
         ]
     },
     {
@@ -232,9 +232,9 @@
         "summon": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20 and Magical Horn",
         "drops": [
-            "I0DS",
-            "wneg",
-            "I0DT"
+            "Ivory Cane",
+            "Tusk Hunter",
+            "Walrus Skin Cloak"
         ]
     },
     {
@@ -246,8 +246,8 @@
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
         "drops": [
-            "I03K",
-            "I03H"
+            "Frosty Sword",
+            "Frosty Staff"
         ]
     },
     {
@@ -259,8 +259,8 @@
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
         "drops": [
-            "I09H",
-            "I0EW"
+            "Frosty Bow",
+            "Frosty Rifle"
         ]
     },
     {
@@ -272,9 +272,9 @@
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
         "drops": [
-            "I03I",
-            "I03F",
-            "I03L"
+            "Frosty Armor",
+            "Frosty Robe",
+            "Frosty Helm"
         ]
     },
     {
@@ -286,8 +286,8 @@
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
         "drops": [
-            "rnsp",
-            "I08O"
+            "Bear Fur Cloak",
+            "Warm Fur"
         ]
     },
     {
@@ -298,9 +298,9 @@
         "summon": "In Frosty Snowfield",
         "conditions": "Level 40 and Frozen Crystal",
         "drops": [
-            "prvt",
-            "lgdh",
-            "ssil"
+            "Icicle Bow",
+            "Glacier Guard",
+            "Snowman Pendant"
         ]
     },
     {
@@ -311,9 +311,9 @@
         "summon": "In Frosty Snowfield",
         "conditions": "Level 40 and Frozen Crystal",
         "drops": [
-            "I0DU",
-            "hval",
-            "I0DV"
+            "King Kong's Claws",
+            "Wind-Protection Clothing",
+            "Meat Bag"
         ]
     },
     {
@@ -325,8 +325,8 @@
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
         "drops": [
-            "I044",
-            "I0EZ"
+            "Sword of Darkness",
+            "Rifle of Darkness"
         ]
     },
     {
@@ -338,8 +338,8 @@
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
         "drops": [
-            "I045",
-            "I09J"
+            "Staff of Darkness",
+            "Bow of Darkness"
         ]
     },
     {
@@ -351,10 +351,10 @@
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
         "drops": [
-            "I044",
-            "I045",
-            "I09J",
-            "I0EZ"
+            "Sword of Darkness",
+            "Staff of Darkness",
+            "Bow of Darkness",
+            "Rifle of Darkness"
         ]
     },
     {
@@ -366,9 +366,9 @@
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
         "drops": [
-            "I040",
-            "I041",
-            "I046"
+            "Armor of Darkness",
+            "Robe of Darkness",
+            "Helm of Darkness"
         ]
     },
     {
@@ -380,12 +380,12 @@
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
         "drops": [
-            "sor1",
-            "I05R",
-            "I05S",
-            "I09G",
-            "I0F0",
-            "sand"
+            "Helm of the Dead",
+            "Raven Sword",
+            "Raven Staff",
+            "Raven Bow",
+            "Raven Rifle",
+            "Token of Death"
         ]
     },
     {
@@ -396,12 +396,12 @@
         "summon": "In Duchy of Wallachia",
         "conditions": "Level 50 and Cursed Mask",
         "drops": [
-            "I0BQ",
-            "I0CB",
-            "I0BR",
-            "I0BS",
-            "I0BT",
-            "I0C3"
+            "Blade of Requiem",
+            "Crossbow of Requiem",
+            "Blood Orb",
+            "Cape of the Dead",
+            "Ring of the Dead",
+            "Mask of Blood"
         ]
     },
     {
@@ -412,12 +412,12 @@
         "summon": "In Duchy of Wallachia",
         "conditions": "Level 50 and Cursed Mask",
         "drops": [
-            "rspl",
-            "I0BR",
-            "rhe1",
-            "I0C3",
-            "I0BT",
-            "rspd"
+            "Demon Hunter",
+            "Blood Orb",
+            "Stone Plates",
+            "Mask of Blood",
+            "Ring of the Dead",
+            "Bat Wings"
         ]
     },
     {
@@ -429,8 +429,8 @@
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
         "drops": [
-            "I05C",
-            "I05D"
+            "Sword of Flame",
+            "Staff of Flame"
         ]
     },
     {
@@ -442,9 +442,9 @@
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
         "drops": [
-            "I05C",
-            "I09L",
-            "I0F1"
+            "Sword of Flame",
+            "Bow of Flame",
+            "Rifle of Flame"
         ]
     },
     {
@@ -456,9 +456,9 @@
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
         "drops": [
-            "I05D",
-            "I09L",
-            "I0F1"
+            "Staff of Flame",
+            "Bow of Flame",
+            "Rifle of Flame"
         ]
     },
     {
@@ -470,9 +470,9 @@
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
         "drops": [
-            "I049",
-            "I059",
-            "I05F"
+            "Armor of Flame",
+            "Robe of Flame",
+            "Helm of Flame"
         ]
     },
     {
@@ -484,13 +484,13 @@
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
         "drops": [
-            "dsum",
-            "I05U",
-            "I05W",
-            "I09E",
-            "I0F4",
-            "I0G5",
-            "nspi"
+            "Flame Cloak",
+            "Sword of Crimson Flame",
+            "Staff of Crimson Flame",
+            "Bow of Crimson Flame",
+            "Rifle of Crimson Flame",
+            "Ragnaar Icon",
+            "Flame Token"
         ]
     },
     {
@@ -501,11 +501,11 @@
         "summon": "In Volcanic Lands",
         "conditions": "Level 60 and Nightmare Rod",
         "drops": [
-            "shcw",
-            "rnec",
-            "bfhr",
-            "stwa",
-            "blba"
+            "Flamereaver",
+            "Blaster",
+            "Helm of Passion",
+            "Crimson Stone",
+            "A Small Piece of Wrath"
         ]
     },
     {
@@ -517,8 +517,8 @@
         "location": "In the Deep Sea",
         "conditions": "Recommended Level 70 ~ 90",
         "drops": [
-            "I0BU",
-            "I0BV"
+            "Armor of Deep Sea",
+            "Robe of Deep Sea"
         ]
     },
     {
@@ -530,8 +530,8 @@
         "location": "In the Deep Sea",
         "conditions": "Recommended Level 70 ~ 90",
         "drops": [
-            "I0BU",
-            "I0BV"
+            "Armor of Deep Sea",
+            "Robe of Deep Sea"
         ]
     },
     {
@@ -543,7 +543,7 @@
         "location": "In the Deep Sea",
         "conditions": "Recommended Level 70 ~ 90",
         "drops": [
-            "I0BW"
+            "Helm of Deep Sea"
         ]
     },
     {
@@ -555,14 +555,14 @@
         "location": "In the Deep Sea",
         "conditions": "Recommended Level 70 ~ 90",
         "drops": [
-            "I0BZ",
-            "I0BN",
-            "I0BP",
-            "I0BO",
-            "I0F6",
-            "I0BY",
-            "I0G6",
-            "gvsm"
+            "Horn of Deep Sea",
+            "Sword of Deep Sea",
+            "Staff of Deep Sea",
+            "Bow of Deep Sea",
+            "Rifle of Deep Sea",
+            "Infected Tentacle",
+            "Tentacle Lord Icon",
+            "Tentacle Token"
         ]
     },
     {
@@ -573,10 +573,10 @@
         "summon": "In Deep Sea",
         "conditions": "Recommended Level 70 ~ 90 and Orb of the Sea",
         "drops": [
-            "I0OS",
-            "I0OT",
-            "I0OU",
-            "I0OV"
+            "Trident",
+            "Tidal Robe",
+            "Droplet Orb",
+            "Wings of Purification"
         ]
     },
     {
@@ -588,8 +588,8 @@
         "location": "In the Cave",
         "conditions": "Level 80",
         "drops": [
-            "I0A3",
-            "I0A4"
+            "Armor of Corruption",
+            "Robe of Corruption"
         ]
     },
     {
@@ -601,7 +601,7 @@
         "location": "In the Cave",
         "conditions": "Level 80",
         "drops": [
-            "I0A1"
+            "Helm of Corruption"
         ]
     },
     {
@@ -613,14 +613,14 @@
         "location": "In the Cave",
         "conditions": "Level 80",
         "drops": [
-            "I0AA",
-            "I0A7",
-            "I0A8",
-            "I0A9",
-            "I0F5",
-            "I0AB",
-            "I0G7",
-            "dtsb"
+            "Corrupt Crystal Fragment",
+            "Sword of Corruption",
+            "Staff of Corruption",
+            "Bow of Corruption",
+            "Rifle of Corruption",
+            "Corrupt Creations",
+            "Giant Golem Icon",
+            "Big Golem Token"
         ]
     },
     {
@@ -632,8 +632,8 @@
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
         "drops": [
-            "I0A3",
-            "I0A4"
+            "Armor of Corruption",
+            "Robe of Corruption"
         ]
     },
     {
@@ -645,7 +645,7 @@
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
         "drops": [
-            "I0A1"
+            "Helm of Corruption"
         ]
     },
     {
@@ -657,7 +657,7 @@
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
         "drops": [
-            "sor2"
+            "Scarab Bone"
         ]
     },
     {
@@ -669,8 +669,8 @@
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
         "drops": [
-            "sora",
-            "I0AB"
+            "Ghostly Thread",
+            "Corrupt Creations"
         ]
     },
     {
@@ -681,12 +681,19 @@
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
         "drops": [
-            "sor2",
-            "sora",
-            "ram1",
-            "soul",
-            "I0GA",
-            "wcyc"
+            "Scarab Bone",
+            "Ghostly Thread",
+            "Soul Stone",
+            "Mad Symbol",
+            "Mad Clown Icon",
+            "Clown Token"
+        ],
+        "spells": [
+            "Instincts",
+            "Darkness Wave",
+            "Mirror Image",
+            "Mad Howl",
+            "Wheel of Fate"
         ]
     },
     {
@@ -698,285 +705,484 @@
         "location": "In Fairy Forest",
         "conditions": "Recommended Level 80+",
         "drops": [
-            "I08X",
-            "I06D",
-            "I0AV",
-            "I06E",
-            "I0G9",
-            "grsl",
-            "envl"
+            "Plates of Regeneration",
+            "Vest of Protection",
+            "Fairy Robe",
+            "Lifestone",
+            "Mana Ancient Icon",
+            "Spirit Orb",
+            "Ancient Token"
         ]
     },
     {
         "id": "n022",
         "name": "Ruler of the Lav Sea Hydra",
         "limit": "5",
+        "respawn": "4",
         "category": "Minor",
         "summon": "Top right area of Seaside",
         "conditions": "Recommended Level 50 and Blue Magic Stone x4",
         "drops": [
-            "I077",
-            "I07A",
-            "I09D",
-            "I0F2",
-            "I074",
-            "I072",
-            "I075",
-            "I073",
-            "I068",
-            "I06I",
-            "oven"
+            "Sword of Poison",
+            "Staff of Poison",
+            "Bow of Poison",
+            "Rifle of Poison",
+            "Armor of Poison",
+            "Robe of Poison",
+            "Helm of Poison",
+            "Ring of Poison",
+            "Hydra Poison Tooth",
+            "Hydra Scale",
+            "Hydra Token"
+        ],
+        "spells": [
+            "Lethal Poison",
+            "Stomp",
+            "Sea Wave"
         ]
     },
     {
         "id": "H00F",
         "name": "Duchy of Wallachia Count",
         "limit": "5",
+        "respawn": "5",
         "category": "Minor",
         "summon": "East area of Duchy of Wallachia at wrecked church near Death Knight",
         "conditions": "Level 60 and White Magic Stone x4",
         "drops": [
-            "ajen",
-            "I07I",
-            "moon",
-            "I07K",
-            "I07L",
-            "I07E",
-            "I07H",
-            "I06J",
-            "tels",
-            "I07G",
-            "shen"
+            "Sanguiel, the Bloodspear",
+            "Bloodsword Tepethia",
+            "Blood Cannon Tepes",
+            "Bloody Armor",
+            "Bloody Robe",
+            "Bloody Helm",
+            "Ring of Count",
+            "Bloodstone",
+            "Count's Old Cape",
+            "Count's Memento",
+            "Count Token"
+        ],
+        "spells": [
+            "Immortal Body",
+            "Death Bind",
+            "Hounds of Berskubil",
+            "Requiem of BLood",
+            "Unleash: True Form"
         ]
     },
     {
         "id": "n01W",
         "name": "Jack o Lantern",
         "limit": "3",
+        "respawn": "5",
         "category": "Minor",
         "summon": "Middle of Capital Prius, near the fountain",
         "conditions": "Recommended Level 60 and White Magic Stone x4",
         "drops": [
-            "I07O",
-            "I07M",
-            "I0AY",
-            "cnob",
-            "I060",
-            "sfog",
-            "drph"
+            "Jack Pumpkin Helm",
+            "Jack Pumpkin Hood",
+            "Pumpkin Rod",
+            "Candy Bag",
+            "Orichalcum",
+            "Yellow Crystal Golem Token",
+            "Jack Pumpkin Token"
+        ],
+        "spells": [
+            "Jack Impact",
+            "Jack Wave",
+            "Pumpkin Body",
         ]
     },
     {
         "id": "h01B",
         "name": "Mage Lord",
         "limit": "4",
+        "respawn": "5",
         "category": "Minor",
         "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
         "conditions": "Recommended Level 70 and Red Magic Stone x4",
         "drops": [
-            "I06F",
-            "I083",
-            "I084",
-            "I0AZ",
-            "I062",
-            "I06V",
-            "cosl",
-            "lnrn"
+            "Sealed Weapon",
+            "Robe of the Mage",
+            "Hood of Mage",
+            "Ring of Resonance",
+            "Mithril",
+            "Ancient Writings",
+            "Blue Crystal Golem Token",
+            "Magical Token"
+        ],
+        "spells": [
+            "Blizzard",
+            "Chain Lightning",
+            "Dark Star",
+            "Magical Weapon"
         ]
     },
     {
         "id": "n01K",
         "name": "Wings of Death",
         "limit": "5",
+        "respawn": "5",
         "category": "Minor",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
         "conditions": "Recommended Level 70 and Red Magic Stone x4",
         "drops": [
-            "I07R",
-            "I09S",
-            "I07T",
-            "I0F8",
-            "I07U",
-            "I07X",
-            "I06P",
-            "I06Q",
-            "I06O",
-            "oli2"
+            "Dragonsword Lainhart",
+            "Dragonbow Aience",
+            "Dragonstaff Irave",
+            "Dragon Cannon Belenus",
+            "Dragon Armor Magron",
+            "Dragon's Helm Agron",
+            "Dragon Bone",
+            "Dragon Scale",
+            "Dragon Heart",
+            "Wings of Death Token"
+        ],
+        "spells": [
+            "Dragon Breath",
+            "Dragon Fear",
+            "Hell Flame",
+            "Dragon's Might",
         ]
     },
     {
         "id": "H00V",
         "name": "Castle Avalon Gatekeeper",
         "limit": "None",
+        "respawn": "5",
         "category": "Minor",
         "location": "Before the entrance of Guardian Angels",
         "conditions": "Level 80 and Avalon summoned",
         "drops": [
-            "I0BJ",
-            "I0FZ",
-            "amrc"
+            "Guardian Ring",
+            "Gatekeeper Icon",
+            "Guardian Token"
+        ],
+        "spells": [
+            "Genocide Sword",
+            "Nanoscale Armor",
         ]
     },
     {
         "id": "n01N",
         "name": "The 3rd Army's Guardian Angel",
         "limit": "4",
+        "respawn": "5",
         "category": "Minor",
         "summon": "In the far top right of the Cave",
         "conditions": "Level 80 and White Magic Stone x6",
         "drops": [
-            "I085",
-            "I087",
-            "I0FA",
-            "I088",
-            "I089",
-            "I06R",
-            "I06T",
-            "tmmt"
+            "Karonphniamm, the Holy Sword",
+            "Klenetia, the Holy Staff",
+            "Eana, the Holy Cannon",
+            "Sacred Armor",
+            "Sacred Helm",
+            "Fragment of Angel's Feather",
+            "A Page of the Bible",
+            "Guardian Angel Token"
+        ],
+        "spells": [
+            "Blessed Wings",
+            "Holy Grab",
+            "Sacred Conviction",
+            "Sacred Judgment",
         ]
     },
     {
         "id": "n01O",
         "name": "The Devil's Right Arm Corrupt Angel",
         "limit": "4",
+        "respawn": "5",
         "category": "Minor",
         "location": "In Frosty Snowfield summoned after 2 minute of summoning Avalon",
         "conditions": "Level 80 and Avalon summoned",
         "drops": [
-            "I0C4",
-            "I086",
-            "I08C",
-            "I09O",
-            "I06S",
-            "I06U",
-            "I0AB",
-            "mnsf"
+            "Skeris, the Unholy Helm",
+            "Eximelia, the Unholy Sword",
+            "Dekaros, the Unholy Armor",
+            "Alkate, the Unholy Bow",
+            "Fragment of Corrupt Angel's Feather",
+            "A Page of the Unholy Book",
+            "Corrupt Creations",
+            "Corrupt Angel Token"
+        ],
+        "spells": [
+            "Hell Finger",
+            "Craze",
+            "Judgment of Darkness",
+            "Dark Wings",
+            "Darkness Wave",
         ]
     },
     {
         "id": "n023",
         "name": "Soul of Everfrost",
         "limit": "4",
+        "respawn": "4",
         "category": "Minor",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 90 and Frostspider Lord summoned",
         "drops": [
-            "I08D",
-            "I08R",
-            "I08E",
-            "I097",
-            "I06X",
-            "olig"
-        ]
+            "Robe of Everfrost",
+            "Helm of Everfrost",
+            "Hood of Everfrost",
+            "Winter Rose",
+            "Frorist",
+            "Everfrost Token"
+        ],
+        "spells": [
+            "Hellfrost Nova",
+            "Frozen Soul",
+        ],
+        "summons": "Frozen Soul"
+    },
+    {
+        "id": "n025",
+        "name": "Frozen Soul",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Soul of Everfrost",
+        "location": "Fight with Soul of Everfrost",
+        "conditions": "Summoned during fight with Soul of Everfrost",
+        "duration": "90"
     },
     {
         "id": "H01F",
         "name": "Frostspider Queen",
         "limit": "4",
+        "respawn": "4",
         "category": "Minor",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 90 and Frostspider Lord summoned",
         "drops": [
-            "rhth",
-            "I0D6",
-            "I0FE",
-            "I099",
-            "I06K",
-            "stre"
+            "Okelanq, the Spear of Frost",
+            "Okelanq, the Bow of Frost",
+            "Lord of Revolver",
+            "Frost Web Brooch",
+            "Frozen Cobweb",
+            "Spider Token"
+        ],
+        "spells": [
+            "Frost Aura",
+            "Frost Spike",
         ]
     },
     {
         "id": "h034",
         "name": "Frostspider Lord",
         "limit": "4",
+        "respawn": "4",
         "category": "Minor",
         "summon": "In Spider Cave where 3 Pruis Magicians are gathered",
         "conditions": "Level 90 and Blue Magic Stone x6",
         "drops": [
-            "I067",
-            "bspd",
-            "I098",
-            "I096",
-            "I06X",
-            "I06K",
-            "I061",
-            "klmm",
-            "tst2"
+            "Winter's Tear",
+            "Frostbane",
+            "Niflheim",
+            "Ripple Snow",
+            "Frorist",
+            "Frozen Cobweb",
+            "Adamantium",
+            "White Crystal Golem Token",
+            "Frostspider Lord Token"
+        ],
+        "spells": [
+            "Frozen Barrier",
+            "Frozen Shatter",
+            "Ice Storm",
+            "Hellfrost Body",
+            "Web Binding"
         ]
     },
     {
         "id": "n01Y",
         "name": "Demon Lord Beriel",
         "limit": "4",
+        "respawn": "4",
         "category": "Minor",
         "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
         "conditions": "Level 90, Red Magic Stone x6, and Waves defeated without killing the gate or letting the monsters kill the King in Capital Prius",
         "drops": [
-            "kysn",
-            "I0FG",
-            "ktrm",
-            "ches",
-            "dphe",
-            "I06W",
-            "I08K",
-            "fgsk",
-            "wswd"
-        ]
+            "Claws of Destruction",
+            "Bullet of Destruction",
+            "Horn of Demon Lord",
+            "Eye of the Abyss",
+            "Slayer Boots",
+            "Dark Matter",
+            "Dark Wings",
+            "Red Crystal Golem Token",
+            "Demon Lord Token"
+        ],
+        "spells": [
+            "Rage",
+            "The Demon Lord's Power",
+            "Seal",
+            "Meteor",
+            "Destruction",
+            "Catacylsm"
+        ],
+        "summons": "Hell Golem"
+    },
+    {
+        "id": "n026",
+        "name": "Hell Golem",
+        "limit": "0",
+        "category": "Mob",
+        "parent_boss": "Demon Lord Beriel",
+        "location": "Fight with Demon Lord Beriel",
+        "conditions": "Summoned during fight with Demon Lord Beriel",
+        "duration": "90"
     },
     {
         "id": "n02M",
         "name": "Spirit Beast",
         "limit": "3",
+        "respawn": "4",
         "category": "Mid",
         "location": "In Fairy Forest - Deep Forest",
         "conditions": "Level 100",
         "drops": [
-            "odef",
-            "rag1",
-            "afac",
-            "grsl",
-            "I0JT",
-            "I0G8",
-            "ccmd"
+            "Spiritus, the Sword of Elements",
+            "Storm Headdress",
+            "Visvire, the Hammer of Storm",
+            "Spirit Orb",
+            "Spirit of Forest",
+            "Spirit Beast Icon",
+            "Beast Token"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
         "id": "hmpr",
         "name": "Corruptor Rectus",
         "limit": "5",
+        "respawn": "4",
         "category": "Mid",
         "location": "In Fairy Forest - Plagued Tower",
         "conditions": "Level 100",
         "drops": [
-            "phlt",
-            "rin1",
-            "kpin",
-            "I0FH",
-            "mcou",
-            "evtl",
-            "rwiz",
-            "stpg",
-            "whwd",
-            "rugt"
+            "Corruptor",
+            "Stalker",
+            "Avenger",
+            "Chaser",
+            "Skull Seal",
+            "Potion of Corruption",
+            "Staff of Contagion",
+            "Essence of Corruption",
+            "Ancient Fragment of Ruins",
+            "Corrupt Token"
+        ],
+        "spells": [
+            "Corrupt Power",
+            "Corruption",
+            "Death Coil",
+            "Soul Swap",
+            "Corruption Overload"
+            "Corruption Aura",
+            "Corrupted Summoning"
+        ]
+    },
+    {
+        "id": "ohun",
+        "name": "Avenger",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Corruptor Rectus",
+        "location": "Fight with Corruptor Rectus",
+        "conditions": "Summoned during fight with Corruptor Rectus",
+        "spells": [
+            "Corruption Wave"
+        ]
+    },
+    {
+        "id": "odoc",
+        "name": "Stalker",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Corruptor Rectus",
+        "location": "Fight with Corruptor Rectus",
+        "conditions": "Summoned during fight with Corruptor Rectus",
+        "spells": [
+            "Corrupt Explosion"
+        ]
+    },
+    {
+        "id": "hsor",
+        "name": "Life Orb",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Corruptor Rectus",
+        "location": "Fight with Corruptor Rectus",
+        "spells": [
+            "Purification"
         ]
     },
     {
         "id": "n02N",
         "name": "Flame Nightmare",
         "limit": "4",
+        "respawn": "4",
         "category": "Mid",
         "summon": "In Volcanic Lands",
         "conditions": "Recommened Level 100 and Nightmare Rod with Red Magic Stone x8",
         "drops": [
-            "I0CA",
-            "I0C6",
-            "I0C8",
-            "ssan",
-            "I0C7",
-            "rej1",
-            "I0CD",
-            "shdt"
+            "Hatred",
+            "Flameshard Armor",
+            "Ring of Nightmare",
+            "Inferno",
+            "Crown of Fervor",
+            "Spirit of Nightmare",
+            "Essence of Anger",
+            "Nightmare Token"
+        ],
+        "spells": [
+            "Nightmare Body",
+            "Overload"
+            "Flame Barrage",
+            "On Your Knees!",
+            "Total Annihilation",
         ]
+    },
+    {
+        "id": "n02O",
+        "name": "Hatred",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Corruptor Rectus",
+        "location": "Fight with Corruptor Rectus",
+        "conditions": "Summoned during fight with Corruptor Rectus",
+        "spells": [
+            "Mark of Hatred",
+            "Intense Hatred"
+        ]
+    },
+    {
+        "id": "n02P",
+        "name": "Anger",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Flame Nightmare",
+        "location": "Fight with Flame Nightmare",
+        "conditions": "Summoned during fight with Flame Nightmare",
+        "spells": [
+            "Berserk",
+            "Furious Attacks"
+        ]
+    },
+    {
+        "id": "n02Q",
+        "name": "Flame Spawn",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Flame Nightmare",
+        "location": "Fight with Flame Nightmare",
+        "conditions": "Summoned during fight with Flame Nightmare",
+        "parent_boss": "Flame Nightmare",
     },
     {
         "id": "h018",
@@ -986,32 +1192,65 @@
         "summon": "In Deep Sea in the far East where light shines from above",
         "conditions": "Level 100 and Orb of the Deep Sea with Green Magic Stone x4, Blue Magic Stone x4",
         "drops": [
-            "skul",
-            "I0CR",
-            "I0CG",
-            "I0CP",
-            "crdt",
-            "I0CJ",
-            "sror",
-            "I0CK",
-            "wshs"
+            "Water Cannon",
+            "Tunic of Subtlety",
+            "Purified Water",
+            "Scale Protector",
+            "Oath of Courage",
+            "Pure Steel",
+            "Mark of Storm",
+            "Mana Orb",
+            "Turtle Token"
+        ],
+        "spells": [
+            "Hard Shell",
+            "Turtle Ambush",
+            "Summon Healing Turtle",
+            "Mystic Shell",
+            "Chomp Armor",
+            "Mana Bombardment"
         ]
+    },
+    {
+        "id": "hxpe",
+        "name": "Healing Turtle",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Turtle Lord",
+        "location": "Fight with Turtle Lord",
+        "conditions": "Summoned during fight with Turtle Lord",
+    },
+    {
+        "id": "n02R",
+        "name": "Turtle",
+        "limit": "0",
+        "category": "Summon",
+        "parent_boss": "Turtle Lord",
+        "location": "Fight with Turtle Lord",
+        "conditions": "Summoned during fight with Turtle Lord",
     },
     {
         "id": "n03S",
         "name": "Bone Dragon",
         "limit": "None",
         "category": "High",
+        "respawn": "3",
         "location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
         "conditions": "Level 100",
         "drops": [
-            "pinv",
-            "sreg",
-            "tret",
-            "btst",
-            "I0OZ",
-            "I0M7",
-            "rre1"
+            "Ancient Hourglass",
+            "Dragonic Orb",
+            "Burning Bone Fragments",
+            "Dragon's Eye",
+            "Coin of Effort",
+            "Bone Dragon Icon",
+            "Bone Dragon Token"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1019,23 +1258,30 @@
         "name": "Skeleton King Desperia",
         "limit": "None",
         "category": "High",
+        "respawn": "3",
         "location": "In Prius Forward camp, the Sealed Land to the North",
         "conditions": "Level 100",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "ratc",
-            "rat6",
-            "ward",
-            "penr",
-            "rat9",
-            "I0EK",
-            "I0EL",
-            "nflg",
-            "gsou",
-            "I0OZ",
-            "fgrg"
+            "Death Scythe",
+            "Staff of Souls",
+            "Robe of the Reaper",
+            "Brooch of Darkness",
+            "Bone Necklace",
+            "Fragment of Oblivion",
+            "Skeleton Bone",
+            "Orb of Oblivion",
+            "Spirit of Abyss",
+            "Coin of Effort",
+            "Skeleton Token"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1043,20 +1289,27 @@
         "name": "Zombie Lord",
         "limit": "None",
         "category": "High",
+        "respawn": "3",
         "location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
         "conditions": "Level 100",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "belv",
-            "crys",
-            "stel",
-            "I0AS",
-            "rde1",
-            "I08P",
-            "I0OZ",
-            "pomn"
+            "Parasitic Staff",
+            "Hood of the Fallen",
+            "Shroud of Perseverance",
+            "Proof of Purification",
+            "Heart of Fire",
+            "Dark Crystal",
+            "Coin of Effort",
+            "Zombie Token"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1064,21 +1317,28 @@
         "name": "Ancient Ent",
         "limit": "None",
         "category": "High",
+        "respawn": "3",
         "location": "In Fairy Forest where a statue resides",
         "conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "sub-bosses": [
-            "n03W",
-            "n03X"
+            "Elder Ent",
+            "Giant Ent"
         ],
         "drops": [
-            "I0D2",
-            "ofir",
-            "shtm",
-            "I0OZ",
-            "pres"
+            "Embrace of Nature",
+            "Purified Water of Nature",
+            "Fragment of the Wind",
+            "Coin of Effort",
+            "Ent Token"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1093,10 +1353,16 @@
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "pgin",
-            "srtl",
-            "ofir",
-            "shtm"
+            "Griseus, the Sword of Protection",
+            "Ring of the Storm",
+            "Purified Water of Nature",
+            "Fragment of the Wind"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1111,12 +1377,18 @@
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "ofir",
-            "shtm",
-            "grsl"
+            "Purified Water of Nature",
+            "Fragment of the Wind",
+            "Spirit Orb"
         ],
         "stats": [
             "HP: 34,690"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1124,18 +1396,25 @@
         "name": "Archangel Samael",
         "limit": "None",
         "category": "High",
+        "respawn": "3",
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "I0EG",
-            "I0E5",
-            "I0E7",
-            "I0E6",
-            "I0OZ",
-            "sneg"
+            "Guardian of the Skies",
+            "Steel of God",
+            "God's Page",
+            "Essence of Light",
+            "Coin of Effort",
+            "Archangel Token"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1143,20 +1422,27 @@
         "name": "Shadow Dragon Irbert",
         "limit": "None",
         "category": "High",
+        "respawn": "3",
         "location": "South of Frosty Snowfield, in Deep Snowfield",
         "conditions": "Level 100 and Blue Magic Stone x12",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "kymn",
-            "bzbf",
-            "shwd",
-            "mcri",
-            "I08N",
-            "I09N",
-            "I0OZ",
-            "shar"
+            "Levante, the Sword of Love and Hate",
+            "Draconic Skin Rusalka",
+            "Nephthys, the Engraved Ring",
+            "Essence of Darkness",
+            "Antimatter",
+            "Frozen Debris",
+            "Coin of Effort",
+            "Token of Darkness"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1164,18 +1450,25 @@
         "name": "Death Fiend",
         "limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
         "category": "Endgame",
+        "respawn": "3",
         "summon": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Level 100 and Red Magic Stone x12",
         "drops": [
-            "srbd",
-            "oslo",
-            "sprn",
-            "ledg",
-            "I09N",
-            "I0DG",
-            "kygh",
-            "I0OZ",
-            "infs"
+            "The Ender",
+            "Armor of Grudge",
+            "Eyes of the Watcher",
+            "Ring of Destruction",
+            "Frozen Debris",
+            "Spearhead of Death",
+            "Fragment of Chaos",
+            "Coin of Effort",
+            "Fiend Token"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1186,23 +1479,30 @@
         "location": "Spawns near the exit of the Secluded Forest",
         "conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
         "drops": [
-            "I0IO"
-        ]
+            "Chaos Magic Stone"
+        ],
     },
     {
         "id": "h04O",
         "name": "Valtora",
         "limit": "None",
         "category": "Endgame",
+        "respawn": "3",
         "summon": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Storm crafted",
         "drops": [
-            "ocor",
-            "I0IG",
-            "I0IH",
-            "phea",
-            "I0OZ",
-            "I0P0"
+            "Shackles of Heaven",
+            "Aegis of Storm",
+            "Essence of Storm",
+            "Shining Fragment of Ruins",
+            "Coin of Effort",
+            "Token of Thunder Lord"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1210,15 +1510,22 @@
         "name": "Ifrit",
         "limit": "None",
         "category": "Endgame",
+        "respawn": "3",
         "summon": "The Right-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Flame crafted",
         "drops": [
-            "I0JS",
-            "I0IE",
-            "I0IF",
-            "phea",
-            "I0OZ",
-            "I0P1"
+            "Heart of Volcano",
+            "Aegis of Flame",
+            "Essence of Flame",
+            "Shining Fragment of Ruins",
+            "Coin of Effort",
+            "Token of Avatar"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1226,15 +1533,22 @@
         "name": "Nereid",
         "limit": "None",
         "category": "Endgame",
+        "respawn": "3",
         "summon": "The Top-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Sea crafted",
         "drops": [
-            "I0LX",
-            "I0II",
-            "I0IJ",
-            "phea",
-            "I0OZ",
-            "I0P2"
+            "Grail of Eternity",
+            "Aegis of Sea",
+            "Essence of Sea",
+            "Shining Fragment of Ruins",
+            "Coin of Effort",
+            "Token of Sea God"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
@@ -1242,15 +1556,22 @@
         "name": "Underlord Agareth",
         "limit": "None",
         "category": "Endgame",
+        "respawn": "3",
         "summon": "Destroy the demonic portal during the Hell Invasion",
         "conditions": "Level 100, Demon Lord summoned, and Demonic portal destroyed",
         "drops": [
-            "I0O3",
-            "I0NV",
-            "I0NU",
-            "I0NW",
-            "I0OZ",
-            "I0P3"
+            "Curse of Greed",
+            "Fragment of Soul",
+            "Fragment of Hell",
+            "Mark of Lord",
+            "Coin of Effort",
+            "Token of Underlord"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     }
 ]
