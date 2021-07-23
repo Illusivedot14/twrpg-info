@@ -727,19 +727,6 @@
 			"Hydra Scale",
 			"Hydra Token"
 		],
-		"droprates": [
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.2",
-			"0.2",
-			"0.0001"
-		],
 		"spells": [
 			"Lethal Poison",
 			"Stomp",
@@ -768,19 +755,6 @@
 			"Count's Memento",
 			"Count Token"
 		],
-		"droprates": [
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.0001"
-		],
 		"spells": [
 			"Immortal Body",
 			"Death Bind",
@@ -807,15 +781,6 @@
 			"Yellow Crystal Golem Token",
 			"Jack Pumpkin Token"
 		],
-		"droprates": [
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.15",
-			"0.0025",
-			"0.0001"
-		],
 		"spells": [
 			"Jack Impact",
 			"Jack Wave",
@@ -840,16 +805,6 @@
 			"Ancient Writings",
 			"Blue Crystal Golem Token",
 			"Magical Token"
-		],
-		"droprates": [
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.125",
-			"0.125",
-			"0.0025",
-			"0.0001"
 		],
 		"spells": [
 			"Blizzard",
@@ -878,18 +833,6 @@
 			"Dragon Scale",
 			"Dragon Heart",
 			"Wings of Death Token"
-		],
-		"droprates": [
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.0001"
 		],
 		"spells": [
 			"Dragon Breath",
@@ -928,11 +871,6 @@
 			"Gatekeeper Icon",
 			"Guardian Token"
 		],
-		"droprates": [
-			"0.1",
-			"0.0015",
-			"0.0001"
-		],
 		"spells": [
 			"Genocide Sword",
 			"Nanoscale Armor"
@@ -956,16 +894,6 @@
 			"Fragment of Angel's Feather",
 			"A Page of the Bible",
 			"Guardian Angel Token"
-		],
-		"droprates": [
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.125",
-			"0.125",
-			"0.0001"
 		],
 		"spells": [
 			"Blessed Wings",
@@ -992,16 +920,6 @@
 			"A Page of the Unholy Book",
 			"Corrupt Creations",
 			"Corrupt Angel Token"
-		],
-		"droprates": [
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.075",
-			"0.125",
-			"0.125",
-			"0.125",
-			"0.0001"
 		],
 		"spells": [
 			"Hell Finger",
@@ -1044,14 +962,6 @@
 			"Frorist",
 			"Everfrost Token"
 		],
-		"droprates": [
-			"0.06",
-			"0.06",
-			"0.06",
-			"0.06",
-			"0.08",
-			"0.0001"
-		],
 		"spells": [
 			"Hellfrost Nova",
 			"Frozen Soul"
@@ -1084,14 +994,6 @@
 			"Frozen Cobweb",
 			"Spider Token"
 		],
-		"droprates": [
-			"0.06",
-			"0.06",
-			"0.06",
-			"0.06",
-			"0.08",
-			"0.0001"
-		],
 		"spells": [
 			"Frost Aura",
 			"Frost Spike"
@@ -1116,17 +1018,6 @@
 			"Adamantium",
 			"White Crystal Golem Token",
 			"Frostspider Lord Token"
-		],
-		"droprates": [
-			"0.04",
-			"0.04",
-			"0.06",
-			"0.06",
-			"0.08",
-			"0.08",
-			"0.08",
-			"0.0025",
-			"0.0001"
 		],
 		"spells": [
 			"Frozen Barrier",
@@ -1155,17 +1046,6 @@
 			"Dark Wings",
 			"Red Crystal Golem Token",
 			"Demon Lord Token"
-		],
-		"droprates": [
-			"0.04",
-			"0.04",
-			"0.06",
-			"0.06",
-			"0.06",
-			"0.08",
-			"0.08",
-			"0.001",
-			"0.0001"
 		],
 		"spells": [
 			"Rage",
@@ -1248,14 +1128,6 @@
 			"Mad Clown Icon",
 			"Clown Token"
 		],
-		"droprates": [
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.0015",
-			"0.0001"
-		],
 		"spells": [
 			"Instincts",
 			"Darkness Wave",
@@ -1298,15 +1170,6 @@
 			"Spirit Beast Icon",
 			"Beast Token"
 		],
-		"droprates": [
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.0015",
-			"0.0001"
-		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1334,18 +1197,6 @@
 			"Essence of Corruption",
 			"Ancient Fragment of Ruins",
 			"Corrupt Token"
-		],
-		"droprates": [
-			"0.03",
-			"0.03",
-			"0.03",
-			"0.03",
-			"0.03",
-			"0.03",
-			"0.02",
-			"0.04",
-			"0.04",
-			"0.0001"
 		],
 		"spells": [
 			"Corrupt Power",
@@ -1414,16 +1265,6 @@
 			"Essence of Anger",
 			"Nightmare Token"
 		],
-		"droprates": [
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.02",
-			"0.04",
-			"0.04",
-			"0.0001"
-		],
 		"spells": [
 			"Nightmare Body",
 			"Overload",
@@ -1486,17 +1327,6 @@
 			"Mana Orb",
 			"Turtle Token"
 		],
-		"droprates": [
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.02",
-			"0.04",
-			"0.04",
-			"0.04",
-			"0.0001"
-		],
 		"spells": [
 			"Hard Shell",
 			"Turtle Ambush",
@@ -1543,15 +1373,6 @@
 			"Coin of Effort",
 			"Bone Dragon Icon",
 			"Bone Dragon Token"
-		],
-		"droprates": [
-			"0.01",
-			"0.01",
-			"0.0125",
-			"0.0125",
-			"0.0005",
-			"0.0015",
-			"0.0001"
 		],
 		"spells": [
 			"Ethreal Strike",
@@ -1604,19 +1425,6 @@
 			"Coin of Effort",
 			"Skeleton Token"
 		],
-		"droprates": [
-			"0.0075",
-			"0.0075",
-			"0.01",
-			"0.01",
-			"0.01",
-			"0.015",
-			"0.015",
-			"0.015",
-			"0.015",
-			"0.0005",
-			"0.0001"
-		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1665,16 +1473,6 @@
 			"Coin of Effort",
 			"Zombie Token"
 		],
-		"droprates": [
-			"0.0125",
-			"0.01.25",
-			"0.0075",
-			"0.015",
-			"0.015",
-			"0.015",
-			"0.0005",
-			"0.0001"
-		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1720,13 +1518,6 @@
 			"Coin of Effort",
 			"Ent Token"
 		],
-		"droprates": [
-			"0.0075",
-			"0.005",
-			"0.005",
-			"0.0005",
-			"0.0001"
-		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1756,12 +1547,6 @@
 			"Purified Water of Nature",
 			"Fragment of the Wind"
 		],
-		"droprates": [
-			"0.0075",
-			"0.0075",
-			"0.005",
-			"0.005"
-		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1785,11 +1570,6 @@
 			"Purified Water of Nature",
 			"Fragment of the Wind",
 			"Spirit Orb"
-		],
-		"droprates": [
-			"0.0005",
-			"0.0005",
-			"0.0025"
 		],
 		"stats": [
 			"HP: 34,690"
@@ -1821,14 +1601,6 @@
 			"Coin of Effort",
 			"Archangel Token"
 		],
-		"droprates": [
-			"0.0075",
-			"0.015",
-			"0.015",
-			"0.015",
-			"0.0005",
-			"0.0001"
-		],
 		"spells": [
 			"Ethreal Strike",
 			"Spirit Echo",
@@ -1857,16 +1629,6 @@
 			"Frozen Debris",
 			"Coin of Effort",
 			"Token of Darkness"
-		],
-		"droprates": [
-			"0.0075",
-			"0.015",
-			"0.015",
-			"0.015",
-			"0.015",
-			"0.01",
-			"0.0005",
-			"0.0001"
 		],
 		"spells": [
 			"Ethreal Strike",
@@ -1913,17 +1675,6 @@
 			"Fragment of Chaos",
 			"Coin of Effort",
 			"Fiend Token"
-		],
-		"droprates": [
-			"0.0025",
-			"0.0075",
-			"0.01",
-			"0.01",
-			"0.0125",
-			"0.0075",
-			"0.0075",
-			"0.0007",
-			"0.0001"
 		],
 		"spells": [
 			"Ethreal Strike",
@@ -1986,9 +1737,6 @@
 		"conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
 		"drops": [
 			"Chaos Magic Stone"
-		],
-		"droprates": [
-			"0.1"
 		]
 	},
 	{
@@ -2007,14 +1755,6 @@
 			"Shining Fragment of Ruins",
 			"Coin of Effort",
 			"Token of Thunder Lord"
-		],
-		"droprates": [
-			"0.005",
-			"0.0075",
-			"0.0075",
-			"0.005",
-			"0.0006",
-			"0.0001"
 		],
 		"spells": [
 			"Ethreal Strike",
@@ -2050,14 +1790,6 @@
 			"Shining Fragment of Ruins",
 			"Coin of Effort",
 			"Token of Avatar"
-		],
-		"droprates": [
-			"0.005",
-			"0.0075",
-			"0.0075",
-			"0.005",
-			"0.0008",
-			"0.0001"
 		],
 		"spells": [
 			"Ethreal Strike",
@@ -2102,14 +1834,6 @@
 			"Coin of Effort",
 			"Token of Sea God"
 		],
-		"droprates": [
-			"0.005",
-			"0.0075",
-			"0.0075",
-			"0.01",
-			"0.0009",
-			"0.0001"
-		],
 		"spells": [
 			"Ethreal Strike"
 		],
@@ -2149,14 +1873,6 @@
 			"Mark of Lord",
 			"Coin of Effort",
 			"Token of Underlord"
-		],
-		"droprates": [
-			"0.005",
-			"0.0075",
-			"0.0075",
-			"0.0075",
-			"0.001",
-			"0.0001"
 		],
 		"spells": [
 			"Ethreal Strike"
