@@ -879,7 +879,7 @@
 	{
 		"id": "n01K",
 		"name": "Wings of Death",
-		"color": "0077C0",
+		"color": "6b0606",
 		"quote": "Feel the might of dragons !",
 		"category": "Minor",
 		"type": "boss",
@@ -944,7 +944,7 @@
 	},
 	{
 		"id": "n01M",
-		"name": "Guardian 2",
+		"name": "Avalon Protector",
 		"category": "Minor",
 		"type": "minion",
 		"location": "Before the entrance of Guardian Angels",
@@ -1044,7 +1044,7 @@
 	{
 		"id": "n01O",
 		"name": "The Devil's Right Arm Corrupt Angel",
-		"color": "403C39",
+		"color": "725D6F",
 		"quote": "Die !!",
 		"category": "Minor",
 		"type": "boss",
@@ -1156,7 +1156,7 @@
 	{
 		"id": "n023",
 		"name": "Soul of Everfrost",
-		"color": "EAF8F7",
+		"color": "eaf8f7",
 		"quote": "Freeze !!",
 		"category": "Minor",
 		"type": "boss",
@@ -1220,7 +1220,7 @@
 	{
 		"id": "H01F",
 		"name": "Frostspider Queen",
-		"color": "EAF8F7",
+		"color": "eaf8f7",
 		"quote": "Kiiik !!",
 		"category": "Minor",
 		"type": "boss",
@@ -1258,7 +1258,7 @@
 	{
 		"id": "h034",
 		"name": "Frostspider Lord",
-		"color": "EAF8F7",
+		"color": "eaf8f7",
 		"quote": "Be purged by Frost !!",
 		"category": "Minor",
 		"type": "boss",
