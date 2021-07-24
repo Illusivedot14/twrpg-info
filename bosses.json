@@ -1156,7 +1156,7 @@
 	{
 		"id": "n023",
 		"name": "Soul of Everfrost",
-		"color": "eaf8f7",
+		"color": "C0F6FB",
 		"quote": "Freeze !!",
 		"category": "Minor",
 		"type": "boss",
@@ -1220,7 +1220,7 @@
 	{
 		"id": "H01F",
 		"name": "Frostspider Queen",
-		"color": "eaf8f7",
+		"color": "C0F6FB",
 		"quote": "Kiiik !!",
 		"category": "Minor",
 		"type": "boss",
@@ -1258,7 +1258,7 @@
 	{
 		"id": "h034",
 		"name": "Frostspider Lord",
-		"color": "eaf8f7",
+		"color": "C0F6FB",
 		"quote": "Be purged by Frost !!",
 		"category": "Minor",
 		"type": "boss",
