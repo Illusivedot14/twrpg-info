@@ -724,7 +724,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "439-443",
+			"attackDamage": "439",
+			"attackSpread": "4",
 			"attackRange": "400",
 			"attackSpeed": ".833",
 			"moveSpeed": "400"
@@ -768,7 +769,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "731-749",
+			"attackDamage": "731",
+			"attackSpread": "18",
 			"attackRange": "500",
 			"attackSpeed": "1.111",
 			"moveSpeed": "400"
@@ -808,7 +810,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1375-1385",
+			"attackDamage": "1375",
+			"attackSpread": "10",
 			"attackRange": "200",
 			"attackSpeed": "1.111",
 			"moveSpeed": "480"
@@ -854,7 +857,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1292-1300",
+			"attackDamage": "1292",
+			"attackSpread": "8",
 			"attackRange": "200",
 			"attackSpeed": "1.053",
 			"moveSpeed": "480"
@@ -896,7 +900,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1330-1334",
+			"attackDamage": "1330",
+			"attackSpread": "4",
 			"attackRange": "300",
 			"attackSpeed": "1.4",
 			"moveSpeed": "400"
@@ -936,7 +941,8 @@
 			"armorType": "light",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "942-056",
+			"attackDamage": "942",
+			"attackSpread": "14",
 			"attackRange": "800",
 			"attackSpeed": "1.25",
 			"moveSpeed": "400"
@@ -958,7 +964,8 @@
 			"armorType": "light",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "843-864",
+			"attackDamage": "843",
+			"attackSpread": "21",
 			"attackRange": "800",
 			"attackSpeed": "1.25",
 			"moveSpeed": "400"
@@ -984,7 +991,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1232-1242",
+			"attackDamage": "1232",
+			"attackSpread": "10",
 			"attackRange": "200",
 			"attackSpeed": "1.8",
 			"moveSpeed": "480"
@@ -1019,7 +1027,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "546-550",
+			"attackDamage": "546",
+			"attackSpread": "4",
 			"attackRange": "200",
 			"attackSpeed": "1.33",
 			"moveSpeed": "320"
@@ -1061,7 +1070,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "737-741",
+			"attackDamage": "737",
+			"attackSpread": "4",
 			"attackRange": "200",
 			"attackSpeed": "1.66",
 			"moveSpeed": "440"
@@ -1100,7 +1110,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "362-365",
+			"attackDamage": "362",
+			"attackSpread": "3",
 			"attackRange": "0",
 			"attackSpeed": "2.5",
 			"moveSpeed": "350"
@@ -1122,7 +1133,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "318-324",
+			"attackDamage": "318",
+			"attackSpread": "6",
 			"attackRange": "350",
 			"attackSpeed": "1.66",
 			"moveSpeed": "275"
@@ -1144,7 +1156,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "316-322",
+			"attackDamage": "316",
+			"attackSpread": "6",
 			"attackRange": "0",
 			"attackSpeed": "0.952",
 			"moveSpeed": "225"
@@ -1173,7 +1186,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "951-955",
+			"attackDamage": "951",
+			"attackSpread": "4",
 			"attackRange": "750",
 			"attackSpeed": "1.2",
 			"moveSpeed": "440"
@@ -1210,7 +1224,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "540-547",
+			"attackDamage": "540",
+			"attackSpread": "7",
 			"attackRange": "600",
 			"attackSpeed": "1.33",
 			"moveSpeed": "400"
@@ -1237,7 +1252,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1021-1105",
+			"attackDamage": "1021",
+			"attackSpread": "84",
 			"attackRange": "200",
 			"attackSpeed": "2.5",
 			"moveSpeed": "480"
@@ -1275,7 +1291,8 @@
 			"armorType": "heavy",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1605-1613",
+			"attackDamage": "1605",
+			"attackSpread": "8",
 			"attackRange": "200",
 			"attackSpeed": "0.4",
 			"moveSpeed": "480"
@@ -1403,7 +1420,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1021-1039",
+			"attackDamage": "1021",
+			"attackSpread": "18",
 			"attackRange": "300",
 			"attackSpeed": "3.33",
 			"moveSpeed": "480"
@@ -1440,7 +1458,8 @@
 			"armorType": "light",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "540-547",
+			"attackDamage": "540",
+			"attackSpread": "7",
 			"attackRange": "400",
 			"attackSpeed": "1.25",
 			"moveSpeed": "300"
@@ -1466,7 +1485,8 @@
 			"armorType": "light",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1237-1244",
+			"attackDamage": "1237",
+			"attackSpread": "7",
 			"attackRange": "200",
 			"attackSpeed": "0.556",
 			"moveSpeed": "300"
@@ -1492,7 +1512,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1421-1427",
+			"attackDamage": "1421",
+			"attackSpread": "6",
 			"attackRange": "225",
 			"attackSpeed": "0.66",
 			"moveSpeed": "440"
@@ -1533,7 +1554,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "2193-2265",
+			"attackDamage": "2193",
+			"attackSpread": "72",
 			"attackRange": "550",
 			"attackSpeed": "0.83",
 			"moveSpeed": "430"
@@ -1581,7 +1603,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "2190-2206",
+			"attackDamage": "2190",
+			"attackSpread": "16",
 			"attackRange": "0",
 			"attackSpeed": "0.364",
 			"moveSpeed": "250"
@@ -1606,7 +1629,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "417-421",
+			"attackDamage": "417",
+			"attackSpread": "4",
 			"attackRange": "0",
 			"attackSpeed": "2.5",
 			"moveSpeed": "500"
@@ -1632,6 +1656,7 @@
 			"magicResist": "0",
 			"damageResist": "0",
 			"attackDamage": "0",
+			"attackSpread": "0",
 			"attackRange": "0",
 			"attackSpeed": "0",
 			"moveSpeed": "0"
@@ -1660,7 +1685,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1421-1427",
+			"attackDamage": "1421",
+			"attackSpread": "6",
 			"attackRange": "225",
 			"attackSpeed": "0.66",
 			"moveSpeed": "440"
@@ -1703,6 +1729,7 @@
 			"magicResist": "0",
 			"damageResist": "0",
 			"attackDamage": "0",
+			"attackSpread": "0",
 			"attackRange": "0",
 			"attackSpeed": "0",
 			"moveSpeed": "5"
@@ -1728,7 +1755,8 @@
 			"armorType": "medium",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "1294-1301",
+			"attackDamage": "1294",
+			"attackSpread": "7",
 			"attackRange": "1000",
 			"attackSpeed": "0.333",
 			"moveSpeed": "340"
@@ -1755,6 +1783,7 @@
 			"magicResist": "0",
 			"damageResist": "0",
 			"attackDamage": "0",
+			"attackSpread": "0",
 			"attackRange": "0",
 			"attackSpeed": "0",
 			"moveSpeed": "125"
@@ -1779,7 +1808,8 @@
 			"armorType": "heavy",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "2141 - 2149",
+			"attackDamage": "2141",
+			"attackSpread": "8",
 			"attackRange": "200",
 			"attackSpeed": "0.714",
 			"moveSpeed": "380"
@@ -1825,6 +1855,7 @@
 			"magicResist": "0",
 			"damageResist": "0",
 			"attackDamage": "0",
+			"attackSpread": "0",
 			"attackRange": "0",
 			"attackSpeed": "0",
 			"moveSpeed": "250"
@@ -1846,7 +1877,8 @@
 			"armorType": "heavy",
 			"magicResist": "0",
 			"damageResist": "0",
-			"attackDamage": "332 - 339",
+			"attackDamage": "332",
+			"attackSpread": "7",
 			"attackRange": "900",
 			"attackSpeed": "3.333",
 			"moveSpeed": "250"
