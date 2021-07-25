@@ -2256,7 +2256,7 @@
 		"level": "100",
 		"category": "Endgame",
 		"type": "Boss",
-		"limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
+		"limit": "4",
 		"respawn": "3",
 		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
 		"conditions": "Level 100 and Red Magic Stone x12",
@@ -2279,6 +2279,9 @@
 		],
 		"minions": [
 			"Succubus", "Hellhound", "Sylvanas", "Treasures of Death"
+		],
+		"notes": [
+			"Token can only drop from Death Fiend"
 		]
 	},
 	{
