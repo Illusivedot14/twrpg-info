@@ -1,257 +1,289 @@
 [
     {
+    	"id": "xxxx",
 		"name": "Summon Shadow Wolf",
-		"boss": "Silverback Wolf",
+		"caster": "Silverback Wolf",
 		"color": "FFCC00",
+		"cooldown": "30",
 		"active": [
-			"Summons 4 Shadow wolves with 1 HP and 3 attack",
-			"Cooldown: 30"
+			"Summons 4 Shadow wolves with 1 HP and 3 attack"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Critical Strike",
-		"boss": "Silverback Wolf",
+		"caster": "Silverback Wolf",
 		"color": "FFCC00",
 		"passive": [
 			"15% Chance to deal 1.5x attack damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Wrath of Nature",
-		"boss": "Protector of Nature",
+		"caster": "Protector of Nature",
 		"color": "FFCC00",
+		"cooldown": "40",
 		"active": [
 			"Increases attack speed by 100%",
-			"Decreases movement speed by 50%",
-			"Cooldown: 40"
+			"Decreases movement speed by 50%"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Shackle of Nature",
-		"boss": "Protector of Nature",
+		"caster": "Protector of Nature",
 		"color": "FFCC00",
+		"cooldown": "10",
 		"active": [
-			"Entangles target for 1 second, dealing 200 magic damage",
-			"Cooldown: 10"
+			"Entangles target for 1 second, dealing 200 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Harden Shell",
-		"boss": "King Crab",
+		"caster": "King Crab",
 		"color": "FFCC00",
+		"cooldown": "60",
 		"active": [
-			"After .75 seconds of casting, hardens shell to return 100% of pure damage dealt while decreasing movement speed by 50% for 9 seconds",
-			"Cooldown: 60"
+			"After .75 seconds of casting, hardens shell to return 100% damage dealt as pure damage",
+			"Decreases movement by 50%",
+			"Lasts 9 seconds"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Sea Wave",
-		"boss": "King Crab",
+		"caster": "King Crab",
 		"color": "FFCC00",
+		"cooldown": "45",
 		"active": [
-			"After 1.5 seconds of casting, summons a wave that deals 1000 magic damage to all in its path",
-			"Cooldown: 45"
+			"After 1.5 seconds of casting, summons a wave that deals 1000 magic damage to all in its path"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hold",
-		"boss": "King Crab",
+		"caster": "King Crab",
 		"color": "FFCC00",
+		"cooldown": "40",
 		"active": [
-			"Pulls nearby target toward you and noms the target nine times, regaining 500 HP and dealing 300 magic damage per nom",
-			"Cooldown: 40"
+			"Pulls nearby target toward you and noms the target nine times, regaining 500 HP and dealing 300 magic damage per nom"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Slimy Ball",
-		"boss": "Walrus",
+		"caster": "Walrus",
 		"color": "FFCC00",
+		"cooldown": "60",
 		"active": [
 			"Spits on a target, making them slide forward for 6 seconds",
-			"If they collide with any object, they will be dealt 25% HP damage",
-			"Cooldown: 60"
+			"If they collide with any object, they will be dealt 25% HP damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Slippery Skin",
-		"boss": "Walrus",
+		"caster": "Walrus",
 		"color": "FFCC00",
+		"cooldown": "20",
 		"active": [
-			"On hit, cast a wave toward enemy that deals 500 magic damage for 5 seconds",
-			"Cooldown: 20"
+			"On hit, cast a wave toward enemy that deals 500 magic damage for 5 seconds"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Headbutt",
-		"boss": "Walrus",
+		"caster": "Walrus",
 		"color": "FFCC00",
+		"cooldown": "5",
 		"active": [
 			"Dashes toward and knocks back target",
-			"Deals 250 magic damage",
-			"Cooldown: 5"
+			"Deals 250 magic damage to those in impact"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Heal",
-		"boss": "Ice Troll",
+		"caster": "Ice Troll",
 		"color": "FFCC00",
+		"cooldown": "1",
+		"cost": "10",
 		"active": [
-			"Spends 10 mana to heal 400 HP",
-			"Cooldown: 1"
+			"Heals 400 HP"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Massive Tusk",
-		"boss": "Mammoth",
+		"caster": "Mammoth",
 		"color": "FFCC00",
 		"passive": [
 			"Deals 100% auto attack damage to all enemies nearby (500 range)"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Charge",
-		"boss": "Mammoth",
+		"caster": "Mammoth",
 		"color": "FFCC00",
+		"cooldown": "40",
 		"active": [
 			"Dashes a clone forward and knocks back all enemies in path",
-			"Deals 1500 magic damage",
-			"Cooldown: 40"
+			"Deals 1500 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hailstorm",
-		"boss": "Mammoth",
+		"caster": "Mammoth",
 		"color": "FFCC00",
+		"cooldown": "75",
 		"active": [
 			"Channels a blizzard for 5 seconds, which each shard dealing 300 magic damage",
-			"Each shard have a random chance to summon a snowman",
-			"Cooldown: 75"
+			"Each shard has a random chance to summon a snowman"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Enrage",
-		"boss": "King Kong",
+		"caster": "King Kong",
 		"color": "FFCC00",
+		"cooldown": "20",
 		"active": [
-			"Jumps into the air, after 2 seconds, land and deal 3000 magic damage to all surrounding enemies",
-			"Cooldown: 20"
+			"Jumps into the air, after 2 seconds, land and deal 3000 magic damage to all surrounding enemies"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Throw",
-		"boss": "King Kong",
+		"caster": "King Kong",
 		"color": "FFCC00",
+		"cooldown": "4",
 		"active": [
 			"Throws a tree covered in monke poo at target",
-			"Deals 500 magic damage and interrupts target",
-			"Cooldown: 4"
+			"Deals 500 magic damage and interrupts target"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Dark Strength",
-		"boss": "Death Knight",
+		"caster": "Death Knight",
 		"color": "FFCC00",
 		"passive": [
 			"On attack, 15% chance to deal 1.5x attack damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Death Finger",
-		"boss": "Death Knight",
+		"caster": "Death Knight",
 		"color": "FFCC00",
+		"cooldown": "60",
 		"active": [
 			"Throws a death coil at a target and stuns for 3 seconds",
-			"Deals 1250 magic damage",
-			"Cooldown: 60"
+			"Deals 1250 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Summon Wraith",
-		"boss": "Death Knight",
+		"caster": "Death Knight",
 		"color": "FFCC00",
+		"cooldown": "90",
 		"active": [
 			"Summons 4 Wraiths for 60 seconds",
 			"Cooldown: 90"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Craze",
-		"boss": "Blood Wraith",
+		"caster": "Blood Wraith",
 		"color": "FFCC00",
+		"cooldown": "60",
 		"active": [
 			"Decreases movement speed by 50% to increase attack speed by 200%",
 			"Attacks drag targets toward self",
-			"Lasts 8 seconds",
-			"Cooldown: 60"
+			"Lasts 8 seconds"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Bloody Echoes",
-		"boss": "Blood Wraith",
+		"caster": "Blood Wraith",
 		"color": "FFCC00",
+		"cooldown": "30",
 		"active": [
-			"Summons 2 Soldiers of Blood at target location, dealing 750 magic damage",
-			"Cooldown: 30"
+			"Summons 2 Soldiers of Blood at target location, dealing 750 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Blood Anger",
-		"boss": "Blood Wraith",
+		"caster": "Blood Wraith",
 		"color": "FFCC00",
+		"cooldown": "60",
 		"active": [
 			"Summons six blood lines that spread in a hexagonal pattern around self",
 			"After reaching max distance, move 30 degrees counter-clockwise around target and return",
-			"Deals 75% max HP to all those in path",
-			"Coodlown: 60"
+			"Deals 75% max HP to all those in path"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "True Requiem",
-		"boss": "Blood Wraith",
+		"caster": "Blood Wraith",
 		"color": "FFCC00",
+		"cooldown": "120",
 		"active": [
-			"After 3 seconds of channeling, deals 3000 magic damage to nearby enemies (900 range)",
-			"Cooldown: 120"
+			"After 3 seconds of channeling, deals 3000 magic damage to nearby enemies (900 range)"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Ghostly Strike",
-		"boss": "Soldier of Blood",
+		"caster": "Soldier of Blood",
 		"color": "FFCC00",
 		"passive": [
 			"On attack, 25% chance to stun for .3 seconds and deal 1000 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Death Cross",
-		"boss": "Wallachia Monstrosity",
+		"caster": "Wallachia Monstrosity",
 		"color": "FFCC00",
+		"cooldown": "30",
 		"active": [
-			"Summon 4 waves that will travel either cardinal OR diagonal directions that kills all in its path",
-			"Cooldown: 30"
+			"Summon 4 waves that will travel either cardinal OR diagonal directions that kills all in its path"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Summon Bat Statue",
-		"boss": "Wallachia Monstrosity",
+		"caster": "Wallachia Monstrosity",
 		"color": "FFCC00",
+		"cooldown": "40",
 		"active": [
-			"Summons a bat statue that will heal caster 2000 HP per second",
-			"Cooldown: 40"
+			"Summons a bat statue that will heal caster 2000 HP per second"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hear me out!",
-		"boss": "Wallachia Monstrosity",
+		"caster": "Wallachia Monstrosity",
 		"color": "FFCC00",
-		"passive": [
-			"On hit, the caster reflects 100% damage",
-			"Cooldown: 30"
+		"cooldown": "30",
+		"active": [
+			"On hit, the caster reflects 100% damage for 5 seconds"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Desperate Flight",
-		"boss": "Wallachia Monstrosity",
+		"caster": "Wallachia Monstrosity",
 		"color": "FFCC00",
 		"trigger": [
 			"After reaching below 50% HP, teleport to a random area in area 7",
@@ -260,153 +292,173 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Slaves of Trueflame",
-		"boss": "Ruler of Flames Ragnaar",
+		"caster": "Ruler of Flames Ragnaar",
 		"color": "FFCC00",
+		"cooldown": "90",
 		"active": [
 			"Summons 4 Lava elementals to fight for Ragnaar",
-			"Lasts 60 seconds",
-			"Cooldown: 90"
+			"Lasts 60 seconds"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Craze",
-		"boss": "Ruler of Flames Ragnaar",
+		"caster": "Ruler of Flames Ragnaar",
 		"color": "FFCC00",
+		"cooldown": "90",
 		"active": [
 			"Increase movement speed by 50% and attack speed by 100% for 20 seconds",
 			"Cooldown: 90"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hellflame Nova",
-		"boss": "Ruler of Flames Ragnaar",
+		"caster": "Ruler of Flames Ragnaar",
 		"color": "FFCC00",
+		"cooldown": "80",
 		"active": [
-			"After channeling for 3 seconds, creates pillars of fire around Ragnaar dealing 3000 magic damage",
-			"Cooldown: 80"
+			"After channeling for 3 seconds, creates pillars of fire around Ragnaar dealing 3000 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Fireball Barrage",
-		"boss": "Evil Lava Spawn",
+		"caster": "Evil Lava Spawn",
 		"color": "FFCC00",
 		"passive": [
 			"Throws 3-5 fireballs every second around self, dealing 300 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Evil Power",
-		"boss": "Evil Lava Spawn",
+		"caster": "Evil Lava Spawn",
 		"color": "FFCC00",
 		"passive": [
 			"While in combat, gain 250 attack damage and increase health by 1000 per second 20 times"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Seal",
-		"boss": "Evil Lava Spawn",
+		"caster": "Evil Lava Spawn",
 		"color": "FFCC00",
+		"cooldown": "5",
 		"active": [
-			"Silences target for 1 second",
-			"Cooldown: 5"
+			"Silences target for 1 second"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Nyohoho",
-		"boss": "Evil Lava Spawn",
+		"caster": "Evil Lava Spawn",
 		"color": "FFCC00",
+		"cooldown": "20",
 		"active": [
 			"Increases attack speed by 100% for 4 seconds",
-			"Moves opposite of attacker on hit",
-			"Cooldown: 20"
+			"Moves opposite of attacker on hit"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "How fun!",
-		"boss": "Evil Lava Spawn",
+		"caster": "Evil Lava Spawn",
 		"color": "FFCC00",
 		"trigger": [
 			"Upon reaching 66% and 33% HP, summon a barrage of fireballs that insta-kill any enemy that touches them moving clockwise starting at 3'o'clock"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Water Bolt",
-		"boss": "Tide Caller",
+		"caster": "Tide Caller",
 		"color": "FFCC00",
 		"passive": [
 			"Reduces movement speed by 25%"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Water Shield",
-		"boss": "Sea Guardian",
+		"caster": "Sea Guardian",
 		"color": "FFCC00",
+		"cooldown": "3",
 		"passive": [
-			"Uses all mana to block next attack",
-			"Cooldown: 3"
+			"Uses all mana to block next attack"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Tentacle Spike",
-		"boss": "Tentacle Lord",
+		"caster": "Tentacle Lord",
 		"color": "FFCC00",
+		"cooldown": "4",
 		"active": [
 			"Summons a spike from above the target and mini-stuns them, dealing 1000 magic damage",
 			"Cooldown: 4"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Tentacle Slam",
-		"boss": "Tentacle Lord",
+		"caster": "Tentacle Lord",
 		"color": "FFCC00",
+		"cooldown": "30",
 		"active": [
 			"Slams the ground, after a second, tentacles spike up, insta-killing everyone it the vicinity",
 			"Can either surround caster or be 300 range around caster",
 			"Each cast recharges 1 mana",
-			"On max mana, Tentacle slam will fill both inner and outer layer",
-			"Cooldown: 30"
+			"On max mana, Tentacle slam will fill both inner and outer layer"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Tentacles",
-		"boss": "Tentacle Lord",
+		"caster": "Tentacle Lord",
 		"color": "FFCC00",
+		"cooldown": "12",
 		"active": [
 			"Silences target and deals 500 physical damage per second for 3 seconds"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Sea Beam",
-		"boss": "Guardian of Sea",
+		"caster": "Guardian of Sea",
 		"color": "FFCC00",
+		"cooldown": "3",
 		"active": [
-			"Hits a target for 500 magic damage and jumps to 3 nearby enemies, dealing 100% damage",
-			"Cooldown: 3"
+			"Hits a target for 500 magic damage and jumps to 3 nearby enemies, dealing 100% damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Water Splash",
-		"boss": "Guardian of Sea",
+		"caster": "Guardian of Sea",
 		"color": "FFCC00",
+		"cooldown": "15",
 		"active": [
-			"After one second channel, knockback all nearby enemies by 1000 range, dealing 1000 magic damage",
-			"Cooldown: 15"
+			"After one second channel, knockback all nearby enemies by 1000 range, dealing 1000 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Summon Bubble",
-		"boss": "Guardian of Sea",
+		"caster": "Guardian of Sea",
 		"color": "FFCC00",
+		"cooldown": "10",
 		"active": [
 			"Spawns two bubbles randomly around the caster",
-			"If stepped on or after 15 seconds, deals 2500 magic damage to all enemies in a cross",
-			"Cooldown: 10"
+			"If stepped on or after 15 seconds, deals 2500 magic damage to all enemies in a cross"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "The Sea will Shallow You!",
-		"boss": "Guardian of Sea",
+		"caster": "Guardian of Sea",
 		"color": "FFCC00",
 		"trigger": [
 			"Upon reaching 50%, become invulnerable and transforms into a beam of water that will circle the nearest enemy in a counter - clockwise pattern, charging at you every 5 seconds for 15 seconds",
@@ -414,72 +466,81 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Unstoppable Force",
-		"boss": "Giant Golem",
+		"caster": "Giant Golem",
 		"color": "FFCC00",
+		"cooldown": "60",
 		"active": [
 			"Targets a place to run to (in the direction of a hero) and with full dedication rushes towards it",
-			"Any heroes in its path will immediately die",
-			"Cooldown: 60"
+			"Any heroes in its path will immediately die"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Crushing Slam",
-		"boss": "Giant Golem",
+		"caster": "Giant Golem",
 		"color": "FFCC00",
+		"cooldown": "80",
 		"active": [
 			"Slams the ground causing a shockwave in the nearby area, dealing 25% max hp damage",
-			"Any heroes caught in it will be stunned for 2 seconds",
-			"Cooldown: 80"
+			"Any heroes caught in it will be stunned for 2 seconds"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Evasive Movement",
-		"boss": "Wallachia Assassin, Wallachia Wraith",
+		"caster": "Wallachia Assassin, Wallachia Wraith",
 		"color": "FFCC00",
+		"cooldown": "10",
 		"active": [
-			"Dodges any attack for 1 second, increases movement speed to full",
-			"Cooldown: 10"
+			"Dodges any attack for 1 second, increases movement speed to full"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Dark Blast",
-		"boss": "Wallachia Wraith",
+		"caster": "Wallachia Wraith",
 		"color": "FFCC00",
+		"cooldown": "30",
 		"active": [
-			"Knocks enemies away and deals 1000 magic damage",
-			"Cooldown: 30"
+			"Knocks enemies away and deals 1000 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Faerie Fire",
-		"boss": "Fairy",
+		"caster": "Fairy",
 		"color": "FFCC00",
+		"cooldown": "1",
 		"active": [
-			"Decreases enemy armor by 25",
-			"Cooldown: 1"
+			"Decreases enemy armor by 25"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Thorns Aura",
-		"boss": "Forest Spirit",
+		"caster": "Forest Spirit",
 		"color": "FFCC00",
 		"passive": [
 			"On hit, returns 5% damage to sender and gives self +250 armor"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Mana Swipe",
-		"boss": "Mana Ancient",
+		"caster": "Mana Ancient",
 		"color": "FFCC00",
 		"passive": [
 			"Deals 100% attack damage to all nearby enemies"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Slow Blast",
-		"boss": "Mana Ancient",
+		"caster": "Mana Ancient",
 		"color": "FFCC00",
+		"cooldown": "10",
 		"active": [
 			"Targets beneath a hero's feet and creates an enclosing whirlpool of mana",
 			"Heroes caught will take 4000 magic damage and their movement speed reduced for 5 seconds",
@@ -487,18 +548,19 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Mana Explosion",
-		"boss": "Mana Ancient",
+		"caster": "Mana Ancient",
 		"color": "FFCC00",
+		"cooldown": "60",
 		"active": [
 			"Creates a vacuum beneath itself, sucking in any nearby heroes and finally exploding after a few seconds.",
-			"Can only be used once it reaches full mana",
-			"Cooldown: 60"
+			"Can only be used once it reaches full mana"
 		]
 	},
 	{
 		"name": "Lethal Poison",
-		"boss": "Ruler of the Lav Sea Hydra",
+		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, applies a debuff that will deal 450 magic damage per second for 5 seconds"
@@ -506,7 +568,7 @@
 	},
 	{
 		"name": "Stomp",
-		"boss": "Ruler of the Lav Sea Hydra",
+		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of casting, deals 2500 magic damage to all enemies nearby and stun them for 2 seconds in 400 AoE."
@@ -515,7 +577,7 @@
 	},
 	{
 		"name": "Sea Wave",
-		"boss": "Ruler of the Lav Sea Hydra",
+		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "FFCC00",
 		"active": [
 			"After 1.5 seconds of casting, sends a wave that will deal 1500 magic damage to all enemies in its path"
@@ -524,7 +586,7 @@
 	},
 	{
 		"name": "Pumpkin Body",
-		"boss": "Jack-o-Lantern",
+		"caster": "Jack-o-Lantern",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 15% chance to deal 1.5x attack damage."
@@ -532,7 +594,7 @@
 	},
 	{
 		"name": "Jack Impact",
-		"boss": "Jack-o-Lantern",
+		"caster": "Jack-o-Lantern",
 		"color": "FFCC00",
 		"active": [
 			"After 2.75 seconds of casting, blasts the surrounding area (1000 AoE) with a nova",
@@ -542,7 +604,7 @@
 	},
 	{
 		"name": "Jack Wave",
-		"boss": "Jack-o-Lantern",
+		"caster": "Jack-o-Lantern",
 		"color": "FFCC00",
 		"active": [
 			"After 1.75 seconds of casting, shoots a ball of mana in a straight line",
@@ -552,7 +614,7 @@
 	},
 	{
 		"name": "Hound of Berskubil",
-		"boss": "Count Wallachia",
+		"caster": "Count Wallachia",
 		"color": "FFCC00",
 		"active": [
 			"After 1 second of casting, releases his hound to attack the heroes",
@@ -562,7 +624,7 @@
 	},
 	{
 		"name": "Death Bind",
-		"boss": "Count Wallachia",
+		"caster": "Count Wallachia",
 		"color": "FFCC00",
 		"active": [
 			"Grabs a targetted hero and pulls them towards himself, stunning them for .2 seconds",
@@ -572,7 +634,7 @@
 	},
 	{
 		"name": "Immortal Body",
-		"boss": "Count Wallachia",
+		"caster": "Count Wallachia",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 15% chance to deal 1.5x attack damage."
@@ -580,7 +642,7 @@
 	},
 	{
 		"name": "Requiem of Blood",
-		"boss": "Count Wallachia",
+		"caster": "Count Wallachia",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of casting, blasts the area around him with a nova of blood (1000 range)",
@@ -590,7 +652,7 @@
 	},
 	{
 		"name": "Unleash: True Form",
-		"boss": "Count Wallachia",
+		"caster": "Count Wallachia",
 		"color": "FFCC00",
 		"active": [
 			"Assumes his true form and gains 75% attack speed, 3000 extra damage",
@@ -602,7 +664,7 @@
 	},
 	{
 		"name": "Magical Weapon",
-		"boss": "Mage Lord",
+		"caster": "Mage Lord",
 		"color": "FFCC00",
 		"passive": [
 			"On Auto-attack, 15% to cause lightning or frost to hit the target",
@@ -611,7 +673,7 @@
 	},
 	{
 		"name": "Dark Star",
-		"boss": "Mage Lord",
+		"caster": "Mage Lord",
 		"color": "FFCC00",
 		"active": [
 			"After 3.5 seconds of casting, summons a dark star that deals 10000 damage to all nearby enemies (900 range)"
@@ -620,7 +682,7 @@
 	},
 	{
 		"name": "Blizzard",
-		"boss": "Mage Lord",
+		"caster": "Mage Lord",
 		"color": "FFCC00",
 		"active": [
 			"After 1 second of casting, channels a Blizzard at Target Area",
@@ -631,7 +693,7 @@
 	},
 	{
 		"name": "Chain Lightning",
-		"boss": "Mage Lord",
+		"caster": "Mage Lord",
 		"color": "FFCC00",
 		"active": [
 			"Shoots lightning at a nearby target, dealing 1000 magic damage to all enemies nearby target"
@@ -640,7 +702,7 @@
 	},
 	{
 		"name": "Dragon Fear",
-		"boss": "Wings of Death",
+		"caster": "Wings of Death",
 		"color": "FFCC00",
 		"active": [
 			"After .5 seconds of preparing, the dragon's howl causes fear in the hearts of the any nearby (1000 range)",
@@ -651,7 +713,7 @@
 	},
 	{
 		"name": "Hell Flame",
-		"boss": "Wings of Death",
+		"caster": "Wings of Death",
 		"color": "FFCC00",
 		"active": [
 			"After 3 sconds of channeling, blasts fire all around him (1000 range)",
@@ -661,7 +723,7 @@
 	},
 	{
 		"name": "Dragon Breath",
-		"boss": "Wings of Death",
+		"caster": "Wings of Death",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of channeling, blasts a beam of fire from his mouth in a straight line",
@@ -671,7 +733,7 @@
 	},
 	{
 		"name": "Dragon's Might",
-		"boss": "Wings of Death",
+		"caster": "Wings of Death",
 		"color": "FFCC00",
 		"active": [
 			"Takes flight and replaces its auto-attack with an AoE attack that deals 3000 AoE"
@@ -682,7 +744,7 @@
 	},
 	{
 		"name": "Nanoscale Armor",
-		"boss": "Guardian Spirit, Avalon's Gatekeeper",
+		"caster": "Guardian Spirit, Avalon's Gatekeeper",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 10% chance to deal 3x attack damage"
@@ -690,7 +752,7 @@
 	},
 	{
 		"name": "Genocide Sword",
-		"boss": "Guardian Spirit, Avalon's Gatekeeper",
+		"caster": "Guardian Spirit, Avalon's Gatekeeper",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of channeling, blasts the area in holy light dealing 7500 to all enemies within 600 range"
@@ -699,7 +761,7 @@
 	},
 	{
 		"name": "Blessed Wings",
-		"boss": "Guardian Angel",
+		"caster": "Guardian Angel",
 		"color": "FFCC00",
 		"passive": [
 			"On attack, 15% chance to deal 1.75x attack damage"
@@ -707,7 +769,7 @@
 	},
 	{
 		"name": "Sacred Conviction",
-		"boss": "Guardian Angel",
+		"caster": "Guardian Angel",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of channeling, sends a wave of light where it's facing, dealing 6000 damage to enemies in its path"
@@ -716,7 +778,7 @@
 	},
 	{
 		"name": "Holy Grab",
-		"boss": "Guardian Angel",
+		"caster": "Guardian Angel",
 		"color": "FFCC00",
 		"active": [
 			"Pulls target toward them at holy speeds, dealing 2000 damage to target and interrupting them"
@@ -725,7 +787,7 @@
 	},
 	{
 		"name": "Sacred Judgment",
-		"boss": "Guardian Angel",
+		"caster": "Guardian Angel",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of calling the Archangel's might, sends it down onto the area (1000 range) dealing 15000 damage"
@@ -733,7 +795,7 @@
 	},
 	{
 		"name": "Judgment of Darkness",
-		"boss": "Corrupt Angel",
+		"caster": "Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"After channeling for 3 seconds, deals 15000 damage to all enemies nearby (1200 range) and interrupts them"
@@ -742,7 +804,7 @@
 	},
 	{
 		"name": "Craze",
-		"boss": "Corrupt Angel",
+		"caster": "Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"Gives 400% attack speed for 15 seconds"
@@ -751,7 +813,7 @@
 	},
 	{
 		"name": "Dark Wings",
-		"boss": "Corrupt Angel",
+		"caster": "Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"On auto-attack, 15% chance to deal 1.75x damage"
@@ -759,7 +821,7 @@
 	},
 	{
 		"name": "Hell Finger",
-		"boss": "Corrupt Angel",
+		"caster": "Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"Pulls a target toward caster, dealing 3000 damage and interrupts them"
@@ -767,7 +829,7 @@
 	},
 	{
 		"name": "Darkness Wave",
-		"boss": [
+		"caster": [
 			"Mad Clown",
 			"Death Knight"
 		],
@@ -779,7 +841,7 @@
 	},
 	{
 		"name": "Spirit Breath",
-		"boss": "Frostvemon Explosion",
+		"caster": "Frostvemon Explosion",
 		"color": "FFCC00",
 		"passive": [
 			"On death, grow in size for one second and deal 2500 magic damage to all nearby enemies"
@@ -787,7 +849,7 @@
 	},
 	{
 		"name": "Hellfrost Nova",
-		"boss": "Lord of Everfrost",
+		"caster": "Lord of Everfrost",
 		"color": "FFCC00",
 		"active": [
 			"After channeling for 1.25 seconds, casts a froze nova on a target, dealing 5000 magic damage to all nearby",
@@ -797,7 +859,7 @@
 	},
 	{
 		"name": "Frozen Soul",
-		"boss": "Lord of Everfrost",
+		"caster": "Lord of Everfrost",
 		"color": "FFCC00",
 		"active": [
 			"Summons 4 Frozen Souls after .5 seconds of channeling that last 90 seconds"
@@ -806,7 +868,7 @@
 	},
 	{
 		"name": "Hellfrost Attack",
-		"boss": "Lord of Everfrost",
+		"caster": "Lord of Everfrost",
 		"color": "FFCC00",
 		"Passive": [
 			"On attack, applies debuff that rduces movement speed by 40% and attack speed by 20%"
@@ -814,7 +876,7 @@
 	},
 	{
 		"name": "Frost Spike",
-		"boss": "Spider Queen Ilshenar",
+		"caster": "Spider Queen Ilshenar",
 		"color": "FFCC00",
 		"active": [
 			"After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 damage and stuns for .5 seconds"
@@ -822,7 +884,7 @@
 	},
 	{
 		"name": "Frost Aura",
-		"boss": "Spider Queen Ilshenar",
+		"caster": "Spider Queen Ilshenar",
 		"color": "FFCC00",
 		"passive": [
 			"All enemies nearby will have -40% attack speed and -40% movement speed"
@@ -830,7 +892,7 @@
 	},
 	{
 		"name": "Hellfrost Body",
-		"boss": "Frostspider Lord",
+		"caster": "Frostspider Lord",
 		"color": "FFCC00",
 		"active": [
 			"On auto-attack, 15% chance to deal 1.75x attack damage"
@@ -841,7 +903,7 @@
 	},
 	{
 		"name": "Ice Storm",
-		"boss": "Frostspider Lord",
+		"caster": "Frostspider Lord",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -851,7 +913,7 @@
 	},
 	{
 		"name": "Web Binding",
-		"boss": "Frostspider Lord",
+		"caster": "Frostspider Lord",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -862,7 +924,7 @@
 	},
 	{
 		"name": "Frozen Barrier",
-		"boss": "Frostspider Lord",
+		"caster": "Frostspider Lord",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -874,7 +936,7 @@
 	},
 	{
 		"name": "Frozen Shatter",
-		"boss": "Frostspider Lord",
+		"caster": "Frostspider Lord",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -886,7 +948,7 @@
 	},
 	{
 		"name": "The Demon Lord's Power",
-		"boss": "Demon Lord Beriel",
+		"caster": "Demon Lord Beriel",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 15% chance to deal 2.5x attack damage"
@@ -894,7 +956,7 @@
 	},
 	{
 		"name": "Seal",
-		"boss": "Demon Lord Beriel",
+		"caster": "Demon Lord Beriel",
 		"color": "FFCC00",
 		"active": [
 			"On cast, silences and slows down target by 50% (attack and movement) for 7.5 seconds"
@@ -903,7 +965,7 @@
 	},
 	{
 		"name": "Meteor",
-		"boss": "Demon Lord Beriel",
+		"caster": "Demon Lord Beriel",
 		"color": "FFCC00",
 		"active": [
 			"Chooses a target to spawn a firey infernal at location, dealing 4000 damage on impact"
@@ -912,7 +974,7 @@
 	},
 	{
 		"name": "Destruction",
-		"boss": "Demon Lord Beriel",
+		"caster": "Demon Lord Beriel",
 		"color": "FFCC00",
 		"active": [
 			"On cast, deals 2000 damage to surrounding enemies (400 range)",
@@ -922,7 +984,7 @@
 	},
 	{
 		"name": "Catacylsm",
-		"boss": "Demon Lord Beriel",
+		"caster": "Demon Lord Beriel",
 		"color": "FFCC00",
 		"active": [
 			"On cast, summons a line going counter clockwise every 45 degree angle starting a 3-o-clock every second that kills all within its range"
@@ -931,7 +993,7 @@
 	},
 	{
 		"name": "Rage",
-		"boss": "Demon Lord Beriel",
+		"caster": "Demon Lord Beriel",
 		"color": "FFCC00",
 		"active": [
 			"Gains 30% attack speed every second for 10 seconds"
@@ -940,7 +1002,7 @@
 	},
 	{
 		"name": "Permanent Immolation",
-		"boss": "Hell Golem",
+		"caster": "Hell Golem",
 		"color": "FFCC00",
 		"passive": [
 			"Deals 500 magic damage to all nearby enemies per second"
@@ -948,7 +1010,7 @@
 	},
 	{
 		"name": "Mad Howl",
-		"boss": "Mad Clown",
+		"caster": "Mad Clown",
 		"color": "FFCC00",
 		"active": [
 			"When activated, it places a purple circle on the ground",
@@ -963,7 +1025,7 @@
 	},
 	{
 		"name": "Mirror Image",
-		"boss": ["Mad Clown", "Troll Lord"],
+		"caster": ["Mad Clown", "Troll Lord"],
 		"color": "FFCC00",
 		"active": [
 			"Dispels all magic from the caster and creates two images that deal 20% damage and take 250% damage."
@@ -974,7 +1036,7 @@
 	},
 	{
 		"name": "Wheel of Fate",
-		"boss": "Mad Clown",
+		"caster": "Mad Clown",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -988,7 +1050,7 @@
 	},
 	{
 		"name": "Instincts",
-		"boss": ["Mad Clown", "Giant Golem"],
+		"caster": ["Mad Clown", "Giant Golem"],
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 20% chance to deal 1.75x attack damage"
@@ -997,7 +1059,7 @@
 	},
 	{
 		"name": "Spirit Breath",
-		"boss": "Fairy Spirit",
+		"caster": "Fairy Spirit",
 		"color": "FFCC00",
 		"passive": [
 			"On attack, give -5 armor debuff on enemy",
@@ -1006,7 +1068,7 @@
 	},
 	{
 		"name": "Rejuvination",
-		"boss": ["Fairy", "Fairy Spirit"],
+		"caster": ["Fairy", "Fairy Spirit"],
 		"color": "FFCC00",
 		"active": [
 			"Heals a target for 12500 over 12 seconds"
@@ -1015,7 +1077,7 @@
 	},
 	{
 		"name": "Ethereal Strike",
-		"boss": "Spirit Beast",
+		"caster": "Spirit Beast",
 		"color": "FFCC00",
 		"active": [
 			"After choosing a target to follow, channels for 1.5 seconds and ignites the ground in a path toward the target in a wave",
@@ -1026,7 +1088,7 @@
 	},
 	{
 		"name": "Spirit Echo",
-		"boss": "Spirit Beast",
+		"caster": "Spirit Beast",
 		"color": "FFCC00",
 		"active": [
 			"Creates a clone to cast Etheral Strike to a random target"
@@ -1035,7 +1097,7 @@
 	},
 	{
 		"name": "Drain",
-		"boss": ["Mana Ancient", "Spirit Beast"],
+		"caster": ["Mana Ancient", "Spirit Beast"],
 		"color": "FFCC00",
 		"active": [
 			"Spawns eight green orbs around caster that slowly travels towards the caster",
@@ -1045,7 +1107,7 @@
 	},
 	{
 		"name": "Heaven's Wrath",
-		"boss": "Spirit Beast",
+		"caster": "Spirit Beast",
 		"color": "FFCC00",
 		"passive": [
 			"On reaching 50% HP, gain 25% damage reduction and changes spells",
@@ -1057,7 +1119,7 @@
 	},
 	{
 		"name": "Corrupt Power",
-		"boss": "Corruptor Rectus",
+		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 40% chance to deal 1.5x attack damage"
@@ -1065,7 +1127,7 @@
 	},
 	{
 		"name": "Corruption",
-		"boss": "Corruptor Rectus",
+		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -1077,7 +1139,7 @@
 	},
 	{
 		"name": "Death Coil",
-		"boss": "Corruptor Rectus",
+		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -1088,7 +1150,7 @@
 	},
 	{
 		"name": "Soul Swap",
-		"boss": "Corruptor Rectus",
+		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -1098,7 +1160,7 @@
 	},
 	{
 		"name": "Corruption Overload",
-		"boss": "Corruptor Rectus",
+		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
 		"cost": "100",
 		"passive": [
@@ -1107,7 +1169,7 @@
 	},
 	{
 		"name": "Corruption Aura",
-		"boss": "Corruptor Rectus",
+		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
 		"cost": "100",
 		"passive": [
@@ -1116,7 +1178,7 @@
 	},
 	{
 		"name": "Corrupted Summoning",
-		"boss": "Corruptor Rectus",
+		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
 		"passive": [
 			"Every 25% missing, Rectus will summon his minions",
@@ -1128,7 +1190,7 @@
 	},
 	{
 		"name": "Corruption Wave",
-		"boss": "Avenger",
+		"caster": "Avenger",
 		"color": "FFCC00",
 		"active": [
 			"After 1 second wind-up, creates a 150 degree arc in front of the Avenger that deals 2500 magic damage and adds a -150 armor debuff on target that lasts 10 seconds"
@@ -1137,7 +1199,7 @@
 	},
 	{
 		"name": "Corrupt Explosion",
-		"boss": "Stalker",
+		"caster": "Stalker",
 		"color": "FFCC00",
 		"passive": [
 			"On death, deals 10% HP to all nearby enemies. Heals Avenger for 10% if nearby"
@@ -1145,7 +1207,7 @@
 	},
 	{
 		"name": "Purification",
-		"boss": "Life Orb",
+		"caster": "Life Orb",
 		"color": "FFCC00",
 		"passive": [
 			"On death, heals players 3000 HP per second for 15 seconds with a 20 second recharge",
@@ -1154,7 +1216,7 @@
 	},
 	{
 		"name": "Nightmare Body",
-		"boss": "Flame Nightmare",
+		"caster": "Flame Nightmare",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 20% chance to deal 2x attack damage"
@@ -1162,7 +1224,7 @@
 	},
 	{
 		"name": "Flame Barrage",
-		"boss": "Flame Nightmare",
+		"caster": "Flame Nightmare",
 		"color": "FFCC00",
 		"active": [
 			"Targets a random player and fires dual meteors every half second target the target location",
@@ -1172,7 +1234,7 @@
 	},
 	{
 		"name": "Overload",
-		"boss": "Flame Nightmare",
+		"caster": "Flame Nightmare",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, drain all mana",
@@ -1181,7 +1243,7 @@
 	},
 	{
 		"name": "On Your Knees!",
-		"boss": "Flame Nightmare",
+		"caster": "Flame Nightmare",
 		"color": "FFCC00",
 		"active": [
 			"Targets a random player to jump toward, dealing 2000 damage on impact",
@@ -1193,7 +1255,7 @@
 	},
 	{
 		"name": "Total Annihilation",
-		"boss": "Flame Nightmare",
+		"caster": "Flame Nightmare",
 		"color": "FFCC00",
 		"passive": [
 			"On trigger, become invulnerable and choose the closest player to target with Flame Barrage for ten seconds",
@@ -1203,7 +1265,7 @@
 	},
 	{
 		"name": "Berserk",
-		"boss": "Anger",
+		"caster": "Anger",
 		"color": "FFCC00",
 		"active": [
 			"Increases attack speed by 100%"
@@ -1211,7 +1273,7 @@
 	},
 	{
 		"name": "Furious Attacks",
-		"boss": "Anger",
+		"caster": "Anger",
 		"color": "FFCC00",
 		"passive": [
 			"After the second strike on a target, stun for .1 second and deal 100% more damage on every attack",
@@ -1220,7 +1282,7 @@
 	},
 	{
 		"name": "Mark of Hatred",
-		"boss": "Hatred",
+		"caster": "Hatred",
 		"color": "FFCC00",
 		"passive": [
 			"Picks a nearby target to gaze at, marking them with a purple circle",
@@ -1229,7 +1291,7 @@
 	},
 	{
 		"name": "Chomp Armor",
-		"boss": "Turtle Lord",
+		"caster": "Turtle Lord",
 		"color": "FFCC00",
 		"passive": [
 			"On every attack, reduce armor of target by -5 for 3 seconds",
@@ -1238,7 +1300,7 @@
 	},
 	{
 		"name": "Mystic Shell",
-		"boss": "Turtle Lord",
+		"caster": "Turtle Lord",
 		"color": "FFCC00",
 		"passive": [
 			"Reduces enemy movement speed and attack speed by 20%"
@@ -1246,7 +1308,7 @@
 	},
 	{
 		"name": "Hard Shell",
-		"boss": "Turtle Lord",
+		"caster": "Turtle Lord",
 		"color": "FFCC00",
 		"passive": [
 			"On Auto-attack, 15% chance to deal 2.5x attack damage"
@@ -1254,7 +1316,7 @@
 	},
 	{
 		"name": "Turtle Ambush",
-		"boss": "Turtle Lord",
+		"caster": "Turtle Lord",
 		"color": "FFCC00",
 		"passive": [
 			"When reaching every 25% HP, gain 90% damage reduction and summons 8 Turtles",
@@ -1265,7 +1327,7 @@
 	},
 	{
 		"name": "Summon Heaing Turtle",
-		"boss": "Turtle Lord",
+		"caster": "Turtle Lord",
 		"color": "FFCC00",
 		"passive": [
 			"Summons a healing turtle from either end of the arena that walks toward Turtle Lord",
@@ -1275,7 +1337,7 @@
 	},
 	{
 		"name": "Mana Bombardment",
-		"boss": "Turtle Lord",
+		"caster": "Turtle Lord",
 		"color": "FFCC00",
 		"passive": [
 			"Every second, sends a mana orb toward a random target",
