@@ -7,6 +7,9 @@
 		"cooldown": "30",
 		"active": [
 			"Summons 4 Shadow wolves with 1 HP and 3 attack"
+		],
+		"summons": [
+			"Shadow Wolf"
 		]
 	},
 	{
@@ -143,6 +146,9 @@
 		"active": [
 			"Channels a blizzard for 5 seconds, which each shard dealing 300 magic damage",
 			"Each shard has a random chance to summon a snowman"
+		],
+		"summons": [
+			"Snowman"
 		]
 	},
 	{
@@ -169,7 +175,7 @@
 	{
 		"id": "xxxx",
 		"name": "Dark Strength",
-		"caster": "Death Knight",
+		"caster": "Wallachia Death Knight Lord",
 		"color": "FFCC00",
 		"passive": [
 			"On attack, 15% chance to deal 1.5x attack damage"
@@ -189,11 +195,14 @@
 	{
 		"id": "xxxx",
 		"name": "Summon Wraith",
-		"caster": "Death Knight",
+		"caster": "Wallachia Death Knight Lord",
 		"color": "FFCC00",
 		"cooldown": "90",
 		"active": [
 			"Summons 4 Wraiths for 60 seconds"
+		],
+		"summons": [
+			"Wraith"
 		]
 	},
 	{
@@ -216,6 +225,9 @@
 		"cooldown": "30",
 		"active": [
 			"Summons 2 Soldiers of Blood at target location, dealing 750 magic damage"
+		],
+		"summons": [
+			"Soldier of Blood"
 		]
 	},
 	{
@@ -267,6 +279,9 @@
 		"cooldown": "40",
 		"active": [
 			"Summons a bat statue that will heal caster 2000 HP per second"
+		],
+		"summons": [
+			"Bat Statue"
 		]
 	},
 	{
@@ -299,6 +314,9 @@
 		"active": [
 			"Summons 4 Lava elementals to fight for Ragnaar",
 			"Lasts 60 seconds"
+		],
+		"summons": [
+			"Slave of Trueflame"
 		]
 	},
 	{
@@ -487,7 +505,7 @@
 	{
 		"id": "xxxx",
 		"name": "Evasive Movement",
-		"caster": "Wallachia Assassin, Wallachia Wraith",
+		"caster": ["Wallachia Assassin", "Wallachia Wraith"],
 		"color": "FFCC00",
 		"cooldown": "10",
 		"active": [
@@ -739,7 +757,7 @@
 	},
 	{
 		"name": "Nanoscale Armor",
-		"caster": "Guardian Spirit, Avalon's Gatekeeper",
+		"caster": "Castle Avalon Gatekeeper",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 10% chance to deal 3x attack damage"
@@ -747,7 +765,7 @@
 	},
 	{
 		"name": "Genocide Sword",
-		"caster": "Guardian Spirit, Avalon's Gatekeeper",
+		"caster": "Castle Avalon Gatekeeper",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of channeling, blasts the area in holy light dealing 7500 to all enemies within 600 range"
@@ -756,7 +774,7 @@
 	},
 	{
 		"name": "Blessed Wings",
-		"caster": "Guardian Angel",
+		"caster": "The 3rd Army's Guardian Angel",
 		"color": "FFCC00",
 		"passive": [
 			"On attack, 15% chance to deal 1.75x attack damage"
@@ -764,7 +782,7 @@
 	},
 	{
 		"name": "Sacred Conviction",
-		"caster": "Guardian Angel",
+		"caster": "The 3rd Army's Guardian Angel",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of channeling, sends a wave of light where it's facing, dealing 6000 damage to enemies in its path"
@@ -773,7 +791,7 @@
 	},
 	{
 		"name": "Holy Grab",
-		"caster": "Guardian Angel",
+		"caster": "The 3rd Army's Guardian Angel",
 		"color": "FFCC00",
 		"active": [
 			"Pulls target toward them at holy speeds, dealing 2000 damage to target and interrupting them"
@@ -782,7 +800,7 @@
 	},
 	{
 		"name": "Sacred Judgment",
-		"caster": "Guardian Angel",
+		"caster": "The 3rd Army's Guardian Angel",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of calling the Archangel's might, sends it down onto the area (1000 range) dealing 15000 damage"
@@ -790,7 +808,7 @@
 	},
 	{
 		"name": "Judgment of Darkness",
-		"caster": "Corrupt Angel",
+		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"After channeling for 3 seconds, deals 15000 damage to all enemies nearby (1200 range) and interrupts them"
@@ -799,7 +817,7 @@
 	},
 	{
 		"name": "Craze",
-		"caster": "Corrupt Angel",
+		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"Gives 400% attack speed for 15 seconds"
@@ -808,7 +826,7 @@
 	},
 	{
 		"name": "Dark Wings",
-		"caster": "Corrupt Angel",
+		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"On auto-attack, 15% chance to deal 1.75x damage"
@@ -816,7 +834,7 @@
 	},
 	{
 		"name": "Hell Finger",
-		"caster": "Corrupt Angel",
+		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "FFCC00",
 		"active": [
 			"Pulls a target toward caster, dealing 3000 damage and interrupts them"
@@ -826,7 +844,8 @@
 		"name": "Darkness Wave",
 		"caster": [
 			"Mad Clown",
-			"Death Knight"
+			"Wallachia Death Knight Lord",
+			"The Devil's Right Arm Corrupt Angel"
 		],
 		"color": "FFCC00",
 		"active": [
