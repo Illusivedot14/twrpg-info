@@ -375,7 +375,7 @@
 		"location": "Top side of the Wild Life Habitat",
 		"conditions": "Level 10 ~ 20",
 		"stats": {
-			"health": "550",
+			"health": "5500",
 			"healthRegen": "12.5",
 			"mana": "0",
 			"manaRegen": "0",
@@ -403,6 +403,7 @@
 		"type": "Boss",
 		"limit": "2",
 		"summon": "Top side of the Wild Life Habitat",
+		"location": "At the big tree at the top side of Wild Life habitat",
 		"conditions": "Level 25 and Ancient Branch x3 at big tree",
 		"stats": {
 			"health": "12500",
@@ -626,6 +627,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
+		"location": "Anywhere in Seaside",
 		"summon": "Right side of Wild Life Habitat, Seaside",
 		"conditions": "Level 10 ~ 20 and Magical Horn",
 		"stats": {
