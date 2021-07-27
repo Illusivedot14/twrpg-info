@@ -289,7 +289,7 @@
 			"healthRegen": ".5",
 			"mana": "0",
 			"manaRegen": "0",
-			"armor": "590",
+			"armor": "7",
 			"armorType": "Light",
 			"magicResist": "0",
 			"damageResist": "0",
@@ -315,7 +315,7 @@
 		"location": "Top side of the Wild Life Habitat",
 		"conditions": "Level 10 ~ 20",
 		"stats": {
-			"health": "600000",
+			"health": "2600",
 			"healthRegen": ".5",
 			"mana": "0",
 			"manaRegen": "0",
