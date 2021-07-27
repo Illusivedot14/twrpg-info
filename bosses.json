@@ -402,7 +402,6 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"summon": "Top side of the Wild Life Habitat",
 		"location": "At the big tree at the top side of Wild Life habitat",
 		"conditions": "Level 25 and Ancient Branch x3 at big tree",
 		"stats": {
@@ -627,8 +626,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"location": "Anywhere in Seaside",
-		"summon": "Right side of Wild Life Habitat, Seaside",
+		"location": "Right side of Wild Life Habitat, Seaside",
 		"conditions": "Level 10 ~ 20 and Magical Horn",
 		"stats": {
 			"health": "40000",
@@ -663,7 +661,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"summon": "Right side of Wild Life Habitat, Seaside",
+		"location": "Right side of Wild Life Habitat, Seaside",
 		"conditions": "Level 10 ~ 20 and Magical Horn",
 		"stats": {
 			"health": "40000",
@@ -824,7 +822,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"summon": "In Frosty Snowfield",
+		"location": "In Frosty Snowfield",
 		"conditions": "Level 40 and Frozen Crystal",
 		"stats": {
 			"health": "70000",
@@ -886,7 +884,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"summon": "In Frosty Snowfield",
+		"location": "In Frosty Snowfield",
 		"conditions": "Level 40 and Frozen Crystal",
 		"stats": {
 			"health": "70000",
@@ -1107,7 +1105,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"summon": "In Duchy of Wallachia",
+		"location": "In Duchy of Wallachia",
 		"conditions": "Level 50 and Cursed Mask",
 		"stats": {
 			"health": "200000",
@@ -1179,7 +1177,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"summon": "In Duchy of Wallachia",
+		"location": "In Duchy of Wallachia",
 		"conditions": "Level 50 and Cursed Mask",
 		"stats": {
 			"health": "200000",
@@ -1437,7 +1435,7 @@
 		"category": "Field",
 		"type": "Boss",
 		"limit": "2",
-		"summon": "In Volcanic Lands",
+		"location": "In Volcanic Lands, at the red circle",
 		"conditions": "Level 60 and Nightmare Rod",
 		"stats": {
 			"health": "450000",
@@ -1618,6 +1616,7 @@
 		"type": "Boss",
 		"limit": "2",
 		"summon": "In Deep Sea",
+		"location": "In Deep Sea, far east in the light",
 		"conditions": "70 ~ 90 and Orb of the Sea",
 		"stats": {
 			"health": "300000",
