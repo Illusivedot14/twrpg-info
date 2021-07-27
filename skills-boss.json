@@ -1,10 +1,29 @@
 [
     {
+        "name": "Summon Shadow Wolf",
+        "boss": "Silverback Wolf",
+        "color": "FFCC00",
+        "active": [
+            "Summons 4 Shadow wolves with 1 HP and 3 attack",
+            "Cooldown: 30"
+        ]
+    },
+    {
+        "name": "Critical Strike",
+        "boss": "Silverback Wolf",
+        "color": "FFCC00",
+        "passive": [
+            "15% Chance to deal 1.5x attack damage"
+        ]
+    },
+    {
         "name": "Wrath of Nature",
         "boss": "Protector of Nature",
         "color": "FFCC00",
         "active": [
-            ""
+            "Increases attack speed by 100%",
+            "Decreases movement speed by 50%",
+            "Cooldown: 40"
         ]
     },
     {
@@ -12,7 +31,35 @@
         "boss": "Protector of Nature",
         "color": "FFCC00",
         "active": [
-            ""
+            "Entangles target for 1 second, dealing 200 magic damage",
+            "Cooldown: 10"
+        ]
+    },
+    {
+        "name": "Harden Shell",
+        "boss": "King Crab",
+        "color": "FFCC00",
+        "active": [
+            "After .75 seconds of casting, hardens shell to return 100% of pure damage dealt while decreasing movement speed by 50% for 9 seconds",
+            "Cooldown: 60"
+        ]
+    },
+    {
+        "name": "Sea Wave",
+        "boss": "King Crab",
+        "color": "FFCC00",
+        "active": [
+            "After 1.5 seconds of casting, summons a wave that deals 1000 magic damage to all in its path",
+            "Cooldown: 45"
+        ]
+    },
+    {
+        "name": "Hold",
+        "boss": "King Crab",
+        "color": "FFCC00",
+        "active": [
+            "Pulls nearby target toward you and noms the target nine times, regaining 500 HP and dealing 300 magic damage per nom",
+            "Cooldown: 40"
         ]
     },
     {
@@ -20,7 +67,9 @@
         "boss": "Walrus",
         "color": "FFCC00",
         "active": [
-            ""
+            "Spits on a target, making them slide forward for 6 seconds",
+            "If they collide with any object, they will be dealt 25% HP damage",
+            "Cooldown: 60"
         ]
     },
     {
@@ -28,7 +77,8 @@
         "boss": "Walrus",
         "color": "FFCC00",
         "active": [
-            ""
+            "On hit, cast a wave toward enemy that deals 500 magic damage for 5 seconds",
+            "Cooldown: 20"
         ]
     },
     {
@@ -37,16 +87,186 @@
         "color": "FFCC00",
         "active": [
             "Dashes toward and knocks back target",
-            "Deals 1,250 damage"
+            "Deals 250 magic damage",
+            "Cooldown: 5"
         ]
     }
+    {
+        "name": "Heal",
+        "boss": "Ice Troll",
+        "color": "FFCC00",
+        "active": [
+            "Spends 10 mana to heal 400 HP",
+            "Cooldown: 1"
+        ]
+    },
+    {
+        "name": "Massive Tusk",
+        "boss": "Mammoth",
+        "color": "FFCC00",
+        "passive": [
+            "Deals 100% auto attack damage to all enemies nearby (500 range)",
+        ]
+    },
+    {
+        "name": "Charge",
+        "boss": "Mammoth",
+        "color": "FFCC00",
+        "active": [
+            "Dashes a clone forward and knocks back all enemies in path",
+            "Deals 1500 magic damage",
+            "Cooldown: 40"
+        ]
+    }
+    {
+        "name": "Hailstorm",
+        "boss": "Mammoth",
+        "color": "FFCC00",
+        "active": [
+            "Channels a blizzard for 5 seconds, which each shard dealing 300 magic damage",
+            "Each shard have a random chance to summon a snowman"
+            "Cooldown: 75"
+        ]
+    },
+    {
+        "name": "Enrage",
+        "boss": "King Kong",
+        "color": "FFCC00",
+        "active": [
+            "Jumps into the air, after 2 seconds, land and deal 3000 magic damage to all surrounding enemies",
+            "Cooldown: 20"
+        ]
+    },
+    {
+        "name": "Throw",
+        "boss": "King Kong",
+        "color": "FFCC00",
+        "active": [
+            "Throws a tree covered in monke poo at target",
+            "Deals 500 magic damage and interrupts target"
+            "Cooldown: 4"
+        ]
+    },
+    {
+        "name": "Dark Strength",
+        "boss": "Death Knight",
+        "color": "FFCC00",
+        "passive": [
+            "On attack, 15% chance to deal 1.5x attack damage"
+        ]
+    },
+    {
+        "name": "Death Finger",
+        "boss": "Death Knight",
+        "color": "FFCC00",
+        "active": [
+            "Throws a death coil at a target and stuns for 3 seconds",
+            "Deals 1250 magic damage"
+            "Cooldown: 60"
+        ]
+    },
+    {
+        "name": "Summon Wraith",
+        "boss": "Death Knight",
+        "color": "FFCC00",
+        "active": [
+            "Summons 4 Wraiths for 60 seconds",
+            "Cooldown: 90"
+        ]
+    },
+    {
+        "name": "Craze",
+        "boss": "Blood Wraith",
+        "color": "FFCC00",
+        "active": [
+            "Decreases movement speed by 50% to increase attack speed by 200%",
+            "Attacks drag targets toward self",
+            "Lasts 8 seconds"
+            "Cooldown: 60"
+        ]
+    },
+    {
+        "name": "Bloody Echoes",
+        "boss": "Blood Wraith",
+        "color": "FFCC00",
+        "active": [
+            "Summons 2 Soldiers of Blood at target location, dealing 750 magic damage",
+            "Cooldown: 30"
+        ]
+    },
+    {
+        "name": "Blood Anger",
+        "boss": "Blood Wraith",
+        "color": "FFCC00",
+        "active": [
+            "Summons six blood lines that spread in a hexagonal pattern around self",
+            "After reaching max distance, move 30 degrees counter-clockwise around target and return",
+            "Deals 75% max HP to all those in path"
+            "Coodlown: 60"
+        ]
+    },
+    {
+        "name": "True Requiem",
+        "boss": "Blood Wraith",
+        "color": "FFCC00",
+        "active": [
+            "After 3 seconds of channeling, deals 3000 magic damage to nearby enemies (900 range)"
+            "Cooldown: 120"
+        ]
+    },
+    {
+        "name": "Ghostly Strike",
+        "boss": "Soldier of Blood",
+        "color": "FFCC00",
+        "passive": [
+            "On attack, 25% chance to stun for .3 seconds and deal 1000 magic damage"
+        ]
+    },
+    {
+        "name": "Death Cross",
+        "boss": "Wallachia Monstrosity",
+        "color": "FFCC00",
+        "active": [
+            "Summon 4 waves that will travel either cardinal OR diagonal directions that kills all in its path",
+            "Cooldown: 30"
+        ]
+    },
+    {
+        "name": "Summon Bat Statue",
+        "boss": "Wallachia Monstrosity",
+        "color": "FFCC00",
+        "active": [
+            "Summons a bat statue that will heal caster 2000 HP per second",
+            "Cooldown: 40"
+        ]
+    },
+    {
+        "name": "Hear me out!",
+        "boss": "Wallachia Monstrosity",
+        "color": "FFCC00",
+        "passive": [
+            "On hit, the caster reflects 100% damage",
+            "Cooldown: 30"
+        ]
+    },
+    {
+        "name": "Desperate Flight",
+        "boss": "Wallachia Monstrosity",
+        "color": "FFCC00",
+        "trigger": [
+            "After reaching below 50% HP, teleport to a random area in area 7",
+            "After teleporting, heal self by 1000 HP every second",
+            "Spells will do the opposite of what the caster says below 50%"
+        ]
+    },
     {
         "name": "Slaves of Trueflame",
         "boss": "Ruler of Flames Ragnaar",
         "color": "FFCC00",
         "active": [
             "Summons 4 Lava elementals to fight for Ragnaar",
-            "Lasts ?? seconds"
+            "Lasts 60 seconds",
+            "Cooldown: 90"
         ]
     },
     {
@@ -54,7 +274,8 @@
         "boss": "Ruler of Flames Ragnaar",
         "color": "FFCC00",
         "active": [
-            "Increases movement and attack speed for ?? seconds"
+            "Increase movement speed by 50% and attack speed by 100% for 20 seconds",
+            "Cooldown: 90"
         ]
     },
     {
@@ -62,7 +283,68 @@
         "boss": "Ruler of Flames Ragnaar",
         "color": "FFCC00",
         "active": [
-            "Creates pillars of fire around Ragnaar dealing ?? damage"
+            "After channeling for 3 seconds, creates pillars of fire around Ragnaar dealing 3000 magic damage",
+            "Cooldown: 80"
+        ]
+    },
+    {
+        "name": "Fireball Barrage",
+        "boss": "Evil Lava Spawn",
+        "color": "FFCC00",
+        "passive": [
+            "Throws 3-5 fireballs every second around self, dealing 300 magic damage"
+        ]
+    },
+    {
+        "name": "Evil Power",
+        "boss": "Evil Lava Spawn",
+        "color": "FFCC00",
+        "passive": [
+            "While in combat, gain 250 attack damage and increase health by 1000 per second 20 times"
+        ]
+    },
+    {
+        "name": "Seal",
+        "boss": "Evil Lava Spawn",
+        "color": "FFCC00",
+        "active": [
+            "Silences target for 1 second",
+            "Cooldown: 5"
+        ]
+    },
+    {
+        "name": "Nyohoho",
+        "boss": "Evil Lava Spawn",
+        "color": "FFCC00",
+        "active": [
+            "Increases attack speed by 100% for 4 seconds",
+            "Moves opposite of attacker on hit",
+            "Cooldown: 20"
+        ]
+    },
+    {
+        "name": "How fun!",
+        "boss": "Evil Lava Spawn",
+        "color": "FFCC00",
+        "trigger": [
+            "Upon reaching 66% and 33% HP, summon a barrage of fireballs that insta-kill any enemy that touches them moving clockwise starting at 3'o'clock"
+        ]
+    },
+    {
+        "name": "Water Bolt",
+        "boss": "Tide Caller",
+        "color": "FFCC00",
+        "passive": [
+            "Reduces movement speed by 25%"
+        ]
+    },
+    {
+        "name": "Water Shield",
+        "boss": "Sea Guardian",
+        "color": "FFCC00",
+        "passive": [
+            "Uses all mana to block next attack",
+            "Cooldown: 3"
         ]
     },
     {
@@ -70,7 +352,8 @@
         "boss": "Tentacle Lord",
         "color": "FFCC00",
         "active": [
-            "Summons a spike from beneth the target and mini-stuns them"
+            "Summons a spike from above the target and mini-stuns them, dealing 1000 magic damage",
+            "Cooldown: 4"
         ]
     },
     {
@@ -78,7 +361,11 @@
         "boss": "Tentacle Lord",
         "color": "FFCC00",
         "active": [
-            ""
+            "Slams the ground, after a second, tentacles spike up, insta-killing everyone it the vicinity",
+            "Can either surround caster or be 300 range around caster",
+            "Each cast recharges 1 mana",
+            "On max mana, Tentacle slam will fill both inner and outer layer",
+            "Cooldown: 30"
         ]
     },
     {
@@ -86,7 +373,45 @@
         "boss": "Tentacle Lord",
         "color": "FFCC00",
         "active": [
-            ""
+            "Silences target and deals 500 physical damage per second for 3 seconds"
+        ]
+    },
+    {
+        "name": "Sea Beam",
+        "boss": "Guardian of Sea",
+        "color": "FFCC00",
+        "active": [
+            "Hits a target for 500 magic damage and jumps to 3 nearby enemies, dealing 100% damage"
+            "Cooldown: 3"
+        ]
+    },
+    {
+        "name": "Water Splash",
+        "boss": "Guardian of Sea",
+        "color": "FFCC00",
+        "active": [
+            "After one second channel, knockback all nearby enemies by 1000 range, dealing 1000 magic damage"
+            "Cooldown: 15"
+        ]
+    },
+    {
+        "name": "Summon Bubble",
+        "boss": "Guardian of Sea",
+        "color": "FFCC00",
+        "active": [
+            "Spawns two bubbles randomly around the caster",
+            "If stepped on or after 15 seconds, deals 2500 magic damage to all enemies in a cross",
+            "Cooldown: 10"
+        ]
+    },
+        {
+        "name": "The Sea will Shallow You!",
+        "boss": "Guardian of Sea",
+        "color": "FFCC00",
+        "trigger": [
+            "Upon reaching 50%, become invulnerable and transforms into a beam of water that will circle the nearest enemy
+            in a counter-clockwise pattern, charging at you every 5 seconds for 15 seconds",
+            "After this, he will have 0 mana and cannot cast this again until full mana is reached"
         ]
     },
     {
@@ -95,7 +420,8 @@
         "color": "FFCC00",
         "active": [
             "Targets a place to run to (in the direction of a hero) and with full dedication rushes towards it",
-            "Any heroes in its path will immediately die"
+            "Any heroes in its path will immediately die",
+            "Cooldown: 60"
         ]
     },
     {
@@ -103,8 +429,52 @@
         "boss": "Giant Golem",
         "color": "FFCC00",
         "active": [
-            "Slams the ground causing a shockwave in the nearby area",
-            "Any heroes caught in it will be stunned for ?? seconds"
+            "Slams the ground causing a shockwave in the nearby area, dealing 25% max hp damage",
+            "Any heroes caught in it will be stunned for 2 seconds",
+            "Cooldown: 80"
+        ]
+    },
+    {
+        "name": "Evasive Movement",
+        "boss": "Wallachia Assassin, Wallachia Wraith",
+        "color": "FFCC00",
+        "active": [
+            "Dodges any attack for 1 second, increases movement speed to full",
+            "Cooldown: 10"
+        ]
+    },
+    {
+        "name": "Dark Blast",
+        "boss": "Wallachia Wraith",
+        "color": "FFCC00",
+        "active": [
+            "Knocks enemies away and deals 1000 magic damage",
+            "Cooldown: 30"
+        ]
+    },
+    {
+        "name": "Faerie Fire",
+        "boss": "Fairy"
+        "color": "FFCC00",
+        "active": [
+            "Decreases enemy armor by 25",
+            "Cooldown: 1"
+        ],
+    },
+        {
+        "name": "Thorns Aura",
+        "boss": Forest Spirit,
+        "color": "FFCC00",
+        "passive": [
+            "On hit, returns 5% damage to sender and gives self +250 armor"
+        ],
+    },
+        {
+        "name": "Mana Swipe",
+        "boss": "Mana Ancient",
+        "color": "FFCC00",
+        "passive": [
+            "Deals 100% attack damage to all nearby enemies"
         ]
     },
     {
@@ -113,7 +483,8 @@
         "color": "FFCC00",
         "active": [
             "Targets beneath a hero's feet and creates an enclosing whirlpool of mana",
-            "Heroes caught will take ?? damage and their movement speed reduced for ?? seconds"
+            "Heroes caught will take 4000 magic damage and their movement speed reduced for 5 seconds",
+            "Cooldown: 10"
         ]
     },
     {
@@ -122,7 +493,8 @@
         "color": "FFCC00",
         "active": [
             "Creates a vacuum beneath itself, sucking in any nearby heroes and finally exploding after a few seconds.",
-            "Can only be used once it reaches full mana"
+            "Can only be used once it reaches full mana",
+            "Cooldown: 60"
         ]
     },
     {
@@ -592,7 +964,7 @@
     },
     {
         "name": "Mirror Image",
-        "boss": "Mad Clown",
+        "boss": ["Mad Clown", "Troll Lord"]
         "color": "FFCC00",
         "active": [
             "Dispels all magic from the caster and creates two images that deal 20% damage and take 250% damage."
@@ -617,7 +989,7 @@
     },
     {
         "name": "Instincts",
-        "boss": "Mad Clown",
+        "boss": ["Mad Clown", Giant Golem],
         "color": "FFCC00",
         "passive": [
             "On auto-attack, 20% chance to deal 1.75x attack damage"
@@ -633,9 +1005,9 @@
             "Stacks 5 times"
         ],
     },
-        {
+    {
         "name": "Rejuvination",
-        "boss": "Fairy Spirit",
+        "boss": ["Fairy", Fairy Spirit"],
         "color": "FFCC00",
         "active": [
             "Heals a target for 12500 over 12 seconds"
