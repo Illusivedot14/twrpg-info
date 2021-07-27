@@ -1,6 +1,6 @@
 [
-    {
-    	"id": "xxxx",
+	{
+		"id": "xxxx",
 		"name": "Summon Shadow Wolf",
 		"caster": "Silverback Wolf",
 		"color": "FFCC00",
@@ -573,6 +573,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Lethal Poison",
 		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "FFCC00",
@@ -581,6 +582,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Stomp",
 		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "FFCC00",
@@ -590,6 +592,7 @@
 		"cooldown": "90"
 	},
 	{
+		"id": "xxxx",
 		"name": "Sea Wave",
 		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "FFCC00",
@@ -599,6 +602,7 @@
 		"cooldown": "60"
 	},
 	{
+		"id": "xxxx",
 		"name": "Pumpkin Body",
 		"caster": "Jack o Lantern",
 		"color": "FFCC00",
@@ -607,6 +611,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Jack Impact",
 		"caster": "Jack o Lantern",
 		"color": "FFCC00",
@@ -617,6 +622,7 @@
 		"cooldown": "120"
 	},
 	{
+		"id": "xxxx",
 		"name": "Jack Wave",
 		"caster": "Jack o Lantern",
 		"color": "FFCC00",
@@ -627,8 +633,9 @@
 		"cooldown": "40"
 	},
 	{
+		"id": "xxxx",
 		"name": "Hound of Berskubil",
-		"caster": "Count Wallachia",
+		"caster": "Duchy of Wallachia Count",
 		"color": "FFCC00",
 		"active": [
 			"After 1 second of casting, releases his hound to attack the heroes",
@@ -669,7 +676,7 @@
 		"caster": "Duchy of Wallachia Count",
 		"color": "FFCC00",
 		"trigger": [
-			"Assumes his true form and gains 75% attack speed, 3000 extra damage",
+			"At 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra damage",
 			"Also deals -1000 damage per second to all enemies nearby (400 range)",
 			"Lasts until mana runs out"
 		],
@@ -748,12 +755,11 @@
 		"name": "Dragon's Might",
 		"caster": "Wings of Death",
 		"color": "FFCC00",
-		"active": [
-			"Takes flight and replaces its auto-attack with an AoE attack that deals 3000 AoE"
+		"trigger": [
+			"At 50%, takes flight and replaces its auto-attack with an AoE attack that deals 3000 AoE",
+			"Lasts for 5 seconds"
 		],
-		"cooldown": "120",
-		"duration": "5",
-		"trigger": "50% HP"
+		"cooldown": "120"
 	},
 	{
 		"name": "Nanoscale Armor",
@@ -843,7 +849,7 @@
 	{
 		"name": "Darkness Wave",
 		"caster": [
-			"Mad Clown",
+			"Wallachia Mad Clown",
 			"Wallachia Death Knight Lord",
 			"The Devil's Right Arm Corrupt Angel"
 		],
@@ -854,8 +860,8 @@
 		]
 	},
 	{
-		"name": "Spirit Breath",
-		"caster": "Frostvemon Explosion",
+		"name": "Frostvemon Explosion",
+		"caster": "Frostvemon Spider",
 		"color": "FFCC00",
 		"passive": [
 			"On death, grow in size for one second and deal 2500 magic damage to all nearby enemies"
@@ -863,7 +869,7 @@
 	},
 	{
 		"name": "Hellfrost Nova",
-		"caster": "Lord of Everfrost",
+		"caster": "Soul of Everfrost",
 		"color": "FFCC00",
 		"active": [
 			"After channeling for 1.25 seconds, casts a froze nova on a target, dealing 5000 magic damage to all nearby",
@@ -873,18 +879,21 @@
 	},
 	{
 		"name": "Frozen Soul",
-		"caster": "Lord of Everfrost",
+		"caster": "Soul of Everfrost",
 		"color": "FFCC00",
 		"active": [
 			"Summons 4 Frozen Souls after .5 seconds of channeling that last 90 seconds"
 		],
-		"cooldown": "90"
+		"cooldown": "90",
+		"summons": [
+			"Frozen Soul"
+		]
 	},
 	{
 		"name": "Hellfrost Attack",
-		"caster": "Lord of Everfrost",
+		"caster": "Soul of Everfrost",
 		"color": "FFCC00",
-		"Passive": [
+		"passive": [
 			"On attack, applies debuff that rduces movement speed by 40% and attack speed by 20%"
 		]
 	},
@@ -894,7 +903,8 @@
 		"color": "FFCC00",
 		"active": [
 			"After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 damage and stuns for .5 seconds"
-		]
+		],
+		"cooldown": "12.5"
 	},
 	{
 		"name": "Frost Aura",
@@ -943,9 +953,9 @@
 		"cost": "100",
 		"active": [
 			"When cast, creates a shield that can absorb 10% HP that can be broken that lasts 10 seconds",
-			"When destroyed, freezes all enemies in place for 1 second"
+			"When destroyed, freezes all enemies in place for 1 second",
+			"Will cast regardless at 66% and 33% HP"
 		],
-		"trigger": "66% and 33% HP",
 		"cooldown": "30"
 	},
 	{
@@ -984,7 +994,10 @@
 		"active": [
 			"Chooses a target to spawn a firey infernal at location, dealing 4000 damage on impact"
 		],
-		"cooldown": "20"
+		"cooldown": "20",
+		"summons": [
+			"Hell Golem"
+		]
 	},
 	{
 		"name": "Destruction",
@@ -1024,7 +1037,7 @@
 	},
 	{
 		"name": "Mad Howl",
-		"caster": "Mad Clown",
+		"caster": "Wallachia Wallachia Mad Clown",
 		"color": "FFCC00",
 		"active": [
 			"When activated, it places a purple circle on the ground",
@@ -1039,7 +1052,7 @@
 	},
 	{
 		"name": "Mirror Image",
-		"caster": ["Mad Clown", "Troll Lord"],
+		"caster": ["Wallachia Mad Clown", "Troll Lord"],
 		"color": "FFCC00",
 		"active": [
 			"Dispels all magic from the caster and creates two images that deal 20% damage and take 250% damage."
@@ -1050,7 +1063,7 @@
 	},
 	{
 		"name": "Wheel of Fate",
-		"caster": "Mad Clown",
+		"caster": "Wallachia Mad Clown",
 		"color": "FFCC00",
 		"cost": "100",
 		"active": [
@@ -1058,13 +1071,12 @@
 			"The wheel will have an inner and outer layer with 5 lines that move counter-clockwise",
 			"Every 5 seconds, lights will appear in either the inner or outer layer, if enemies are within that light after 1 second, they will be stunned for 10 seconds"
 		],
-		"cooldown": "100",
-		"trigger": "50% HP"
+		"cooldown": "100"
 
 	},
 	{
 		"name": "Instincts",
-		"caster": ["Mad Clown", "Giant Golem"],
+		"caster": ["Wallachia Mad Clown", "Giant Golem"],
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 20% chance to deal 1.75x attack damage"
@@ -1123,13 +1135,12 @@
 		"name": "Heaven's Wrath",
 		"caster": "Spirit Beast",
 		"color": "FFCC00",
-		"passive": [
+		"trigger": [
 			"On reaching 50% HP, gain 25% damage reduction and changes spells",
 			"Etheral Strike now moves toward the target again when it reaches its length",
 			"Three thunder bolts now strike every second, dealing 1500 damage each and stunning enemies for 1 second",
 			"Dispels when healed to full"
-		],
-		"trigger": "50% HP"
+		]
 	},
 	{
 		"name": "Corrupt Power",
@@ -1194,13 +1205,12 @@
 		"name": "Corrupted Summoning",
 		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
-		"passive": [
-			"Every 25% missing, Rectus will summon his minions",
+		"trigger": [
+			"At every 25% HP missing, Rectus will summon his minions",
 			"At 75%, he'll summon 1 Avenger, Rectus is invulnerable until Avenger is killed",
 			"At 50%, he'll summon 1 Avenger and 8 Stalkers, Rectus is invulnerable until Avenger is killed",
 			"At 25%, he'll summon 1 Avenger and 8 Stalkers, Rectus will become vulnerable after 10 seconds"
-		],
-		"trigger": "Every 25%"
+		]
 	},
 	{
 		"name": "Corruption Wave",
@@ -1259,23 +1269,21 @@
 		"name": "On Your Knees!",
 		"caster": "Flame Nightmare",
 		"color": "FFCC00",
-		"active": [
-			"Targets a random player to jump toward, dealing 2000 damage on impact",
+		"triiger": [
+			"At 80% HP, target a random player to jump toward, dealing 2000 damage on impact",
 			"Creates 8 lava spawns that walk toward the impact after spawning",
 			"Creates flame paths that deal 5% per second that last 3 seconds",
 			"On collision with the impact zone, heal Flame Nightmare for 10% if its near"
-		],
-		"trigger": "80% HP"
+		]
 	},
 	{
 		"name": "Total Annihilation",
 		"caster": "Flame Nightmare",
 		"color": "FFCC00",
-		"passive": [
-			"On trigger, become invulnerable and choose the closest player to target with Flame Barrage for ten seconds",
+		"trigger": [
+			"At 25% HP, become invulnerable and choose the closest player to target with Flame Barrage for ten seconds",
 			"Become vulnerable after duration is over"
-		],
-		"trigger": "25% HP"
+		]
 	},
 	{
 		"name": "Berserk",
@@ -1332,12 +1340,11 @@
 		"name": "Turtle Ambush",
 		"caster": "Turtle Lord",
 		"color": "FFCC00",
-		"passive": [
+		"trigger": [
 			"When reaching every 25% HP, gain 90% damage reduction and summons 8 Turtles",
 			"2 of these eight turtles will have 50% magic reduction",
 			"Lose damage reduction when all turtles are dead"
-		],
-		"trigger": "Every 25% HP"
+		]
 	},
 	{
 		"name": "Summon Heaing Turtle",
