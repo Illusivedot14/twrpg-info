@@ -918,11 +918,9 @@
 		"name": "Hellfrost Body",
 		"caster": "Frostspider Lord",
 		"color": "FFCC00",
-		"active": [
-			"On auto-attack, 15% chance to deal 1.75x attack damage"
-		],
 		"passive": [
-			"Deals 200 damage a second to all nearby enemies (1200 range)"
+			"Deals 200 damage a second to all nearby enemies (1200 range)",
+			"On auto-attack, 15% chance to deal 1.75x attack damage"
 		]
 	},
 	{
