@@ -193,8 +193,7 @@
 		"color": "FFCC00",
 		"cooldown": "90",
 		"active": [
-			"Summons 4 Wraiths for 60 seconds",
-			"Cooldown: 90"
+			"Summons 4 Wraiths for 60 seconds"
 		]
 	},
 	{
@@ -309,8 +308,7 @@
 		"color": "FFCC00",
 		"cooldown": "90",
 		"active": [
-			"Increase movement speed by 50% and attack speed by 100% for 20 seconds",
-			"Cooldown: 90"
+			"Increase movement speed by 50% and attack speed by 100% for 20 seconds"
 		]
 	},
 	{
@@ -397,8 +395,7 @@
 		"color": "FFCC00",
 		"cooldown": "4",
 		"active": [
-			"Summons a spike from above the target and mini-stuns them, dealing 1000 magic damage",
-			"Cooldown: 4"
+			"Summons a spike from above the target and mini-stuns them, dealing 1000 magic damage"
 		]
 	},
 	{
@@ -543,8 +540,7 @@
 		"cooldown": "10",
 		"active": [
 			"Targets beneath a hero's feet and creates an enclosing whirlpool of mana",
-			"Heroes caught will take 4000 magic damage and their movement speed reduced for 5 seconds",
-			"Cooldown: 10"
+			"Heroes caught will take 4000 magic damage and their movement speed reduced for 5 seconds"
 		]
 	},
 	{
