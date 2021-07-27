@@ -582,7 +582,7 @@
 	},
 	{
 		"name": "Pumpkin Body",
-		"caster": "Jack-o-Lantern",
+		"caster": "Jack o Lantern",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 15% chance to deal 1.5x attack damage."
@@ -590,7 +590,7 @@
 	},
 	{
 		"name": "Jack Impact",
-		"caster": "Jack-o-Lantern",
+		"caster": "Jack o Lantern",
 		"color": "FFCC00",
 		"active": [
 			"After 2.75 seconds of casting, blasts the surrounding area (1000 AoE) with a nova",
@@ -600,7 +600,7 @@
 	},
 	{
 		"name": "Jack Wave",
-		"caster": "Jack-o-Lantern",
+		"caster": "Jack o Lantern",
 		"color": "FFCC00",
 		"active": [
 			"After 1.75 seconds of casting, shoots a ball of mana in a straight line",
@@ -620,7 +620,7 @@
 	},
 	{
 		"name": "Death Bind",
-		"caster": "Count Wallachia",
+		"caster": "Duchy of Wallachia Count",
 		"color": "FFCC00",
 		"active": [
 			"Grabs a targetted hero and pulls them towards himself, stunning them for .2 seconds",
@@ -630,7 +630,7 @@
 	},
 	{
 		"name": "Immortal Body",
-		"caster": "Count Wallachia",
+		"caster": "Duchy of Wallachia Count",
 		"color": "FFCC00",
 		"passive": [
 			"On auto-attack, 15% chance to deal 1.5x attack damage."
@@ -638,7 +638,7 @@
 	},
 	{
 		"name": "Requiem of Blood",
-		"caster": "Count Wallachia",
+		"caster": "Duchy of Wallachia Count",
 		"color": "FFCC00",
 		"active": [
 			"After 3 seconds of casting, blasts the area around him with a nova of blood (1000 range)",
@@ -648,15 +648,14 @@
 	},
 	{
 		"name": "Unleash: True Form",
-		"caster": "Count Wallachia",
+		"caster": "Duchy of Wallachia Count",
 		"color": "FFCC00",
-		"active": [
+		"trigger": [
 			"Assumes his true form and gains 75% attack speed, 3000 extra damage",
 			"Also deals -1000 damage per second to all enemies nearby (400 range)",
 			"Lasts until mana runs out"
 		],
-		"cooldown": "120",
-		"trigger": "50% HP"
+		"cooldown": "120"
 	},
 	{
 		"name": "Magical Weapon",
