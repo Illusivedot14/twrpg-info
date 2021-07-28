@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"id": "xxxx",
 		"name": "Summon Shadow Wolf",
 		"caster": "Silverback Wolf",
@@ -1207,7 +1206,7 @@
 			"At 50%, he'll summon 1 Avenger and 8 Stalkers, Rectus is invulnerable until Avenger is killed",
 			"At 25%, he'll summon 1 Avenger and 8 Stalkers, Rectus will become vulnerable after 10 seconds"
 		],
-		"summons" [
+		"summons": [
 			"Avenger", "Stalker"
 		]
 	},
