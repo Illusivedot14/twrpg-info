@@ -1185,7 +1185,6 @@
 		"name": "Corruption Overload",
 		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
-		"cost": "100",
 		"passive": [
 			"Every 3 seconds second, Rectus will emit a blast of corruption that will deal increasing damage as the fight goes on"
 		]
@@ -1194,7 +1193,6 @@
 		"name": "Corruption Aura",
 		"caster": "Corruptor Rectus",
 		"color": "FFCC00",
-		"cost": "100",
 		"passive": [
 			"Decreases nearby players armor by 25"
 		]
@@ -1208,6 +1206,9 @@
 			"At 75%, he'll summon 1 Avenger, Rectus is invulnerable until Avenger is killed",
 			"At 50%, he'll summon 1 Avenger and 8 Stalkers, Rectus is invulnerable until Avenger is killed",
 			"At 25%, he'll summon 1 Avenger and 8 Stalkers, Rectus will become vulnerable after 10 seconds"
+		],
+		"summons" [
+			"Avenger", "Stalker"
 		]
 	},
 	{
@@ -1267,7 +1268,7 @@
 		"name": "On Your Knees!",
 		"caster": "Flame Nightmare",
 		"color": "FFCC00",
-		"triiger": [
+		"trigger": [
 			"At 80% HP, target a random player to jump toward, dealing 2000 damage on impact",
 			"Creates 8 lava spawns that walk toward the impact after spawning",
 			"Creates flame paths that deal 5% per second that last 3 seconds",
@@ -1342,6 +1343,9 @@
 			"When reaching every 25% HP, gain 90% damage reduction and summons 8 Turtles",
 			"2 of these eight turtles will have 50% magic reduction",
 			"Lose damage reduction when all turtles are dead"
+		],
+		"summons": [
+			"Turtle"
 		]
 	},
 	{
@@ -1352,6 +1356,9 @@
 			"Summons a healing turtle from either end of the arena that walks toward Turtle Lord",
 			"Upon contact, heals Turtle Lord for 25% HP",
 			"Upon death, knocks back all enemies"
+		],
+		"summons": [
+			"Healing Turtle"
 		]
 	},
 	{
