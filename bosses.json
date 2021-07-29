@@ -100,7 +100,7 @@
 		"category": "Creep",
 		"type": "Boss",
 		"limit": "1",
-		"timer": "60s",
+		"timer": "60",
 		"location": "Bottom left of the Kalidi Forest",
 		"conditions": "Level 1 ~ 10",
 		"stats": {
