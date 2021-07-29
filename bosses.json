@@ -2653,54 +2653,106 @@
 			"Catacylsm"
 		],
 		"minions": [
-			"Hell Golem", "Demon", "Demon", "Demon", "Demonic Portal"
+			"Hell Golem"
 		]
 	},
 	{
-		"id": "xxxx",
+		"id": "n01Z",
 		"name": "Demonic Portal",
 		"category": "Minor",
 		"type": "Mechanic",
 		"location": "East Prius Gate",
 		"conditions": "Summoned with Demon Lord Beriel",
+		"stats": {
+			"health": "6000000",
+			"healthRegen": ".5",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "1000",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "0"
+		},
 		"notes": [
 			"On death, leads to Underlord Agareth"
 		]
 	},
 	{
-		"id": "xxxx",
-		"name": "Demon",
+		"id": "h01E",
+		"name": "Monster",
+		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
-		"location": "East Prius Gate",
-		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
+		"location": "Summoned during fight with Demon Lord Beriel's Portal",
+		"stats": {
+			"health": "90000",
+			"healthRegen": "500",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "0",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "977",
+			"attackSpread": "8",
+			"attackRange": "0",
+			"attackSpeed": "1",
+			"moveSpeed": "360"
+		}
 	},
 	{
-		"id": "xxxx",
-		"name": "Demon",
+		"id": "h01D",
+		"name": "Monster",
+		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
-		"location": "East Prius Gate",
-		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
+		"location": "Summoned during fight with Demon Lord Beriel's Portal",
+		"stats": {
+			"health": "60000",
+			"healthRegen": "200",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "750",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "841",
+			"attackSpread": "8",
+			"attackRange": "0",
+			"attackSpeed": "1",
+			"moveSpeed": "420"
+		}
 	},
 	{
-		"id": "xxxx",
-		"name": "Demon",
+		"id": "h01E",
+		"name": "Monster",
+		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
-		"location": "East Prius Gate",
-		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
+		"location": "Summoned during fight with Demon Lord Beriel's Portal",
+		"stats": {
+			"health": "45000",
+			"healthRegen": "100",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "550",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "612",
+			"attackSpread": "8",
+			"attackRange": "0",
+			"attackSpeed": "1",
+			"moveSpeed": "480"
+		}
 	},
 	{
-		"id": "xxxx",
-		"name": "Demon",
-		"category": "Minor",
-		"type": "Minion",
-		"location": "East Prius Gate",
-		"conditions": "Summoned during fight with Demon Lord Beriel's Portal"
-	},
-	{
-		"id": "xxxx",
+		"id": "n026",
 		"name": "Hell Golem",
 		"category": "Minor",
 		"type": "Minion",
