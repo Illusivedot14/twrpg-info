@@ -790,7 +790,7 @@
 		"category": "Creep",
 		"type": "Boss",
 		"limit": "1",
-		"timer": "120s",
+		"timer": "120",
 		"location": "In Frosty Snowfield",
 		"conditions": "Level 40",
 		"stats": {
@@ -856,7 +856,7 @@
 		"level": "50",
 		"category": "Creep",
 		"type": "Minion",
-		"duration": "60s",
+		"duration": "60",
 		"location": "In Frosty Snowfield",
 		"conditions": "Summoned by Mammoth",
 		"stats": {
@@ -1041,7 +1041,7 @@
 		"category": "Creep",
 		"type": "Boss",
 		"limit": "5",
-		"timer": "240s",
+		"timer": "240",
 		"location": "In Duchy of Wallachia",
 		"conditions": "Level 50",
 		"stats": {
@@ -1366,7 +1366,7 @@
 		"category": "Creep",
 		"type": "Boss",
 		"limit": "2",
-		"timer": "240s",
+		"timer": "240",
 		"location": "In Volcanic Lands",
 		"conditions": "Level 60",
 		"stats": {
@@ -1572,7 +1572,7 @@
 		"category": "Creep",
 		"type": "Boss",
 		"limit": "5",
-		"timer": "240s",
+		"timer": "240",
 		"location": "In the Deep Sea",
 		"conditions": "Level 70 ~ 90",
 		"stats": {
@@ -1712,7 +1712,7 @@
 		"category": "Creep",
 		"type": "Boss",
 		"limit": "2",
-		"timer": "240s",
+		"timer": "240",
 		"location": "In the Cave",
 		"conditions": "Level 80",
 		"stats": {
@@ -1814,7 +1814,7 @@
 		"category": "Creep",
 		"type": "Mob",
 		"limit": "1",
-		"timer": "300s",
+		"timer": "300",
 		"location": "In the Wallachia Graveyard",
 		"conditions": "Level 80",
 		"stats": {
@@ -1944,7 +1944,7 @@
 		"category": "Creep",
 		"type": "Boss",
 		"limit": "2",
-		"timer": "240s",
+		"timer": "240",
 		"location": "In Fairy Forest",
 		"conditions": "Level 90+",
 		"stats": {
