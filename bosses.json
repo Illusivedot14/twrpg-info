@@ -2342,7 +2342,7 @@
 		"type": "Boss",
 		"limit": "4",
 		"respawn": "5",
-		"location": "In Frosty Snowfield summoned after 2 minutes of summoning Avalon",
+		"location": "In Frosty Snowfield after 2 minutes of summoning Avalon",
 		"conditions": "Level 80, and Avalon summoned",
 		"stats": {
 			"health": "800000",
