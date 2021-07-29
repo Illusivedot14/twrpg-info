@@ -2123,7 +2123,7 @@
 		"type": "Boss",
 		"limit": "4",
 		"respawn": "5",
-		"location": "South area of Frosty Snowfield between two snowmen near Yetis'",
+		"location": "South area of Frosty Snowfield, below the blue obelisk and next to the igloo",
 		"conditions": "Level 70, and Red Magic Stone x4",
 		"stats": {
 			"health": "600000",
