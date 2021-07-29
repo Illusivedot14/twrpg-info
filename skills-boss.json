@@ -20,7 +20,7 @@
 		"color": "ff1493",
 		"type": "passive",
 		"description": [
-			"15% Chance to deal 1.5x attack damage"
+			"On auto-attack, 15% Chance to deal 1.75x attack damage"
 		]
 	},
 	{
@@ -32,7 +32,8 @@
 		"cooldown": "40",
 		"description": [
 			"Increases attack speed by 100%",
-			"Decreases movement speed by 50%"
+			"Decreases movement speed by 50%",
+			"Lasts 5 seconds"
 		]
 	},
 	{
@@ -90,7 +91,7 @@
 		"cooldown": "60",
 		"description": [
 			"Spits on a target, making them slide forward for 6 seconds",
-			"If they collide with any object, they will be dealt 25% HP damage"
+			"If they collide with any object, they will be dealt 25% HP magic damage"
 		]
 	},
 	{
@@ -314,8 +315,8 @@
 		"id": "xxxx",
 		"name": "Hear me out!",
 		"caster": "Wallachia Monstrosity",
-		"color": "ff8c00",
-		"type": "active",
+		"color": "8a2be2",
+		"type": "trigger",
 		"cooldown": "30",
 		"description": [
 			"On hit, the caster reflects 100% damage for 5 seconds"
@@ -520,6 +521,7 @@
 		"caster": "Guardian of Sea",
 		"color": "8a2be2",
 		"type": "trigger",
+		"cooldown": "120",
 		"description": [
 			"Upon reaching 50%, become invulnerable and transforms into a beam of water that will circle the nearest enemy in a counter - clockwise pattern, charging at you every 5 seconds for 15 seconds",
 			"After this, he will have 0 mana and cannot cast this again until full mana is reached"
@@ -545,7 +547,7 @@
 		"type": "active",
 		"cooldown": "80",
 		"description": [
-			"Slams the ground causing a shockwave in the nearby area, dealing 25% max hp damage",
+			"Slams the ground causing a shockwave in the nearby area, dealing 25% max hp magic damage",
 			"Any heroes caught in it will be stunned for 2 seconds"
 		]
 	},
@@ -642,10 +644,10 @@
 		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "90",
 		"description": [
 			"After 3 seconds of casting, deals 2500 magic damage to all enemies nearby and stun them for 2 seconds in 400 AoE."
-		],
-		"cooldown": "90"
+		]
 	},
 	{
 		"id": "xxxx",
@@ -653,10 +655,10 @@
 		"caster": "Ruler of the Lav Sea Hydra",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "60",
 		"description": [
 			"After 1.5 seconds of casting, sends a wave that will deal 1500 magic damage to all enemies in its path"
-		],
-		"cooldown": "60"
+		]
 	},
 	{
 		"id": "xxxx",
@@ -674,11 +676,11 @@
 		"caster": "Jack o Lantern",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "120",
 		"description": [
 			"After 2.75 seconds of casting, blasts the surrounding area (1000 AoE) with a nova",
-			"Deals 6000 damage to any nearby heroes"
-		],
-		"cooldown": "120"
+			"Deals 6000 magic damage to any nearby heroes"
+		]
 	},
 	{
 		"id": "xxxx",
@@ -686,11 +688,11 @@
 		"caster": "Jack o Lantern",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "40",
 		"description": [
 			"After 1.75 seconds of casting, shoots a ball of mana in a straight line",
-			"Deals 2500 damage to any heroes in the path"
-		],
-		"cooldown": "40"
+			"Deals 2500 magic damage to any heroes in the path"
+		]
 	},
 	{
 		"id": "xxxx",
@@ -700,22 +702,24 @@
 		"type": "active",
 		"description": [
 			"After 1 second of casting, releases his hound to attack the heroes",
-			"Attacks in a single line, dealing 2000 damage to each hero in the path"
+			"Attacks in a single line, dealing 2000 magic damage to each hero in the path"
 		],
 		"cooldown": "40"
 	},
 	{
+		"id": "xxxx",
 		"name": "Death Bind",
 		"caster": "Duchy of Wallachia Count",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "55",
 		"description": [
 			"Grabs a targetted hero and pulls them towards himself, stunning them for .2 seconds",
 			"Deals 1000 damage"
-		],
-		"cooldown": "55"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Immortal Body",
 		"caster": "Duchy of Wallachia Count",
 		"color": "ff1493",
@@ -725,105 +729,115 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Requiem of Blood",
 		"caster": "Duchy of Wallachia Count",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "120",
 		"description": [
 			"After 3 seconds of casting, blasts the area around him with a nova of blood (1000 range)",
 			"Deals 7500 magic damage to all enemies in the nova and stuns them for .1 second"
-		],
-		"cooldown": "120"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Unleash: True Form",
 		"caster": "Duchy of Wallachia Count",
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
 			"At 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra damage",
-			"Also deals -1000 damage per second to all enemies nearby (400 range)",
+			"Also deals 1000 magic damage per second to all enemies nearby (400 range)",
 			"Lasts until mana runs out"
 		],
 		"cooldown": "120"
 	},
 	{
+		"id": "xxxx",
 		"name": "Magical Weapon",
 		"caster": "Mage Lord",
 		"color": "ff1493",
 		"type": "passive",
 		"description": [
 			"On Auto-attack, 15% to cause lightning or frost to hit the target",
-			"Lighting deals 1500 damage and frost deals 500 damage"
+			"Lighting deals 1500 magic damage and frost deals 500 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Dark Star",
 		"caster": "Mage Lord",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "80",
 		"description": [
-			"After 3.5 seconds of casting, summons a dark star that deals 10000 damage to all nearby enemies (900 range)"
-		],
-		"cooldown": "80"
+			"After 3.5 seconds of casting, summons a dark star that deals 10000 magic damage to all nearby enemies (900 range)"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Blizzard",
 		"caster": "Mage Lord",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "60",
 		"description": [
 			"After 1 second of casting, channels a Blizzard at Target Area",
 			"Blizzard lasts for 10 waves with 12 shards that deal 1000 damage each",
-			"Maximum of 5000 damage can be taken per wave"
-		],
-		"cooldown": "60"
+			"Maximum of 5000 magic damage can be taken per wave"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Chain Lightning",
 		"caster": "Mage Lord",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "9",
 		"description": [
 			"Shoots lightning at a nearby target, dealing 1000 magic damage to all enemies nearby target"
-		],
-		"cooldown": "9"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Dragon Fear",
 		"caster": "Wings of Death",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "60",
 		"description": [
 			"After .5 seconds of preparing, the dragon's howl causes fear in the hearts of the any nearby (1000 range)",
 			"Enemies are dealt 1000 magic damage",
 			"Heroes affected by it will have 30% attack speed reduction and 10% movement speed reduction for 5 seconds"
-		],
-		"cooldown": "60"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hell Flame",
 		"caster": "Wings of Death",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "80",
 		"description": [
 			"After 3 sconds of channeling, blasts fire all around him (1000 range)",
-			"Deals 5000 damage to nearby heroes and interrupts them"
-		],
-		"cooldown": "80"
+			"Deals 5000 magic damage to nearby heroes and interrupts them"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Dragon Breath",
 		"caster": "Wings of Death",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "180",
 		"description": [
 			"After 3 seconds of channeling, blasts a beam of fire from his mouth in a straight line",
-			"Deals 7500 damage to heroes in its path"
-		],
-		"cooldown": "180"
+			"Deals 7500 magic damage to heroes in its path"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Dragon's Might",
 		"caster": "Wings of Death",
 		"color": "8a2be2",
@@ -835,6 +849,7 @@
 		"cooldown": "120"
 	},
 	{
+		"id": "xxxx",
 		"name": "Nanoscale Armor",
 		"caster": "Castle Avalon Gatekeeper",
 		"color": "ff1493",
@@ -844,16 +859,18 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Genocide Sword",
 		"caster": "Castle Avalon Gatekeeper",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "120",
 		"description": [
-			"After 3 seconds of channeling, blasts the area in holy light dealing 7500 to all enemies within 600 range"
-		],
-		"cooldown": "120"
+			"After 3 seconds of channeling, blasts the area in holy light dealing 7500 magic damage to all enemies within 600 range"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Blessed Wings",
 		"caster": "The 3rd Army's Guardian Angel",
 		"color": "ff1493",
@@ -863,73 +880,83 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Sacred Conviction",
 		"caster": "The 3rd Army's Guardian Angel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "60",
 		"description": [
 			"After 3 seconds of channeling, sends a wave of light where it's facing, dealing 6000 damage to enemies in its path"
-		],
-		"cooldown": "60"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Holy Grab",
 		"caster": "The 3rd Army's Guardian Angel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "60",
 		"description": [
-			"Pulls target toward them at holy speeds, dealing 2000 damage to target and interrupting them"
-		],
-		"cooldown": "60"
+			"Pulls target toward them at holy speeds, dealing 2000 magic damage to target and interrupting them"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Sacred Judgment",
 		"caster": "The 3rd Army's Guardian Angel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "120",
 		"description": [
-			"After 3 seconds of calling the Archangel's might, sends it down onto the area (1000 range) dealing 15000 damage"
+			"After 3 seconds of calling the Archangel's might, sends it down onto the area (1000 range) dealing 15000 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Judgment of Darkness",
 		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "120",
 		"description": [
 			"After channeling for 3 seconds, deals 15000 damage to all enemies nearby (1200 range) and interrupts them"
-		],
-		"cooldown": "120"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Craze",
 		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "15",
 		"description": [
 			"Gives 400% attack speed for 15 seconds"
-		],
-		"cooldown": "15"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Dark Wings",
 		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "ff8c00",
-		"type": "active",
+		"type": "passive",
 		"description": [
 			"On auto-attack, 15% chance to deal 1.75x damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hell Finger",
 		"caster": "The Devil's Right Arm Corrupt Angel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "60",
 		"description": [
-			"Pulls a target toward caster, dealing 3000 damage and interrupts them"
+			"Pulls a target toward caster, dealing 3000 magic damage and interrupts them"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Darkness Wave",
 		"caster": [
 			"Wallachia Mad Clown",
@@ -938,12 +965,14 @@
 		],
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "40",
 		"description": [
 			"After two seconds of casting, the caster will send a wave of darkness toward the target area",
-			"The wave will deal 3000 damage"
+			"The wave will deal 3000 magic damage"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Frostvemon Explosion",
 		"caster": "Frostvemon Spider",
 		"color": "ff1493",
@@ -953,30 +982,33 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hellfrost Nova",
 		"caster": "Soul of Everfrost",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "20",
 		"description": [
 			"After channeling for 1.25 seconds, casts a froze nova on a target, dealing 5000 magic damage to all nearby",
 			"Those affected will have 50% less movement speed and 25% less attack speed for 8 seconds"
-		],
-		"cooldown": "20"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Frozen Soul",
 		"caster": "Soul of Everfrost",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "90",
 		"description": [
 			"Summons 4 Frozen Souls after .5 seconds of channeling that last 90 seconds"
 		],
-		"cooldown": "90",
 		"summons": [
 			"Frozen Soul"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hellfrost Attack",
 		"caster": "Soul of Everfrost",
 		"color": "ff1493",
@@ -986,16 +1018,18 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Frost Spike",
 		"caster": "Frostspider Queen",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "12.5",
 		"description": [
-			"After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 damage and stuns for .5 seconds"
-		],
-		"cooldown": "12.5"
+			"After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 magic damage and stuns for .5 seconds"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Frost Aura",
 		"caster": "Frostspider Queen",
 		"color": "ff1493",
@@ -1005,6 +1039,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hellfrost Body",
 		"caster": "Frostspider Lord",
 		"color": "ff1493",
@@ -1015,17 +1050,19 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Ice Storm",
 		"caster": "Frostspider Lord",
 		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
+		"cooldown": "12",
 		"description": [
-			"Chooses a target to be targeted by a blizzard. Spawns 20 waves at target location, dealing 8000 damage in total over 3 seconds"
-		],
-		"cooldown": "12"
+			"Chooses a target to be targeted by a blizzard. Spawns 20 waves at target location, dealing 8000 magic damage in total over 3 seconds"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Web Binding",
 		"caster": "Frostspider Lord",
 		"color": "ff8c00",
@@ -1038,6 +1075,7 @@
 		"cooldown": "15"
 	},
 	{
+		"id": "xxxx",
 		"name": "Frozen Barrier",
 		"caster": "Frostspider Lord",
 		"color": "ff8c00",
@@ -1051,19 +1089,21 @@
 		"cooldown": "30"
 	},
 	{
+		"id": "xxxx",
 		"name": "Frozen Shatter",
 		"caster": "Frostspider Lord",
 		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
+		"cooldown": "40",
 		"description": [
 			"Upon cast, pushes all enemies away. When a target is nearby, the caster will face toward that target for 3 seconds",
 			"before unleash a wave that will insta-kill all those in its path",
 			"If not target is selected, it will swipe where its face in a 150 degree arc, insta-killing everyone in the swipe"
-		],
-		"cooldown": "40"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "The Demon Lord's Power",
 		"caster": "Demon Lord Beriel",
 		"color": "ff1493",
@@ -1073,60 +1113,66 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Seal",
 		"caster": "Demon Lord Beriel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "10",
 		"description": [
 			"On cast, silences and slows down target by 50% (attack and movement) for 7.5 seconds"
-		],
-		"cooldown": "10"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Meteor",
 		"caster": "Demon Lord Beriel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "20",
 		"description": [
 			"Chooses a target to spawn a firey infernal at location, dealing 4000 damage on impact"
 		],
-		"cooldown": "20",
 		"summons": [
 			"Hell Golem"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Destruction",
 		"caster": "Demon Lord Beriel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "12",
 		"description": [
 			"On cast, deals 2000 damage to surrounding enemies (400 range)",
 			"On third cast, channels spell for 3 seconds before dealing 75% HP to all enemies (1000 range) and stuns self for 5 seconds"
-		],
-		"cooldown": "12"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Catacylsm",
 		"caster": "Demon Lord Beriel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "75",
 		"description": [
 			"On cast, summons a line going counter clockwise every 45 degree angle starting a 3-o-clock every second that kills all within its range"
-		],
-		"cooldown": "75"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Rage",
 		"caster": "Demon Lord Beriel",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "40",
 		"description": [
 			"Gains 30% attack speed every second for 10 seconds"
-		],
-		"cooldown": "40"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Permanent Immolation",
 		"caster": "Hell Golem",
 		"color": "ff1493",
@@ -1136,48 +1182,50 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Mad Howl",
 		"caster": "Wallachia Wallachia Mad Clown",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "20",
 		"description": [
 			"When activated, it places a purple circle on the ground",
 			"The circle will pulse once per second for 3 seconds and then pulse seven times for 2 seconds",
 			"Enemies on circle will be dealt 10% HP per pulse",
 			"If Mad Clown is on circle, he will heal 37,500 HP per pulse",
 			"On finish, if Mad Clown is not on circle, he will teleport to circle and face where he was",
-			"He will shoot three balls that deal 25% HP each toward where he was in a 30 degree arc"
-		],
-		"cooldown": "20",
-		"duration": "5"
+			"He will shoot three balls that deal 25% HP each toward where he was in a 30 degree arc",
+			"Lasts 5 seconds"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Mirror Image",
 		"caster": ["Wallachia Mad Clown", "Troll Lord"],
 		"color": "ff8c00",
 		"type": "active",
-		"description": [
-			"Dispels all magic from the caster and creates two images that deal 20% damage and take 250% damage."
-		],
 		"cooldown": "40",
-		"duration": "40"
-
+		"description": [
+			"Dispels all magic from the caster and creates two images that deal 20% damage and take 250% damage",
+			"Lasts 40 seconds"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Wheel of Fate",
 		"caster": "Wallachia Mad Clown",
 		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
+		"cooldown": "100",
 		"description": [
 			"Upon reaching half, Mad Clown will create a wheel that reaches 1000 range and can suck in anyone within 2000 range for 20 seconds",
 			"The wheel will have an inner and outer layer with 5 lines that move counter-clockwise",
 			"Every 5 seconds, lights will appear in either the inner or outer layer, if enemies are within that light after 1 second, they will be stunned for 10 seconds"
-		],
-		"cooldown": "100"
-
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Instincts",
 		"caster": ["Wallachia Mad Clown", "Giant Golem"],
 		"color": "ff1493",
@@ -1185,9 +1233,9 @@
 		"description": [
 			"On auto-attack, 20% chance to deal 1.75x attack damage"
 		]
-
 	},
 	{
+		"id": "xxxx",
 		"name": "Spirit Breath",
 		"caster": "Fairy Spirit",
 		"color": "ff1493",
@@ -1198,49 +1246,54 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Rejuvination",
 		"caster": ["Fairy", "Fairy Spirit"],
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "1",
 		"description": [
-			"Heals a target for 12500 over 12 seconds"
-		],
-		"cooldown": "1"
+			"Heals a target for 12500 HP over 12 seconds"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Ethereal Strike",
 		"caster": "Spirit Beast",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "12",
 		"description": [
 			"After choosing a target to follow, channels for 1.5 seconds and ignites the ground in a path toward the target in a wave",
 			"On impact, deals 25% HP damage",
 			"The flames last for 10 seconds dealing 900 damage per second"
-		],
-		"cooldown": "12"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Spirit Echo",
 		"caster": "Spirit Beast",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "20",
 		"description": [
 			"Creates a clone to cast Etheral Strike to a random target"
-		],
-		"cooldown": "20"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Drain",
 		"caster": ["Mana Ancient", "Spirit Beast"],
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "16",
 		"description": [
 			"Spawns eight green orbs around caster that slowly travels towards the caster",
 			"When orbs reach caster, they heal 1% HP each and give 5 mana, if they touch enemy, they deal 500 damage"
-		],
-		"cooldown": "16"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Heaven's Wrath",
 		"caster": "Spirit Beast",
 		"color": "8a2be2",
@@ -1253,6 +1306,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Corrupt Power",
 		"caster": "Corruptor Rectus",
 		"color": "ff1493",
@@ -1262,42 +1316,46 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Corruption",
 		"caster": "Corruptor Rectus",
 		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
+		"cooldown": "27",
 		"description": [
 			"On cast with .15 delay, chooses a random target to corrupt and deal 25% damage to all nearby enemies",
 			"On corruption, the enemy will spawn green circles every 2 seconds below which will deal a stackable 5% HP per second",
 			"Lasts for 20 seconds, circles remain on ground for 60 seconds"
-		],
-		"cooldown": "27"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Death Coil",
 		"caster": "Corruptor Rectus",
 		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
+		"cooldown": "12",
 		"description": [
 			"Chooses a target area that will explode for 20% HP and interrupt players after a 2 second delay",
 			"At 25% HP, after the initial blast, 8 coils will shoot out in diagonal and cardinal directions, dealing 1000 damage each and interrupting the first person they touch"
-		],
-		"cooldown": "12"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Soul Swap",
 		"caster": "Corruptor Rectus",
 		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
+		"cooldown": "30",
 		"description": [
 			"Binds two target's souls to be swapped. When their orbs each the other player, they will swap, insta-killing all nearby players on their locations"
-		],
-		"cooldown": "30"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Corruption Overload",
 		"caster": "Corruptor Rectus",
 		"color": "ff1493",
@@ -1307,6 +1365,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Corruption Aura",
 		"caster": "Corruptor Rectus",
 		"color": "ff1493",
@@ -1316,6 +1375,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Corrupted Summoning",
 		"caster": "Corruptor Rectus",
 		"color": "8a2be2",
@@ -1331,16 +1391,18 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Corruption Wave",
 		"caster": "Avenger",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "15",
 		"description": [
 			"After 1 second wind-up, creates a 150 degree arc in front of the Avenger that deals 2500 magic damage and adds a -150 armor debuff on target that lasts 10 seconds"
-		],
-		"cooldown": "15"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Corrupt Explosion",
 		"caster": "Stalker",
 		"color": "ff1493",
@@ -1350,6 +1412,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Purification",
 		"caster": "Life Orb",
 		"color": "ff1493",
@@ -1360,6 +1423,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Nightmare Body",
 		"caster": "Flame Nightmare",
 		"color": "ff1493",
@@ -1369,17 +1433,19 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Flame Barrage",
 		"caster": "Flame Nightmare",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "30",
 		"description": [
 			"Targets a random player and fires dual meteors every half second target the target location",
 			"Each impact stuns all enemies nearby for .5 seconds and deals 5000 damage each"
-		],
-		"cooldown": "30"
+		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Overload",
 		"caster": "Flame Nightmare",
 		"color": "ff1493",
@@ -1390,6 +1456,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "On Your Knees!",
 		"caster": "Flame Nightmare",
 		"color": "8a2be2",
@@ -1402,6 +1469,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Total Annihilation",
 		"caster": "Flame Nightmare",
 		"color": "8a2be2",
@@ -1412,15 +1480,18 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Berserk",
 		"caster": "Anger",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "0",
 		"description": [
 			"Increases attack speed by 100%"
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Furious Attacks",
 		"caster": "Anger",
 		"color": "ff1493",
@@ -1431,6 +1502,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Mark of Hatred",
 		"caster": "Hatred",
 		"color": "ff1493",
@@ -1441,6 +1513,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Chomp Armor",
 		"caster": "Turtle Lord",
 		"color": "ff1493",
@@ -1451,6 +1524,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Mystic Shell",
 		"caster": "Turtle Lord",
 		"color": "ff1493",
@@ -1460,6 +1534,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Hard Shell",
 		"caster": "Turtle Lord",
 		"color": "ff1493",
@@ -1469,6 +1544,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Turtle Ambush",
 		"caster": "Turtle Lord",
 		"color": "8a2be2",
@@ -1483,6 +1559,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Summon Heaing Turtle",
 		"caster": "Turtle Lord",
 		"color": "8a2be2",
@@ -1498,6 +1575,7 @@
 		]
 	},
 	{
+		"id": "xxxx",
 		"name": "Mana Bombardment",
 		"caster": "Turtle Lord",
 		"color": "ff1493",
