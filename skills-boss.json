@@ -898,7 +898,7 @@
 	},
 	{
 		"name": "Frost Spike",
-		"caster": "Spider Queen Ilshenar",
+		"caster": "Frostspider Queen",
 		"color": "FFCC00",
 		"active": [
 			"After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 damage and stuns for .5 seconds"
@@ -907,7 +907,7 @@
 	},
 	{
 		"name": "Frost Aura",
-		"caster": "Spider Queen Ilshenar",
+		"caster": "Frostspider Queen",
 		"color": "FFCC00",
 		"passive": [
 			"All enemies nearby will have -40% attack speed and -40% movement speed"
