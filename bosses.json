@@ -2684,7 +2684,7 @@
 	},
 	{
 		"id": "h01E",
-		"name": "Monster",
+		"name": "Slime Monster",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2707,7 +2707,7 @@
 	},
 	{
 		"id": "h01D",
-		"name": "Monster",
+		"name": "Golem Monster",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2730,7 +2730,7 @@
 	},
 	{
 		"id": "h01E",
-		"name": "Monster",
+		"name": "Hound Monster",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
