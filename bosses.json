@@ -4194,6 +4194,8 @@
 	{
 		"id": "h04O",
 		"name": "Valtora",
+		"color": "c9c795",
+		"quote": "The skies shall judge you!",
 		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
@@ -4201,6 +4203,21 @@
 		"respawn": "3",
 		"location": "The Left-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Storm crafted",
+		"stats": {
+			"health": "9750000",
+			"healthRegen": "7500",
+			"mana": "100",
+			"manaRegen": "33.33",
+			"armor": "1240",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "25",
+			"attackDamage": "10993",
+			"attackSpread": "8",
+			"attackRange": "750",
+			"attackSpeed": ".5",
+			"moveSpeed": "500"
+		},
 		"drops": [
 			"Shackles of Heaven",
 			"Aegis of Storm",
@@ -4210,10 +4227,14 @@
 			"Token of Thunder Lord"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Magnetic Attraction",
+			"Storm Hammer",
+			"Servant of Lightning",
+			"Wrath of Heaven",
+			"Nasty Shock",
+			"Windy Presence",
+			"Electric Storm",
+			"Rage of the Thunder God"
 		],
 		"minions": [
 			"Servant of Lightning God"
@@ -4226,7 +4247,29 @@
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The Left-most portal in the tower located east of the Secluded Forest",
-		"conditions": "Summoned by Valtora"
+		"conditions": "Summoned by Valtora",
+		"stats": {
+			"health": "2089000",
+			"healthRegen": "500",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "500",
+			"armorType": "Light",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1935",
+			"attackSpread": "7",
+			"attackRange": "450",
+			"attackSpeed": "1.667",
+			"moveSpeed": "300"
+		},
+		"spells": [
+			"Lightning Strike",
+			"Lightning Shield"
+		],
+		"notes": [
+			"Lasts for 60 seconds"
+		]
 	},
 	{
 		"id": "h060",
