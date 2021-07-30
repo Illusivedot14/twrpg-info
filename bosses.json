@@ -3687,7 +3687,7 @@
 	{
 		"id": "n03W",
 		"name": "Elder Ent",
-		"level": "100",
+		"level": "110",
 		"category": "High",
 		"type": "Minion",
 		"limit": "None",
@@ -3734,7 +3734,7 @@
 	{
 		"id": "n03X",
 		"name": "Giant Ent",
-		"level": "100",
+		"level": "110",
 		"category": "High",
 		"type": "Minion",
 		"limit": "None",
@@ -3797,7 +3797,7 @@
 		"name": "Archangel Samael",
 		"color": "EEEE9B",
 		"quote": "You mortals cannot escape your fate!",
-		"level": "100",
+		"level": "110",
 		"category": "High",
 		"type": "Boss",
 		"limit": "None",
@@ -3842,13 +3842,30 @@
 	{
 		"id": "n02Y",
 		"name": "Shadow Dragon Irbert",
-		"level": "100",
+		"color": "3b5081",
+		"quote": "You dare set your foot into my nest..",
+		"level": "110",
 		"category": "High",
 		"type": "Boss",
 		"limit": "None",
 		"respawn": "3",
 		"location": "South of Frosty Snowfield, in Deep Snowfield",
 		"conditions": "Level 100 and Blue Magic Stone x12",
+		"stats": {
+			"health": "8250000",
+			"healthRegen": "7500",
+			"mana": "100",
+			"manaRegen": "0",
+			"armor": "1090",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "5523",
+			"attackSpread": "7",
+			"attackRange": "800",
+			"attackSpeed": ".833",
+			"moveSpeed": "360"
+		},
 		"notes": [
 			"1 sealed material also drops whenever a full material has been dropped"
 		],
@@ -3863,32 +3880,79 @@
 			"Token of Darkness"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Shadow Attack",
+			"Dragonic Skin",
+			"Shadow Breath",
+			"Seal",
+			"Shadow Circle",
+			"Super Armor",
+			"Illusions of Shadow",
+			"Eternity Link",
+			"Dark Blast"
 		],
 		"minions": [
-			"Small Shadow", "Large Shadow"
+			"Illusion of Irbert", "Illusion of Irbert (Large)"
 		]
 	},
 	{
-		"id": "xxxx",
-		"name": "Small Shadow",
-		"level": "100",
+		"id": "n01Q",
+		"name": "Illusion of Irbert",
+		"level": "110",
 		"category": "High",
 		"type": "Minion",
 		"location": "South of Frosty Snowfield, in Deep Snowfield",
-		"conditions": "Summoned by Shadow Dragon Irbert"
+		"conditions": "Summoned by Shadow Dragon Irbert",
+		"stats": {
+			"health": "3000000",
+			"healthRegen": "3750",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "800",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "2701",
+			"attackSpread": "18",
+			"attackRange": "800",
+			"attackSpeed": ".833",
+			"moveSpeed": "360"
+		},
+		"spells": [
+			"Shadow Breath",
+			"Dark Detonation"
+		]
 	},
 	{
-		"id": "xxxx",
-		"name": "Large Shadow",
-		"level": "100",
+		"id": "n03I",
+		"name": "Illusion of Irbert (Large)",
+		"level": "110",
 		"category": "High",
 		"type": "Minion",
 		"location": "South of Frosty Snowfield, in Deep Snowfield",
-		"conditions": "Summoned by Shadow Dragon Irbert"
+		"conditions": "Summoned by Shadow Dragon Irbert",
+		"stats": {
+			"health": "5250000",
+			"healthRegen": "7600",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "1090",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "5523",
+			"attackSpread": "18",
+			"attackRange": "800",
+			"attackSpeed": ".833",
+			"moveSpeed": "360"
+		},
+		"spells": [
+			"Shadow Attack",
+			"Shadow Breath",
+			"Dragonic Skin",
+			"Seal",
+			"Dark Detonation",
+			"Reinforcement of Darkness"
+		]
 	},
 	{
 		"id": "h01K",
