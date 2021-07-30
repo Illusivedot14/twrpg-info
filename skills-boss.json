@@ -1804,7 +1804,7 @@
 		"id": "xxxx",
 		"name": "Infected Swipes",
 		"caster": "Zombie Lord",
-		"color": "ff8c00",
+		"color": "ff1493",
 		"type": "passive",
 		"description": [
 			"On auto attack, gain 50% of damage back as HP",
@@ -1815,7 +1815,7 @@
 		"id": "xxxx",
 		"name": "Infected Claw",
 		"caster": "Zombie Lord",
-		"color": "ff8c00",
+		"color": "ff1493",
 		"type": "passive",
 		"description": [
 			"On auto attack, apply debuff that deals 375 magic damage per second",
@@ -1865,6 +1865,90 @@
 			"His damage will increase by 25% every life past 4th life",
 			"His DR will increase logarithmically",
 			"His DR up to ninth life is as listed: 0, 25, 43.8, 57.8, 74.7, 84.8, 90.9, 94.5, 96.7"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Earth Slam",
+		"caster": "Ancient Ent",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "10",
+		"description": [
+			"Create a ring of spikes at one of the 4 layers around Ancient Ent, each starting about 300 range more than the last",
+			"When an enemy is hit by these spikes after 1.5 seconds of wind-up, deal 12000 magic damage and stun enemies for 3 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Lightning Storm",
+		"caster": "Ancient Ent",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "30",
+		"description": [
+			"After 2.5 seconds of channeling, conjure a lightning storm that takes up a third of the arena vertically or a half vertically",
+			"Positions are random",
+			"Deals 200% Max HP magic damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Ent Power",
+		"caster": ["Ancient Ent", "Elder Ent"],
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"On auto-attack, 20% chance to deal 1.5x attack damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Fortitude of Nature",
+		"caster": "Ancient Ent",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At 50% HP, plants its roots down into the ground, gaining 66.7% Damge reduction and spawn 2 Elder Ents",
+			"Lasts until one of the Elder Ents are down",
+			"Also increases orb spawn rate by 50%",
+			"Can reset if Ancient Ent reaches 100% HP"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Weak Slam",
+		"caster": "Elder Ent",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "5",
+		"cost": "100",
+		"description": [
+			"After 1.5 second of wind-up, the ground in front of Elder Ent spikes up, dealing 7500 magic damage and stunning all those in the path for 1 second"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Thorns Armor",
+		"caster": "Elder Ent",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "15",
+		"description": [
+			"Creates a breakable shield that returns 33% of damage dealt as pure damage to the attacker",
+			"Lasts 5 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Might of Nature",
+		"caster": "Elder Ent",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"When reaching 66% and 33% HP, gain 100% Damage reduction and select a random target in the arena",
+			"Elder Ent will then jump into the air and follow that target for 3 seconds, then it locks onto that place to land on",
+			"Anyone in the impact zone is instantly killed"
 		]
 	}
 ]
