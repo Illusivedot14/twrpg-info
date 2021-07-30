@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"id": "xxxx",
 		"name": "Summon Shadow Wolf",
 		"caster": "Silverback Wolf",
@@ -1676,7 +1675,7 @@
 	{
 		"id": "xxxx",
 		"name": "Super Armor",
-		"caster": "Skeleton King Desperia",
+		"caster": ["Skeleton King Desperia", "Shadow Dragon Irbert"],
 		"color": "8a2be2",
 		"type": "trigger",
 		"cooldown": "0",
@@ -2017,7 +2016,7 @@
 		"id": "xxxx",
 		"name": "Light Overload",
 		"caster": "Archangel Samael",
-		"color": "ff8c00",
+		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
 			"When stunned or silenced, gain 10 mana per second",
@@ -2037,6 +2036,126 @@
 			"There are 8 rotations per set, lasting about 20 seconds",
 			"Each person dying to the wheel heals Samael by 15%",
 			"These can reset if Samael reaches 90% HP and 50% HP respectively"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Shadow Breath",
+		"caster": ["Shadow Dragon Irbert", "Illusion of Irbert", "Illusion of Irbert (Large)"],
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "9",
+		"description": [
+			"Deals 30% Max HP magic damage to all those in path after .5 second of wind-up",
+			"Slows down enemies by 50% and silences them for 7 seconds",
+			"Size of wave depends on monster size"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Dragonic Skin",
+		"caster": ["Shadow Dragon Irbert", "Illusion of Irbert (Large)"],
+		"color": "ff1493",
+		"type": "passive",
+		"cooldown": "15",
+		"description": [
+			"On hit, creates a breakable shield that converts 1000% of damage taken to health for 3 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Shadow Attack",
+		"caster": ["Shadow Dragon Irbert", "Illusion of Irbert (Large)"],
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Allows Shadow Dragon and his Large Illusion to strike three enemies at once"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Seal",
+		"caster": ["Shadow Dragon Irbert", "Illusion of Irbert (Large)"],
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "15",
+		"description": [
+			"After .25 seconds of wind-up, deals 4500 damage to all enemies nearby",
+			"Ignites one random player, dealing 1000 magic damage per second to all nearby enemies"
+		]
+	},
+	{
+		"id": "",
+		"name": "Reinforcement of Darkness",
+		"caster": ["Illusion of Irbert (Large)", "Illusion of Irbert"],
+		"color": "ff1493",
+		"type": "passive",
+		"cooldown": "20",
+		"description": [
+			"Increases Damage Reduction by 10% at first permamently",
+			"Every follow up proc increases damage reduction by roughly 1+(.9/times procced)x current reduction up to 100%"
+		]
+	},
+	{
+		"id": "",
+		"name": "Dark Detonation",
+		"caster": ["Illusion of Irbert (Large)", "Illusion of Irbert"],
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"On death, sends a spirit of darkness to all enemies",
+			"After 5 seconds of channeling (timer resets on application), instantly kill all players around target, if a dragon is near, heal that dragon by 50%"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Illusions of Shadow",
+		"caster": "Shadow Dragon Irbert",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Upon reaching 50%, regain full HP and summon 3 Illusions of Irbert and 1 Large Illusion of Irbert that appear on either side of Shadow Dragon",
+			"However, Shadow Dragon becomes invulnerable and paused until the minions are dead",
+			"Shadow Dragon also creates an aura that deals 1.5% Max HP magic damage per second that lasts the rest of the fight",
+			"Shadow Aura deals 50% more damage every 500 range away from him up to 2000 range"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Shadow Circle",
+		"caster": "Shadow Dragon Irbert",
+		"color": "ff8c00",
+		"type": "passive",
+		"cooldown": "7",
+		"description": [
+			"Creates a purple circle at a random target that silences anyone who's in the circle after a second it was created",
+			"Silences all in the circle for 4 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Eternity Link",
+		"caster": "Shadow Dragon Irbert",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "12",
+		"description": [
+			"Selects a target, if that target is alone, it will die instantly",
+			"If there is a second enemy nearby, link the target and that enemy",
+			"While this link is up, reduce damage by 50%",
+			"Can be broken if the distance between enemy links is at least 1200 range"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Dark Blast",
+		"caster": "Shadow Dragon Irbert",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "35",
+		"description": [
+			"Selects a random target and charges up a blast for 1.75 seconds",
+			"Any enemy in the circle after the ball of darkness is launched is instantly killed"
 		]
 	}
 ]
