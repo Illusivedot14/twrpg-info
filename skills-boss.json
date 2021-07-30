@@ -1913,6 +1913,9 @@
 			"Lasts until one of the Elder Ents are down",
 			"Also increases orb spawn rate by 50%",
 			"Can reset if Ancient Ent reaches 100% HP"
+		],
+		"summons": [
+			"Elder Ent"
 		]
 	},
 	{
@@ -2119,6 +2122,9 @@
 			"However, Shadow Dragon becomes invulnerable and paused until the minions are dead",
 			"Shadow Dragon also creates an aura that deals 1.5% Max HP magic damage per second that lasts the rest of the fight",
 			"Shadow Aura deals 50% more damage every 500 range away from him up to 2000 range"
+		],
+		"summons": [
+			"Illusion of Irbert (Large)", "Illusion of Irbert"
 		]
 	},
 	{
@@ -2126,7 +2132,7 @@
 		"name": "Shadow Circle",
 		"caster": "Shadow Dragon Irbert",
 		"color": "ff8c00",
-		"type": "passive",
+		"type": "active",
 		"cooldown": "7",
 		"description": [
 			"Creates a purple circle at a random target that silences anyone who's in the circle after a second it was created",
@@ -2157,6 +2163,265 @@
 		"description": [
 			"Selects a random target and charges up a blast for 1.75 seconds",
 			"Any enemy in the circle after the ball of darkness is launched is instantly killed"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Mark of Death",
+		"caster": ["Death Fiend", "Death Devourer", "Death Weaver", "Mark of Death"],
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Grants user special effects from Death Fiend bosses",
+			"Death Fiend's Mark grants the user immunity to Howl of Death and cannot be targeted by Crawling Death",
+			"Death Huntresses' Mark prioritizes that target for Domination Arrow",
+			"Death Weaver's Mark prioritizes that target to be insta-killed by Deadly Dance and teleportation",
+			"Death Devourer's mark prioritizes that target to be focused during Hungering Charge"
+
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Grasp of the Fiend",
+		"caster": "Death Fiend",
+		"color": "ff8c00",
+		"type": "passive",
+		"description": [
+			"On auto attack, decreases armor of target by 100"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Crawling Death",
+		"caster": "Death Fiend",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "20",
+		"description": [
+			"Create two death coils that spiral around the target",
+			"On contact with any player, applies debuff that lasts 5 seconds",
+			"When debuff is stacked twice, instantly kill person",
+			"On contact, deals 11250 magic damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Howl of Death",
+		"caster": "Death Fiend",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "30",
+		"description": [
+			"Afer 2 seconds of casting, apply 'Impeding Doom' to all enemies within 1200 range",
+			"After 3 seconds, deal 99999 magic damage and instantly kill target, if target survives, stun for 2 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Deathly Cleave",
+		"caster": "Death Fiend",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"On auto-attack, create an orb of death that flies around Death Fiend",
+			"On 7th attack, destroy all orbs and deals 100% Max HP physical damage that reaches 1000 range in a 150 degree arc in front of Death Fiend"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Unholy Summoning",
+		"caster": "Death Fiend",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At 80% and 60% HP, gain 90% Damage Reduction for 10 seconds",
+			"Summons one of three minions randomly at two set locations",
+			"Same minion cannot be summoned twice",
+			"Does not trigger if Determination of Death is triggered"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Determination of Death",
+		"caster": "Death Fiend",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At 20% HP, deal 200% max hp pure damage to everyone in the arena and heals back to full",
+			"Increases attack speed by 60%",
+			"Disables Unholy Summoning"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Death Comes...",
+		"caster": "Death Fiend",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"If no one near Death Fiend (800 range), teleport to nearest player and winds-up an axe swipe",
+			"If player is hit, instantly kill him",
+			"If player dodges, mark it with Mark of Death"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Doom",
+		"caster": ["Death Fiend", "Death Weaver", "Death Devourer", "Death Huntress"],
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"When one of Death Fiend's minions or Death Fiend himself dies, give 4 second countdown",
+			"After 4 seconds, gain 100% Damage Reduction forever",
+			"This is a fail condition"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Bindings of Death",
+		"caster": ["Death Huntress", "Death Devourer", "Death Weaver"],
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Whenever this caster is near another user with this spell (800 range), gain 100% Damage Reduction"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Heartpiercing Arrow",
+		"caster": "Death Huntress",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "6",
+		"description": [
+			"Targets a random player to track with a purple beam within the arena with unlimited range",
+			"Deals 10000 pure damage, breaks all shields, and applies a debuff that lasts 30 seconds and slows down target movement speed by 30%",
+			"If the target with the debuff is hit twice, they will instantly be killed"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Weaken Soul",
+		"caster": "Death Huntress",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Every 3 attacks, weaken's the target soul by reducing healing taken by 5%, stacks until 100%",
+			"Creates a small vortex at location that will pull the player",
+			"Vortexes can grow three times, after that it will grow no more",
+			"During the last 4 seconds, the vortex will grow more and more red until it explodes, instantly killing everyone being pulled",
+			"Vortexes last for 30 seconds, the timer resets when they grow"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Arrow of Domination",
+		"caster": "Death Huntress",
+		"color": "8a2be2",
+		"type": "active",
+		"cooldown": "6",
+		"description": [
+			"Every time Death Huntress reaches full mana, she will fire an arrow into the sky, marking one place",
+			"Every fourth arrow, these marks will ignite, dealing 999k damage and insantly killing everyone in range of the mark (200 range)",
+			"Each explosion spawns 4 Death Hounds"
+		],
+		"summons": [
+			"Death Hound"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Sword Blows",
+		"caster": "Death Weaver",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "15",
+		"description": [
+			"Drags target in front of you, after .5 seconds of windup, swipes 13 times in 3 seconds",
+			"Each swipe does 3600 magic damage and interrupts everyone in the swipe"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Deadly Dance",
+		"caster": "Death Weaver",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "30",
+		"description": [
+			"After 1 second of wind-up, sends 8 waves around caster",
+			"Each wave does 12000 magic damage and slows player's movement speed by 50% for 5 seconds",
+			"Instantly kills target with Weaver's mark"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Unholy Teleportation",
+		"caster": "Death Weaver",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"When reaching max mana, choose a random target to teleport to",
+			"Stun that player for 3 seconds and automatically start casting either Sword Blows or Deadly Dance"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Essence of Death",
+		"caster": "Death Devourer",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Creates orbs around the arena that travel toward Death Devourer",
+			"On contact with enemy, deals 15% max HP magic damage",
+			"Each orb heals Death Devourer by 10%"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Absorb Soul",
+		"caster": "Death Devourer",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Every enemy in 400 range of Death Devourer decreases their regen by 1.25% max HP every .3 seconds",
+			"Removed immediately after going out of 400 range"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Deathly Howl",
+		"caster": "Death Devourer",
+		"color": "8a2be2",
+		"type": "trigger",
+		"cooldown": "15",
+		"description": [
+			"After 3 seconds of interruptable wind-up, silences all enemies in arena"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Deathly Charge",
+		"caster": "Death Devourer",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At full mana, choose a random target in arena to chase for 10 seconds",
+			"Will instantly kill all those in path and run downs tree",
+			"If Devourer hits the border, it gets stunned for 3 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Chaotic Affliction",
+		"caster": "Death Devourer",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"On hit, apply a debuff that decreases the target's visibility",
+			"After 20 hits, instantly kill target",
+			"Lasts for 5 seconds, reapplies every application",
+			"Can be cleansed"
 		]
 	}
 ]
