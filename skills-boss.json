@@ -2423,5 +2423,129 @@
 			"Lasts for 5 seconds, reapplies every application",
 			"Can be cleansed"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Magnetic Attraction",
+		"caster": "Valtora",
+		"color": "ff8c00",
+		"type": "trigger",
+		"description": [
+			"The first person that attacks Valtora will attract all other players",
+			"Players blocked by debris will be stunned",
+			"When one player is near the magnet, no one gets attracted, but the other player is chained to the player with the magnet mechanic"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Storm Hammer",
+		"caster": "Valtora",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "12",
+		"description": [
+			"Throws a hammer at the farthest target in 1500 range",
+			"Does 25% max hp magic damage and applies Nasty Shock",
+			"After Rage of the Thunder God, hammers apply a lightning pool",
+			"This pool applies nasty shock and deals 5% max magic damage per .5 seconds",
+			"If Valtora is in the lightning pool, he heas 10% HP per second"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Servant of Lightning",
+		"caster": "Valtora",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "40",
+		"description": [
+			"Summons two Servants of Lightning God",
+			"Cannot be cast if above 85% HP"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Wrath of Heaven",
+		"caster": "Valtora",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "45",
+		"description": [
+			"Summons a red line that sweeps vertically or horizontally across the arena",
+			"Anyone in its path will instantly be killed and be dealt 1500 damage",
+			"Breaks through kill immunity and invulnerablity",
+			"Can be dodged with height",
+			"Cannot be cast before 50% HP is reached"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Windy Presence",
+		"caster": "Valtora",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Create four tornados that travel around four quadrants around Valtora",
+			"Once these tornados are on an enemy, applies 'Windy' debuff",
+			"Windy silences enemies and deals 1.25% max hp pure damage per .25 seconds",
+			"Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Electric Storm",
+		"caster": "Valtora",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Sparks the atmosphere with electrically charged orbs",
+			"When orbs hit the enemy, deal 25% max hp Magic damage and applies Nasty Shock"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Nasty Shock",
+		"caster": "Valtora",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Deals 25% max hp magic damage to nearby allies three times",
+			"Orbs also reduce healing by 100% and reduce damage by target by 40% for 4 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Rage of the Thunder God",
+		"caster": "Valtora",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Becomes unselectable and flies up into the air, casts three Wrath of Heavens and then flies back down",
+			"Lasts for 30 seconds",
+			"Gain 30% Damage Reduction"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Lightning Shield",
+		"caster": "Servant of Lightning God",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Breakable shield that deals 750 magic damage per second to nearby enemies and grants 50% magic defense",
+			"Makes auto-attacks interrupt target"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Lightning Strike",
+		"caster": "Servant of Lightning God",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Deals 5.5% max HP magic damage to enemy",
+			"Bounces to nearby enemies 10 times",
+			"Does not lose damage on bounce"
+		]
 	}
 ]
