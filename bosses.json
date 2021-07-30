@@ -3711,8 +3711,7 @@
 		"notes": [
 			"Elder Ent: Upon failure, droprate is reduced by 80%",
 			"1 sealed material also drops whenever a full material has been dropped",
-			"Spawns 5 Giant Ents on Death",
-			"If in contact with Ancient Ent, heal both by 5% HP per second"
+			"Spawns 5 Giant Ents on Death"
 		],
 		"drops": [
 			"Griseus, the Sword of Protection",
@@ -3722,6 +3721,7 @@
 		],
 		"spells": [
 			"Thorns Armor",
+			"Blessing of Nature",
 			"Weak Slam",
 			"Ent Power",
 			"Might of Nature"
@@ -3795,6 +3795,8 @@
 	{
 		"id": "o000",
 		"name": "Archangel Samael",
+		"color": "EEEE9B",
+		"quote": "You mortals cannot escape your fate!",
 		"level": "100",
 		"category": "High",
 		"type": "Boss",
@@ -3802,6 +3804,21 @@
 		"respawn": "3",
 		"location": "In Castle Avalon, fighting area of Guardian Angels",
 		"conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
+		"stats": {
+			"health": "9000000",
+			"healthRegen": "2250",
+			"mana": "100",
+			"manaRegen": "0",
+			"armor": "1240",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "5428",
+			"attackSpread": "5",
+			"attackRange": "450",
+			"attackSpeed": ".417",
+			"moveSpeed": "380"
+		},
 		"notes": [
 			"1 sealed material also drops whenever a full material has been dropped"
 		],
@@ -3814,10 +3831,12 @@
 			"Archangel Token"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Light Overload",
+			"Focused Light",
+			"Order of Light",
+			"Spirit of Light",
+			"Protection of Light",
+			"Purge of Light"
 		]
 	},
 	{
