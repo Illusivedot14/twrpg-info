@@ -2658,7 +2658,7 @@
 	},
 	{
 		"id": "n01Z",
-		"name": "Demonic Portal",
+		"name": "Hell Portal",
 		"category": "Minor",
 		"type": "Mechanic",
 		"location": "East Prius Gate",
@@ -3423,7 +3423,7 @@
 	},
 	{
 		"id": "n04C",
-		"name": "Obelisk",
+		"name": "Sealstone",
 		"level": "100",
 		"category": "High",
 		"type": "Mechanic",
@@ -3448,7 +3448,7 @@
 	{
 		"id": "n02V",
 		"name": "Skeleton King Desperia",
-		"color": "8a2be2",
+		"color": "3c1361",
 		"quote": "This is the difference between your power and mine!",
 		"level": "110",
 		"category": "High",
@@ -3500,7 +3500,7 @@
 	{
 		"id": "h00W",
 		"name": "Skeletal Warrior",
-		"level": "100",
+		"level": "110",
 		"category": "High",
 		"type": "Minion",
 		"location": "In Prius Forward camp, the Sealed Land to the North",
@@ -3527,13 +3527,30 @@
 	{
 		"id": "n033",
 		"name": "Zombie Lord",
-		"level": "100",
+		"color": "575b40",
+		"quote": "None shall take my eternal life away!",
+		"level": "110",
 		"category": "High",
 		"type": "Boss",
 		"limit": "None",
 		"respawn": "3",
 		"location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
 		"conditions": "Level 100",
+		"stats": {
+			"health": "8100000",
+			"healthRegen": "0",
+			"mana": "100",
+			"manaRegen": "0",
+			"armor": "1320",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "8488",
+			"attackSpread": "5",
+			"attackRange": "225",
+			"attackSpeed": "1",
+			"moveSpeed": "300"
+		},
 		"notes": [
 			"1 sealed material also drops whenever a full material has been dropped"
 		],
@@ -3548,32 +3565,75 @@
 			"Zombie Token"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Hunger",
+			"Infected Claw",
+			"Infected Swipes",
+			"Infest",
+			"Aura of Death",
+			"Immortality"
 		],
 		"minions": [
-			"Small Zombie", "Acolyte"
+			"Zombie", "Worshipper of Immortality"
 		]
 	},
 	{
 		"id": "xxxx",
-		"name": "Acolyte",
-		"level": "100",
+		"name": "Worshipper of Immortality",
+		"level": "110",
 		"category": "High",
 		"type": "Mechanic",
 		"location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
-		"conditions": "Summoned by Underlord Agareth"
+		"conditions": "Summoned by Underlord Agareth",
+		"stats": {
+			"health": "5000000",
+			"healthRegen": "2500000",
+			"mana": "100",
+			"manaRegen": "1-4",
+			"armor": "1320",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "8488",
+			"attackSpread": "5",
+			"attackRange": "225",
+			"attackSpeed": "1",
+			"moveSpeed": "300"
+		},
+		"spells": [
+			"Deathly Shroud",
+			"Gift of Immortality"
+		]
 	},
 	{
-		"id": "xxxx",
-		"name": "Small Zombie",
-		"level": "100",
+		"id": "n03A",
+		"name": "Zombie",
+		"level": "110",
 		"category": "High",
 		"type": "Minion",
 		"location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
-		"conditions": "Summoned by Zombie Lord"
+		"conditions": "Summoned by Zombie Lord",
+		"stats": {
+			"health": "50000",
+			"healthRegen": "0",
+			"mana": "60",
+			"manaRegen": "1",
+			"armor": "840",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1103",
+			"attackSpread": "6",
+			"attackRange": "150",
+			"attackSpeed": ".952",
+			"moveSpeed": "250"
+		},
+		"notes": [
+			"If there are 50 of these guys on the field, Zombie Lord Scenario Fails and a cutscene plays"
+		],
+		"spells": [
+			"Lifesteal",
+			"Rise from the Grave"
+		]
 	},
 	{
 		"id": "n030",
