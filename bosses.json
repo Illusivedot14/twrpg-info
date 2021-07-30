@@ -2658,7 +2658,7 @@
 	},
 	{
 		"id": "n01Z",
-		"name": "Hell Portal",
+		"name": "Demonic Portal",
 		"category": "Minor",
 		"type": "Mechanic",
 		"location": "East Prius Gate",
@@ -3260,15 +3260,121 @@
 		}
 	},
 	{
+		"id": "n03F",
+		"name": "Dragon Hatchling",
+		"level": "100",
+		"category": "High",
+		"type": "Mob",
+		"limit": "1",
+		"timer": "30",
+		"location": "East of Volcanic Lands, within the Dragon Lair",
+		"conditions": "Level 100",
+		"stats": {
+			"health": "250000",
+			"healthRegen": "2500",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "500",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1504",
+			"attackSpread": "7",
+			"attackRange": "450",
+			"attackSpeed": "0.667",
+			"moveSpeed": "370"
+		},
+		"drops": [
+			"Nightare Rod"
+		]
+	},
+	{
+		"id": "n03G",
+		"name": "Dragonic Warrior",
+		"level": "100",
+		"category": "High",
+		"type": "Mob",
+		"limit": "1",
+		"timer": "30",
+		"location": "East of Volcanic Lands, within the Dragon Lair",
+		"conditions": "Level 100",
+		"stats": {
+			"health": "400000",
+			"healthRegen": "4000",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "550",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "3011",
+			"attackSpread": "7",
+			"attackRange": "200",
+			"attackSpeed": "0.4",
+			"moveSpeed": "420"
+		},
+		"drops": [
+			"Nightare Rod"
+		],
+		"spells": [
+			"Flame Bolt"
+		],
+		"minions": [
+			"Flame Spirit"
+		]
+	},
+	{
+		"id": "n03T",
+		"name": "Flame Spirit",
+		"level": "100",
+		"category": "High",
+		"type": "Minion",
+		"location": "Summoned by Bone Dragon, or Dragonic Warrior",
+		"conditions": "Level 100",
+		"stats": {
+			"health": "100000",
+			"healthRegen": "5000",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "590",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "620",
+			"attackSpread": "7",
+			"attackRange": "750",
+			"attackSpeed": "0.333",
+			"moveSpeed": "300"
+		},
+		"notes": [
+			"Burns all nearby enemies for 1000 magic damage per second"
+		]
+	},
+	{
 		"id": "n03S",
 		"name": "Bone Dragon",
-		"level": "100",
+		"level": "110",
 		"category": "High",
 		"type": "Boss",
 		"limit": "None",
 		"respawn": "3",
 		"location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
 		"conditions": "Level 100",
+		"stats": {
+			"health": "7200000",
+			"healthRegen": "3000",
+			"mana": "60",
+			"manaRegen": "0",
+			"armor": "1240",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "5270",
+			"attackSpread": "7",
+			"attackRange": "250",
+			"attackSpeed": "0.5",
+			"moveSpeed": "450"
+		},
 		"drops": [
 			"Ancient Hourglass",
 			"Dragonic Orb",
@@ -3279,43 +3385,89 @@
 			"Bone Dragon Token"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Swipe",
+			"Flame Breath",
+			"Hell Spike",
+			"Petrification",
+			"Dragon's Rage"
 		],
 		"minions": [
-			"Phoenix", "Tentacle"
+			"Flame Spirit", "Hell Spike"
 		]
 	},
 	{
 		"id": "xxxx",
-		"name": "Phoenix",
-		"level": "100",
-		"category": "High",
-		"type": "Minion",
-		"location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
-		"conditions": "Summoned by Bone Dragon"
-	},
-	{
-		"id": "xxxx",
-		"name": "Tentacle",
+		"name": "Hell Spike",
 		"level": "100",
 		"category": "High",
 		"type": "Mechanic",
 		"location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
-		"conditions": "Summoned by Bone Dragon during Red Phase"
+		"conditions": "Summoned by Bone Dragon during Red Phase",
+		"stats": {
+			"health": "10000000",
+			"healthRegen": "0",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "Invulnerable",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "5"
+		}
+	},
+	{
+		"id": "n04C",
+		"name": "Obelisk",
+		"level": "100",
+		"category": "High",
+		"type": "Mechanic",
+		"location": "In Prius Forward camp, the Sealed Land to the North",
+		"stats": {
+			"health": "250000",
+			"healthRegen": "0",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "1000",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "0"
+		},
+		"notes": "Level 100. Starts the Skeleton King Desperia fight"
 	},
 	{
 		"id": "n02V",
 		"name": "Skeleton King Desperia",
-		"level": "100",
+		"level": "110",
 		"category": "High",
 		"type": "Boss",
 		"limit": "None",
 		"respawn": "3",
 		"location": "In Prius Forward camp, the Sealed Land to the North",
 		"conditions": "Level 100",
+		"stats": {
+			"health": "8100000",
+			"healthRegen": "15000",
+			"mana": "100",
+			"manaRegen": "0",
+			"armor": "1320",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "8488",
+			"attackSpread": "5",
+			"attackRange": "225",
+			"attackSpeed": "1",
+			"moveSpeed": "300"
+		},
 		"notes": [
 			"1 sealed material also drops whenever a full material has been dropped"
 		],
@@ -3333,32 +3485,40 @@
 			"Skeleton Token"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Super Armor",
+			"Drain Soul",
+			"Soul Terror",
+			"Weapon of Nothingness",
+			"Absolute Devastation",
+			"True Power of Despair"
 		]
 	},
 	{
-		"id": "xxxx",
-		"name": "Skeleton Minion",
+		"id": "h00W",
+		"name": "Skeletal Warrior",
 		"level": "100",
 		"category": "High",
 		"type": "Minion",
 		"location": "In Prius Forward camp, the Sealed Land to the North",
-		"conditions": "Summoned by Underlord Agareth",
+		"conditions": "Summoned by Skeleton King Desperia",
+		"stats": {
+			"health": "75000",
+			"healthRegen": "1000",
+			"mana": "100",
+			"manaRegen": "5",
+			"armor": "740",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "2377",
+			"attackSpread": "4",
+			"attackRange": "150",
+			"attackSpeed": "1.333",
+			"moveSpeed": "240"
+		},
 		"spells": [
-			"Pull"
+			"Dead Man's Reach"
 		]
-	},
-	{
-		"id": "xxxx",
-		"name": "Obilisk",
-		"level": "100",
-		"category": "High",
-		"type": "Mechanic",
-		"location": "In Prius Forward camp, the Sealed Land to the North",
-		"conditions": "Level 100. Starts the fight."
 	},
 	{
 		"id": "n033",
