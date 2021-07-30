@@ -1941,6 +1941,16 @@
 	},
 	{
 		"id": "xxxx",
+		"name": "Blessing of Nature",
+		"caster": "Elder Ent",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Heals all allies by 10% per second when within 200 range"
+		]
+	},
+	{
+		"id": "xxxx",
 		"name": "Might of Nature",
 		"caster": "Elder Ent",
 		"color": "8a2be2",
@@ -1949,6 +1959,84 @@
 			"When reaching 66% and 33% HP, gain 100% Damage reduction and select a random target in the arena",
 			"Elder Ent will then jump into the air and follow that target for 3 seconds, then it locks onto that place to land on",
 			"Anyone in the impact zone is instantly killed"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Focused Light",
+		"caster": "Archangel Samael",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "18",
+		"description": [
+			"Target the nearest player to throw 7 waves of light at",
+			"Each wave deal 2000 magic damage and stuns all those in the path for .5 seconds",
+			"Waves come once per second"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Order of Light",
+		"caster": "Archangel Samael",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "20",
+		"description": [
+			"Create 7 circles of light around Samael in random locations",
+			"After .5 second of wind-up, circles will deal 6% max HP magic damage per .3 second and interrupt target for 2 seconds",
+			"On final tick, deal 31% Max HP magic damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Spirit of Light",
+		"caster": "Archangel Samael",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "24",
+		"description": [
+			"Summon 12 orbs of light that will float towards Samael",
+			"Samael will heal 15000 HP per orb",
+			"If blocked by another unit, deal 1500 magic damage",
+			"Explodes on contact"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Protection of Light",
+		"caster": "Archangel Samael",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Whenever all the orbs from Spirit of Light have reached Samael OR after a Purge of Light OR after 24 seconds, gain this effect",
+			"Regenerate 1% HP per second and gain 25% Damage reduction",
+			"Can be broken"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Light Overload",
+		"caster": "Archangel Samael",
+		"color": "ff8c00",
+		"type": "trigger",
+		"description": [
+			"When stunned or silenced, gain 10 mana per second",
+			"When full mana, become cc-immune and knockback all enemies for 5 seconds",
+			"Loses all mana when triggered"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Purge of Light",
+		"caster": "Archangel Samael",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"After reaching 33% and 66% HP, summons a platform of light around Samael",
+			"Players within the light will die after 1 second of wind-up",
+			"There are 8 rotations per set, lasting about 20 seconds",
+			"Each person dying to the wheel heals Samael by 15%",
+			"These can reset if Samael reaches 90% HP and 50% HP respectively"
 		]
 	}
 ]
