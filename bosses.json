@@ -3638,13 +3638,30 @@
 	{
 		"id": "n030",
 		"name": "Ancient Ent",
-		"level": "100",
+		"color": "64b24c",
+		"quote": "Feel the might of Mother Nature!",
+		"level": "110",
 		"category": "High",
 		"type": "Boss",
 		"limit": "None",
 		"respawn": "3",
 		"location": "In Fairy Forest where a statue resides",
 		"conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
+		"stats": {
+			"health": "75000000",
+			"healthRegen": "22500",
+			"mana": "100",
+			"manaRegen": "33.33",
+			"armor": "1120",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "4711",
+			"attackSpread": "4",
+			"attackRange": "1500",
+			"attackSpeed": ".5",
+			"moveSpeed": "0"
+		},
 		"notes": [
 			"1 sealed material also drops whenever a full material has been dropped"
 		],
@@ -3656,14 +3673,15 @@
 			"Ent Token"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Earth Slam",
+			"Lightning Storm",
+			"Ent Power",
+			"Fortitude of Nature"
 		],
 		"minions": [
 			"Elder Ent",
-			"Giant Ent"
+			"Giant Ent",
+			"Ent"
 		]
 	},
 	{
@@ -3675,9 +3693,26 @@
 		"limit": "None",
 		"location": "Within Ancient Ent's domain, north of Fairy Forest",
 		"conditions": "Spawned by Ancient Ent",
+		"stats": {
+			"health": "3750000",
+			"healthRegen": "7500",
+			"mana": "100",
+			"manaRegen": "50",
+			"armor": "1060",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "6961",
+			"attackSpread": "4",
+			"attackRange": "200",
+			"attackSpeed": ".667",
+			"moveSpeed": "220"
+		},
 		"notes": [
 			"Elder Ent: Upon failure, droprate is reduced by 80%",
-			"1 sealed material also drops whenever a full material has been dropped"
+			"1 sealed material also drops whenever a full material has been dropped",
+			"Spawns 5 Giant Ents on Death",
+			"If in contact with Ancient Ent, heal both by 5% HP per second"
 		],
 		"drops": [
 			"Griseus, the Sword of Protection",
@@ -3686,10 +3721,14 @@
 			"Fragment of the Wind"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Thorns Armor",
+			"Weak Slam",
+			"Ent Power",
+			"Might of Nature"
+		],
+		"minions": [
+			"Ent",
+			"Giant Ent"
 		]
 	},
 	{
@@ -3701,6 +3740,21 @@
 		"limit": "None",
 		"location": "Within Ancient Ent's domain, north of Fairy Forest",
 		"conditions": "Spawned by Ancient Ent",
+		"stats": {
+			"health": "1500000",
+			"healthRegen": "7500",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "860",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1561",
+			"attackSpread": "4",
+			"attackRange": "200",
+			"attackSpeed": "1",
+			"moveSpeed": "280"
+		},
 		"notes": [
 			"Giant Ent: Upon failure, droprate is reduced by 80%",
 			"1 sealed material also drops whenever a full material has been dropped"
@@ -3709,15 +3763,33 @@
 			"Purified Water of Nature",
 			"Fragment of the Wind",
 			"Spirit Orb"
-		],
-		"stats": [
-			"HP: 34,690"
-		],
-		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+		]
+	},	
+	{
+		"id": "n032",
+		"name": "Ent",
+		"level": "110",
+		"category": "High",
+		"type": "Minion",
+		"location": "Within Ancient Ent's domain, north of Fairy Forest",
+		"conditions": "Spawned by Elder Ent",
+		"stats": {
+			"health": "600000",
+			"healthRegen": "1000",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "500",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1561",
+			"attackSpread": "4",
+			"attackRange": "200",
+			"attackSpeed": ".667",
+			"moveSpeed": "280"
+		},
+		"notes": [
+			"Lasts for 90 seconds"
 		]
 	},
 	{
