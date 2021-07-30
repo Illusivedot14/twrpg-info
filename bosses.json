@@ -3592,7 +3592,7 @@
 			"armor": "1320",
 			"armorType": "Heavy",
 			"magicResist": "0",
-			"damageResist": "0",
+			"damageResist": "100",
 			"attackDamage": "8488",
 			"attackSpread": "5",
 			"attackRange": "225",
@@ -3957,13 +3957,30 @@
 	{
 		"id": "h01K",
 		"name": "Death Fiend",
-		"level": "100",
+		"color": "FF0000",
+		"quote": "Resistance is futile!",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
 		"limit": "4",
 		"respawn": "3",
 		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
 		"conditions": "Level 100 and Red Magic Stone x12",
+		"stats": {
+			"health": "9000000",
+			"healthRegen": "7500",
+			"mana": "100",
+			"manaRegen": "20",
+			"armor": "1170",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "10786",
+			"attackSpread": "8",
+			"attackRange": "325",
+			"attackSpeed": ".556",
+			"moveSpeed": "425"
+		},
 		"drops": [
 			"The Ender",
 			"Armor of Grudge",
@@ -3976,80 +3993,208 @@
 			"Fiend Token"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Mark of Death",
+			"Grasp of the Fiend",
+			"Crawling Death",
+			"Howl of Death",
+			"Deathly Cleave",
+			"Unholy Summoning",
+			"Determination of Death",
+			"Death Comes...",
+			"Doom"
 		],
 		"minions": [
-			"Succubus", "Hellhound", "Sylvanas", "Treasures of Death"
+			"Death Huntress", "Death Devourer", "Death Weaver", "Treasures of Death"
 		],
 		"notes": [
 			"Token can only drop from Death Fiend"
 		]
 	},
 	{
-		"id": "xxxx",
-		"name": "Succubus",
-		"level": "100",
-		"category": "Endgame",
-		"type": "Minion",
-		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
-		"conditions": "Summoned by Death Fiend"
-	},
-	{
-		"id": "xxxx",
-		"name": "Hellhound",
-		"level": "100",
-		"category": "Endgame",
-		"type": "Minion",
-		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
-		"conditions": "Summoned by Death Fiend"
-	},
-	{
-		"id": "xxxx",
-		"name": "Sylvanas",
-		"level": "100",
+		"id": "h01S",
+		"name": "Death Huntress",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
 		"conditions": "Summoned by Death Fiend",
-		"minions": ["Dark Archer"]
+		"stats": {
+			"health": "5490000",
+			"healthRegen": "15000",
+			"mana": "10",
+			"manaRegen": "1",
+			"armor": "1020",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "5221",
+			"attackSpread": "8",
+			"attackRange": "1500",
+			"attackSpeed": ".8",
+			"moveSpeed": "500"
+		},
+		"spells": [
+			"Mark of Death",
+			"Bindings of Death",
+			"Heartpiercing Arrow",
+			"Weaken Soul",
+			"Arrow of Domination"
+
+		],
+		"minions": [
+			"Death Hound"
+		]
 	},
 	{
-		"id": "xxxx",
-		"name": "Dark Archer",
-		"level": "100",
+		"id": "h01P",
+		"name": "Death Weaver",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
-		"conditions": "Summoned by Sylvanas"
+		"conditions": "Summoned by Death Fiend",
+		"stats": {
+			"health": "6090000",
+			"healthRegen": "15000",
+			"mana": "30",
+			"manaRegen": "1",
+			"armor": "1040",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "3641",
+			"attackSpread": "8",
+			"attackRange": "200",
+			"attackSpeed": "1.111",
+			"moveSpeed": "500"
+		},
+		"spells": [
+			"Mark of Death",
+			"Bindings of Death",
+			"Deadly Dance",
+			"Sword Blows",
+			"Unholy Teleportation"
+		]
+	},
+	{
+		"id": "h01R",
+		"name": "Death Devourer",
+		"level": "120",
+		"category": "Endgame",
+		"type": "Minion",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"conditions": "Summoned by Death Fiend",
+		"stats": {
+			"health": "3150000",
+			"healthRegen": "15000",
+			"mana": "50",
+			"manaRegen": "5",
+			"armor": "810",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "50",
+			"attackDamage": "3085",
+			"attackSpread": "8",
+			"attackRange": "150",
+			"attackSpeed": ".833",
+			"moveSpeed": "500"
+		},
+		"spells": [
+			"Mark of Death",
+			"Bindings of Death",
+			"Essence of Death",
+			"Absorb Soul",
+			"Deathly Howl",
+			"Deathly Charge"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Death Hound",
+		"level": "120",
+		"category": "Endgame",
+		"type": "Minion",
+		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
+		"conditions": "Summoned by Death Huntress",
+		"stats": {
+			"health": "1200000",
+			"healthRegen": "15000",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "810",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1982",
+			"attackSpread": "8",
+			"attackRange": "1500",
+			"attackSpeed": ".3333",
+			"moveSpeed": "350"
+		}
 	},
 	{
 		"id": "xxxx",
 		"name": "Treasures of Death",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Mechanic",
 		"location": "In Abandoned Graveyard, at spawn of Mad Clown",
-		"conditions": "Dropped by Death Fiend on death"
+		"conditions": "Dropped by Death Fiend on death",
+		"stats": {
+			"health": "1500000",
+			"healthRegen": "0",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "500",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "0"
+		},
+		"notes": [
+			"This drops all of Death Fiend's loot",
+			"Only spawns at successful attempt"
+		]
 	},
 	{
 		"id": "n043",
 		"name": "Elemental of Chaos",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Mob",
 		"limit": "1",
 		"location": "Spawns near the exit of the Secluded Forest",
 		"conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
+		"stats": {
+			"health": "2089000",
+			"healthRegen": "500",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "500",
+			"armorType": "Light",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1935",
+			"attackSpread": "7",
+			"attackRange": "450",
+			"attackSpeed": "1.667",
+			"moveSpeed": "300"
+		},
 		"drops": [
 			"Chaos Magic Stone"
+		],
+		"spells": [
+			"Chaotic Affliction"
 		]
 	},
 	{
 		"id": "h04O",
 		"name": "Valtora",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
 		"limit": "None",
@@ -4077,7 +4222,7 @@
 	{
 		"id": "h04P",
 		"name": "Servant of Lightning God",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The Left-most portal in the tower located east of the Secluded Forest",
@@ -4086,7 +4231,7 @@
 	{
 		"id": "h060",
 		"name": "Ifrit",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
 		"limit": "None",
@@ -4114,7 +4259,7 @@
 	{
 		"id": "h063",
 		"name": "Obsidian Golem",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The Right-most portal in the tower located east of the Secluded Forest",
@@ -4123,7 +4268,7 @@
 	{
 		"id": "h062",
 		"name": "Flame Spirit",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The Right-most portal in the tower located east of the Secluded Forest",
@@ -4132,7 +4277,7 @@
 	{
 		"id": "h06T",
 		"name": "Nereid",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
 		"limit": "None",
@@ -4157,7 +4302,7 @@
 	{
 		"id": "h06V",
 		"name": "Large Wavecaller",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The Top-most portal in the tower located east of the Secluded Forest",
@@ -4166,7 +4311,7 @@
 	{
 		"id": "h06U",
 		"name": "Wavecaller",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The Top-most portal in the tower located east of the Secluded Forest",
@@ -4175,7 +4320,7 @@
 	{
 		"id": "h077",
 		"name": "Underlord Agareth",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
 		"limit": "None",
@@ -4203,7 +4348,7 @@
 	{
 		"id": "h07B",
 		"name": "Soul Crystal",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Mechanic",
 		"location": "Through the destroyed demonic portal during the Hell Invasion",
@@ -4215,7 +4360,7 @@
 	{
 		"id": "h07D",
 		"name": "Cursed Spirit",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "In the mini-game during the fight with Underlord Agareth",
@@ -4230,7 +4375,7 @@
 	{
 		"id": "h07A",
 		"name": "Gatekeeper of Hell",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "In the mini-game during the fight with Underlord Agareth",
@@ -4242,7 +4387,7 @@
 	{
 		"id": "h079",
 		"name": "Hellspawn",
-		"level": "100",
+		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "Through the destroyed demonic portal during the Hell Invasion",
