@@ -3353,6 +3353,8 @@
 	{
 		"id": "n03S",
 		"name": "Bone Dragon",
+		"color": "bf8888",
+		"quote": "I'll show you my true powers!",
 		"level": "110",
 		"category": "High",
 		"type": "Boss",
@@ -3446,6 +3448,8 @@
 	{
 		"id": "n02V",
 		"name": "Skeleton King Desperia",
+		"color": "3c1361",
+		"quote": "This is the difference between your power and mine!",
 		"level": "110",
 		"category": "High",
 		"type": "Boss",
