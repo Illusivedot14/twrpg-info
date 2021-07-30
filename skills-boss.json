@@ -1589,7 +1589,7 @@
 		"id": "xxxx",
 		"name": "Flame Bolt",
 		"caster": "Dragonic Warrior",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -1604,7 +1604,7 @@
 		"id": "xxxx",
 		"name": "Swipe",
 		"caster": "Bone Dragon",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "8",
 		"description": [
@@ -1616,7 +1616,7 @@
 		"id": "xxxx",
 		"name": "Flame Breath",
 		"caster": "Bone Dragon",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "12",
 		"description": [
@@ -1629,7 +1629,7 @@
 		"id": "xxxx",
 		"name": "Hell Spike",
 		"caster": "Bone Dragon",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "8",
 		"description": [
@@ -1642,7 +1642,7 @@
 		"id": "xxxx",
 		"name": "Petrification",
 		"caster": "Bone Dragon",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "5",
 		"description": [
@@ -1665,7 +1665,7 @@
 		"id": "xxxx",
 		"name": "Dead Man's Reach",
 		"caster": "Skeletal Warrior",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "0",
@@ -1677,7 +1677,7 @@
 		"id": "xxxx",
 		"name": "Super Armor",
 		"caster": "Skeleton King Desperia",
-		"color": "ff1493",
+		"color": "8a2be2",
 		"type": "trigger",
 		"cooldown": "0",
 		"description": [
@@ -1690,18 +1690,18 @@
 		"id": "xxxx",
 		"name": "Drain Soul",
 		"caster": "Skeleton King Desperia",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
 			"Drains the souls of nearby targets, healing self for 10000 per nearby enemy"
 		]
 	},
-		{
+	{
 		"id": "xxxx",
 		"name": "Soul Terror",
 		"caster": "Skeleton King Desperia",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "16",
 		"description": [
@@ -1712,7 +1712,7 @@
 		"id": "xxxx",
 		"name": "Weapon of Nothingness",
 		"caster": "Skeleton King Desperia",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "8",
 		"description": [
@@ -1723,7 +1723,7 @@
 		"id": "xxxx",
 		"name": "Absolute Devastation",
 		"caster": "Skeleton King Desperia",
-		"color": "ff1493",
+		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "50",
 		"description": [
@@ -1734,7 +1734,7 @@
 		"id": "xxxx",
 		"name": "True Power of Despair",
 		"caster": "Skeleton King Desperia",
-		"color": "8a2be2",
+		"color": "ff8c00",
 		"type": "trigger",
 		"description": [
 			"At every 25% HP reached, he will build up power for three seconds and devastate the area, killing everyone in the area",
