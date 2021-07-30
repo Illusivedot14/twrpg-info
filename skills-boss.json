@@ -1734,11 +1734,137 @@
 		"id": "xxxx",
 		"name": "True Power of Despair",
 		"caster": "Skeleton King Desperia",
-		"color": "ff8c00",
+		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
 			"At every 25% HP reached, he will build up power for three seconds and devastate the area, killing everyone in the area",
 			"Only people who can survive insta-kill or invulnerable can survive"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Lifesteal",
+		"caster": "Zombie",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"On attack, gain 100% of auto-attack damage back as HP"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Rise from the Grave",
+		"caster": "Zombie",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"On Death, use all mana to come back to life"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Deathly Shroud",
+		"caster": "Worshipper of Immortality",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Immune to Crowd Control",
+			"Gets removed with Holy Water from the Church"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Gift of Immortality",
+		"caster": "Worshipper of Immortality",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At 100% mana, channel for 1 second and send a death coil to Zombie Lord",
+			"Heals him for 25% HP and 25% Mana",
+			"Death Coil instantly kills all those in path"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Hunger",
+		"caster": "Zombie Lord",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "24",
+		"description": [
+			"Reduces movement speed by 50% and increases attack speed by 400%",
+			"Has 100% Damage reduction during this mode",
+			"Every attack also interrupts enemies",
+			"Every hit also regens 1 mana",
+			"Lasts for 5 seconds",
+			"Will only cast if HP is missing"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Infected Swipes",
+		"caster": "Zombie Lord",
+		"color": "ff8c00",
+		"type": "passive",
+		"description": [
+			"On auto attack, gain 50% of damage back as HP",
+			"Auto attacks deal 100% damage to a small AoE"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Infected Claw",
+		"caster": "Zombie Lord",
+		"color": "ff8c00",
+		"type": "passive",
+		"description": [
+			"On auto attack, apply debuff that deals 375 magic damage per second",
+			"On every five stacks reduces healing by 20% until 100%",
+			"Lasts for 15 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Infest",
+		"caster": "Zombie Lord",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "20",
+		"description": [
+			"Infests a random amount of Zombies and Players",
+			"Gives a debuff that will turn the target green and increase in size",
+			"Movement speed increases by 50%, does not break the cap",
+			"After 5 seconds, the target will explode, dealing 50% magic damage to all nearby enemies",
+			"Can be cleansed to remove the explosion"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Aura of Death",
+		"caster": "Zombie Lord",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "60",
+		"description": [
+			"Creates 2 hexagonal pattern of warning lights",
+			"Those within the area after the flash will be instantly killed",
+			"Those outside the range will be dealt 25% max hp magic damage per blast",
+			"Can be interrupted through a pause"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Immortality",
+		"caster": "Zombie Lord",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"When damage goes below 1 HP, if Zombie lord has full mana, he will ressurect",
+			"During the 3 second ressurection, he will deal 40% max HP pure damage per second to all enemies in the green light",
+			"He will automaticaly gain hunger after ressurection",
+			"His damage will increase by 25% every life past 4th life",
+			"His DR will increase logarithmically",
+			"His DR up to ninth life is as listed: 0, 25, 43.8, 57.8, 74.7, 84.8, 90.9, 94.5, 96.7"
 		]
 	}
 ]
