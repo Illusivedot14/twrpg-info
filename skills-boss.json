@@ -1584,5 +1584,161 @@
 			"Every second, sends a mana orb toward a random target",
 			"Deals 10% HP to everyone nearby impact zone"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Flame Bolt",
+		"caster": "Dragonic Warrior",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "20",
+		"description": [
+			"For every second for 3 seconds, fire a fireball which deals 25% HP magic damage in 300 AOE around the nearest target",
+			"Each Fireball spawns a Flame Spirit"
+		],
+		"summons": [
+			"Flame Spirit"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Swipe",
+		"caster": "Bone Dragon",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "8",
+		"description": [
+			"After 1 second of wind-up, deal 50% max HP + 3750 magic damage and knockback everyone in front of Bone Dragon",
+			"If no one is hit, Bone dragon will howl, which delas 400% max HP magic damage to everyone in the arena"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Flame Breath",
+		"caster": "Bone Dragon",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "12",
+		"description": [
+			"Every second for four seconds, fire a fire ball at the nearest target",
+			"Each fireball deals 3000 magic damage on impact",
+			"Each fireball spawns a Flame Spirit"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Hell Spike",
+		"caster": "Bone Dragon",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "8",
+		"description": [
+			"Chooses a random target to create a spike under",
+			"After 3 seconds, locks that place down and after 1 second, creates a Hell Spike, instantly killing everyone in the area",
+			"Every third Hell Spike, create an unstable spike that will kill everyone in the arena that isn't behind another Hell spike after three seconds have passed"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Petrification",
+		"caster": "Bone Dragon",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "5",
+		"description": [
+			"After 2 seconds of wind-up, anyone staring at Bone Dragon will be paused and vulnerable for 10 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Dragon's Rage",
+		"caster": "Bone Dragon",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At 50% HP, become enraged, gaining 75% Damage Reduction and restore 2% HP per second",
+			"This mode unlocks the Hell Spike ability forever, but locks Petrification until this mode is over",
+			"Lasts until mana is gone, which takes 30 seconds to fully deplete"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Dead Man's Reach",
+		"caster": "Skeletal Warrior",
+		"color": "ff1493",
+		"type": "active",
+		"cost": "100",
+		"cooldown": "0",
+		"description": [
+			"Interrupts and pulls target toward caster"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Super Armor",
+		"caster": "Skeleton King Desperia",
+		"color": "ff1493",
+		"type": "trigger",
+		"cooldown": "0",
+		"description": [
+			"When stunned or silenced, gain 10 mana per second",
+			"If not being stunned or silenced, lose 10 mana per second",
+			"At full mana, gain super armor, which gives the user crowd control immunity"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Drain Soul",
+		"caster": "Skeleton King Desperia",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "15",
+		"description": [
+			"Drains the souls of nearby targets, healing self for 10000 per nearby enemy"
+		]
+	},
+		{
+		"id": "xxxx",
+		"name": "Soul Terror",
+		"caster": "Skeleton King Desperia",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "16",
+		"description": [
+			"Silences a target area and deals 10% max HP magic damage to those affected for 5 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Weapon of Nothingness",
+		"caster": "Skeleton King Desperia",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "8",
+		"description": [
+			"After 1 second of channeling, slashes the air, dealing 7500 magic damage in the path"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Absolute Devastation",
+		"caster": "Skeleton King Desperia",
+		"color": "ff1493",
+		"type": "active",
+		"cooldown": "50",
+		"description": [
+			"After channeling for 2.25 seconds, summons a wave of devastation that instantly kills all underneath it"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "True Power of Despair",
+		"caster": "Skeleton King Desperia",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At every 25% HP reached, he will build up power for three seconds and devastate the area, killing everyone in the area",
+			"Only people who can survive insta-kill or invulnerable can survive"
+		]
 	}
 ]
