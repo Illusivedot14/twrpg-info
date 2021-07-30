@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"id": "xxxx",
 		"name": "Summon Shadow Wolf",
 		"caster": "Silverback Wolf",
@@ -2047,7 +2048,7 @@
 		"cooldown": "9",
 		"description": [
 			"Deals 30% Max HP magic damage to all those in path after .5 second of wind-up",
-			"Slows down enemies by 50% and silences them for 7 seconds",
+			"Slows down enemies by 50%, prevents direct healing and silences them for 7 seconds",
 			"Size of wave depends on monster size"
 		]
 	},
