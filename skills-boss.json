@@ -2247,7 +2247,7 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"At 20% HP, deal 200% max hp pure damage to everyone in the arena and heals back to full",
+			"At 20% HP, deal 200% max hp magic damage to everyone in the arena and heals back to full",
 			"Increases attack speed by 60%",
 			"Disables Unholy Summoning"
 		]
