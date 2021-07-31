@@ -4254,7 +4254,7 @@
 			"mana": "0",
 			"manaRegen": "0",
 			"armor": "500",
-			"armorType": "Light",
+			"armorType": "Heavy",
 			"magicResist": "0",
 			"damageResist": "0",
 			"attackDamage": "1935",
@@ -4274,13 +4274,30 @@
 	{
 		"id": "h060",
 		"name": "Ifrit",
+		"color": "c9c795",
+		"quote": "It's time for some serious fun...",
 		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
 		"limit": "None",
 		"respawn": "3",
-		"location": "The Right-most portal in the tower located east of the Secluded Forest",
+		"location": "The top-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Flame crafted",
+		"stats": {
+			"health": "10500000",
+			"healthRegen": "7500",
+			"mana": "100",
+			"manaRegen": "4",
+			"armor": "1390",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "25",
+			"attackDamage": "8890",
+			"attackSpread": "8",
+			"attackRange": "225",
+			"attackSpeed": ".667",
+			"moveSpeed": "380"
+		},
 		"drops": [
 			"Heart of Volcano",
 			"Aegis of Flame",
@@ -4290,10 +4307,13 @@
 			"Token of Avatar"
 		],
 		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
+			"Explosive Strike",
+			"Raging Flame",
+			"Flame Meteor",
+			"Seed of Flame",
+			"Hellfire"
+			"Hot Pursuit",
+			"Volcanic Party"
 		],
 		"minions": [
 			"Obsidian Golem", "Flame Spirit"
@@ -4305,17 +4325,79 @@
 		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
-		"location": "The Right-most portal in the tower located east of the Secluded Forest",
-		"conditions": "Summoned by Ifrit"
+		"location": "The top-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Ifrit",
+		"stats": {
+			"health": "2400000",
+			"healthRegen": "7500",
+			"mana": "100",
+			"manaRegen": "5",
+			"armor": "1210",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "Varies",
+			"attackDamage": "6231",
+			"attackSpread": "8",
+			"attackRange": "250",
+			"attackSpeed": ".667",
+			"moveSpeed": "250"
+		},
+		"spells": [
+			"Obsidian Armor",
+			"Smash",
+			"Hot Pursuit"
+		]
 	},
 	{
 		"id": "h062",
-		"name": "Flame Spirit",
+		"name": "Lava Spirit",
 		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
-		"location": "The Right-most portal in the tower located east of the Secluded Forest",
+		"location": "The top-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Summoned by Ifrit"
+		"stats": {
+			"health": "900000",
+			"healthRegen": "7500",
+			"mana": "100",
+			"manaRegen": 2.5",
+			"armor": "1060",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "0"
+		},
+		"spells": [
+			"Fiery Bullets"
+		]
+	},
+	{
+		"id": "h061",
+		"name": "Magma",
+		"level": "120",
+		"category": "Endgame",
+		"type": "Mechanic",
+		"location": "The top-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Ifrit",
+		"stats": {
+			"health": "600000",
+			"healthRegen": "7500",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "760",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "100"
+		}
 	},
 	{
 		"id": "h06T",
@@ -4325,7 +4407,7 @@
 		"type": "Boss",
 		"limit": "None",
 		"respawn": "3",
-		"location": "The Top-most portal in the tower located east of the Secluded Forest",
+		"location": "The right-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Sea crafted",
 		"drops": [
 			"Grail of Eternity",
@@ -4348,7 +4430,7 @@
 		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
-		"location": "The Top-most portal in the tower located east of the Secluded Forest",
+		"location": "The right-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Summoned by Nereid"
 	},
 	{
@@ -4357,7 +4439,7 @@
 		"level": "120",
 		"category": "Endgame",
 		"type": "Minion",
-		"location": "The Top-most portal in the tower located east of the Secluded Forest",
+		"location": "The right-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Summoned by Nereid"
 	},
 	{
