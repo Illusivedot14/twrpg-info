@@ -4402,6 +4402,8 @@
 	{
 		"id": "h06T",
 		"name": "Nereid",
+		"color": "9c9cd5",
+		"quote": "The sea shall consume you!",
 		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
@@ -4409,6 +4411,21 @@
 		"respawn": "3",
 		"location": "The right-most portal in the tower located east of the Secluded Forest",
 		"conditions": "Level 100 and Key of Sea crafted",
+		"stats": {
+			"health": "11250000",
+			"healthRegen": "15000",
+			"mana": "100",
+			"manaRegen": "66.6",
+			"armor": "1315",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "50",
+			"attackDamage": "9882",
+			"attackSpread": "8",
+			"attackRange": "1500",
+			"attackSpeed": "0.667",
+			"moveSpeed": "500"
+		},
 		"drops": [
 			"Grail of Eternity",
 			"Aegis of Sea",
@@ -4418,7 +4435,17 @@
 			"Token of Sea God"
 		],
 		"spells": [
-			"Ethreal Strike"
+			"Aegis of Sea",
+			"Water Barrage",
+			"Might of Sea",
+			"Purification of Water",
+			"Water Binding",
+			"Drown",
+			"Bubble Breath",
+			"Geyser",
+			"Water splash",
+			"Protection of Sea",
+			"Consumption of the Sea"
 		],
 		"minions": [
 			"Wavecaller", "Large Wavecaller"
@@ -4431,7 +4458,25 @@
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The right-most portal in the tower located east of the Secluded Forest",
-		"conditions": "Summoned by Nereid"
+		"conditions": "Summoned by Nereid",
+		"stats": {
+			"health": "1800000",
+			"healthRegen": "3000",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "1120",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "250"
+		},
+		"spells": [
+			"Water Hose"
+		]
 	},
 	{
 		"id": "h06U",
@@ -4440,7 +4485,52 @@
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The right-most portal in the tower located east of the Secluded Forest",
-		"conditions": "Summoned by Nereid"
+		"conditions": "Summoned by Nereid",
+		"stats": {
+			"health": "900000",
+			"healthRegen": "3000",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "840",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "250"
+		},
+		"spells": [
+			"Refreshing Wave"
+		]
+	},
+	{
+		"id": "h06W",
+		"name": "Water Bubble",
+		"level": "120",
+		"category": "Endgame",
+		"type": "Mechanic",
+		"location": "The right-most portal in the tower located east of the Secluded Forest",
+		"conditions": "Summoned by Nereid",
+		"stats": {
+			"health": "900000",
+			"healthRegen": "0",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "1000",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "250"
+		},
+		"notes": [
+			"Any attack to this mechanic deals 10x damage"
+		]
 	},
 	{
 		"id": "h077",
