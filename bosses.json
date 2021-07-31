@@ -4311,7 +4311,7 @@
 			"Raging Flame",
 			"Flame Meteor",
 			"Seed of Flame",
-			"Hellfire"
+			"Hellfire",
 			"Hot Pursuit",
 			"Volcanic Party"
 		],
@@ -4355,12 +4355,12 @@
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "The top-most portal in the tower located east of the Secluded Forest",
-		"conditions": "Summoned by Ifrit"
+		"conditions": "Summoned by Ifrit",
 		"stats": {
 			"health": "900000",
 			"healthRegen": "7500",
 			"mana": "100",
-			"manaRegen": 2.5",
+			"manaRegen": "2.5",
 			"armor": "1060",
 			"armorType": "Heavy",
 			"magicResist": "0",
