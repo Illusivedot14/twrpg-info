@@ -2678,5 +2678,165 @@
 			"Fires 13 bullets at a target in 3 seconds",
 			"Each bullet deals 600 magic damage and interrupts target"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Aegis of Sea",
+		"caster": "Nereid",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Applies when Nereid enters combat",
+			"Grants 50% magic defense and cc immunity",
+			"Lasts 5 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Water Barrage",
+		"caster": "Nereid",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "9",
+		"description": [
+			"Fires three bullets that deal 7500 magic damage each",
+			"Applies bubble to those affected"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Might of Sea",
+		"caster": "Nereid",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Teleports to a random area in the arena and pulses 4 times",
+			"Each pulse knocks players back 400 range"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Purification of Water",
+		"caster": "Nereid",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Fires 6 blasts at each person that deal 20% max hp magic damage in a 300 range AoE",
+			"They can stack"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Water Binding",
+		"caster": "Nereid",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "9",
+		"description": [
+			"Creates a small impact zone where 2, 3 or 5 orbs will converge",
+			"One these orbs converge, they send a line of water toward where they came",
+			"Each line deals 9000 magic damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Drown",
+		"caster": "Nereid",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "9",
+		"description": [
+			"Chooses 2 random targets to drown",
+			"Once 5 seconds have passed, they will be encased in a bubble"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Bubble Breath",
+		"caster": "Nereid",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "30",
+		"description": [
+			"Sprays 10 bubbles in an arc in front of Nereid"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Geyser",
+		"caster": "Nereid",
+		"color": "ff1493",
+		"type": "passive",
+		"cooldown": "",
+		"description": [
+			"Creates a build-up of water underneath a random target or Nereid himself",
+			"After 3 seconds of channel, releases the pressure and knocks everyone that weighs less than Nereid upward",
+			"Deals 45000 magic damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Water splash",
+		"caster": "Nereid",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Deals an extra 4000 AoE magic damage on auto attack"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Protection of Sea",
+		"caster": "Nereid",
+		"color": "8a2be2",
+		"type": "trigger",
+		"cooldown": "120",
+		"description": [
+			"At 66% and 33% HP, Nereid creates a bubble around Nereid that consists of 40% of his HP",
+			"Also deals 10% max hp magic damage to everyone in the arena",
+			"Begins to cast Water barrage all over the arena",
+			"Creates waves that last the rest of the fight",
+			"These waves can push people off the arena",
+			"Cannot do anything else when this is up",
+			"Lasts until the shield is over",
+			"Cannot be triggered before 1st shield"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Consumption of the Sea",
+		"caster": "Nereid",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"After reaching 33% HP, knocks back all players and begins aborbing water orbs",
+			"Water orbs slow down players by 50%",
+			"After absorption, launch a wave at that general direction, instantly killing all in the path",
+			"Can only be triggered once"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Refreshing Wave",
+		"caster": "Wavecaller",
+		"color": "8a2be2",
+		"type": "trigger",
+		"cooldown": "0",
+		"cost": "100",
+		"description": [
+			"Focuses a healing wave toward Nereid that heals .5% HP/sec"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Water Hose",
+		"caster": "Large Wavecaller",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Focuses down a target with a water hose that pushes all enemies",
+			"Deals 2% max hp magic damage per second to those at the impact zone",
+			"Deals 20% max hp to bubbles"
+		]
 	}
 ]
