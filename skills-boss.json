@@ -2547,5 +2547,136 @@
 			"Bounces to nearby enemies 10 times",
 			"Does not lose damage on bounce"
 		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Explosive Strike",
+		"caster": "Ifrit",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Every strike deals 100% AoE damage and spawns 2 magmas around Ifrit",
+			"Magmas crawl toward Ifrit and on contact, heal him .5% HP"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Raging Flame",
+		"caster": ["Ifrit", "Obsidian Golem"],
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Random chance to proc an attack speed buff",
+			"Once proc, increase attack speed by 10% every hit until attack speed is 2/s",
+			"Lasts for 5 seconds if not reapplied"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Seed of Flame",
+		"caster": "Ifrit",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "15",
+		"description": [
+			"Selects a target to explode with a 10 second countdown",
+			"On explosion, deal 50% max hp magic damage to all enemies",
+			"Can be cleansed",
+			"After 50% HP, apply this to two targets"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Hellfire",
+		"caster": "Ifrit",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"When applied, reduces healing by 100%",
+			"Lasts for 5 seconds"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Flame Meteor",
+		"caster": "Ifrit",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "5",
+		"description": [
+			"Sends down Meteors at random places around Ifrit",
+			"On Impact they'll deal 250% max hp magic damage",
+			"The waves will deal 7500 magic damage",
+			"After the impact, create a lava pool that lasts 10 seconds",
+			"Lava pools deal 2%+3k hp magic damage per second"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Volcanic Party",
+		"caster": "Ifrit",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"At 75% and 25% HP, become invulnerable and spawn 2 Obsidian Golems to the side",
+			"Meteors will fall every 5 seconds",
+			"Create 5 lines that will move in either direction that will deal a ton of magic damage per second and stun anyone it its path",
+			"Lasts 30 seconds and cannot be triggered again",
+			"Spawns 2 Lava Spirits to the sides on the second wheel"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Obsidian Armor",
+		"caster": "Obsidian Golem",
+		"color": "ff1493",
+		"type": "passive",
+		"description": [
+			"Grants 10% damage reduction and 100 armor per stack",
+			"Can have up to 10 stacks",
+			"Can be broken by either meteors (30%) or break effects",
+			"Full list is in Ifrit Guide"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Smash",
+		"caster": "Obsidian Golem",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "8",
+		"description": [
+			"After 1 second of wind-up, smacks the target away 300 range and stuns them for 2 second",
+			"Deals 7500 magic damage"
+		]
+	},
+	{
+		"id": "",
+		"name": "Hot Pursuit",
+		"caster": ["Ifrit", "Obsidian Golem"],
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "0",
+		"cost": "100",
+		"description": [
+			"Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
+			"Kills all units on the floor in its path",
+			"If collide with debris, stop",
+			"If Golem break 30% armor of Obsidian Armor",
+			"If Ifrit, send 2 lava pool waves behind self at a 'V' angle that deal 10000 magic damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Fiery Bullet",
+		"caster": "Lava Spirit",
+		"color": "ff8c00",
+		"type": "active",
+		"cooldown": "0",
+		"cost": "100",
+		"description": [
+			"Fires 13 bullets at a target in 3 seconds",
+			"Each bullet deals 600 magic damage and interrupts target"
+		]
 	}
 ]
