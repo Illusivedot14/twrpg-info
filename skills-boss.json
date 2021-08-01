@@ -748,7 +748,7 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"At 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra damage",
+			"When HP goes below 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra damage",
 			"Also deals 1000 magic damage per second to all enemies nearby (400 range)",
 			"Lasts until mana runs out"
 		],
@@ -845,7 +845,7 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"At 50%, takes flight and replaces its auto-attack with an AoE attack that deals 2500 magic damage in 400 AoE",
+			"When HP goes below 50%, takes flight and replaces its auto-attack with an AoE attack that deals 2500 magic damage in 400 AoE",
 			"Lasts for 5 seconds"
 		],
 		"cooldown": "120"
