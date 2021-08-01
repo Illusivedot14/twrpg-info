@@ -1270,7 +1270,7 @@
 		"type": "active",
 		"cooldown": "12",
 		"description": [
-			"After choosing a target to follow, channels for 1.5 seconds and ignites the ground in a path toward the target in a wave",
+			"After choosing a target to follow, channels for 1.5 seconds, pulling all targets nearby and sending a wave where Spirit Beast is facing",
 			"On impact, deals 25% HP damage",
 			"The flames last for 10 seconds dealing 450 magic damage per half second"
 		]
