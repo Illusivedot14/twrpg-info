@@ -761,7 +761,7 @@
 		"color": "ff1493",
 		"type": "passive",
 		"description": [
-			"On Auto-attack, 15% to cause lightning or frost to hit the target",
+			"On any spell or attack, 15% to cause lightning or frost to hit the target",
 			"Lighting deals 1500 magic damage and frost deals 500 magic damage"
 		]
 	},
@@ -785,8 +785,9 @@
 		"cooldown": "60",
 		"description": [
 			"After 1 second of casting, channels a Blizzard at Target Area",
-			"Blizzard lasts for 10 waves with 12 shards that deal 1000 damage each",
-			"Maximum of 5000 magic damage can be taken per wave"
+			"Blizzard lasts for 10 waves with 12 shards dealing 1000 physical damage each",
+			"Maximum of 1000 physical damage can be taken per wave",
+			"Each wave can proc Magical Weapon"
 		]
 	},
 	{
@@ -797,7 +798,7 @@
 		"type": "active",
 		"cooldown": "9",
 		"description": [
-			"Shoots lightning at a nearby target, dealing 1000 magic damage to all enemies nearby target"
+			"Shoots lightning at a nearby target, dealing 1000 physical damage that bounces 4 times to nearby enemies"
 		]
 	},
 	{
