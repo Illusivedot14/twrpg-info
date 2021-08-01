@@ -2019,7 +2019,8 @@
 		"description": [
 			"Whenever all the orbs from Spirit of Light have reached Samael OR after a Purge of Light OR after 24 seconds, gain this effect",
 			"Regenerate 1% HP per second and gain 25% Damage reduction",
-			"Can be broken"
+			"Can be broken",
+			"Cannot be cast below 85% max HP"
 		]
 	},
 	{
