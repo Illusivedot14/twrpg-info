@@ -1272,7 +1272,7 @@
 		"description": [
 			"After choosing a target to follow, channels for 1.5 seconds and ignites the ground in a path toward the target in a wave",
 			"On impact, deals 25% HP damage",
-			"The flames last for 10 seconds dealing 900 damage per second"
+			"The flames last for 10 seconds dealing 450 magic damage per half second"
 		]
 	},
 	{
@@ -1295,7 +1295,7 @@
 		"cooldown": "16",
 		"description": [
 			"Spawns eight green orbs around caster that slowly travels towards the caster",
-			"When orbs reach caster, they heal 1% HP each and give 5 mana, if they touch enemy, they deal 500 damage"
+			"When orbs reach caster, they heal 1% HP each and give 5 mana, if they blocked, they deal 500 magic damage"
 		]
 	},
 	{
