@@ -635,7 +635,7 @@
 		"color": "ff1493",
 		"type": "passive",
 		"description": [
-			"On auto-attack, applies a debuff that will deal 450 magic damage per second for 5 seconds"
+			"On auto-attack, applies a debuff that will deal 50 magic damage per second for 5 seconds"
 		]
 	},
 	{
@@ -646,7 +646,7 @@
 		"type": "active",
 		"cooldown": "90",
 		"description": [
-			"After 3 seconds of casting, deals 2500 magic damage to all enemies nearby and stun them for 2 seconds in 400 AoE."
+			"After 3 seconds of casting, deals 2500 magic damage to all enemies nearby and stun them for 3 seconds in 600 AoE."
 		]
 	},
 	{
@@ -657,7 +657,8 @@
 		"type": "active",
 		"cooldown": "60",
 		"description": [
-			"After 1.5 seconds of casting, sends a wave that will deal 1500 magic damage to all enemies in its path"
+			"After 1.5 seconds of casting, sends a wave that will deal 1500 magic damage to all enemies in its path",
+			"Launches enemies in the air, stunning them for 3 seconds"
 		]
 	},
 	{
