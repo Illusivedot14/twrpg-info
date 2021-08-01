@@ -701,11 +701,11 @@
 		"caster": "Duchy of Wallachia Count",
 		"color": "ff8c00",
 		"type": "active",
+		"cooldown": "40",
 		"description": [
 			"After 1 second of casting, releases his hound to attack the heroes",
 			"Attacks in a single line, dealing 2000 magic damage to each hero in the path"
-		],
-		"cooldown": "40"
+		]
 	},
 	{
 		"id": "xxxx",
@@ -889,7 +889,7 @@
 		"type": "active",
 		"cooldown": "60",
 		"description": [
-			"After 3 seconds of channeling, sends a wave of light where it's facing, dealing 6000 damage to enemies in its path"
+			"After 3 seconds of channeling, sends a wave of light where it's facing, dealing 6000 magic damage to enemies in its path"
 		]
 	},
 	{
@@ -933,7 +933,7 @@
 		"type": "active",
 		"cooldown": "15",
 		"description": [
-			"Gives 400% attack speed for 15 seconds"
+			"Gives 400% bonus attack speed for 15 seconds"
 		]
 	},
 	{
@@ -970,7 +970,7 @@
 		"cooldown": "40",
 		"description": [
 			"After two seconds of casting, the caster will send a wave of darkness toward the target area",
-			"The wave will deal 3000 magic damage"
+			"This will deal 3000 magic damage per green explosion"
 		]
 	},
 	{
@@ -1027,7 +1027,7 @@
 		"type": "active",
 		"cooldown": "12.5",
 		"description": [
-			"After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 magic damage and stuns for .5 seconds"
+			"After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 magic damage and stuns for 1 seconds"
 		]
 	},
 	{
@@ -1037,7 +1037,8 @@
 		"color": "ff1493",
 		"type": "passive",
 		"description": [
-			"All enemies nearby will have -40% attack speed and -40% movement speed"
+			"All enemies nearby will be 'Chilled'",
+			"Chilled Enemies will have -40% attack speed and -40% movement speed"
 		]
 	},
 	{
@@ -1060,7 +1061,9 @@
 		"cost": "100",
 		"cooldown": "12",
 		"description": [
-			"Chooses a target to be targeted by a blizzard. Spawns 20 waves at target location, dealing 8000 magic damage in total over 3 seconds"
+			"Chooses a target to be targeted by a blizzard. Spawns 21 waves at target location, dealing 375 magic damage each over 3 seconds",
+			"Applies 'Wet' debuff",
+			"Wet enemies have their movement speed reduced by 20%"
 		]
 	},
 	{
@@ -1080,8 +1083,8 @@
 		"id": "xxxx",
 		"name": "Frozen Barrier",
 		"caster": "Frostspider Lord",
-		"color": "ff8c00",
-		"type": "active",
+		"color": "8a2be2",
+		"type": "trigger",
 		"cost": "100",
 		"description": [
 			"When cast, creates a shield that can absorb 10% HP that can be broken that lasts 10 seconds",
@@ -1101,7 +1104,8 @@
 		"description": [
 			"Upon cast, pushes all enemies away. When a target is nearby, the caster will face toward that target for 3 seconds",
 			"before unleash a wave that will insta-kill all those in its path",
-			"If not target is selected, it will swipe where its face in a 150 degree arc, insta-killing everyone in the swipe"
+			"If no target is selected, it will swipe where its face in a 150 degree arc, insta-killing everyone in the swipe",
+			"Cannot be cast above 66% HP"
 		]
 	},
 	{
@@ -1170,7 +1174,7 @@
 		"type": "active",
 		"cooldown": "40",
 		"description": [
-			"Gains 30% attack speed every second for 10 seconds"
+			"Gains .125 attack speed and 100 attack damage every half second for 10 seconds"
 		]
 	},
 	{
@@ -1194,7 +1198,7 @@
 			"When activated, it places a purple circle on the ground",
 			"The circle will pulse once per second for 3 seconds and then pulse seven times for 2 seconds",
 			"Enemies on circle will be dealt 10% HP per pulse",
-			"If Mad Clown is on circle, he will heal 37,500 HP per pulse",
+			"If Mad Clown is on circle, he will heal 2.5% max HP per pulse",
 			"On finish, if Mad Clown is not on circle, he will teleport to circle and face where he was",
 			"He will shoot three balls that deal 25% HP each toward where he was in a 30 degree arc",
 			"Lasts 5 seconds"
