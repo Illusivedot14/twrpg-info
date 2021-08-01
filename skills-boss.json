@@ -845,7 +845,7 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"At 50%, takes flight and replaces its auto-attack with an AoE attack that deals 3000 AoE",
+			"At 50%, takes flight and replaces its auto-attack with an AoE attack that deals 2500 magic damage in 400 AoE",
 			"Lasts for 5 seconds"
 		],
 		"cooldown": "120"
