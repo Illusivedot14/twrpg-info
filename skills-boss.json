@@ -68,7 +68,7 @@
 		"type": "active",
 		"cooldown": "45",
 		"description": [
-			"After 1.5 seconds of casting, summons a wave that deals 1000 magic damage to all in its path"
+			"After 1.5 seconds of casting, summons a wave that deals 1000 magic damage to the first target it hits"
 		]
 	},
 	{
