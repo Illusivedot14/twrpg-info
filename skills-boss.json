@@ -940,7 +940,7 @@
 		"id": "xxxx",
 		"name": "Dark Wings",
 		"caster": "The Devil's Right Arm Corrupt Angel",
-		"color": "ff8c00",
+		"color": "8a2be2",
 		"type": "passive",
 		"description": [
 			"On auto-attack, 15% chance to deal 1.75x damage"
