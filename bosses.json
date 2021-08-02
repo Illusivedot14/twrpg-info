@@ -2623,7 +2623,7 @@
 		"limit": "4",
 		"respawn": "4",
 		"location": "East Prius Gate.",
-		"conditions": "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls south of the fort, and Waves defeated without killing the gate OR waiting for timer, both without letting Ian die",
+		"conditions": "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls south of the fort, and Waves defeated without killing the gate OR waiting for timer to expire",
 		"stats": {
 			"health": "1200000",
 			"healthRegen": "150",
