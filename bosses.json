@@ -2026,7 +2026,7 @@
 	{
 		"id": "n01W",
 		"name": "Jack o Lantern",
-		"color": "ff7518",
+		"color": "d06a04",
 		"quote": "..It's not Halloween yet !",
 		"level": "60",
 		"category": "Minor",
@@ -2068,7 +2068,7 @@
 	{
 		"id": "H00F",
 		"name": "Duchy of Wallachia Count",
-		"color": "850505",
+		"color": "e00404",
 		"quote": "The night begins now !",
 		"level": "60",
 		"category": "Minor",
@@ -2116,7 +2116,7 @@
 	{
 		"id": "h01B",
 		"name": "Mage Lord",
-		"color": "0077C0",
+		"color": "5a5a5a",
 		"quote": "I shall give you a taste of my magic!",
 		"level": "70",
 		"category": "Minor",
@@ -2160,7 +2160,7 @@
 	{
 		"id": "n01K",
 		"name": "Wings of Death",
-		"color": "6b0606",
+		"color": "c91337",
 		"quote": "Feel the might of dragons !",
 		"level": "70",
 		"category": "Minor",
@@ -2206,6 +2206,7 @@
 	{
 		"id": "n01L",
 		"name": "Avalon Defender",
+		"color": "bbbb04",
 		"level": "80",
 		"category": "Minor",
 		"type": "Minion",
@@ -2230,6 +2231,7 @@
 	{
 		"id": "n01M",
 		"name": "Avalon Protector",
+		"color": "bbbb04",
 		"level": "80",
 		"category": "Minor",
 		"type": "Minion",
@@ -2254,7 +2256,7 @@
 	{
 		"id": "H00V",
 		"name": "Castle Avalon Gatekeeper",
-		"color": "808080",
+		"color": "bbbb04",
 		"quote": "...",
 		"level": "80",
 		"category": "Minor",
@@ -2291,7 +2293,7 @@
 	{
 		"id": "n01N",
 		"name": "The 3rd Army's Guardian Angel",
-		"color": "f3d25f",
+		"color": "d1b004",
 		"quote": "Behold, your end is nigh !",
 		"level": "80",
 		"category": "Minor",
@@ -2335,7 +2337,7 @@
 	{
 		"id": "n01O",
 		"name": "The Devil's Right Arm Corrupt Angel",
-		"color": "725D6F",
+		"color": "850485",
 		"quote": "Die !!",
 		"level": "80",
 		"category": "Minor",
@@ -2380,6 +2382,7 @@
 	{
 		"id": "n014",
 		"name": "Frost Spider",
+		"color": "5e66ae",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2404,6 +2407,7 @@
 	{
 		"id": "n028",
 		"name": "Frost Skirmisher",
+		"color": "5e66ae",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2428,6 +2432,7 @@
 	{
 		"id": "n02C",
 		"name": "Frostvemon Spider",
+		"color": "5e66ae",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2455,7 +2460,7 @@
 	{
 		"id": "n023",
 		"name": "Soul of Everfrost",
-		"color": "C0F6FB",
+		"color": "5e66ae",
 		"quote": "Freeze !!",
 		"level": "90",
 		"category": "Minor",
@@ -2498,6 +2503,7 @@
 	{
 		"id": "n025",
 		"name": "Frozen Soul",
+		"color": "5e66ae",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2523,7 +2529,7 @@
 	{
 		"id": "H01F",
 		"name": "Frostspider Queen",
-		"color": "C0F6FB",
+		"color": "5e66ae",
 		"quote": "Kiiik !!",
 		"level": "90",
 		"category": "Minor",
@@ -2563,7 +2569,7 @@
 	{
 		"id": "h034",
 		"name": "Frostspider Lord",
-		"color": "C0F6FB",
+		"color": "5a8abb",
 		"quote": "Be purged by Frost !!",
 		"level": "90",
 		"category": "Minor",
