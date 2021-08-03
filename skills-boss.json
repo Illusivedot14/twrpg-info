@@ -467,6 +467,7 @@
 			"Slams the ground, after a second, tentacles spike up, insta-killing everyone it the vicinity",
 			"Can either surround caster or be 300 range around caster",
 			"Each cast recharges 1 mana",
+			"If anyone dies, regain 50% HP",
 			"On max mana, Tentacle slam will fill both inner and outer layer"
 		]
 	},
