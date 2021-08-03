@@ -657,7 +657,7 @@
 		"type": "active",
 		"cooldown": "60",
 		"description": [
-			"After 1.5 seconds of casting, sends a wave that will deal 1500 magic damage to all enemies in its path",
+			"After 1.5 seconds of casting, sends a wave that will deal 1500 magic damage to the first enemy in its path",
 			"Launches enemies in the air, stunning them for 3 seconds"
 		]
 	},
