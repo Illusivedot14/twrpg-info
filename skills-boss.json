@@ -1270,6 +1270,7 @@
 		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "12",
+		"cost": "100",
 		"description": [
 			"After choosing a target to follow, channels for 1.5 seconds, pulling all targets nearby and sending a wave where Spirit Beast is facing",
 			"On impact, deals 25% HP damage",
@@ -1283,6 +1284,7 @@
 		"color": "ff8c00",
 		"type": "active",
 		"cooldown": "20",
+		"cost": "100",
 		"description": [
 			"Creates a clone to cast Etheral Strike to a random target"
 		]
