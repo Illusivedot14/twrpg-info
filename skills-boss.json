@@ -1473,6 +1473,9 @@
 			"Creates 8 lava spawns that walk toward the impact after spawning",
 			"Creates flame paths that deal 5% per second that last 3 seconds",
 			"On collision with the impact zone, heal Flame Nightmare for 10% if its near"
+		],
+		"summons": [
+			"Flame Spawn"
 		]
 	},
 	{
