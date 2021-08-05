@@ -1651,6 +1651,9 @@
 			"Chooses a random target to create a spike under",
 			"After 3 seconds, locks that place down and after 1 second, creates a Hell Spike, instantly killing everyone in the area",
 			"Every third Hell Spike, create an unstable spike that will kill everyone in the arena that isn't behind another Hell spike after three seconds have passed"
+		],
+		"summons": [
+			"Hell Spike"	
 		]
 	},
 	{
