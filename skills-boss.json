@@ -1567,7 +1567,7 @@
 	},
 	{
 		"id": "xxxx",
-		"name": "Summon Heaing Turtle",
+		"name": "Summon Healing Turtle",
 		"caster": "Turtle Lord",
 		"color": "8a2be2",
 		"type": "trigger",
