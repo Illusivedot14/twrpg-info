@@ -1635,6 +1635,9 @@
 			"Every second for four seconds, fire a fire ball at the nearest target",
 			"Each fireball deals 3000 magic damage on impact",
 			"Each fireball spawns a Flame Spirit"
+		],
+		"summons": [
+			"Flame Spirit"
 		]
 	},
 	{
