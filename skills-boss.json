@@ -1674,7 +1674,7 @@
 	{
 		"id": "xxxx",
 		"name": "Dead Man's Reach",
-		"caster": "Skeletal Warrior",
+		"caster": "Skeletal Solider",
 		"color": "ff8c00",
 		"type": "active",
 		"cost": "100",
