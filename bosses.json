@@ -2380,6 +2380,49 @@
 		]
 	},
 	{
+		"id": "n038",
+		"name": "Wallachia Mad Clown",
+		"color": "e75480",
+		"quote": "Dance !",
+		"level": "100",
+		"category": "Minor",
+		"type": "Boss",
+		"limit": "2",
+		"respawn": "4",
+		"location": "In the Wallachia Graveyard",
+		"conditions": "Level 80",
+		"stats": {
+			"health": "1500000",
+			"healthRegen": "123",
+			"mana": "100",
+			"manaRegen": "1",
+			"armor": "765",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1021",
+			"attackSpread": "18",
+			"attackRange": "300",
+			"attackSpeed": "3.33",
+			"moveSpeed": "480"
+		},
+		"drops": [
+			"Scarab Bone",
+			"Ghostly Thread",
+			"Soul Stone",
+			"Mad Symbol",
+			"Mad Clown Icon",
+			"Clown Token"
+		],
+		"spells": [
+			"Instincts",
+			"Darkness Wave",
+			"Mirror Image",
+			"Mad Howl",
+			"Wheel of Fate"
+		]
+	},
+	{
 		"id": "n014",
 		"name": "Frost Spider",
 		"color": "5e66ae",
@@ -2623,7 +2666,7 @@
 		"limit": "4",
 		"respawn": "4",
 		"location": "East Prius Gate.",
-		"conditions": "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls south of the fort, and Waves defeated without killing the gate OR waiting for timer to expire",
+		"conditions": "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls south of the fort, and Waves defeated without killing the gate",
 		"stats": {
 			"health": "1200000",
 			"healthRegen": "150",
@@ -2765,49 +2808,6 @@
 		"location": "East Prius Gate",
 		"conditions": "Summoned during fight with Demon Lord Beriel",
 		"duration": "90"
-	},
-	{
-		"id": "n038",
-		"name": "Wallachia Mad Clown",
-		"color": "e75480",
-		"quote": "Dance !",
-		"level": "100",
-		"category": "Minor",
-		"type": "Boss",
-		"limit": "2",
-		"respawn": "4",
-		"location": "In the Wallachia Graveyard",
-		"conditions": "Level 80",
-		"stats": {
-			"health": "1500000",
-			"healthRegen": "123",
-			"mana": "100",
-			"manaRegen": "1",
-			"armor": "765",
-			"armorType": "Medium",
-			"magicResist": "0",
-			"damageResist": "0",
-			"attackDamage": "1021",
-			"attackSpread": "18",
-			"attackRange": "300",
-			"attackSpeed": "3.33",
-			"moveSpeed": "480"
-		},
-		"drops": [
-			"Scarab Bone",
-			"Ghostly Thread",
-			"Soul Stone",
-			"Mad Symbol",
-			"Mad Clown Icon",
-			"Clown Token"
-		],
-		"spells": [
-			"Instincts",
-			"Darkness Wave",
-			"Mirror Image",
-			"Mad Howl",
-			"Wheel of Fate"
-		]
 	},
 	{
 		"id": "n02T",
