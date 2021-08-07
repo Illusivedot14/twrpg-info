@@ -3176,6 +3176,7 @@
 		"category": "Mid",
 		"type": "Boss",
 		"limit": "4",
+		"respawn": "4",
 		"location": "In Deep Sea in the far East where light shines from above",
 		"conditions": "Level 100 and Orb of the Deep Sea with Green Magic Stone x4, Blue Magic Stone x4",
 		"stats": {
