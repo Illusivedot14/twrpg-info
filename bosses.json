@@ -3232,6 +3232,7 @@
 	{
 		"id": "hpxe",
 		"name": "Healing Turtle",
+		"color": "00dfff",
 		"level": "100",
 		"category": "Mid",
 		"type": "Minion",
@@ -3256,6 +3257,7 @@
 	{
 		"id": "n02R",
 		"name": "Turtle",
+		"color": "00dfff",
 		"level": "100",
 		"category": "Mid",
 		"type": "Minion",
