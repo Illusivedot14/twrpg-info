@@ -1076,7 +1076,7 @@
 		"cost": "100",
 		"description": [
 			"After .5 seconds of channeling, chooses a target to wrap up in webs",
-			"The web can be destroyed in 3 hits"
+			"The web can be destroyed in 3 hits or any 3 spells"
 		],
 		"cooldown": "15"
 	},
