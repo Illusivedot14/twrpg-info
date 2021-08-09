@@ -1700,7 +1700,6 @@
 		"cooldown": "0",
 		"description": [
 			"When stunned or silenced, gain 10 mana per second",
-			"If not being stunned or silenced, lose 10 mana per second",
 			"At full mana, gain super armor, which gives the user crowd control immunity"
 		]
 	},
