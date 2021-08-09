@@ -1272,8 +1272,8 @@
 		"cooldown": "12",
 		"cost": "100",
 		"description": [
-			"After choosing a target to follow, channels for 1.5 seconds, pulling all targets nearby and sending a wave where Spirit Beast is facing",
-			"On impact, deals 25% HP damage",
+			"After choosing a target to follow, channels for 1.5 seconds sends a wave of green flames where Spirit Beast is facing",
+			"On impact, deals 25% HP Magic Damage",
 			"The flames last for 10 seconds dealing 450 Magic Damage per half second"
 		]
 	},
@@ -1286,7 +1286,9 @@
 		"cooldown": "20",
 		"cost": "100",
 		"description": [
-			"Creates a clone to cast Etheral Strike to a random target"
+			"Creates a clone to cast Etheral Strike to a random target",
+			"Will pull targets into Spirit Beast during Heaven's Wrath",
+			"Etheral Strike will not be affected by Heaven's Wrath"
 		]
 	},
 	{
