@@ -1563,6 +1563,7 @@
 		"type": "trigger",
 		"description": [
 			"When reaching every 25% HP, gain 90% damage reduction and summons 8 Turtles",
+			"Turtles will stun all players in landing zone for 1 second",
 			"2 of these eight turtles will have 50% Magic Reduction",
 			"Lose Damage Reduction when all turtles are dead"
 		],
