@@ -1621,7 +1621,7 @@
 		"cooldown": "8",
 		"description": [
 			"After 1 second of wind-up, deal 50% max HP + 3750 Magic Damage and knockback everyone in front of Bone Dragon",
-			"If no one is hit, Bone dragon will howl, which delas 400% max HP Magic Damage to everyone in the arena"
+			"If no one is hit, Bone dragon will howl, which delas 150% max HP Magic Damage to everyone in the arena"
 		]
 	},
 	{
