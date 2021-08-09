@@ -1460,8 +1460,8 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On Auto-Attack, drain all mana",
-			"On full mana and on next crowd control ability, pushes all Players away for 5 seconds and becomes immune to crowd control effects"
+			"On every Auto-Attack, Flame Nightmare will drain all of his own mana",
+			"If he reaches full mana, whenever he gets stunned or silenced, he begins to push all Players away for 5 seconds and becomes immune to crowd control effects"
 		]
 	},
 	{
@@ -2132,6 +2132,16 @@
 		"description": [
 			"On death, sends a spirit of darkness to all enemies",
 			"After 5 seconds of channeling (timer resets on application), instantly kill all Players around target, if a dragon is near, heal that dragon by 50%"
+		]
+	},
+	{
+		"id": "",
+		"name": "Bindings of Darkness",
+		"caster": ["Illusion of Irbert (Large)", "Illusion of Irbert"],
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Whenever three Illusions and one Large Illusion are together, they will gain 100% Damage Reduction and 250% Attack Speed"
 		]
 	},
 	{
