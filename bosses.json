@@ -2812,7 +2812,27 @@
 		"type": "Minion",
 		"location": "East Prius Gate",
 		"conditions": "Summoned during fight with Demon Lord Beriel",
-		"duration": "90"
+		"stats": {
+			"health": "150000",
+			"healthRegen": "250",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "500",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1040",
+			"attackSpread": "7",
+			"attackRange": "225",
+			"attackSpeed": "1",
+			"moveSpeed": "150"
+		},
+		"notes": [
+			"Lasts for 90 seconds"
+		],
+		"spells": [
+			"Permanent Immolation"
+		]
 	},
 	{
 		"id": "n02T",
