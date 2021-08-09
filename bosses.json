@@ -3891,7 +3891,7 @@
 	{
 		"id": "n02Y",
 		"name": "Shadow Dragon Irbert",
-		"color": "3b5081",
+		"color": "90a2cc",
 		"quote": "Face your inner evils...",
 		"level": "110",
 		"category": "High",
@@ -3946,7 +3946,7 @@
 	{
 		"id": "n01Q",
 		"name": "Illusion of Irbert",
-		"color": "3b5081",
+		"color": "90a2cc",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
@@ -3975,7 +3975,7 @@
 	{
 		"id": "n03I",
 		"name": "Illusion of Irbert (Large)",
-		"color": "3b5081",
+		"color": "90a2cc",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
