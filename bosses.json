@@ -2966,6 +2966,7 @@
 	{
 		"id": "ohun",
 		"name": "Avenger",
+		"color": "40a640",
 		"level": "100",
 		"category": "Mid",
 		"type": "Minion",
@@ -2993,6 +2994,7 @@
 	{
 		"id": "odoc",
 		"name": "Stalker",
+		"color": "40a640",
 		"level": "100",
 		"category": "Mid",
 		"type": "Minion",
@@ -3020,6 +3022,7 @@
 	{
 		"id": "hsor",
 		"name": "Life Orb",
+		"color": "40a640",
 		"level": "100",
 		"category": "Mid",
 		"type": "Mechanic",
