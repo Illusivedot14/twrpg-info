@@ -1175,7 +1175,7 @@
 		"type": "active",
 		"cooldown": "40",
 		"description": [
-			"Gains .125 attack speed and 100 Attack Damage every half second for 10 seconds"
+			"Gains .125 attack speed and 100 Attack Damage per Auto-Attack for 10 seconds"
 		]
 	},
 	{
@@ -2070,7 +2070,7 @@
 		"cooldown": "9",
 		"description": [
 			"Deals 30% Max HP Magic Damage to all those in path after .5 second of wind-up",
-			"Slows down enemies by 50%, prevents direct healing and silences them for 7 seconds",
+			"Slows down enemies by 50%, and prevents direct healing for 7 seconds",
 			"Size of wave depends on monster size"
 		]
 	},
@@ -2148,7 +2148,7 @@
 	},
 	{
 		"id": "xxxx",
-		"name": "Shadow Circle",
+		"name": "Shadow Rune",
 		"caster": "Shadow Dragon Irbert",
 		"color": "f89c34",
 		"type": "active",
