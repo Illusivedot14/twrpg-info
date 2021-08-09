@@ -2171,7 +2171,7 @@
 		"cooldown": "7",
 		"description": [
 			"Creates a purple circle at a random target that silences anyone who's in the circle after a second it was created",
-			"Silences all in the circle for 4 seconds"
+			"Deals 25% max HP Magic Damage and silences all in the circle for 4 seconds"
 		]
 	},
 	{
