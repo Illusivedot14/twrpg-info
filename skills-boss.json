@@ -1907,7 +1907,7 @@
 		"description": [
 			"After 2.5 seconds of channeling, conjure a lightning storm that takes up a third of the arena vertically or a half horizontally",
 			"Positions are random",
-			"Deals 200% Max HP Magic Damage and breaks players shields",
+			"Deals 300% Max HP Magic Damage and breaks players shields",
 			"Deals 25% Max HP Magic Damage to those outside the storm"
 		]
 	},
