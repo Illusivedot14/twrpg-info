@@ -3098,6 +3098,7 @@
 	{
 		"id": "n02O",
 		"name": "Hatred",
+		"color": "ff5a00",
 		"level": "100",
 		"category": "Mid",
 		"type": "Minion",
@@ -3126,6 +3127,7 @@
 	{
 		"id": "n02P",
 		"name": "Anger",
+		"color": "ff5a00",
 		"level": "100",
 		"category": "Mid",
 		"type": "Minion",
@@ -3154,6 +3156,7 @@
 	{
 		"id": "n02Q",
 		"name": "Flame Spawn",
+		"color": "ff5a00",
 		"level": "100",
 		"category": "Mid",
 		"type": "Minion",
