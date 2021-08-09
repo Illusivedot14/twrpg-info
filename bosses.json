@@ -3551,7 +3551,7 @@
 	{
 		"id": "n033",
 		"name": "Zombie Lord",
-		"color": "575b40",
+		"color": "b1b596",
 		"quote": "None shall take my eternal life away!",
 		"level": "110",
 		"category": "High",
@@ -3603,7 +3603,7 @@
 	{
 		"id": "xxxx",
 		"name": "Worshipper of Immortality",
-		"color": "575b40",
+		"color": "b1b596",
 		"level": "110",
 		"category": "High",
 		"type": "Mechanic",
@@ -3632,7 +3632,7 @@
 	{
 		"id": "n03A",
 		"name": "Zombie",
-		"color": "575b40",
+		"color": "b1b596",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
