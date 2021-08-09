@@ -3346,6 +3346,7 @@
 	{
 		"id": "n03T",
 		"name": "Flame Spirit",
+		"color": "bf8888",
 		"level": "100",
 		"category": "High",
 		"type": "Minion",
@@ -3420,6 +3421,7 @@
 	{
 		"id": "xxxx",
 		"name": "Hell Spike",
+		"color": "bf8888",
 		"level": "100",
 		"category": "High",
 		"type": "Mechanic",
@@ -3444,6 +3446,7 @@
 	{
 		"id": "n04C",
 		"name": "Sealstone",
+		"color": "8a2be2",
 		"level": "100",
 		"category": "High",
 		"type": "Mechanic",
@@ -3520,6 +3523,7 @@
 	{
 		"id": "h00W",
 		"name": "Skeletal Solider",
+		"color": "8a2be2",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
@@ -3599,6 +3603,7 @@
 	{
 		"id": "xxxx",
 		"name": "Worshipper of Immortality",
+		"color": "575b40",
 		"level": "110",
 		"category": "High",
 		"type": "Mechanic",
@@ -3627,6 +3632,7 @@
 	{
 		"id": "n03A",
 		"name": "Zombie",
+		"color": "575b40",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
@@ -3707,6 +3713,7 @@
 	{
 		"id": "n03W",
 		"name": "Elder Ent",
+		"color": "64b24c",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
@@ -3754,6 +3761,7 @@
 	{
 		"id": "n03X",
 		"name": "Giant Ent",
+		"color": "64b24c",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
@@ -3788,6 +3796,7 @@
 	{
 		"id": "n032",
 		"name": "Ent",
+		"color": "64b24c",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
@@ -3917,6 +3926,7 @@
 	{
 		"id": "n01Q",
 		"name": "Illusion of Irbert",
+		"color": "3b5081",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
@@ -3945,6 +3955,7 @@
 	{
 		"id": "n03I",
 		"name": "Illusion of Irbert (Large)",
+		"color": "3b5081",
 		"level": "110",
 		"category": "High",
 		"type": "Minion",
