@@ -2140,8 +2140,8 @@
 		"id": "",
 		"name": "Bindings of Darkness",
 		"caster": ["Illusion of Irbert (Large)", "Illusion of Irbert"],
-		"color": "8a2be2",
-		"type": "trigger",
+		"color": "a3bccc",
+		"type": "passive",
 		"description": [
 			"Whenever three Illusions and one Large Illusion are together, they will gain 100% Damage Reduction and 250% Attack Speed"
 		]
