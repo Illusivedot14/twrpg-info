@@ -2708,6 +2708,7 @@
 	{
 		"id": "n01Z",
 		"name": "Hell Portal",
+		"color": "bb2233",
 		"category": "Minor",
 		"type": "Mechanic",
 		"location": "East Prius Gate",
@@ -2734,6 +2735,7 @@
 	{
 		"id": "h01E",
 		"name": "Slime Monster",
+		"color": "bb2233",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2757,6 +2759,7 @@
 	{
 		"id": "h01D",
 		"name": "Golem Monster",
+		"color": "bb2233",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2780,6 +2783,7 @@
 	{
 		"id": "h01E",
 		"name": "Hound Monster",
+		"color": "bb2233",
 		"level": "90",
 		"category": "Minor",
 		"type": "Minion",
@@ -2803,6 +2807,7 @@
 	{
 		"id": "n026",
 		"name": "Hell Golem",
+		"color": "bb2233",
 		"category": "Minor",
 		"type": "Minion",
 		"location": "East Prius Gate",
