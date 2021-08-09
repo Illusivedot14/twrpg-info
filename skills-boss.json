@@ -1700,7 +1700,8 @@
 		"cooldown": "0",
 		"description": [
 			"When stunned or silenced, gain 10 mana per second",
-			"At full mana, gain super armor, which gives the user crowd control immunity"
+			"At full mana, gain super armor, which gives the user crowd control immunity",
+			"Can still be stunned or silenced if spell is longer than 3 seconds"
 		]
 	},
 	{
@@ -1904,9 +1905,10 @@
 		"type": "active",
 		"cooldown": "30",
 		"description": [
-			"After 2.5 seconds of channeling, conjure a lightning storm that takes up a third of the arena vertically or a half vertically",
+			"After 2.5 seconds of channeling, conjure a lightning storm that takes up a third of the arena vertically or a half horizontally",
 			"Positions are random",
-			"Deals 200% Max HP Magic Damage"
+			"Deals 200% Max HP Magic Damage and breaks players shields",
+			"Deals 25% Max HP Magic Damage to those outside the storm"
 		]
 	},
 	{
@@ -2017,7 +2019,7 @@
 		"description": [
 			"Summon 12 orbs of light that will float towards Samael",
 			"Samael will heal 15000 HP per orb",
-			"If blocked by another unit, deal 1500 Magic Damage",
+			"If blocked by another unit, deal 1500 Magic Damage and reduces Healing by 50%",
 			"Explodes on contact"
 		]
 	},
@@ -2043,6 +2045,8 @@
 		"description": [
 			"When stunned or silenced, gain 10 mana per second",
 			"When full mana, become cc-immune and knockback all enemies for 5 seconds",
+			"Can still be stunned or silenced if spell is longer than 3 seconds",
+			"Breaks all player shields",
 			"Loses all mana when triggered"
 		]
 	},
