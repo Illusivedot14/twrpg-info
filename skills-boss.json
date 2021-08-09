@@ -1959,6 +1959,7 @@
 		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
+		"cost": "100",
 		"description": [
 			"Creates a breakable shield that returns 33% of damage dealt as pure damage to the attacker",
 			"Lasts 5 seconds"
