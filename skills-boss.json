@@ -3,7 +3,7 @@
 		"id": "xxxx",
 		"name": "Summon Shadow Wolf",
 		"caster": "Silverback Wolf",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -27,7 +27,7 @@
 		"id": "xxxx",
 		"name": "Wrath of Nature",
 		"caster": "Protector of Nature",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -40,7 +40,7 @@
 		"id": "xxxx",
 		"name": "Shackle of Nature",
 		"caster": "Protector of Nature",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "10",
 		"description": [
@@ -51,7 +51,7 @@
 		"id": "xxxx",
 		"name": "Harden Shell",
 		"caster": "King Crab",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -64,7 +64,7 @@
 		"id": "xxxx",
 		"name": "Sea Wave",
 		"caster": "King Crab",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "45",
 		"description": [
@@ -75,7 +75,7 @@
 		"id": "xxxx",
 		"name": "Hold",
 		"caster": "King Crab",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -86,7 +86,7 @@
 		"id": "xxxx",
 		"name": "Slimy Ball",
 		"caster": "Walrus",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -98,7 +98,7 @@
 		"id": "xxxx",
 		"name": "Slippery Skin",
 		"caster": "Walrus",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -109,7 +109,7 @@
 		"id": "xxxx",
 		"name": "Headbutt",
 		"caster": "Walrus",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "5",
 		"description": [
@@ -121,7 +121,7 @@
 		"id": "xxxx",
 		"name": "Heal",
 		"caster": "Ice Troll",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "1",
 		"cost": "10",
@@ -143,7 +143,7 @@
 		"id": "xxxx",
 		"name": "Charge",
 		"caster": "Mammoth",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -155,7 +155,7 @@
 		"id": "xxxx",
 		"name": "Hailstorm",
 		"caster": "Mammoth",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "75",
 		"description": [
@@ -170,7 +170,7 @@
 		"id": "xxxx",
 		"name": "Enrage",
 		"caster": "King Kong",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -181,7 +181,7 @@
 		"id": "xxxx",
 		"name": "Throw",
 		"caster": "King Kong",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "4",
 		"description": [
@@ -203,7 +203,7 @@
 		"id": "xxxx",
 		"name": "Death Finger",
 		"caster": "Wallachia Death Knight Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -215,7 +215,7 @@
 		"id": "xxxx",
 		"name": "Summon Wraith",
 		"caster": "Wallachia Death Knight Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "90",
 		"description": [
@@ -229,7 +229,7 @@
 		"id": "xxxx",
 		"name": "Craze",
 		"caster": "Blood Wraith",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -242,7 +242,7 @@
 		"id": "xxxx",
 		"name": "Bloody Echoes",
 		"caster": "Blood Wraith",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -256,7 +256,7 @@
 		"id": "xxxx",
 		"name": "Blood Anger",
 		"caster": "Blood Wraith",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -269,7 +269,7 @@
 		"id": "xxxx",
 		"name": "True Requiem",
 		"caster": "Blood Wraith",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "120",
 		"description": [
@@ -290,7 +290,7 @@
 		"id": "xxxx",
 		"name": "Death Cross",
 		"caster": "Wallachia Monstrosity",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -301,7 +301,7 @@
 		"id": "xxxx",
 		"name": "Summon Bat Statue",
 		"caster": "Wallachia Monstrosity",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -338,7 +338,7 @@
 		"id": "xxxx",
 		"name": "Slaves of Trueflame",
 		"caster": "Ruler of Flames Ragnaar",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "90",
 		"description": [
@@ -353,7 +353,7 @@
 		"id": "xxxx",
 		"name": "Craze",
 		"caster": "Ruler of Flames Ragnaar",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "90",
 		"description": [
@@ -364,7 +364,7 @@
 		"id": "xxxx",
 		"name": "Hellflame Nova",
 		"caster": "Ruler of Flames Ragnaar",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "80",
 		"description": [
@@ -395,7 +395,7 @@
 		"id": "xxxx",
 		"name": "Seal",
 		"caster": "Evil Lava Spawn",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "5",
 		"description": [
@@ -406,7 +406,7 @@
 		"id": "xxxx",
 		"name": "Nyohoho",
 		"caster": "Evil Lava Spawn",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -449,7 +449,7 @@
 		"id": "xxxx",
 		"name": "Tentacle Spike",
 		"caster": "Tentacle Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "4",
 		"description": [
@@ -460,7 +460,7 @@
 		"id": "xxxx",
 		"name": "Tentacle Slam",
 		"caster": "Tentacle Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -475,7 +475,7 @@
 		"id": "xxxx",
 		"name": "Tentacles",
 		"caster": "Tentacle Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "12",
 		"description": [
@@ -486,7 +486,7 @@
 		"id": "xxxx",
 		"name": "Sea Beam",
 		"caster": "Guardian of Sea",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "3",
 		"description": [
@@ -497,7 +497,7 @@
 		"id": "xxxx",
 		"name": "Water Splash",
 		"caster": "Guardian of Sea",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -508,7 +508,7 @@
 		"id": "xxxx",
 		"name": "Summon Bubble",
 		"caster": "Guardian of Sea",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "10",
 		"description": [
@@ -532,7 +532,7 @@
 		"id": "xxxx",
 		"name": "Unstoppable Force",
 		"caster": "Giant Golem",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -544,7 +544,7 @@
 		"id": "xxxx",
 		"name": "Crushing Slam",
 		"caster": "Giant Golem",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "80",
 		"description": [
@@ -556,7 +556,7 @@
 		"id": "xxxx",
 		"name": "Evasive Movement",
 		"caster": ["Wallachia Assassin", "Wallachia Wraith"],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "10",
 		"description": [
@@ -567,7 +567,7 @@
 		"id": "xxxx",
 		"name": "Dark Blast",
 		"caster": "Wallachia Wraith",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -578,7 +578,7 @@
 		"id": "xxxx",
 		"name": "Faerie Fire",
 		"caster": "Fairy",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "1",
 		"description": [
@@ -609,7 +609,7 @@
 		"id": "xxxx",
 		"name": "Slow Blast",
 		"caster": "Mana Ancient",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "10",
 		"description": [
@@ -621,7 +621,7 @@
 		"id": "xxxx",
 		"name": "Mana Explosion",
 		"caster": "Mana Ancient",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -643,7 +643,7 @@
 		"id": "xxxx",
 		"name": "Stomp",
 		"caster": "Ruler of the Lav Sea Hydra",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "90",
 		"description": [
@@ -654,7 +654,7 @@
 		"id": "xxxx",
 		"name": "Sea Wave",
 		"caster": "Ruler of the Lav Sea Hydra",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -676,7 +676,7 @@
 		"id": "xxxx",
 		"name": "Jack Impact",
 		"caster": "Jack o Lantern",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "120",
 		"description": [
@@ -688,7 +688,7 @@
 		"id": "xxxx",
 		"name": "Jack Wave",
 		"caster": "Jack o Lantern",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -700,7 +700,7 @@
 		"id": "xxxx",
 		"name": "Hound of Berskubil",
 		"caster": "Duchy of Wallachia Count",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -712,7 +712,7 @@
 		"id": "xxxx",
 		"name": "Death Bind",
 		"caster": "Duchy of Wallachia Count",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "55",
 		"description": [
@@ -734,7 +734,7 @@
 		"id": "xxxx",
 		"name": "Requiem of Blood",
 		"caster": "Duchy of Wallachia Count",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "120",
 		"description": [
@@ -770,7 +770,7 @@
 		"id": "xxxx",
 		"name": "Dark Star",
 		"caster": "Mage Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "80",
 		"description": [
@@ -781,7 +781,7 @@
 		"id": "xxxx",
 		"name": "Blizzard",
 		"caster": "Mage Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -795,7 +795,7 @@
 		"id": "xxxx",
 		"name": "Chain Lightning",
 		"caster": "Mage Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "9",
 		"description": [
@@ -806,7 +806,7 @@
 		"id": "xxxx",
 		"name": "Dragon Fear",
 		"caster": "Wings of Death",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -819,7 +819,7 @@
 		"id": "xxxx",
 		"name": "Hell Flame",
 		"caster": "Wings of Death",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "80",
 		"description": [
@@ -831,7 +831,7 @@
 		"id": "xxxx",
 		"name": "Dragon Breath",
 		"caster": "Wings of Death",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "180",
 		"description": [
@@ -865,7 +865,7 @@
 		"id": "xxxx",
 		"name": "Genocide Sword",
 		"caster": "Castle Avalon Gatekeeper",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "120",
 		"description": [
@@ -886,7 +886,7 @@
 		"id": "xxxx",
 		"name": "Sacred Conviction",
 		"caster": "The 3rd Army's Guardian Angel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -897,7 +897,7 @@
 		"id": "xxxx",
 		"name": "Holy Grab",
 		"caster": "The 3rd Army's Guardian Angel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -908,7 +908,7 @@
 		"id": "xxxx",
 		"name": "Sacred Judgment",
 		"caster": "The 3rd Army's Guardian Angel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "120",
 		"description": [
@@ -919,7 +919,7 @@
 		"id": "xxxx",
 		"name": "Judgment of Darkness",
 		"caster": "The Devil's Right Arm Corrupt Angel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "120",
 		"description": [
@@ -930,7 +930,7 @@
 		"id": "xxxx",
 		"name": "Craze",
 		"caster": "The Devil's Right Arm Corrupt Angel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -951,7 +951,7 @@
 		"id": "xxxx",
 		"name": "Hell Finger",
 		"caster": "The Devil's Right Arm Corrupt Angel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -966,7 +966,7 @@
 			"Wallachia Death Knight Lord",
 			"The Devil's Right Arm Corrupt Angel"
 		],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -988,7 +988,7 @@
 		"id": "xxxx",
 		"name": "Hellfrost Nova",
 		"caster": "Soul of Everfrost",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -1000,7 +1000,7 @@
 		"id": "xxxx",
 		"name": "Frozen Soul",
 		"caster": "Soul of Everfrost",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "90",
 		"description": [
@@ -1024,7 +1024,7 @@
 		"id": "xxxx",
 		"name": "Frost Spike",
 		"caster": "Frostspider Queen",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "12.5",
 		"description": [
@@ -1057,7 +1057,7 @@
 		"id": "xxxx",
 		"name": "Ice Storm",
 		"caster": "Frostspider Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "12",
@@ -1071,7 +1071,7 @@
 		"id": "xxxx",
 		"name": "Web Binding",
 		"caster": "Frostspider Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"description": [
@@ -1098,7 +1098,7 @@
 		"id": "xxxx",
 		"name": "Frozen Shatter",
 		"caster": "Frostspider Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "40",
@@ -1123,7 +1123,7 @@
 		"id": "xxxx",
 		"name": "Seal",
 		"caster": "Demon Lord Beriel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "10",
 		"description": [
@@ -1134,7 +1134,7 @@
 		"id": "xxxx",
 		"name": "Meteor",
 		"caster": "Demon Lord Beriel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -1148,7 +1148,7 @@
 		"id": "xxxx",
 		"name": "Destruction",
 		"caster": "Demon Lord Beriel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "12",
 		"description": [
@@ -1160,7 +1160,7 @@
 		"id": "xxxx",
 		"name": "Catacylsm",
 		"caster": "Demon Lord Beriel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "75",
 		"description": [
@@ -1171,7 +1171,7 @@
 		"id": "xxxx",
 		"name": "Rage",
 		"caster": "Demon Lord Beriel",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -1192,7 +1192,7 @@
 		"id": "xxxx",
 		"name": "Mad Howl",
 		"caster": "Wallachia Wallachia Mad Clown",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -1209,7 +1209,7 @@
 		"id": "xxxx",
 		"name": "Mirror Image",
 		"caster": ["Wallachia Mad Clown", "Troll Lord"],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -1221,7 +1221,7 @@
 		"id": "xxxx",
 		"name": "Wheel of Fate",
 		"caster": "Wallachia Mad Clown",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "100",
@@ -1256,7 +1256,7 @@
 		"id": "xxxx",
 		"name": "Rejuvination",
 		"caster": ["Fairy", "Fairy Spirit"],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "1",
 		"description": [
@@ -1267,7 +1267,7 @@
 		"id": "xxxx",
 		"name": "Ethereal Strike",
 		"caster": "Spirit Beast",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "12",
 		"cost": "100",
@@ -1281,7 +1281,7 @@
 		"id": "xxxx",
 		"name": "Spirit Echo",
 		"caster": "Spirit Beast",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"cost": "100",
@@ -1293,7 +1293,7 @@
 		"id": "xxxx",
 		"name": "Drain",
 		"caster": ["Mana Ancient", "Spirit Beast"],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "16",
 		"description": [
@@ -1328,7 +1328,7 @@
 		"id": "xxxx",
 		"name": "Corruption",
 		"caster": "Corruptor Rectus",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "27",
@@ -1342,7 +1342,7 @@
 		"id": "xxxx",
 		"name": "Death Coil",
 		"caster": "Corruptor Rectus",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "12",
@@ -1355,7 +1355,7 @@
 		"id": "xxxx",
 		"name": "Soul Swap",
 		"caster": "Corruptor Rectus",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "30",
@@ -1403,7 +1403,7 @@
 		"id": "xxxx",
 		"name": "Corruption Wave",
 		"caster": "Avenger",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -1445,7 +1445,7 @@
 		"id": "xxxx",
 		"name": "Flame Barrage",
 		"caster": "Flame Nightmare",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -1495,7 +1495,7 @@
 		"id": "xxxx",
 		"name": "Berserk",
 		"caster": "Anger",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "0",
 		"description": [
@@ -1601,7 +1601,7 @@
 		"id": "xxxx",
 		"name": "Flame Bolt",
 		"caster": "Dragonic Warrior",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -1616,7 +1616,7 @@
 		"id": "xxxx",
 		"name": "Swipe",
 		"caster": "Bone Dragon",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "8",
 		"description": [
@@ -1628,7 +1628,7 @@
 		"id": "xxxx",
 		"name": "Flame Breath",
 		"caster": "Bone Dragon",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "12",
 		"description": [
@@ -1644,7 +1644,7 @@
 		"id": "xxxx",
 		"name": "Hell Spike",
 		"caster": "Bone Dragon",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "8",
 		"description": [
@@ -1660,7 +1660,7 @@
 		"id": "xxxx",
 		"name": "Petrification",
 		"caster": "Bone Dragon",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "5",
 		"description": [
@@ -1683,7 +1683,7 @@
 		"id": "xxxx",
 		"name": "Dead Man's Reach",
 		"caster": "Skeletal Solider",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cost": "100",
 		"cooldown": "0",
@@ -1708,7 +1708,7 @@
 		"id": "xxxx",
 		"name": "Drain Soul",
 		"caster": "Skeleton King Desperia",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -1719,7 +1719,7 @@
 		"id": "xxxx",
 		"name": "Soul Terror",
 		"caster": "Skeleton King Desperia",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "16",
 		"description": [
@@ -1730,7 +1730,7 @@
 		"id": "xxxx",
 		"name": "Weapon of Nothingness",
 		"caster": "Skeleton King Desperia",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "8",
 		"description": [
@@ -1741,7 +1741,7 @@
 		"id": "xxxx",
 		"name": "Absolute Devastation",
 		"caster": "Skeleton King Desperia",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "50",
 		"description": [
@@ -1806,7 +1806,7 @@
 		"id": "xxxx",
 		"name": "Hunger",
 		"caster": "Zombie Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "24",
 		"description": [
@@ -1845,7 +1845,7 @@
 		"id": "xxxx",
 		"name": "Infest",
 		"caster": "Zombie Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -1860,7 +1860,7 @@
 		"id": "xxxx",
 		"name": "Aura of Death",
 		"caster": "Zombie Lord",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "60",
 		"description": [
@@ -1889,7 +1889,7 @@
 		"id": "xxxx",
 		"name": "Earth Slam",
 		"caster": "Ancient Ent",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "10",
 		"description": [
@@ -1901,7 +1901,7 @@
 		"id": "xxxx",
 		"name": "Lightning Storm",
 		"caster": "Ancient Ent",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -1940,7 +1940,7 @@
 		"id": "xxxx",
 		"name": "Weak Slam",
 		"caster": "Elder Ent",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "5",
 		"cost": "100",
@@ -1952,7 +1952,7 @@
 		"id": "xxxx",
 		"name": "Thorns Armor",
 		"caster": "Elder Ent",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -1986,7 +1986,7 @@
 		"id": "xxxx",
 		"name": "Focused Light",
 		"caster": "Archangel Samael",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "18",
 		"description": [
@@ -1999,7 +1999,7 @@
 		"id": "xxxx",
 		"name": "Order of Light",
 		"caster": "Archangel Samael",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -2012,7 +2012,7 @@
 		"id": "xxxx",
 		"name": "Spirit of Light",
 		"caster": "Archangel Samael",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "24",
 		"description": [
@@ -2065,7 +2065,7 @@
 		"id": "xxxx",
 		"name": "Shadow Breath",
 		"caster": ["Shadow Dragon Irbert", "Illusion of Irbert", "Illusion of Irbert (Large)"],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "9",
 		"description": [
@@ -2099,7 +2099,7 @@
 		"id": "xxxx",
 		"name": "Seal",
 		"caster": ["Shadow Dragon Irbert", "Illusion of Irbert (Large)"],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -2150,7 +2150,7 @@
 		"id": "xxxx",
 		"name": "Shadow Circle",
 		"caster": "Shadow Dragon Irbert",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "7",
 		"description": [
@@ -2162,7 +2162,7 @@
 		"id": "xxxx",
 		"name": "Eternity Link",
 		"caster": "Shadow Dragon Irbert",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "12",
 		"description": [
@@ -2176,7 +2176,7 @@
 		"id": "xxxx",
 		"name": "Dark Blast",
 		"caster": "Shadow Dragon Irbert",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "35",
 		"description": [
@@ -2203,7 +2203,7 @@
 		"id": "xxxx",
 		"name": "Grasp of the Fiend",
 		"caster": "Death Fiend",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "passive",
 		"description": [
 			"On auto attack, decreases armor of target by 100"
@@ -2213,7 +2213,7 @@
 		"id": "xxxx",
 		"name": "Crawling Death",
 		"caster": "Death Fiend",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "20",
 		"description": [
@@ -2227,7 +2227,7 @@
 		"id": "xxxx",
 		"name": "Howl of Death",
 		"caster": "Death Fiend",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -2309,7 +2309,7 @@
 		"id": "xxxx",
 		"name": "Heartpiercing Arrow",
 		"caster": "Death Huntress",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "6",
 		"description": [
@@ -2352,7 +2352,7 @@
 		"id": "xxxx",
 		"name": "Sword Blows",
 		"caster": "Death Weaver",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -2364,7 +2364,7 @@
 		"id": "xxxx",
 		"name": "Deadly Dance",
 		"caster": "Death Weaver",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
@@ -2447,7 +2447,7 @@
 		"id": "xxxx",
 		"name": "Magnetic Attraction",
 		"caster": "Valtora",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "trigger",
 		"description": [
 			"The first person that attacks Valtora will attract all other players",
@@ -2459,7 +2459,7 @@
 		"id": "xxxx",
 		"name": "Storm Hammer",
 		"caster": "Valtora",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "12",
 		"description": [
@@ -2474,7 +2474,7 @@
 		"id": "xxxx",
 		"name": "Servant of Lightning",
 		"caster": "Valtora",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "40",
 		"description": [
@@ -2486,7 +2486,7 @@
 		"id": "xxxx",
 		"name": "Wrath of Heaven",
 		"caster": "Valtora",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "45",
 		"description": [
@@ -2594,7 +2594,7 @@
 		"id": "xxxx",
 		"name": "Seed of Flame",
 		"caster": "Ifrit",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "15",
 		"description": [
@@ -2619,7 +2619,7 @@
 		"id": "xxxx",
 		"name": "Flame Meteor",
 		"caster": "Ifrit",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "5",
 		"description": [
@@ -2661,7 +2661,7 @@
 		"id": "xxxx",
 		"name": "Smash",
 		"caster": "Obsidian Golem",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "8",
 		"description": [
@@ -2673,7 +2673,7 @@
 		"id": "",
 		"name": "Hot Pursuit",
 		"caster": ["Ifrit", "Obsidian Golem"],
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "0",
 		"cost": "100",
@@ -2689,7 +2689,7 @@
 		"id": "xxxx",
 		"name": "Fiery Bullet",
 		"caster": "Lava Spirit",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "0",
 		"cost": "100",
@@ -2714,7 +2714,7 @@
 		"id": "xxxx",
 		"name": "Water Barrage",
 		"caster": "Nereid",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "9",
 		"description": [
@@ -2748,7 +2748,7 @@
 		"id": "xxxx",
 		"name": "Water Binding",
 		"caster": "Nereid",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "9",
 		"description": [
@@ -2761,7 +2761,7 @@
 		"id": "xxxx",
 		"name": "Drown",
 		"caster": "Nereid",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "9",
 		"description": [
@@ -2773,7 +2773,7 @@
 		"id": "xxxx",
 		"name": "Bubble Breath",
 		"caster": "Nereid",
-		"color": "b096bb",
+		"color": "f89c34",
 		"type": "active",
 		"cooldown": "30",
 		"description": [
