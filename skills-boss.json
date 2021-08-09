@@ -20,7 +20,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 15% Chance to deal 1.75x attack damage"
+			"On Auto-Attack, 15% Chance to deal 1.75x Attack Damage"
 		]
 	},
 	{
@@ -136,7 +136,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"Deals 100% auto attack damage to all enemies nearby (500 range)"
+			"Deals 100% auto Attack Damage to all enemies nearby (500 range)"
 		]
 	},
 	{
@@ -196,7 +196,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On attack, 15% chance to deal 1.5x attack damage"
+			"On attack, 15% chance to deal 1.5x Attack Damage"
 		]
 	},
 	{
@@ -388,7 +388,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"While in combat, gain 250 attack damage and increase health by 1000 per second 20 times"
+			"While in combat, gain 250 Attack Damage and increase health by 1000 per second 20 times"
 		]
 	},
 	{
@@ -479,7 +479,7 @@
 		"type": "active",
 		"cooldown": "12",
 		"description": [
-			"Silences target and deals 500 physical damage per second for 3 seconds"
+			"Silences target and deals 500 Phyiscal Damage per second for 3 seconds"
 		]
 	},
 	{
@@ -536,8 +536,8 @@
 		"type": "active",
 		"cooldown": "60",
 		"description": [
-			"Targets a place to run to (in the direction of a hero) and with full dedication rushes towards it",
-			"Any heroes in its path will immediately die"
+			"Targets a place to run to (in the direction of a Hero) and with full dedication rushes towards it",
+			"Any Heroes in its path will immediately die"
 		]
 	},
 	{
@@ -549,7 +549,7 @@
 		"cooldown": "80",
 		"description": [
 			"Slams the ground causing a shockwave in the nearby area, dealing 25% max hp Magic Damage",
-			"Any heroes caught in it will be stunned for 2 seconds"
+			"Any Heroes caught in it will be stunned for 2 seconds"
 		]
 	},
 	{
@@ -602,7 +602,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"Deals 100% attack damage to all nearby enemies"
+			"Deals 100% Attack Damage to all nearby enemies"
 		]
 	},
 	{
@@ -613,7 +613,7 @@
 		"type": "active",
 		"cooldown": "10",
 		"description": [
-			"Targets beneath a hero's feet and creates an enclosing whirlpool of mana",
+			"Targets beneath a Hero's feet and creates an enclosing whirlpool of mana",
 			"Heroes caught will take 4000 Magic Damage and their movement speed reduced for 5 seconds"
 		]
 	},
@@ -625,7 +625,7 @@
 		"type": "active",
 		"cooldown": "60",
 		"description": [
-			"Creates a vacuum beneath itself, sucking in any nearby heroes and finally exploding after a few seconds.",
+			"Creates a vacuum beneath itself, sucking in any nearby Heroes and finally exploding after a few seconds.",
 			"Can only be used once it reaches full mana"
 		]
 	},
@@ -636,7 +636,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, applies a debuff that will deal 50 Magic Damage per second for 5 seconds"
+			"On Auto-Attack, applies a Debuff that deals 50 Magic Damage per second for 5 seconds"
 		]
 	},
 	{
@@ -647,7 +647,7 @@
 		"type": "active",
 		"cooldown": "90",
 		"description": [
-			"After 3 seconds of casting, deals 2500 Magic Damage to all enemies nearby and stun them for 3 seconds in 600 AoE."
+			"After 3 seconds of channeling, deals 2500 Magic Damage to all enemies nearby and stuns them for 3 seconds in 600 AoE."
 		]
 	},
 	{
@@ -669,7 +669,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 15% chance to deal 1.5x attack damage."
+			"On Auto-Attack, 15% chance to deal 1.5x Attack Damage."
 		]
 	},
 	{
@@ -680,8 +680,8 @@
 		"type": "active",
 		"cooldown": "120",
 		"description": [
-			"After 2.75 seconds of casting, blasts the surrounding area (1000 AoE) with a nova",
-			"Deals 6000 Magic Damage to any nearby heroes"
+			"After 2.75 seconds of channeling, blasts the surrounding area (1000 AoE) with a nova",
+			"Deals 6000 Magic Damage to any nearby Heroes"
 		]
 	},
 	{
@@ -692,8 +692,8 @@
 		"type": "active",
 		"cooldown": "40",
 		"description": [
-			"After 1.75 seconds of casting, shoots a ball of mana in a straight line",
-			"Deals 2500 Magic Damage to any heroes in the path"
+			"After 1.75 seconds of casting, shoots a ball of energy in a straight line",
+			"Deals 2500 Magic Damage to any Heroes in the path"
 		]
 	},
 	{
@@ -704,10 +704,10 @@
 		"type": "active",
 		"cooldown": "40",
 		"description": [
-			"After 1 second of casting, releases his hound to attack the heroes",
-			"Attacks in a single line, dealing 2000 Magic Damage to each hero in the path"
-		
-]	},
+			"After 1 second of casting, releases his hound to attack the Heroes",
+			"Attacks in a single line, dealing 2000 Magic Damage to each Hero in the path"
+		]	
+	},
 	{
 		"id": "xxxx",
 		"name": "Death Bind",
@@ -716,7 +716,7 @@
 		"type": "active",
 		"cooldown": "55",
 		"description": [
-			"Grabs a targetted hero and pulls them towards himself, stunning them for .2 seconds",
+			"Pulls a Hero towards itself, stunning them for .2 seconds",
 			"Deals 1000 Magic Damage"
 		]
 	},
@@ -727,7 +727,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 15% chance to deal 1.5x attack damage."
+			"On Auto-Attack, 15% chance to deal 1.5x Attack Damage."
 		]
 	},
 	{
@@ -738,7 +738,7 @@
 		"type": "active",
 		"cooldown": "120",
 		"description": [
-			"After 3 seconds of casting, blasts the area around him with a nova of blood (1000 range)",
+			"After 3 seconds of channeling, blasts the area around him with a nova of blood (1000 range)",
 			"Deals 7500 Magic Damage to all enemies in the nova and stuns them for .1 second"
 		]
 	},
@@ -749,7 +749,7 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"When HP goes below 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra damage",
+			"When HP goes below 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra Attack Damage",
 			"Also deals 1000 Magic Damage per second to all enemies nearby (400 range)",
 			"Lasts until mana runs out"
 		],
@@ -786,8 +786,8 @@
 		"cooldown": "60",
 		"description": [
 			"After 1 second of casting, channels a Blizzard at Target Area",
-			"Blizzard lasts for 10 waves with 12 shards dealing 1000 physical damage each",
-			"Maximum of 1000 physical damage can be taken per wave",
+			"Blizzard lasts for 10 waves with 12 shards dealing 1000 Phyiscal Damage each",
+			"Maximum of 1000 Phyiscal Damage can be taken per wave",
 			"Each wave can proc Magical Weapon"
 		]
 	},
@@ -799,7 +799,7 @@
 		"type": "active",
 		"cooldown": "9",
 		"description": [
-			"Shoots lightning at a nearby target, dealing 1000 physical damage that bounces 4 times to nearby enemies"
+			"Shoots lightning at a nearby target, dealing 1000 Phyiscal Damage that bounces 4 times to nearby enemies"
 		]
 	},
 	{
@@ -824,7 +824,7 @@
 		"cooldown": "80",
 		"description": [
 			"After 3 sconds of channeling, blasts fire all around him (1000 range)",
-			"Deals 5000 Magic Damage to nearby heroes and interrupts them"
+			"Deals 5000 Magic Damage to nearby Heroes and interrupts them"
 		]
 	},
 	{
@@ -836,7 +836,7 @@
 		"cooldown": "180",
 		"description": [
 			"After 3 seconds of channeling, blasts a beam of fire from his mouth in a straight line",
-			"Deals 7500 Magic Damage to heroes in its path"
+			"Deals 7500 Magic Damage to all Heroes in its path"
 		]
 	},
 	{
@@ -846,7 +846,7 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"When HP goes below 50%, takes flight and replaces its auto-attack with an AoE attack that deals 2500 Magic Damage in 400 AoE",
+			"When HP goes below 50%, takes flight and replaces its Auto-Attack with an AoE attack that deals 2500 Magic Damage in 400 AoE",
 			"Lasts for 5 seconds"
 		],
 		"cooldown": "120"
@@ -858,7 +858,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 10% chance to deal 3x attack damage"
+			"On Auto-Attack, 10% chance to deal 3x Attack Damage"
 		]
 	},
 	{
@@ -879,7 +879,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On attack, 15% chance to deal 1.75x attack damage"
+			"On attack, 15% chance to deal 1.75x Attack Damage"
 		]
 	},
 	{
@@ -901,7 +901,7 @@
 		"type": "active",
 		"cooldown": "60",
 		"description": [
-			"Pulls target toward them at holy speeds, dealing 2000 Magic Damage to target and interrupting them"
+			"Pulls target toward them with a holy velocity, dealing 2000 Magic Damage to target and interrupting them"
 		]
 	},
 	{
@@ -944,7 +944,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 15% chance to deal 1.75x damage"
+			"On Auto-Attack, 15% chance to deal 1.75x damage"
 		]
 	},
 	{
@@ -1050,7 +1050,7 @@
 		"type": "passive",
 		"description": [
 			"Deals 200 damage a second to all nearby enemies (1200 range)",
-			"On auto-attack, 15% chance to deal 1.75x attack damage"
+			"On Auto-Attack, 15% chance to deal 1.75x Attack Damage"
 		]
 	},
 	{
@@ -1062,7 +1062,7 @@
 		"cost": "100",
 		"cooldown": "12",
 		"description": [
-			"Chooses a target to be targeted by a blizzard. Spawns 21 waves at target location, dealing 375 Magic Damage each over 3 seconds",
+			"Chooses a target to be targeted by a blizzard. Spawns 21 Waves at target location, dealing 375 Magic Damage each over 3 seconds",
 			"Applies 'Wet' debuff",
 			"Wet enemies have their movement speed reduced by 20%"
 		]
@@ -1116,7 +1116,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 15% chance to deal 2.5x attack damage"
+			"On Auto-Attack, 15% chance to deal 2.5x Attack Damage"
 		]
 	},
 	{
@@ -1175,7 +1175,7 @@
 		"type": "active",
 		"cooldown": "40",
 		"description": [
-			"Gains .125 attack speed and 100 attack damage every half second for 10 seconds"
+			"Gains .125 attack speed and 100 Attack Damage every half second for 10 seconds"
 		]
 	},
 	{
@@ -1213,7 +1213,7 @@
 		"type": "active",
 		"cooldown": "40",
 		"description": [
-			"Dispels all magic from the caster and creates two images that deal 20% damage and take 250% damage",
+			"Dispels all magic from the caster and creates two images that deal 20% Attack Damage and take 250% Damage",
 			"Lasts 40 seconds"
 		]
 	},
@@ -1226,9 +1226,9 @@
 		"cost": "100",
 		"cooldown": "100",
 		"description": [
-			"Upon reaching half, Mad Clown will create a wheel that reaches 1000 range and can suck in anyone within 2000 range for 20 seconds",
+			"Upon reaching half of his HP, Mad Clown will create a wheel that reaches 1000 range and can suck in anyone within 2000 range for 12 seconds",
 			"The wheel will have an inner and outer layer with 5 lines that move counter-clockwise",
-			"Every 5 seconds, lights will appear in either the inner or outer layer, if enemies are within that light after 1 second, they will be stunned for 10 seconds"
+			"Every 3 seconds, lights will appear in either the inner or outer layer, if enemies are within that light after 1 second, they will be stunned for 10 seconds"
 		]
 	},
 	{
@@ -1238,7 +1238,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 20% chance to deal 1.75x attack damage"
+			"On Auto-Attack, 20% chance to deal 1.75x Attack Damage"
 		]
 	},
 	{
@@ -1321,7 +1321,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 40% chance to deal 1.5x attack damage"
+			"On Auto-Attack, 40% chance to deal 1.5x Attack Damage"
 		]
 	},
 	{
@@ -1347,8 +1347,8 @@
 		"cost": "100",
 		"cooldown": "12",
 		"description": [
-			"Chooses a target area that will explode for 20% HP and interrupt players after a 2 second delay",
-			"At 25% HP, after the initial blast, 8 coils will shoot out in diagonal and cardinal directions, dealing 1000 damage each and interrupting the first person they touch"
+			"Chooses a target area that will explode for 20% HP and interrupt Players after a 2 second delay",
+			"At past 50% HP, after the initial blast, 8 coils will shoot out in diagonal and cardinal directions, dealing 1000 Magic Damage each and interrupting the first person they touch"
 		]
 	},
 	{
@@ -1360,7 +1360,7 @@
 		"cost": "100",
 		"cooldown": "30",
 		"description": [
-			"Binds two target's souls to be swapped. When their orbs each the other player, they will swap, insta-killing all nearby players on their locations"
+			"Binds two target's souls to be swapped. When their orbs each the other Player, they will swap, insta-killing all nearby Players on their locations"
 		]
 	},
 	{
@@ -1370,7 +1370,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"Every 3 seconds second, Rectus will emit a blast of corruption that will deal increasing damage as the fight goes on"
+			"Every 3 seconds second, Rectus will emit a blast of corruption that will deal increasing Magic Damage as the fight goes on"
 		]
 	},
 	{
@@ -1380,7 +1380,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"Decreases nearby players armor by 25"
+			"Decreases nearby Players armor by 25"
 		]
 	},
 	{
@@ -1417,7 +1417,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On death, deals 10% HP to all nearby enemies. Heals Avenger for 10% if nearby"
+			"On death, deals 10% HP Magic Damage to all nearby enemies. Heals Avenger for 10% if nearby"
 		]
 	},
 	{
@@ -1427,8 +1427,8 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On death, heals players 3000 HP per second for 15 seconds with a 20 second recharge",
-			"On 2nd death, deals 50% damage to nearby players every 5 seconds"
+			"On death, heals Players 3000 HP per second for 15 seconds with a 20 second recharge",
+			"On 2nd death, deals 50% Magic Damage to nearby Players every 5 seconds"
 		]
 	},
 	{
@@ -1438,7 +1438,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 20% chance to deal 2x attack damage"
+			"On Auto-Attack, 20% chance to deal 2x Attack Damage"
 		]
 	},
 	{
@@ -1449,8 +1449,8 @@
 		"type": "active",
 		"cooldown": "30",
 		"description": [
-			"Targets a random player and fires dual meteors every half second target the target location",
-			"Each impact stuns all enemies nearby for .5 seconds and deals 5000 damage each"
+			"Targets a random Player and fires dual meteors every half second target the target location",
+			"Each impact stuns all enemies nearby for .5 seconds and deals 5000 Magic Damage each"
 		]
 	},
 	{
@@ -1460,8 +1460,8 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, drain all mana",
-			"On full mana and on next crowd control ability, pushes all players away for 5 seconds and becomes immune to crowd control effects"
+			"On Auto-Attack, drain all mana",
+			"On full mana and on next crowd control ability, pushes all Players away for 5 seconds and becomes immune to crowd control effects"
 		]
 	},
 	{
@@ -1471,9 +1471,9 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"At 80% HP, target a random player to jump toward, dealing 2000 damage on impact",
+			"At 80% HP, target a random Player to jump toward, dealing 2000 Magic Damage on impact",
 			"Creates 8 lava spawns that walk toward the impact after spawning",
-			"Creates flame paths that deal 5% per second that last 3 seconds",
+			"Creates flame paths that deal 5% max HP Magic Damage per second that last 3 seconds",
 			"On collision with the impact zone, heal Flame Nightmare for 10% if its near"
 		],
 		"summons": [
@@ -1487,7 +1487,7 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"At 25% HP, become invulnerable and choose the closest player to target with Flame Barrage for ten seconds",
+			"At 25% HP, becomes invulnerable and choose the closest Player to target with Flame Barrage for ten seconds",
 			"Become vulnerable after duration is over"
 		]
 	},
@@ -1521,7 +1521,7 @@
 		"type": "passive",
 		"description": [
 			"Picks a nearby target to gaze at, marking them with a purple circle",
-			"After 10 seconds, fires a ball that will explode on contact, dealing 100% HP damage to all but the target"
+			"After 10 seconds, fires a ball that will explode on contact, dealing 99% max HP Magic Damage to all but the target"
 		]
 	},
 	{
@@ -1552,7 +1552,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On Auto-attack, 15% chance to deal 2.5x attack damage"
+			"On Auto-Attack, 15% chance to deal 2.5x Attack Damage"
 		]
 	},
 	{
@@ -1563,8 +1563,8 @@
 		"type": "trigger",
 		"description": [
 			"When reaching every 25% HP, gain 90% damage reduction and summons 8 Turtles",
-			"2 of these eight turtles will have 50% magic reduction",
-			"Lose damage reduction when all turtles are dead"
+			"2 of these eight turtles will have 50% Magic Reduction",
+			"Lose Damage Reduction when all turtles are dead"
 		],
 		"summons": [
 			"Turtle"
@@ -1578,8 +1578,8 @@
 		"type": "trigger",
 		"cost": "40",
 		"description": [
-			"Summons a healing turtle from either end of the arena that walks toward Turtle Lord",
-			"Upon contact, heals Turtle Lord for 25% HP",
+			"Summons a Healing Turtle from either end of the arena that walks toward Turtle Lord",
+			"Upon contact, heals Turtle Lord for 25% max HP",
 			"Upon death, knocks back all enemies"
 		],
 		"summons": [
@@ -1594,7 +1594,7 @@
 		"type": "passive",
 		"description": [
 			"Every second, sends a mana orb toward a random target",
-			"Deals 10% HP to everyone nearby impact zone"
+			"Deals 10% max HP Magic Damage to everyone nearby impact zone"
 		]
 	},
 	{
@@ -1766,7 +1766,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On attack, gain 100% of auto-attack damage back as HP"
+			"On attack, gain 100% of Auto-Attack Damage back as HP"
 		]
 	},
 	{
@@ -1917,7 +1917,7 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, 20% chance to deal 1.5x attack damage"
+			"On Auto-Attack, 20% chance to deal 1.5x Attack Damage"
 		]
 	},
 	{
@@ -1990,7 +1990,7 @@
 		"type": "active",
 		"cooldown": "18",
 		"description": [
-			"Target the nearest player to throw 7 waves of light at",
+			"Target the nearest Player to throw 7 waves of light at",
 			"Each wave deal 2000 Magic Damage and stuns all those in the path for .5 seconds",
 			"Waves come once per second"
 		]
@@ -2104,7 +2104,7 @@
 		"cooldown": "15",
 		"description": [
 			"After .25 seconds of wind-up, deals 4500 damage to all enemies nearby",
-			"Ignites one random player, dealing 1000 Magic Damage per second to all nearby enemies"
+			"Ignites one random Player, dealing 1000 Magic Damage per second to all nearby enemies"
 		]
 	},
 	{
@@ -2127,7 +2127,7 @@
 		"type": "trigger",
 		"description": [
 			"On death, sends a spirit of darkness to all enemies",
-			"After 5 seconds of channeling (timer resets on application), instantly kill all players around target, if a dragon is near, heal that dragon by 50%"
+			"After 5 seconds of channeling (timer resets on application), instantly kill all Players around target, if a dragon is near, heal that dragon by 50%"
 		]
 	},
 	{
@@ -2218,7 +2218,7 @@
 		"cooldown": "20",
 		"description": [
 			"Create two death coils that spiral around the target",
-			"On contact with any player, applies debuff that lasts 5 seconds",
+			"On contact with any Player, applies debuff that lasts 5 seconds",
 			"When debuff is stacked twice, instantly kill person",
 			"On contact, deals 11250 Magic Damage"
 		]
@@ -2242,8 +2242,8 @@
 		"color": "a3bccc",
 		"type": "passive",
 		"description": [
-			"On auto-attack, create an orb of death that flies around Death Fiend",
-			"On 7th attack, destroy all orbs and deals 100% Max HP physical damage that reaches 1000 range in a 150 degree arc in front of Death Fiend"
+			"On Auto-Attack, create an orb of death that flies around Death Fiend",
+			"On 7th attack, destroy all orbs and deals 100% Max HP Phyiscal Damage that reaches 1000 range in a 150 degree arc in front of Death Fiend"
 		]
 	},
 	{
@@ -2278,9 +2278,9 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"If no one near Death Fiend (800 range), teleport to nearest player and winds-up an axe swipe",
-			"If player is hit, instantly kill him",
-			"If player dodges, mark it with Mark of Death"
+			"If no one near Death Fiend (800 range), teleport to nearest Player and winds-up an axe swipe",
+			"If Player is hit, instantly kill him",
+			"If Player dodges, mark it with Mark of Death"
 		]
 	},
 	{
@@ -2313,7 +2313,7 @@
 		"type": "active",
 		"cooldown": "6",
 		"description": [
-			"Targets a random player to track with a purple beam within the arena with unlimited range",
+			"Targets a random Player to track with a purple beam within the arena with unlimited range",
 			"Deals 10000 pure damage, breaks all shields, and applies a debuff that lasts 30 seconds and slows down target movement speed by 30%",
 			"If the target with the debuff is hit twice, they will instantly be killed"
 		]
@@ -2326,7 +2326,7 @@
 		"type": "passive",
 		"description": [
 			"Every 3 attacks, weaken's the target soul by reducing healing taken by 5%, stacks until 100%",
-			"Creates a small vortex at location that will pull the player",
+			"Creates a small vortex at location that will pull the Player",
 			"Vortexes can grow three times, after that it will grow no more",
 			"During the last 4 seconds, the vortex will grow more and more red until it explodes, instantly killing everyone being pulled",
 			"Vortexes last for 30 seconds, the timer resets when they grow"
@@ -2369,7 +2369,7 @@
 		"cooldown": "30",
 		"description": [
 			"After 1 second of wind-up, sends 8 waves around caster",
-			"Each wave does 12000 Magic Damage and slows player's movement speed by 50% for 5 seconds",
+			"Each wave does 12000 Magic Damage and slows Player's movement speed by 50% for 5 seconds",
 			"Instantly kills target with Weaver's mark"
 		]
 	},
@@ -2381,7 +2381,7 @@
 		"type": "trigger",
 		"description": [
 			"When reaching max mana, choose a random target to teleport to",
-			"Stun that player for 3 seconds and automatically start casting either Sword Blows or Deadly Dance"
+			"Stun that Player for 3 seconds and automatically start casting either Sword Blows or Deadly Dance"
 		]
 	},
 	{
@@ -2450,9 +2450,9 @@
 		"color": "f89c34",
 		"type": "trigger",
 		"description": [
-			"The first person that attacks Valtora will attract all other players",
+			"The first person that attacks Valtora will attract all other Players",
 			"Players blocked by debris will be stunned",
-			"When one player is near the magnet, no one gets attracted, but the other player is chained to the player with the magnet mechanic"
+			"When one Player is near the magnet, no one gets attracted, but the other Player is chained to the Player with the magnet mechanic"
 		]
 	},
 	{
@@ -2552,7 +2552,7 @@
 		"type": "passive",
 		"description": [
 			"Breakable shield that deals 750 Magic Damage per second to nearby enemies and grants 50% magic defense",
-			"Makes auto-attacks interrupt target"
+			"Makes Auto-Attacks interrupt target"
 		]
 	},
 	{
@@ -2730,7 +2730,7 @@
 		"type": "trigger",
 		"description": [
 			"Teleports to a random area in the arena and pulses 4 times",
-			"Each pulse knocks players back 400 range"
+			"Each pulse knocks Players back 400 range"
 		]
 	},
 	{
@@ -2828,8 +2828,8 @@
 		"color": "8a2be2",
 		"type": "trigger",
 		"description": [
-			"After reaching 33% HP, knocks back all players and begins aborbing water orbs",
-			"Water orbs slow down players by 50%",
+			"After reaching 33% HP, knocks back all Players and begins aborbing water orbs",
+			"Water orbs slow down Players by 50%",
 			"After absorption, launch a wave at that general direction, instantly killing all in the path",
 			"Can only be triggered once"
 		]
