@@ -2021,7 +2021,7 @@
 		"type": "active",
 		"cooldown": "24",
 		"description": [
-			"Summon 12 orbs of light that will float towards Samael",
+			"Summon 12-18 orbs of light, dpeending on the amount of players, that will float towards Samael",
 			"Samael will heal 15000 HP per orb",
 			"If blocked by another unit, deal 1500 Magic Damage and reduces Healing by 50% for 4 seconds",
 			"Explodes on contact"
