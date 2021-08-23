@@ -1652,7 +1652,7 @@
 		"cooldown": "8",
 		"description": [
 			"Chooses a random target to create a spike under",
-			"After 3 seconds, locks that place down and after 1 second, creates a Hell Spike, instantly killing everyone in the area",
+			"After 4 seconds, locks that place down and after 1 second, creates a Hell Spike, instantly killing everyone in the area unless they're immune to instant kills",
 			"Every third Hell Spike, create an unstable spike that will kill everyone in the arena that isn't behind another Hell spike after three seconds have passed"
 		],
 		"summons": [
@@ -1715,7 +1715,9 @@
 		"type": "active",
 		"cooldown": "15",
 		"description": [
-			"Drains the souls of nearby targets, healing self for 10000 per nearby enemy"
+			"Drains the souls of nearby targets, healing self for 10000 per nearby enemy",
+			"Pushes all enemies away",
+			"Decreases HP of affected (summons are not decreased) by 1200 until fight ends"
 		]
 	},
 	{
@@ -1737,7 +1739,8 @@
 		"type": "active",
 		"cooldown": "8",
 		"description": [
-			"After 1 second of channeling, slashes the air, dealing 7500 Magic Damage in the path"
+			"After 1 second of channeling, slashes the air, dealing 7500 Magic Damage to all those in the path",
+			"Reduces movement speed by those affected by 25%"
 		]
 	},
 	{
@@ -1748,7 +1751,8 @@
 		"type": "active",
 		"cooldown": "50",
 		"description": [
-			"After channeling for 2.25 seconds, summons a wave of devastation that instantly kills all underneath it"
+			"After channeling for 2.25 seconds, summons a wave of devastation that instantly kills all underneath it",
+			"Gains 50% Damage Reduction for 2.5 seconds"
 		]
 	},
 	{
