@@ -2033,8 +2033,8 @@
 		"caster": "Archangel Samael",
 		"color": "8a2be2",
 		"type": "trigger",
+		"cooldown": "24",
 		"description": [
-			"After a Purge of Light OR after 24 seconds, gain this effect",
 			"Regenerate 1% HP per second and gain 25% Damage reduction",
 			"Can be broken",
 			"Cannot be cast above 85% max HP"
