@@ -1751,8 +1751,7 @@
 		"type": "active",
 		"cooldown": "50",
 		"description": [
-			"After channeling for 2.25 seconds, summons a wave of devastation that instantly kills all underneath it",
-			"Gains 50% Damage Reduction for 2.5 seconds"
+			"After channeling for 2.25 seconds, summons a wave of devastation that instantly kills all underneath it"
 		]
 	},
 	{
@@ -1763,7 +1762,8 @@
 		"type": "trigger",
 		"description": [
 			"At every 25% HP reached, he will build up power for three seconds and devastate the area, killing everyone in the area",
-			"Only people who can survive insta-kill or invulnerable can survive"
+			"Only people who can survive insta-kill or invulnerable can survive",
+			"Gains 50% Damage Reduction for 2.5 seconds"
 		]
 	},
 	{
