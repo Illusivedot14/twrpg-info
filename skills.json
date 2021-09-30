@@ -109,6 +109,7 @@
         "color": "c9f227",
         "hotkey": "[R]",
         "icon": "SniperR",
+        "proc_rate": 0.5,
         "order": 5,
         "active": [
             "Loads next attack with explosive shells.",
@@ -421,6 +422,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "AlchemistQ_Q",
+        "proc_rate": 0.7,
         "order": 3,
         "active": [
             "Fires a flame bullet.",
@@ -440,6 +442,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [W]",
         "icon": "AlchemistQ_W",
+        "proc_rate": 0.7,
         "order": 4,
         "active": [
             "Draw forth magma from the grounds.",
@@ -459,6 +462,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [E]",
         "icon": "AlchemistQ_E",
+        "proc_rate": 0.7,
         "order": 5,
         "active": [
             "Vent powerful heat forward.",
@@ -481,6 +485,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [R]",
         "icon": "AlchemistQ_R",
+        "proc_rate": 0.7,
         "order": 6,
         "active": [
             "Drops down a flaming boulder.",
@@ -533,6 +538,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [Q]",
         "icon": "AlchemistW_Q",
+        "proc_rate": 0.7,
         "order": 8,
         "active": [
             "Fire a water bomb that expands with steam.",
@@ -555,6 +561,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [W]",
         "icon": "AlchemistW_W",
+        "proc_rate": 0.7,
         "order": 9,
         "active": [
             "Fire streams of water frontward.",
@@ -579,6 +586,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [E]",
         "icon": "AlchemistW_E",
+        "proc_rate": 0.7,
         "order": 10,
         "active": [
             "Transmutes an icicle.",
@@ -599,6 +607,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [R]",
         "icon": "AlchemistW_R",
+        "proc_rate": 0.7,
         "order": 12,
         "active": [
             "Transmutate a cloud that brings down rain to nearby area.",
@@ -645,6 +654,7 @@
         "color": "ff8080",
         "hotkey": "[E] → [Q]",
         "icon": "AlchemistE_Q",
+        "proc_rate": 0.7,
         "order": 14,
         "active": [
             "Enchant target's hands with fire and wind.",
@@ -666,6 +676,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [W]",
         "icon": "AlchemistE_W",
+        "proc_rate": 0.7,
         "order": 15,
         "active": [
             "Summon an eye of the storm at the target location.",
@@ -689,6 +700,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [E]",
         "icon": "AlchemistE_E",
+        "proc_rate": 0.7,
         "order": 16,
         "active": [
             "Send forth a strong gust of wind.",
@@ -709,6 +721,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [R]",
         "icon": "AlchemistE_R",
+        "proc_rate": 0.7,
         "order": 17,
         "active": [
             "Creates a fierce storm of rocks.",
@@ -757,6 +770,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [Q]",
         "icon": "AlchemistR_Q",
+        "proc_rate": 0.7,
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
@@ -777,6 +791,7 @@
         "color": "ff8080",
         "hotkey": "[R] → [W]",
         "icon": "AlchemistR_W",
+        "proc_rate": 0.7,
         "order": 20,
         "active": [
             "Conjures a useful potion.",
@@ -795,6 +810,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [E]",
         "icon": "AlchemistR_E",
+        "proc_rate": 0.7,
         "order": 21,
         "active": [
             "Collapses the ground with strong pulses.",
@@ -818,6 +834,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [R]",
         "icon": "AlchemistR_R",
+        "proc_rate": 0.7,
         "order": 22,
         "active": [
             "Summon a golem.",
@@ -835,8 +852,8 @@
         "name": "Earth Protection",
         "heroClass": "Alchemist",
         "color": "afeb8c",
-        "icon": "AlchemistSummonPass",
         "hotkey": "[R] → [R] → [Passive]",
+        "icon": "AlchemistSummonPass",
         "order": 23,
         "passive": [
             "Becomes hard like the earth.",
@@ -1075,10 +1092,9 @@
         "order": 4,
         "active": [
             "Summon a vengeful spirit that absorbs damage and reflects them back at the attackers.",
-            "INT X 7.5 magic damage",
+            "Deals INT X 7.5 magic damage per second for 3 seconds",
             "Absorbs own damage taken by 70% and allies' damage taken by 35%",
-            "On expiration, reflects 1500% of absorbed damage as pure damage at nearby enemies",
-            "Lasts 3 seconds"
+            "On expiration, reflects 1500% of absorbed damage as pure damage at nearby enemies"
         ],
         "active_tags": [
             "Hero",
@@ -1100,7 +1116,7 @@
         "passive": [
             "Amplify your magic with grimoire that is inscribed with ancient demons' powers.",
             "Max HP and skill damage increased by 25%",
-            "Increased MP regen by 250 + 100%"
+            "Increased MP regen by 75 + 100%"
         ],
         "active": [
             "Unleash the grimoire and let your magic run wild.",
@@ -1541,7 +1557,7 @@
         "order": 4,
         "active": [
             "Create a fiery explosion by converting mana in the atmosphere into fire.",
-            "INT X 15 magic damage",
+            "INT X 22.5 magic damage",
             "Damage amplified by 50% each time it travels outward"
         ],
         "active_tags": [
@@ -1753,6 +1769,7 @@
         "color": "80ccff",
         "hotkey": "[R]",
         "icon": "ShooterR",
+        "proc_rate": 0.5,
         "order": 6,
         "active": [
             "Fires a bullet that can distort dimensions.",
@@ -1953,8 +1970,7 @@
         "order": 6,
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
-            "15% chance to activate Disenchant when activating Enchanted Sword",
-            "Increases damage taken by Enchanted Sword by 50% for 5 seconds"
+            "Increases damage of Sword Enchant by 25%"
         ],
         "active": [
             "Empowers your chant to make it resonate further.",
@@ -1981,7 +1997,7 @@
             "\"I'll show you the most powerful sword I have in my treasury !!\" - Sword Enchanter",
             "AGI X 125 magic damage",
             "Stuns for 3 seconds",
-            "Applies Disenchant and reduces healing taken by 20% for 7.5 seconds"
+            "Increases target's damage taken from Sword Enchant by 30% and reduces its healing taken by 20% for 7.5 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -2287,6 +2303,7 @@
         "color": "fdbf82",
         "hotkey": "[E] → [Q]",
         "icon": "SwordsmanE_Q",
+        "proc_rate": 0.5,
         "order": 7,
         "active": [
             "Quickly moves to target.",
@@ -2392,17 +2409,17 @@
         ]
     },
     {
-        "id": "A056",
+        "id": "A16N",
         "name": "Jump",
         "heroClass": "Elementalist",
         "color": "b3fff0",
-        "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass1",
+        "hotkey": "[D] → [D]",
+        "icon": "ElementalistD_D",
         "order": 2,
-        "passive": [
-            "Makes target's body light.",
-            "If Elementalist approaches, flings her upward",
-            "Upon landing, inflict INT X (5 + Elementalist Level / 4) pure damage",
+        "active": [
+            "Jumps up high using the power of Elemental of Wind.",
+            "Can only be used while nearby the Elemtental of Wind",
+            "Jumps high and upon landing, deals INT X (5 + Elementalist's LV / 4) pure damage",
             "Can be used up to 5 times"
         ],
         "passive_tags": [
@@ -2418,7 +2435,7 @@
         "heroClass": "Elementalist",
         "color": "b3fff0",
         "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass2",
+        "icon": "ElementalistD_Pass1",
         "order": 3,
         "passive": [
             "Allows nearby beings to move lightly as wind.",
@@ -2437,7 +2454,7 @@
         "heroClass": "Elementalist",
         "color": "b3fff0",
         "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass3",
+        "icon": "ElementalistD_Pass2",
         "order": 4,
         "passive": [
             "Becomes one with the wind.",
@@ -3145,6 +3162,7 @@
             "Deals INT X 50 damage on expiration",
             "Damage and critical chance are increased up to 200% based on dash distance",
             "Breaks shield effects",
+            "Restores all your energy and resets cooldown on Discharge",
             "Invincible while casting",
             "Range: 1200"
         ],
@@ -3194,6 +3212,7 @@
         "color": "f9feb8",
         "hotkey": "[Q]",
         "icon": "CrusaderQ",
+        "proc_rate": 0.5,
         "cooldown": 6,
         "order": 2,
         "active": [
@@ -3953,7 +3972,7 @@
             "Melds into the darkness to strike the enemy from behind.",
             "Attack damage X 1.25 + AGI X 7.5 magic damage",
             "Stuns for 1.5 seconds",
-            "After cast, increases attack damage by 50% for 6 seconds",
+            "After cast, increases attack damage by 40% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
         ],
         "active_tags": [
@@ -3978,7 +3997,7 @@
             "Immediately becomes invisible and gains bonus movement speed",
             "Next attack within 6 seconds inflicts attack damage X 1 + AGI X 7.5 magic damage",
             "Stuns for 1 second",
-            "If struck from behind, damage increased by 75%"
+            "If struck from behind, damage increased by 60%"
         ],
         "active_tags": [
             "Hero",
@@ -4743,7 +4762,7 @@
         "passive": [
             "Drowns in enemies' blood to become immersed in battle.",
             "Heals for Max HP X 6% on each attack",
-            "17% chance to inflict bleeding for 5 seconds on attack",
+            "19% chance to inflict bleeding for 5 seconds on attack",
             "Deals Attack Damage X 30% magic damage per second"
         ],
         "passive_tags": [
@@ -4814,9 +4833,8 @@
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
             "Consumes HP X 30% per second",
-            "Ignores all healing and silence effects",
-            "Max efficiency threshold: 20% HP",
-            "Provides silence immunity when toggled ON"
+            "Becomes unable to regenerate or restore HP",
+            "Becomes immune to silence effects"
         ],
         "passive_tags": [
             "Hero",
@@ -4840,8 +4858,9 @@
         "active": [
             "Rushes forward with a spinning blade of death.",
             "Consumes HP X 20%",
-            "Each second inflicts attack damage X 0.75 + STR X 7.5 magic damage",
+            "Spins for 2 seconds, dealing attack damage X 0.75 + STR X 7.5 magic damage per second",
             "Deals 100% bonus damage to bleeding targets and reapplies bleeding",
+            "Become immune to CC effects while active",
             "Lasts 2 seconds"
         ],
         "active_tags": [
@@ -5107,7 +5126,6 @@
         "color": "66c2ff",
         "hotkey": "[D]",
         "icon": "KnightD",
-        "cooldown": 2,
         "order": 1,
         "passive": [
             "Prolonged training allows knight to never run out of mana.",
@@ -5139,6 +5157,7 @@
         "color": "00bfff",
         "hotkey": "[Q]",
         "icon": "KnightQ",
+        "proc_rate": 0.7,
         "cooldown": 0.5,
         "order": 2,
         "active": [
@@ -5159,12 +5178,14 @@
         "color": "afaff5",
         "hotkey": "[W]",
         "icon": "KnightW",
+        "proc_rate": 0.7,
         "order": 3,
         "active": [
             "Quickly dash across the battlefield.",
             "STR X 3.75 magic damage",
             "Knockbacks enemies toward charge direction",
             "Colliding from far distance breaks barriers and deals up to consumed MP X 3 bonus damage",
+            "Breaking a barrier increases this skill's damage by (20 + 0.1 X knight's damage reduction)%",
             "Release Mana ON: Pierces through enemies and grants shield for 3 seconds that absorbs up to (Knight's Reduction X Knight's Max MP) to collided allies"
         ],
         "active_tags": [
@@ -5233,6 +5254,7 @@
         "color": "73b9ff",
         "hotkey": "[R]",
         "icon": "KnightR",
+        "proc_rate": 0.5,
         "cooldown": 1.5,
         "order": 6,
         "passive": [
@@ -5444,6 +5466,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [Q]",
         "icon": "DarkKnightR_Q",
+        "proc_rate": 0.5,
         "order": 6,
         "active": [
             "Shoots a coil infused with dark magic.",
@@ -5464,6 +5487,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [W]",
         "icon": "DarkKnightR_W",
+        "proc_rate": 0.5,
         "order": 7,
         "active": [
             "Grasps target's soul.",
@@ -5481,6 +5505,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [E]",
         "icon": "DarkKnightR_E",
+        "proc_rate": 0.5,
         "order": 8,
         "active": [
             "Defiles nearby ground.",
@@ -5508,12 +5533,14 @@
         "color": "8080ff",
         "hotkey": "[R] → [R]",
         "icon": "DarkKnightR_R",
+        "proc_rate": 0.5,
         "cooldown": 30,
         "order": 9,
         "active": [
             "Gathers souls into a ball and blasts it away.",
             "Main Stat X 15 magic damage",
             "Upon arrival, deals damage again and summons 4 souls",
+            "STR Main Stat: Deals 200% bonus damage",
             "INT Main Stat: Breaks barrier effects"
         ],
         "active_tags": [
@@ -5602,6 +5629,7 @@
         "color": "82e1ff",
         "hotkey": "[Q]",
         "icon": "ArcaneMageQ",
+        "proc_rate": 0.8,
         "cooldown": 6,
         "order": 2,
         "active": [
@@ -5624,6 +5652,7 @@
         "color": "91b9e1",
         "hotkey": "[W]",
         "icon": "ArcaneMageW",
+        "proc_rate": 0.8,
         "cooldown": 8,
         "order": 3,
         "active": [
@@ -5647,6 +5676,7 @@
         "color": "d79bff",
         "hotkey": "[E]",
         "icon": "ArcaneMageE",
+        "proc_rate": 0.8,
         "cooldown": 10,
         "order": 4,
         "active": [
@@ -5673,6 +5703,7 @@
         "color": "91b9e1",
         "hotkey": "[R]",
         "icon": "ArcaneMageR",
+        "proc_rate": 0.8,
         "cooldown": 12,
         "order": 5,
         "active": [
@@ -5697,11 +5728,12 @@
         "color": "4bebaf",
         "hotkey": "[T]",
         "icon": "ArcaneMageT",
+        "proc_rate": 0.8,
         "cooldown": 12,
         "order": 6,
         "active": [
             "Fires magical missiles everywhere.",
-            "Each missile deals INT X 7.5 magic damage",
+            "Each missile deals INT X 9.5 magic damage",
             "Fires 5 missiles"
         ],
         "active_tags": [
@@ -5765,7 +5797,8 @@
         "active": [
             "Creates a watery explosion to drench enemies in water.",
             "INT X 6 magic damage",
-            "Drenches enemies in wetness for 6 seconds, slowing their speed"
+            "Drenches enemies in wetness for 6 seconds, slowing their speed",
+            "If target is affected by Frozen Emotion, fully recharges its barrier"
         ],
         "active_tags": [
             "Hero",
@@ -5808,17 +5841,15 @@
         "icon": "WaterMageW",
         "order": 3,
         "passive": [
-            "Converts mana into a frozen barrier to surround yourself.",
-            "Creates a barrier that absorbs INT X 1 damage",
+            "Summons ice fairies to protect yourself.",
+            "Creates a barrier that absorbs up to INT X 1 damage (recharges by 10% per second)",
             "Increases skill damage by 12%",
-            "Recharges 8% of shield every second",
-            "Recharges 50% of shield when hit with Water Blast"
+            "Frost Armament: Every attack deals attacker's Main Stat X 0.25 magic damage, and 20th proc deals Main Stat X 5 magic damage instead but puts this effect on 3 second cooldown"
         ],
         "active": [
-            "Sends a frozen spirit to bestow a frozen barrier to the target.",
-            "Lasts 30 seconds",
-            "Summons 1 spirit every 10 seconds",
-            "Up to 3 spirits can be summoned at once"
+            "Sends an ice fairy to protect an ally.",
+            "Provides the passive effect to up to 3 allies",
+            "Recharges target's barrier"
         ],
         "passive_tags": [
             "Hero",
@@ -5861,8 +5892,8 @@
         "cooldown": 15,
         "order": 5,
         "active": [
-            "Freeze nearby enemies by converting the mana in the atmosphere into ice.",
-            "INT X 12 magic damage",
+            "Freezes nearby enemies by converting the mana in the atmosphere into ice.",
+            "INT X 15 magic damage",
             "Freezes for 2 seconds",
             "If slowed, consumes it and increases damage by 200%",
             "If frozen, increases freeze duration by 100%",
@@ -5884,10 +5915,10 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "Summon and controls a magical orb overflowing with crystallized mana shards.",
-            "Each shard deals INT X 1.5 magic damage",
-            "Freezes for 1 seconds",
-            "Orb lasts 8 seconds",
+            "Summons a magical orb surrounded by cold energy.",
+            "Periodically freezes nearby enemies for 1 second",
+            "Periodically summons ice shards that deal INT X 1.5 magic damage each",
+            "Lasts 8 seconds",
             "Chain: If collided into Ice Shard, increases its damage by 300%"
         ],
         "active_tags": [
@@ -5930,8 +5961,7 @@
         "order": 8,
         "active": [
             "\"Oops. That was a mistake..\" - Mage",
-            "Ends Ice Age prematurely",
-            "Defreeze any nearby enemies frozen from Ice Age"
+            "Ends Ice Age immediately"
         ],
         "active_tags": [
             "Hero"
@@ -6436,6 +6466,7 @@
         "color": "ecca82",
         "hotkey": "[W]",
         "icon": "PaladinW",
+        "proc_rate": 0.5,
         "order": 7,
         "passive": [
             "Summons holy spirits that boosts your mobility.",
@@ -6984,6 +7015,7 @@
         "color": "efcdf3",
         "hotkey": "[W]",
         "icon": "WitchW",
+        "proc_rate": 0.5,
         "order": 3,
         "active": [
             "Shoots stars out of your broom.",
@@ -7586,6 +7618,277 @@
             "Hero",
             "Damage",
             "Magic Damage"
+        ]
+    },
+    {
+        "id": "A15H",
+        "name": "Go Forth Meeko!",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[D]",
+        "icon": "ShrinePriestessD",
+        "cooldown": 10,
+        "order": 1,
+        "passive": [
+            "Summons a pet fox that follows the Shrine Priestess.",
+            "Meeko will revive after 15 seconds if killed"
+        ],
+        "active": [
+            "Orders Meeko to attack.",
+            "Meeko will rush to target location and leave a Rune of Flame",
+            "The rune will explode after 0.75 seconds, dealing INT X 15 magic damage",
+            "If a Flame Talisman is consumed, this skill can be casted once without incurring cooldown"
+        ]
+    },
+    {
+        "id": "A15Z",
+        "name": "Bullet of Fire",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[D] → [A]",
+        "icon": "ShrineFoxA",
+        "order": 2,
+        "passive": [
+            "Sends forth fire.",
+            "Recharges 1 bullet per 6 seocnds (up to 4)",
+            "If you have any bullets, automatically fires the bullet to deal INT X 20 magic damage"
+        ],
+        "toggle": [
+            "On use, toggles auto-cast"
+        ]
+    },
+    {
+        "id": "A15T",
+        "name": "Spirit of Flame",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[D] → [Q]",
+        "icon": "ShrineFoxQ",
+        "cooldown": 2,
+        "order": 3,
+        "active": [
+            "Becomes a spirit of fire to attach yourself to Shrine Priestess.",
+            "Increases Shrine Priestess' skill damage by 5%",
+            "Becomes invulnerable while active"
+        ]
+    },
+    {
+        "id": "A15V",
+        "name": "Touch of Grace",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[D] → [W]",
+        "icon": "ShrineFoxW",
+        "cooldown": 5,
+        "order": 4,
+        "active": [
+            "Approaches target to heal it",
+            "Heals target's HP by INT X 0.75",
+            "This skill's cooldown is reset if Go Forth! Meeko is cast"
+        ]
+    },
+    {
+        "id": "A15W",
+        "name": "Shield of Grace",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[D] → [E]",
+        "icon": "ShrineFoxE",
+        "cooldown": 20,
+        "order": 5,
+        "active": [
+            "Creates a barrier to absorb damage.",
+            "Creates a barrier absorbing INT X 2 damage for 4 seconds",
+            "If attached to Shrine Priestess, also grants her a barrier"
+        ]
+    },
+    {
+        "id": "A15D",
+        "name": "Water Explosion",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[Q]",
+        "icon": "ShrinePriestessQ",
+        "cooldown": 8,
+        "order": 6,
+        "active": [
+            "Gathers element of water and detonates it.",
+            "INT X 7.5 magic damage",
+            "Charges up to maximum of 3 seconds, increasing damage by 100% and radius per second",
+            "If enhanced by Water Talisman, it will no longer require charging, have bigger AoE, and heal nearby allies' HP by INT X 3"
+        ]
+    },
+    {
+        "id": "A15E",
+        "name": "Water Sphere",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[W]",
+        "icon": "ShrinePriestessW",
+        "cooldown": 4,
+        "order": 7,
+        "active": [
+            "Gathers element of water and fires it.",
+            "INT X 10 magic damage",
+            "Meeko will also send out a small fire, dealing INT X 5 magic damage",
+            "If enhanced by Water Talisman, encapsulates enemies hit in water bubbles for 2.5 seconds, which will cause next skill of Shrine Priestess to deal 15% + INT X 5 bonus damage to target"
+        ]
+    },
+    {
+        "id": "A15K",
+        "name": "Water Pillar",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[E]",
+        "icon": "ShrinePriestessE",
+        "cooldown": 15,
+        "order": 8,
+        "active": [
+            "Gathers element of water and causes an explosion.",
+            "For 2 seconds, pulls targets center and deal INT X 7.5 magic damage per second",
+            "Creates an explosion afterwards, dealing INT X 30 magic damage",
+            "If enhanced with Water Talisman, creates a water pillar for 6 seconds that deals INT X 5 magic damage per second and knocks you up"
+        ]
+    },
+    {
+        "id": "A15L",
+        "name": "Form Talismans",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[R]",
+        "icon": "ShrinePriestessR",
+        "cooldown": 15,
+        "order": 9,
+        "active": [
+            "Forms talismans that can be used to enhance skills.",
+            "Forms 2 Water Talismans and 1 Fire Talisman",
+            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill which deals (1 X Fire Affinity)% bonus damage",
+            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds which deals (1 X Water Affinity)% bonus damage",
+            "After casting Form Talismans, you can activate Water Dome once"
+        ]
+    },
+    {
+        "id": "A15M",
+        "name": "Water Dome",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[R] → [R]",
+        "icon": "ShrinePriestessR_R",
+        "cooldown": 10,
+        "order": 10,
+        "active": [
+            "Forms a dome made of water.",
+            "Creates a dome of water that lasts for 20 seconds at target location",
+            "Allies within the dome are healed for INT X 0.2 HP per second",
+            "Allies within the dome receive 12% water affinity and have damage taken reduced by 20%"
+        ]
+    },
+    {
+        "id": "A15O",
+        "name": "Spirit Fusion",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T]",
+        "icon": "ShrinePriestessT",
+        "cooldown": 60,
+        "order": 11,
+        "active": [
+            "Obtains a strong power by combining with Meeko.",
+            "For 12 seconds, your skill damage is increased by 0.5% X (Water Affinity + Fire Affinity)",
+            "Your skills are converted to fire skills while Spirit Fusion is active"
+        ]
+    },
+    {
+        "id": "A15C",
+        "name": "Spirit Shift",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [D]",
+        "icon": "ShrinePriestessT_D",
+        "proc_rate": 0.5,
+        "order": 12,
+        "active": [
+            "Turns into a spirit to quickly move to target location.",
+            "Deals INT X 10 magic damage to nearby enemies",
+            "While fully shifted, becomes invulnerable to harmful effects",
+            "Can be cast 1 additional time for each fire skill casted"
+        ]
+    },
+    {
+        "id": "A15G",
+        "name": "Fire Explosion",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [Q]",
+        "icon": "ShrinePriestessT_Q",
+        "cooldown": 5,
+        "order": 13,
+        "active": [
+            "Gathers element of fire and detonates it.",
+            "Deals INT X 40 magic damage to nearby enemies"
+        ]
+    },
+    {
+        "id": "A15F",
+        "name": "Fire Sphere",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [W]",
+        "icon": "ShrinePriestessT_W",
+        "cooldown": 3,
+        "order": 14,
+        "active": [
+            "Gathers element of water and fires it.",
+            "INT X 15 magic damage",
+            "Meeko will also send out a small fire, dealing INT X 5 magic damage",
+            "Applies Mark of Flame on targets hit for 4 seconds, making next Go Forth Meeko! or Spirit Shift consume the mark and deal 50% more damage"
+        ]
+    },
+    {
+        "id": "A15J",
+        "name": "Fire Pillar",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [E]",
+        "icon": "ShrinePriestessT_E",
+        "cooldown": 8,
+        "order": 15,
+        "active": [
+            "Gathers element of fire to create pillars of fire in a line.",
+            "Each pillar deals INT X 30 magic damage",
+            "Stuns targets hit for 1.5 seconds"
+        ]
+    },
+    {
+        "id": "A15N",
+        "name": "Fire Dome",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [R]",
+        "icon": "ShrinePriestessT_R",
+        "cooldown": 10,
+        "order": 16,
+        "active": [
+            "Forms a barrier made of fire.",
+            "Converts summoned Water Dome into Fire Dome",
+            "Enemies within the dome receive INT X 2 magic damage per second",
+            "Allies within the dome receive 12% fire affinity"
+        ]
+    },
+    {
+        "id": "A15S",
+        "name": "Dance of Fire",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[F]",
+        "icon": "ShrinePriestessF",
+        "cooldown": 120,
+        "order": 17,
+        "active": [
+            "\"Feel the wrath of Fox God.\" - Shrine Priestess",
+            "Summons the Fox God to cause 4 fire explosions and create 5 Fire Talismans",
+            "Each explosion deals INT X 20 magic damage and heals allies for INT X 2",
+            "On expiration, deals INT X 50 magic damage"
         ]
     }
 ]

@@ -271,6 +271,7 @@
             "Benziena, the Earthen Heart - Earth Mastery",
             "Spiritus, the Sword of Elements - Spirit Link",
             "Spirit Dagger - Spirit Link",
+            "Ethereal Dagger - Spirit Link",
             "Chaos Dagger - Spirit Link"
         ]
     },
@@ -445,6 +446,7 @@
         "spec": [
             "Spiritus, the Sword of Elements - Affinity",
             "Spirit Dagger - Affinity",
+            "Ethereal Dagger - Affinity",
             "Chaos Dagger - Affinity",
             "Fairy Garment - Fairy Blessing",
             "Diana, the Robe of Holy Maiden - Maiden's Blessing",
@@ -817,6 +819,28 @@
         ],
         "description": [
             "Melee damage dealer. Difficult as it requires controlling two characters at once."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
+    },
+    {
+        "id": "H08G",
+        "name": "Mina",
+        "heroClass": "Shrine Priestess",
+        "mainstat": "INT",
+        "color": "d3f9f8",
+        "icon": "ShrinePriestessIcon",
+        "wearable": [
+            "Weapon (Shared)",
+            "Weapon (Staff)"
+        ],
+        "role": [
+            "DPS",
+            "Semi-support"
+        ],
+        "description": [
+            "Ranged damage dealer. Has some supportive abilities."
         ],
         "spec": [
             "No Specs!"
