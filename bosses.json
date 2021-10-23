@@ -3435,33 +3435,8 @@
 			"Dragon's Rage"
 		],
 		"minions": [
-			"Flame Spirit", "Hell Spike"
+			"Flame Spirit"
 		]
-	},
-	{
-		"id": "xxxx",
-		"name": "Hell Spike",
-		"color": "bf8888",
-		"level": "100",
-		"category": "High",
-		"type": "Mechanic",
-		"location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
-		"conditions": "Summoned by Bone Dragon during Red Phase",
-		"stats": {
-			"health": "10000000",
-			"healthRegen": "0",
-			"mana": "0",
-			"manaRegen": "0",
-			"armor": "Invulnerable",
-			"armorType": "Medium",
-			"magicResist": "0",
-			"damageResist": "0",
-			"attackDamage": "0",
-			"attackSpread": "0",
-			"attackRange": "0",
-			"attackSpeed": "0",
-			"moveSpeed": "5"
-		}
 	},
 	{
 		"id": "n04C",
@@ -3515,9 +3490,6 @@
 			"attackSpeed": "1",
 			"moveSpeed": "300"
 		},
-		"notes": [
-			"1 sealed material also drops whenever a full material has been dropped"
-		],
 		"drops": [
 			"Death Scythe",
 			"Staff of Souls",
@@ -3595,9 +3567,6 @@
 			"attackSpeed": "1",
 			"moveSpeed": "300"
 		},
-		"notes": [
-			"1 sealed material also drops whenever a full material has been dropped"
-		],
 		"drops": [
 			"Parasitic Staff",
 			"Hood of the Fallen",
@@ -3708,13 +3677,13 @@
 			"attackSpeed": ".5",
 			"moveSpeed": "0"
 		},
-		"notes": [
-			"1 sealed material also drops whenever a full material has been dropped"
-		],
 		"drops": [
+			"Spirit Orb",
 			"Embrace of Nature",
 			"Purified Water of Nature",
 			"Fragment of the Wind",
+			"Griseus, the Sword of Protection",
+			"Ring of the Storm",
 			"Coin of Effort",
 			"Ent Token"
 		],
@@ -3756,15 +3725,7 @@
 			"moveSpeed": "220"
 		},
 		"notes": [
-			"Elder Ent: Upon failure, droprate is reduced by 80%",
-			"1 sealed material also drops whenever a full material has been dropped",
 			"Spawns 5 Giant Ents on Death"
-		],
-		"drops": [
-			"Griseus, the Sword of Protection",
-			"Ring of the Storm",
-			"Purified Water of Nature",
-			"Fragment of the Wind"
 		],
 		"spells": [
 			"Thorns Armor",
@@ -3802,16 +3763,7 @@
 			"attackRange": "200",
 			"attackSpeed": "1",
 			"moveSpeed": "280"
-		},
-		"notes": [
-			"Giant Ent: Upon failure, droprate is reduced by 80%",
-			"1 sealed material also drops whenever a full material has been dropped"
-		],
-		"drops": [
-			"Purified Water of Nature",
-			"Fragment of the Wind",
-			"Spirit Orb"
-		]
+		}
 	},	
 	{
 		"id": "n032",
@@ -3868,9 +3820,6 @@
 			"attackSpeed": ".417",
 			"moveSpeed": "380"
 		},
-		"notes": [
-			"1 sealed material also drops whenever a full material has been dropped"
-		],
 		"drops": [
 			"Guardian of the Skies",
 			"Steel of God",
@@ -3915,9 +3864,6 @@
 			"attackSpeed": ".833",
 			"moveSpeed": "360"
 		},
-		"notes": [
-			"1 sealed material also drops whenever a full material has been dropped"
-		],
 		"drops": [
 			"Levante, the Sword of Love and Hate",
 			"Draconic Skin Rusalka",
@@ -4588,6 +4534,8 @@
 	{
 		"id": "h077",
 		"name": "Underlord Agareth",
+		"color": "650000",
+		"quote": "The end is high!",
 		"level": "120",
 		"category": "Endgame",
 		"type": "Boss",
@@ -4595,6 +4543,21 @@
 		"respawn": "3",
 		"location": "Through the destroyed demonic portal during the Hell Invasion",
 		"conditions": "Level 100, Demon Lord summoned, and Demonic portal destroyed",
+		"stats": {
+			"health": "900000",
+			"healthRegen": "0",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "1000",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "250"
+		},
 		"drops": [
 			"Curse of Greed",
 			"Fragment of Soul",
@@ -4604,13 +4567,58 @@
 			"Token of Underlord"
 		],
 		"spells": [
-			"Ethreal Strike"
+			"Ethreal Strike",
+			"Color",
+			"Fear",
+			"Soul Burst",
+			"Empowered Soul Burst",
+			"Umbra Dance",
+			"Empowered Umbra Dance",
+			"Skewer",
+			"Empowered Skewer",
+			"Finger of Death",
+			"Hunt",
+			"It's Time to Hunt",
+			"Demonic Portal",
+			"Fear ",
+			"Void Fall",
+			"Abyssal Miasma",
+			"Armageddon"
 		],
 		"minions": [
 			"Soul Crystal",
-			"Cursed Spirit",
 			"Gatekeeper of Hell",
+			"Cursed Spirit",
 			"Hellspawn"
+		]
+	},
+	{
+		"id": "h07A",
+		"name": "Gatekeeper of Hell",
+		"level": "999",
+		"category": "Endgame",
+		"type": "Minion",
+		"location": "In the mini-game during the fight with Underlord Agareth",
+		"conditions": "Summoned by Underlord Agareth",
+		"stats": {
+			"health": "9",
+			"healthRegen": "0",
+			"mana": "10",
+			"manaRegen": "1",
+			"armor": "0",
+			"armorType": "Hero",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "4",
+			"attackSpread": "0",
+			"attackRange": "550",
+			"attackSpeed": "2.5",
+			"moveSpeed": "0"
+		},
+		"spells": [
+			"Finger of Death",
+			"Hellflame Meteorite",
+			"Hellfire"
 		]
 	},
 	{
@@ -4618,11 +4626,61 @@
 		"name": "Soul Crystal",
 		"level": "120",
 		"category": "Endgame",
-		"type": "Mechanic",
-		"location": "Through the destroyed demonic portal during the Hell Invasion",
+		"type": "Minion",
+		"location": "In the mini-game during the fight with Underlord Agareth",
 		"conditions": "Summoned by Underlord Agareth",
+		"stats": {
+			"health": "2250000",
+			"healthRegen": "0",
+			"mana": "100",
+			"manaRegen": "5",
+			"armor": "1000",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "0"
+		},
+		"notes": [
+			"Purple version of Soul Crystal"	
+		],
 		"spells": [
-			"Ethreal Strike"
+			"Soul Channel",
+			"Soul Shield"
+		]
+	},
+	{
+		"id": "h07C",
+		"name": "Soul Crystal",
+		"level": "120",
+		"category": "Endgame",
+		"type": "Minion",
+		"location": "In the mini-game during the fight with Underlord Agareth",
+		"conditions": "Summoned by Underlord Agareth",
+		"stats": {
+			"health": "2250000",
+			"healthRegen": "0",
+			"mana": "100",
+			"manaRegen": "5",
+			"armor": "1000",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "0",
+			"attackSpread": "0",
+			"attackRange": "0",
+			"attackSpeed": "0",
+			"moveSpeed": "0"
+		},
+		"notes": [
+			"Green version of Soul Crystal"	
+		],
+		"spells": [
+			"Soul Channel",
+			"Soul Shield"
 		]
 	},
 	{
@@ -4633,24 +4691,21 @@
 		"type": "Minion",
 		"location": "In the mini-game during the fight with Underlord Agareth",
 		"conditions": "Summoned by Underlord Agareth",
-		"spells": [
-			"Ethreal Strike",
-			"Spirit Echo",
-			"Drain",
-			"Heaven's Wrath"
-		]
-	},
-	{
-		"id": "h07A",
-		"name": "Gatekeeper of Hell",
-		"level": "120",
-		"category": "Endgame",
-		"type": "Minion",
-		"location": "In the mini-game during the fight with Underlord Agareth",
-		"conditions": "Summoned by Underlord Agareth",
-		"spells": [
-			"Ethreal Strike"
-		]
+		"stats": {
+			"health": "1",
+			"healthRegen": "0",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "0",
+			"armorType": "Light",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "1",
+			"attackSpread": "0",
+			"attackRange": "100",
+			"attackSpeed": "2",
+			"moveSpeed": "150"
+		}
 	},
 	{
 		"id": "h079",
@@ -4659,6 +4714,21 @@
 		"category": "Endgame",
 		"type": "Minion",
 		"location": "Through the destroyed demonic portal during the Hell Invasion",
-		"conditions": "Summoned by Underlord Agareth"
+		"conditions": "Summoned by Underlord Agareth",
+		"stats": {
+			"health": "1632123",
+			"healthRegen": "2500",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "1000",
+			"armorType": "Heavy",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "3262",
+			"attackSpread": "8",
+			"attackRange": "150",
+			"attackSpeed": "1.52",
+			"moveSpeed": "250"
+		}
 	}
 ]
