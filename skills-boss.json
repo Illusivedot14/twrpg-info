@@ -7,7 +7,7 @@
 		"type": "active",
 		"cooldown": "30",
 		"description": [
-			"Summons 4 Shadow wolves with 1 HP and 3 attack"
+			"Summons 3 Shadow wolves with 1 HP"
 		],
 		"summons": [
 			"Shadow Wolf"
@@ -2512,7 +2512,7 @@
 		"cooldown": "45",
 		"description": [
 			"Summons a red line that sweeps vertically or horizontally across the arena",
-			"Anyone in its path will instantly be killed and be dealt 1500 damage",
+			"Anyone in its path will instantly be killed and be dealt 1500 pure damage",
 			"Breaks through kill immunity and invulnerablity",
 			"Can be dodged with height",
 			"Cannot be cast before 50% HP is reached"
@@ -2550,7 +2550,7 @@
 		"type": "passive",
 		"description": [
 			"Deals 25% max hp Magic Damage to nearby allies three times",
-			"Orbs also reduce healing by 100% and reduce damage by target by 40% for 4 seconds"
+			"Orbs also reduce healing by 100% and reduce damage done by target by 40% for 4 seconds"
 		]
 	},
 	{
@@ -2607,7 +2607,7 @@
 		"type": "passive",
 		"description": [
 			"Random chance to proc an attack speed buff",
-			"Once proc, increase attack speed by 10% every hit until attack speed is 2/s",
+			"Once proc, increase attack speed by 10% every hit until attack speed is 2/sec",
 			"Lasts for 5 seconds if not reapplied"
 		]
 	},
@@ -2877,6 +2877,307 @@
 			"Focuses down a target with a water hose that pushes all enemies",
 			"Deals 2% max hp Magic Damage per second to those at the impact zone",
 			"Deals 20% max hp to bubbles"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Color",
+		"caster": "Underlord Agareth",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Taking damage from the same color will recive a debuff and increase that color stack by 1 - 2",
+			"To reset stacks, take damage from ability from different",
+			"Every stack deals 2.5% max HP magical damage per second, maxing out at 10% max hp per second"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Soulburn",
+		"caster": "Underlord Agareth",
+		"color": "a3bccc",
+		"type": "passive",
+		"description": [
+			"Reduces healing received by 80% and damage dealt by 40%",
+			"Lasts 5 seconds, can be cleansed"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Soul Burst",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "5",
+		"cost": "100",
+		"description": [
+			"Targets a random Player and fires a line of shadow after 2 seconds",
+			"Deals 33% max hp magical damage to impact zone",
+			"Recive Soulburn Debuff"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Empowered Soul Burst",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "5",
+		"cost": "100",
+		"description": [
+			"Targets a random Player and fires 3 lines of shadow in an arc after 2 seconds",
+			"Deals 33% max hp magical damage to impact zone",
+			"Recive Soulburn Debuff"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Umbra Dance",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "10",
+		"cost": "100",
+		"description": [
+			"Pulls all nearby units within 600 range to Agareth and swipes 4 times",
+			"Each strike Interrupts and deals 750 pure damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Empowered Umbra Dance",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "10",
+		"cost": "100",
+		"description": [
+			"Doubles the radius of Umbra Dance",
+			"Pushes people outward instead of pullingand swipes 4 times",
+			"Each strike Interrupts and deals 750 pure damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Skewer",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "15",
+		"cost": "100",
+		"description": [
+			"Create a ring of spikes at one of the 3 layers around Agareth after 2 second",
+			"Or create 3 rings of spikes at all 3 layers around Agareth starting from close to far",
+			"Deals 50% max hp and 7500 magical damage to impact zone and applies a purple stack"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Empowered Skewer",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "15",
+		"cost": "100",
+		"description": [
+			"Create a ring of spikes at one of the 3 layers around Agareth after 2 second",
+			"Or create 3 rings of spikes at all 3 layers around Agareth starting from close to far",
+			"Deals 50% max hp and 7500 magical damage to impact zone and applies a green stack"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Finger of Death",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "10",
+		"cost": "100",
+		"description": [
+			"Deals 900 magical damage to target and bounces to nearby units",
+			"Each bounce increases damage by 150 infinitely",
+			"Can only expire when no nearby unit in range"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Hunt",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "10",
+		"cost": "100",
+		"description": [
+			"Calls out a random hero and after 1 second will lunge at them",
+			"Deals 33% map hp magical damage to units on the way and target",
+			"Instantly kills target if they are not facing Agareth"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "It's Time to Hunt",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "10",
+		"cost": "100",
+		"description": [
+			"Lunge at a player then another player after 1 second",
+			"Deals 33% map hp magical damage to units on the way and target",
+			"Instantly kills target that is not facing Agareth and lunges at another player instantly"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Demonic Portal",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "15",
+		"cost": "100",
+		"description": [
+			"Summons 1-2 portal at a random location after 2 seconds",
+			"Instantly kills anyone standing in impact zone",
+			"Portal size will keep increasing and spawn minions based on the portal's size",
+			"And unit standing on it to shrink the portal until it is destroyed",
+			"Standing on portal will recive 5% max hp magical damage per second and revice Soulburn"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Fear",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "15",
+		"cost": "100",
+		"description": [
+			"Teleports to random location in arena",
+			"Freezes all heroes who is facing Agareth for 3 seconds",
+			"Fire 10 purple orbs around him",
+			"Each purple orb deals 33% max hp damage per second and revice Soulburn debuff"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Void Fall",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "15",
+		"cost": "100",
+		"description": [
+			"Summon 6 purple circle where a meteor will fall after 5 seconds",
+			"The first hero touches the circle will summon another one follows that hero",
+			"Deals 100% max hp magical damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Abyssal Miasma",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "60",
+		"cost": "100",
+		"description": [
+			"Infect 2 players after 2 seconds",
+			"Infection explodes around the target and fire out lines in a star pattern after 20 seconds",
+			"Instantly kills any unit in the explosion",
+			"Any hero touches the lines will be infected",
+			"When a line hits the wall, it will explode and instantly kills any unit in it",
+			"Infection can denote early from cleanse or die",
+			"Reset Abyssal Miasma cooldown if initial targets die from it own infection"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Armageddon",
+		"caster": "Underlord Agareth",
+		"color": "f89c34",
+		"type": "active",
+		"cooldown": "60",
+		"cost": "100",
+		"description": [
+			"Will do three consecutive Fears and then begin to channel a giant explosion for 3 seconds",
+			"Deals 100% - 300% max hp magical damage based on how close to the center of the explosion",
+			"Breaks any shield before the damage"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Fear",
+		"caster": "Underlord Agareth",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Whenever 3 or more players are too close to each others, they all gain 5% fear per second",
+			"Can stack up to infinity",
+			"It amplifies how much damage you take from Agareth based on how much fear you have",
+			"Fear resets after 1 second when less than 3 heroes around you"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Soul Channel",
+		"caster": "Soul Crystal",
+		"color": "f89c34",
+		"type": "active",
+		"description": [
+			"When crystal is at full mana it will start healing Agareth 0.5% max HP per second",
+			"When interrupted with any crowd control, will lose all mana"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Soul Shield",
+		"caster": "Soul Crystal",
+		"color": "8a2be2",
+		"type": "trigger",
+		"description": [
+			"Once crystal is at 50% or less hp",
+			"Gain a shield based on players amount",
+			"When shield is broken, fire 10 lines around it and apply color debuff",
+			"Deals 50% max hp magical damage",
+			"Can be broken by Guard Break"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Finger of Death",
+		"caster": "Gatekeeper of Hell",
+		"color": "f89c34",
+		"type": "active",
+		"cost": "10",
+		"description": [
+			"Deals 5 magical damage to target and bounces to nearby units infinitely",
+			"Expire when no nearby unit in range"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Hellflame Meteorite",
+		"caster": "Gatekeeper of Hell",
+		"color": "f89c34",
+		"type": "active",
+		"cost": "10",
+		"description": [
+			"Summon a homing Meteor infront of a player",
+			"Explodes on contact, knocking all units 200 range away",
+			"Deals 40 hp to impact zone"
+		]
+	},
+	{
+		"id": "xxxx",
+		"name": "Hellfire",
+		"caster": "Gatekeeper of Hell",
+		"color": "a3bccc",
+		"type": "passive",
+		"cooldown": "60",
+		"cost": "10",
+		"description": [
+			"Launch a fire ball to player location",
+			"Deals 20 hp to impact zone"
 		]
 	}
 ]
