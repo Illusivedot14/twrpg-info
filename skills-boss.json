@@ -36,9 +36,9 @@
         "cooldown": "40",
         "description": {
             "base": [
-            "Increases attack speed by 100%",
-            "Decreases movement speed by 50%",
-            "Lasts 5 seconds"
+                "Increases attack speed by 100%",
+                "Decreases movement speed by 50%",
+                "Lasts 5 seconds"
             ]
         }
     },
@@ -64,9 +64,9 @@
         "cooldown": "60",
         "description": {
             "base": [
-            "After .75 seconds of casting, hardens shell to return 100% damage dealt as pure damage",
-            "Decreases movement by 50%",
-            "Lasts 9 seconds"
+                "After .75 seconds of casting, hardens shell to return 100% damage dealt as pure damage",
+                "Decreases movement by 50%",
+                "Lasts 9 seconds"
             ]
         }
     },
@@ -105,8 +105,8 @@
         "cooldown": "60",
         "description": {
             "base": [
-            "Spits on a target, making them slide forward for 6 seconds",
-            "If they collide with any object, they will be dealt 25% HP Magic Damage"
+                "Spits on a target, making them slide forward for 6 seconds",
+                "If they collide with any object, they will be dealt 25% HP Magic Damage"
             ]
         }
     },
@@ -2625,7 +2625,6 @@
         "id": "xxxx",
         "name": "Mark of Death",
         "caster": [
-            "Death Fiend",
             "Death Devourer",
             "Death Weaver",
             "Mark of Death"
@@ -2634,29 +2633,22 @@
         "type": "trigger",
         "description": {
             "base": [
-                "Grants user special effects from Death Fiend bosses",
-                "Death Fiend's Mark grants the user immunity to Howl of Death and cannot be targeted by Crawling Death",
+                "Grants user special effects from Death Fiend minions",
                 "Death Huntresses' Mark prioritizes that target for Domination Arrow",
-                "Death Weaver's Mark prioritizes that target to be insta-killed by Deadly Dance and teleportation",
+                "Death Weaver's Mark prioritizes that target for Teleportation",
+                "Death Devourer's mark prioritizes that target to be focused during Hungering Charge"
+            ],
+            "hard": [
+                "Grants user special effects from Death Fiend minions",
+                "Death Huntresses' Mark prioritizes that target for Domination Arrow",
+                "Death Weaver's Mark prioritizes that target for Teleportation and will instantly kill marked with Deadly Dance",
                 "Death Devourer's mark prioritizes that target to be focused during Hungering Charge"
             ]
         }
     },
     {
         "id": "xxxx",
-        "name": "Grasp of the Fiend",
-        "caster": "Death Fiend",
-        "color": "f89c34",
-        "type": "passive",
-        "description": {
-            "base": [
-                "On auto attack, decreases armor of target by 100"
-            ]
-        }
-    },
-    {
-        "id": "xxxx",
-        "name": "Crawling Death",
+        "name": "Creeping Death",
         "caster": "Death Fiend",
         "color": "f89c34",
         "type": "active",
@@ -2664,9 +2656,16 @@
         "description": {
             "base": [
                 "Create two death coils that spiral around the target",
-                "On contact with any Player, applies debuff that lasts 5 seconds",
+                "On contact with any Player, applies debuff to those in area that lasts 5 seconds",
                 "When debuff is stacked twice, instantly kill person",
-                "On contact, deals 11250 Magic Damage"
+                "On contact, deals 6000 Magic Damage"
+            ],
+            "hard": [
+                "Create two death coils that spiral around the target",
+                "On contact with any Player, applies debuff to those in area that lasts 5 seconds",
+                "Faster in Hard Mode",
+                "When debuff is stacked twice, instantly kill person",
+                "On contact, deals 11000 Magic Damage"
             ]
         }
     },
@@ -2679,21 +2678,35 @@
         "cooldown": "30",
         "description": {
             "base": [
-                "Afer 2 seconds of casting, apply 'Impeding Doom' to all enemies within 1200 range",
-                "After 3 seconds, deal 99999 Magic Damage and instantly kill target, if target survives, stun for 2 seconds"
+                "Afer 2 seconds of casting, apply 'Impeding Doom' to 2 enemies that have attacked Death Fiend for 5 seconds",
+                "It deals 3000 magic damage every second until the debuff is over"
+            ],
+            "hard": [
+                "Afer 1 second of casting, apply 'Impeding Doom' to 2 enemies that have attacked Death Fiend for 5 seconds",
+                "It deals 3000 magic damage every second until the debuff is over",
+                "If not cleansed, will instantly kill those affected when timer is over"
             ]
         }
     },
     {
         "id": "xxxx",
-        "name": "Deathly Cleave",
+        "name": "Strike of Death",
         "caster": "Death Fiend",
         "color": "a3bccc",
-        "type": "passive",
+        "type": "active",
+        "cooldown": "0",
+        "cost": "100",
         "description": {
             "base": [
                 "On Auto-Attack, create an orb of death that flies around Death Fiend",
-                "On 7th attack, destroy all orbs and deals 100% Max HP Phyiscal Damage that reaches 1000 range in a 150 degree arc in front of Death Fiend"
+                "On 7th attack and a 4 second wind up, destroy all orbs and deals 10000 Magic Damage that reaches 1000 range in a 150 degree arc in front of Death Fiend",
+                "Stuns players for 3 seconds if they're in the attack"
+            ],
+            "hard": [
+                "On Auto-Attack, create an orb of death that flies around Death Fiend",
+                "On 7th attack and a 4 second wind up, destroy all orbs and deals 25000 Magic Damage that reaches 1000 range in a 150 degree arc in front of Death Fiend",
+                "Stuns players for 3 seconds if they're in the attack",
+                "Afterward, creates 3 pools of dark energy in front of Death Fiend that deals 2500 Magic Damage per .5 second that last for 18 seconds"
             ]
         }
     },
@@ -2721,7 +2734,7 @@
         "description": {
             "base": [
                 "At 20% HP, deal 200% max hp Magic Damage to everyone in the arena and heals back to full",
-                "Increases attack speed by 60%",
+                "Increases attack speed by 60%, becomes immune to CC effects",
                 "Disables Unholy Summoning"
             ]
         }
@@ -2736,7 +2749,7 @@
             "base": [
                 "If no one near Death Fiend (800 range), teleport to nearest Player and winds-up an axe swipe",
                 "If Player is hit, instantly kill him",
-                "If Player dodges, mark it with Mark of Death"
+                "Can be dodged"
             ]
         }
     },
@@ -2785,8 +2798,8 @@
         "description": {
             "base": [
                "Targets a random Player to track with a purple beam within the arena with unlimited range",
-                "Deals 10000 pure damage, breaks all shields, and applies a debuff that lasts 30 seconds and slows down target movement speed by 30%",
-                "If the target with the debuff is hit twice, they will instantly be killed"
+                "Deals 40% max HP + 4500 pure damage, breaks all shields, and applies a debuff that lasts 30 seconds and slows down target movement speed by 30%",
+                "If the target with the debuff is hit twice, they will be instantly killed"
             ]
         }
     },
@@ -2833,8 +2846,12 @@
         "cooldown": "15",
         "description": {
             "base": [
+                "Drags target in front of you, after 1 second of windup, swipes 13 times in 3 seconds",
+                "Each swipe does 1800 Magic Damage and interrupts everyone in the swipe"
+            ],
+            "hard": [
                 "Drags target in front of you, after .5 seconds of windup, swipes 13 times in 3 seconds",
-                "Each swipe does 3600 Magic Damage and interrupts everyone in the swipe"
+                "Each swipe does 1800 Magic Damage and interrupts everyone in the swipe"
             ]
         } 
     },
@@ -2848,8 +2865,11 @@
         "description": {
             "base": [
                 "After 1 second of wind-up, sends 8 waves around caster",
-                "Each wave does 12000 Magic Damage and slows Player's movement speed by 50% for 5 seconds",
-                "Instantly kills target with Weaver's mark"
+                "Each wave does 7500 Magic Damage and slows Player's movement speed by 50% for 5 seconds"
+            ],
+            "hard": [
+                "After .5 seconds of wind-up, sends 8 waves around caster",
+                "Each wave does 7500 Magic Damage and slows Player's movement speed by 50% for 5 seconds"
             ]
         }
     },
@@ -2861,8 +2881,9 @@
         "type": "trigger",
         "description": {
             "base": [
-                "When reaching max mana, choose a random target to teleport to",
-                "Stun that Player for 3 seconds and automatically start casting either Sword Blows or Deadly Dance"
+                "When reaching max mana, choose a random target to teleport to and mark them with a skull above them",
+                "After 3 seconds, stun target (cc effect) for 3 seconds and automatically start casting either Sword Blows or Deadly Dance",
+                "Will teleport back to its original position afterward"
             ]
         }
     },
@@ -2888,8 +2909,9 @@
         "type": "passive",
         "description": {
             "base": [
-                "Every enemy in 400 range of Death Devourer decreases their regen by 1.25% max HP every .3 seconds",
-                "Removed immediately after going out of 400 range"
+                "Every enemy in the marked circle around Death Devourer will have their regen decrease by 5% max HP every second",
+                "Will also take .24*(x%/10)% Max HP Magic Damage every tick",
+                "Removed immediately after going out of the circle"
             ]
         }
     },
@@ -2915,8 +2937,17 @@
         "description": {
             "base": [
                 "At full mana, choose a random target in arena to chase for 10 seconds",
-                "Will instantly kill all those in path and run downs tree",
-                "If Devourer hits the border, it gets stunned for 3 seconds"
+                "Will deal 90% Magic Damage to those in its path and run down trees",
+                "Once Death Devourer reaches its target it will instantly kill it",
+                "Once finished, Death Devourer will teleport back to its starting position",
+                "If Devourer hits the border, it stops but continues afterwards"
+            ],
+            "hard": [
+                "At full mana, choose a random target in arena to chase for 10 seconds",
+                "Will instantly kill all those in its path and run down trees",
+                "Once Death Devourer reaches its target it will instantly kill it",
+                "Once finished, Death Devourer will teleport back to its starting position",
+                "If Devourer hits the border, it stops but continues afterwards"
             ]
         }
     },
@@ -2937,15 +2968,25 @@
     },
     {
         "id": "xxxx",
-        "name": "Magnetic Attraction",
+        "name": "Magnetic Curse",
         "caster": "Valtora",
         "color": "f89c34",
-        "type": "trigger",
+        "type": "active",
+        "cooldown": "20",
         "description": {
             "base": [
-                "The first person that attacks Valtora will attract all other Players",
-                "Players blocked by debris will be stunned",
-                "When one Player is near the magnet, no one gets attracted, but the other Player is chained to the Player with the magnet mechanic"
+                "Targets a random player and after 2 seconds, links them to the furthest target for 5 seconds",
+                "When these two players are far apart for 3 seconds, they will be pulled together (CC Effect), dealing 25% max HP magic damage to everyone at the collision point and stuns for 3 seconds",
+                "Once the players are near each other the timer will go down",
+                "Once the timer reaches zero, they will be released",
+                "If there are no players near Valtora, he will link the player to himself for 12 seconds, dealing (250 + 250*elapsed time) Pure Damage in melee range"
+            ],
+            "hard": [
+                "Targets a random player and after 2 seconds, links them to the furthest target for 10 seconds",
+                "When these two players are far apart for 3 seconds, they will be pulled together (CC Effect), dealing 50% max HP magic damage to everyone at the collision point and stuns for 3 seconds",
+                "Once the players are near each other the timer will go down",
+                "Once the timer reaches zero, they will be released",
+                "If there are no players near Valtora, he will link the player to himself for 12 seconds, dealing (250 + 250*elapsed time) Pure Damage in melee range"
             ]
         }
     },
@@ -2958,10 +2999,17 @@
         "cooldown": "12",
         "description": {
             "base": [
-                "Throws a hammer at the farthest target in 1500 range",
-                "Does 25% max hp Magic Damage and applies Nasty Shock",
+                "After calling out a random player in 1500 range, Valtora will wait 2 seconds before throwing a hammer",
+                "Does 25% max hp + 2500 Magic Damage and applies Nasty Shock for 5 seconds",
                 "After Rage of the Thunder God, hammers apply a lightning pool",
-                "This pool applies nasty shock and deals 5% max Magic Damage per .5 seconds",
+                "This pool applies nasty shock for 1 second",
+                "If Valtora is in the lightning pool, he heas 10% HP per second"
+            ],
+            "hard": [
+                "After calling out a random player in 1500 range, Valtora will wait 2 seconds before throwing a hammer",
+                "Does 25% Max Hp + 2500 Magic Damage and applies Nasty Shock for 5 seconds",
+                "Hammers apply a lightning pool regardless of phase",
+                "This pool applies nasty shock for 1 second",
                 "If Valtora is in the lightning pool, he heas 10% HP per second"
             ]
         }
@@ -2977,6 +3025,11 @@
             "base": [
                 "Summons two Servants of Lightning God",
                 "Cannot be cast if above 85% HP"
+            ],
+            "hard": [
+                "Summons two Servants of Lightning God",
+                "Cannot be cast if above 85% HP",
+                "Each Servant alive gives Valtora 8% Damage Reduction"
             ]
         }
     },
@@ -3007,7 +3060,13 @@
             "base": [
                 "Create four tornados that travel around four quadrants around Valtora",
                 "Once these tornados are on an enemy, applies 'Windy' debuff",
-                "Windy silences enemies and deals 1.25% max hp pure damage per .25 seconds",
+                "Windy deals 6% Max HP Pure Damage per second",
+                "Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven"
+            ],
+            "hard": [
+                "Create four tornados that travel around four quadrants around Valtora",
+                "Once these tornados are on an enemy, applies 'Windy' debuff",
+                "Windy deals 10% Max HP Pure Damage per second",
                 "Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven"
             ]
         }
@@ -3021,7 +3080,11 @@
         "description": {
             "base": [
                 "Sparks the atmosphere with electrically charged orbs",
-                "When orbs hit the enemy, deal 25% max hp Magic Damage and applies Nasty Shock"
+                "When orbs hit the player, deal 20% max hp Magic Damage and applies Nasty Shock for 3 seconds"
+            ],
+            "hard": [
+                "Sparks the atmosphere with electrically charged orbs",
+                "When orbs hit the player, deal 25% max hp Magic Damage and applies Nasty Shock"
             ]
         }
     },
@@ -3033,8 +3096,12 @@
         "type": "passive",
         "description": {
             "base": [
-                "Deals 25% max hp Magic Damage to nearby allies three times",
-                "Orbs also reduce healing by 100% and reduce damage done by target by 40% for 4 seconds"
+                "Deals 750 Magic Damage to player every second",
+                "Orbs also reduce healing by 75% and reduce damage done by target by 40%"
+            ],
+            "hard": [
+                "Deals 750 Magic Damage to player and 1500 Magic Damage to nearby allies every second",
+                "Reduces healing by 100% and reduces damage done by target by 40%"
             ]
         }
     },
@@ -3060,6 +3127,11 @@
         "type": "passive",
         "description": {
             "base": [
+                "Breakable shield that deals 500 Magic Damage per second to nearby enemies and grants 50% magic defense",
+                "Makes Auto-Attacks interrupt target",
+                "Disappears after 15 seconds"
+            ],
+            "hard": [
                 "Breakable shield that deals 750 Magic Damage per second to nearby enemies and grants 50% magic defense",
                 "Makes Auto-Attacks interrupt target"
             ]
@@ -3073,7 +3145,12 @@
         "type": "passive",
         "description": {
             "base": [
-                "Deals 5.5% max HP Magic Damage to enemy",
+                "Deals 2.5% max HP Magic Damage to enemy",
+                "Bounces to nearby enemies 10 times",
+                "Does not lose damage on bounce"
+            ],
+            "hard": [
+                "Deals 5% max HP Magic Damage to enemy",
                 "Bounces to nearby enemies 10 times",
                 "Does not lose damage on bounce"
             ]
@@ -3119,7 +3196,13 @@
         "description": {
             "base": [
                 "Selects a target to explode with a 10 second countdown",
-                "On explosion, deal 50% max hp Magic Damage to all enemies",
+                "On explosion, deal 50% max hp Magic Damage to all players WITHIN 750 range",
+                "Can be cleansed",
+                "After 50% HP, apply this to two targets"
+            ],
+            "hard": [
+                "Selects a target to explode with a 10 second countdown",
+                "On explosion, deal 50% max hp Magic Damage to ALL players",
                 "Can be cleansed",
                 "After 50% HP, apply this to two targets"
             ]
@@ -3133,6 +3216,10 @@
         "type": "passive",
         "description": {
             "base": [
+                "When applied, reduces magic resistance by 75%",
+                "Lasts for 3 seconds"
+            ],
+            "hard": [
                 "When applied, reduces magic resistance by 100%",
                 "Lasts for 3 seconds"
             ]
@@ -3148,10 +3235,17 @@
         "description": {
             "base": [
                 "Sends down Meteors at random places around Ifrit",
-                "On Impact they'll deal 250% max HP Magic Damage and stun for 3 seconds",
+                "On Impact they'll deal 15000 Magic Damage and stun for 3 seconds",
+                "The waves will deal 6000 Magic Damage",
+                "After the impact, create a lava pool that lasts 10 seconds",
+                "Lava pools deal 10% max HP Magic Damage per second"
+            ],
+            "hard": [
+                "Sends down Meteors at random places around Ifrit",
+                "On Impact they'll deal 30000 Magic Damage and stun for 3 seconds",
                 "The waves will deal 7500 Magic Damage",
                 "After the impact, create a lava pool that lasts 10 seconds",
-                "Lava pools deal 2% max HP + 3000 Magic Damage per second"
+                "Lava pools deal 15% max HP Magic Damage per second"
             ]
         }
     },
@@ -3166,6 +3260,12 @@
         "description": {
             "base": [
                 "Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
+                "Kills all units on the floor in its path",
+                "If collide with debris, stop",
+                "Sends 2 lava pool waves behind self at a 'V' angle that deal 10000 Magic Damage"
+            ],
+            "hard": [
+                "Selects a random target to chase, after waiting 1 second, start moving toward that target",
                 "Kills all units on the floor in its path",
                 "If collide with debris, stop",
                 "Sends 2 lava pool waves behind self at a 'V' angle that deal 10000 Magic Damage"
@@ -3197,7 +3297,7 @@
         "description": {
             "base": [
                 "Grants 10% damage reduction and 100 armor per stack",
-                "Can have up to 10 stacks",
+                "Can have up to 10 stacks, depending on players: (5 + 1 X (player count / 2))",
                 "Can be broken by either meteors (30%) or break effects",
                 "Full list is in Ifrit Guide"
             ]
@@ -3244,7 +3344,11 @@
         "cost": "100",
         "description": {
             "base": [
-                "Fires 13 bullets at a target in 3 seconds",
+                "Fires a bullet every .375 seconds for 3 seconds",
+                "Each bullet deals 600 Magic Damage and interrupts target"
+            ],
+            "hard": [
+                "Fires a bullet every .25 seconds for 3 seconds",
                 "Each bullet deals 600 Magic Damage and interrupts target"
             ]
         }
